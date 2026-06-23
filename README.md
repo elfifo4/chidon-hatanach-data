@@ -12,7 +12,7 @@
 
 <a id="english"></a>
 
-## 🇬🇧 English
+## 🇺🇸 English
 
 Structured JSON data for the official Israeli Bible Contest (**Chidon HaTanach** / חידון התנ"ך).
 

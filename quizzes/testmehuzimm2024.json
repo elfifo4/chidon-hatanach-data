@@ -1,0 +1,1507 @@
+{
+  "questionnaire_id": "testmehuzimm2024",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/testmehuzimm2024.pdf",
+  "metadata": {
+    "contest_year_civil": 2024,
+    "contest_year_hebrew": "תשפ\"ד",
+    "track": "mamlachti",
+    "stage": null,
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": "אריאל וייס",
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 41,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": null,
+          "prompt": "\"קהלת\" הוא שם של:",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אישה"
+            },
+            {
+              "key": "ב",
+              "text": "נביא"
+            },
+            {
+              "key": "ג",
+              "text": "מלך"
+            },
+            {
+              "key": "ד",
+              "text": "מלאך"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": null,
+          "prompt": "מיהו אביה של ציפורה ?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יתרו"
+            },
+            {
+              "key": "ב",
+              "text": "עמרם"
+            },
+            {
+              "key": "ג",
+              "text": "משה"
+            },
+            {
+              "key": "ד",
+              "text": "פרעה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": null,
+          "prompt": "מה התנאי שהציב נחש העמוני לאנשי יביש גלעד כדי שיכרות להם ברי ת?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שיעלו לו מס בסך אלף ככר כסף"
+            },
+            {
+              "key": "ב",
+              "text": "שינקרו להם כל עין ימין"
+            },
+            {
+              "key": "ג",
+              "text": "שישתחוו לפסל של כמוש אלהי עמון"
+            },
+            {
+              "key": "ד",
+              "text": "שימרדו בהמלכת שאול 3"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": null,
+          "prompt": "איזה מלך מהבאים לא נתלה על עץ?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מלך לכיש"
+            },
+            {
+              "key": "ב",
+              "text": "מלך ירושלים"
+            },
+            {
+              "key": "ג",
+              "text": "מלך יריחו"
+            },
+            {
+              "key": "ד",
+              "text": "מלך העי"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": null,
+          "prompt": "מה ציווה יהונדב בן רכב את צאצאיו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לא לשתות יין"
+            },
+            {
+              "key": "ב",
+              "text": "לא לאכול בשר"
+            },
+            {
+              "key": "ג",
+              "text": "לא לדבר ארמי ת"
+            },
+            {
+              "key": "ד",
+              "text": "לא להעביר מורה על ראשם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "ִּי מֵה' ְׁש אִּלְׁ ִּתיו\"",
+          "prompt": "איזה שם בחרה אם לבנה \"כ?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמואל"
+            },
+            {
+              "key": "ב",
+              "text": "שאול"
+            },
+            {
+              "key": "ג",
+              "text": "ישמעאל"
+            },
+            {
+              "key": "ד",
+              "text": "מישאל 4"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": null,
+          "prompt": "כמה חברים היו עם שמשון במשתה לכבוד חתונתו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "3"
+            },
+            {
+              "key": "ב",
+              "text": "30"
+            },
+            {
+              "key": "ג",
+              "text": "300"
+            },
+            {
+              "key": "ד",
+              "text": "000,3"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": null,
+          "prompt": "מה שם המלאך שנגלה אל דניאל בעקבות תחנוניו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מיכאל"
+            },
+            {
+              "key": "ב",
+              "text": "גבריאל"
+            },
+            {
+              "key": "ג",
+              "text": "אוריאל"
+            },
+            {
+              "key": "ד",
+              "text": "רפאל"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": null,
+          "prompt": "מיהן שתי נשות דוד שנשבו מצקלג?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אחינועם ובת שבע"
+            },
+            {
+              "key": "ב",
+              "text": "בת שבע ומיכל"
+            },
+            {
+              "key": "ג",
+              "text": "מיכל ואביגיל"
+            },
+            {
+              "key": "ד",
+              "text": "אביגיל ואחינועם 5"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": null,
+          "prompt": "במרד אבשלום - מדוע הבין דוד שאחימעץ בא לבשר בשורה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כי הוא רץ"
+            },
+            {
+              "key": "ב",
+              "text": "כי הוא השתחווה"
+            },
+            {
+              "key": "ג",
+              "text": "כי הוא איש טוב"
+            },
+            {
+              "key": "ד",
+              "text": "כי הוא היה לבד"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": null,
+          "prompt": "נגד איזה חטא יצא זכריה הנביא?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עושק אלמנות ויתומים"
+            },
+            {
+              "key": "ב",
+              "text": "נשיאת נשים נכריו ת"
+            },
+            {
+              "key": "ג",
+              "text": "הליכה אחר נביאי שקר"
+            },
+            {
+              "key": "ד",
+              "text": "הקרבת קרבנות טמאים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": null,
+          "prompt": "באיזה הקשר מוזכרים גם אריה וגם חמור?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מות איש האלהים שבא מיהודה"
+            },
+            {
+              "key": "ב",
+              "text": "ירידת שמשון והוריו תמנתה"
+            },
+            {
+              "key": "ג",
+              "text": "דברי דוד לשאול בטרם הקרב מול גוליי ת"
+            },
+            {
+              "key": "ד",
+              "text": "מנחת יעקב לעשו בטרם נפגשו 6"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": null,
+          "prompt": "מה גילה יוחנן בן קרח לגדליהו בן אחיקם בסתר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמלך בבל מתכוון להגלות את העם למצרים"
+            },
+            {
+              "key": "ב",
+              "text": "שמלך בני עמון שלח את ישמעאל להתנקש בו"
+            },
+            {
+              "key": "ג",
+              "text": "שמלך מצרים בדרכו לצור על ירושלים"
+            },
+            {
+              "key": "ד",
+              "text": "שרב הטבחים הרשה לירמיהו לחזור לארץ"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q14",
+          "display_number": "14",
+          "narrative_context": null,
+          "prompt": "מה טענה מיכל בפני שאול, כששאל אותה מדוע רימתה אותו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שהיא פחדה ששאול יהרוג אותה"
+            },
+            {
+              "key": "ב",
+              "text": "שהיא פחדה שדוד יהרוג את שאול"
+            },
+            {
+              "key": "ג",
+              "text": "שהיא פחדה ששאול יהרוג את דוד"
+            },
+            {
+              "key": "ד",
+              "text": "שהיא פחדה שדוד יהרוג אותה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q15",
+          "display_number": "15",
+          "narrative_context": "ַּ ָּד גִּים ֶׁש נ ֶׁאֱחָּזִּים ב ִּמְׁצוֹ ָּדה ָּרעָּה\"",
+          "prompt": "בספר קהלת - מי נמשלו \"כ?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הכסילים"
+            },
+            {
+              "key": "ב",
+              "text": "הצדיקים"
+            },
+            {
+              "key": "ג",
+              "text": "דברי חכמים"
+            },
+            {
+              "key": "ד",
+              "text": "בני האדם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q16",
+          "display_number": "16",
+          "narrative_context": null,
+          "prompt": "איזה אליל גרמו בנות מואב לבני ישראל לעבוד בימי פינחס?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בעל מעון"
+            },
+            {
+              "key": "ב",
+              "text": "בעל זבוב"
+            },
+            {
+              "key": "ג",
+              "text": "בעל פעור"
+            },
+            {
+              "key": "ד",
+              "text": "בעל חצור 7"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q17",
+          "display_number": "17",
+          "narrative_context": null,
+          "prompt": "מה ביקש גדעון מאנשי סוכו ת?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שיצטרפו לצבאו"
+            },
+            {
+              "key": "ב",
+              "text": "שייתנו ללוחמיו לחם"
+            },
+            {
+              "key": "ג",
+              "text": "שייתנו ללוחמיו מקום ללון"
+            },
+            {
+              "key": "ד",
+              "text": "שיהרגו את זבח וצלמנע"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q18",
+          "display_number": "18",
+          "narrative_context": null,
+          "prompt": "מי נפגשו בהר הגלעד?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יעקב ועשו"
+            },
+            {
+              "key": "ב",
+              "text": "יעקב ולבן"
+            },
+            {
+              "key": "ג",
+              "text": "אחאב ואליהו"
+            },
+            {
+              "key": "ד",
+              "text": "אלישע ואליהו"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q19",
+          "display_number": "19",
+          "narrative_context": null,
+          "prompt": "מה בישר שמואל לשאול?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שהוא ימצא את האתונות בעוד שלושה ימים"
+            },
+            {
+              "key": "ב",
+              "text": "שהאתונות נמצאות בארץ בנימין"
+            },
+            {
+              "key": "ג",
+              "text": "שהאתונות כבר נמצאו"
+            },
+            {
+              "key": "ד",
+              "text": "שהאתונות כבר מתו 8"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q20",
+          "display_number": "20",
+          "narrative_context": null,
+          "prompt": "מי היה אביו של המלך אחז?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "חזקיהו"
+            },
+            {
+              "key": "ב",
+              "text": "אמציהו"
+            },
+            {
+              "key": "ג",
+              "text": "יותם"
+            },
+            {
+              "key": "ד",
+              "text": "עוזיהו"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q21",
+          "display_number": "21",
+          "narrative_context": null,
+          "prompt": "מי ראה בחזיונו איש בדרכו למדוד את ירושלים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ירמיהו"
+            },
+            {
+              "key": "ב",
+              "text": "דניאל"
+            },
+            {
+              "key": "ג",
+              "text": "זכריה"
+            },
+            {
+              "key": "ד",
+              "text": "בלעם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q22",
+          "display_number": "22",
+          "narrative_context": null,
+          "prompt": "מי המלך ששרף באש את המגילה שכתב ברוך בן נריה מפי ירמיהו הנביא?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יאשיהו"
+            },
+            {
+              "key": "ב",
+              "text": "יהויקים"
+            },
+            {
+              "key": "ג",
+              "text": "יהויכין"
+            },
+            {
+              "key": "ד",
+              "text": "צדקיהו"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q23",
+          "display_number": "23",
+          "narrative_context": null,
+          "prompt": "בעקבות מה יצא אברהם למלחמה בארבעת המלכים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לקיחת לוט בשבי"
+            },
+            {
+              "key": "ב",
+              "text": "לקיחת שרה בשבי"
+            },
+            {
+              "key": "ג",
+              "text": "לקיחת כל רכושו"
+            },
+            {
+              "key": "ד",
+              "text": "סתימת הבארות שחפר 9"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q24",
+          "display_number": "24",
+          "narrative_context": null,
+          "prompt": "מי מהבאים לא היה מלך מואב?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בן הדד"
+            },
+            {
+              "key": "ב",
+              "text": "מישע"
+            },
+            {
+              "key": "ג",
+              "text": "עגלון"
+            },
+            {
+              "key": "ד",
+              "text": "בלק"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q25",
+          "display_number": "25",
+          "narrative_context": null,
+          "prompt": "היכן נשא יהושע את נאומו האחרון לעם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בשכם"
+            },
+            {
+              "key": "ב",
+              "text": "בגלגל"
+            },
+            {
+              "key": "ג",
+              "text": "במצפה"
+            },
+            {
+              "key": "ד",
+              "text": "בתמנת חרס"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q26",
+          "display_number": "26",
+          "narrative_context": null,
+          "prompt": "לכבוד מה ערך שלמה משתה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "החלום בגבעון"
+            },
+            {
+              "key": "ב",
+              "text": "ביקור מלכת שבא"
+            },
+            {
+              "key": "ג",
+              "text": "חנוכת בית המקדש"
+            },
+            {
+              "key": "ד",
+              "text": "חתונתו עם בת פרעה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q27",
+          "display_number": "27",
+          "narrative_context": null,
+          "prompt": "כמה ימי ניסיון ביקש דניאל מהמלצר להאכיל אותו ואת חבריו זרעונים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "3"
+            },
+            {
+              "key": "ב",
+              "text": "5"
+            },
+            {
+              "key": "ג",
+              "text": "7"
+            },
+            {
+              "key": "ד",
+              "text": "10 10"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q28",
+          "display_number": "28",
+          "narrative_context": null,
+          "prompt": "באיזו עיר לא הכריזו על צום?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ירושלים"
+            },
+            {
+              "key": "ב",
+              "text": "שומרון"
+            },
+            {
+              "key": "ג",
+              "text": "יזרעאל"
+            },
+            {
+              "key": "ד",
+              "text": "נינוה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q29",
+          "display_number": "29",
+          "narrative_context": null,
+          "prompt": "מי נשלח להפר את עצת אחיתופל?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ברזילי הגלעדי"
+            },
+            {
+              "key": "ב",
+              "text": "איתי הגיתי"
+            },
+            {
+              "key": "ג",
+              "text": "אוריה החיתי"
+            },
+            {
+              "key": "ד",
+              "text": "חושי הארכי"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q30",
+          "display_number": "30",
+          "narrative_context": null,
+          "prompt": "מה עלה בגורלו של געל בן עבד שהמריד את אנשי שכם נגד אבימלך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מת במלחמה"
+            },
+            {
+              "key": "ב",
+              "text": "נתלה על עץ"
+            },
+            {
+              "key": "ג",
+              "text": "גורש משכם"
+            },
+            {
+              "key": "ד",
+              "text": "כרת ברית עם אבימלך"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q31",
+          "display_number": "31",
+          "narrative_context": null,
+          "prompt": "במלחמה באפק - כיצד הבינו הפלשתים שארון ה' בא אל המחנה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הם התחילו להפסיד במלחמה"
+            },
+            {
+              "key": "ב",
+              "text": "הם ראו את הפרות והעגלה"
+            },
+            {
+              "key": "ג",
+              "text": "הם ראו שהארץ הומה"
+            },
+            {
+              "key": "ד",
+              "text": "הם שמעו את קול התרועה 11"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q32",
+          "display_number": "32",
+          "narrative_context": null,
+          "prompt": "בעקבות מה בכה אלישע הנביא?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מות בן האישה השונמי ת"
+            },
+            {
+              "key": "ב",
+              "text": "מצוקת העם בעת הרעב בשומרון"
+            },
+            {
+              "key": "ג",
+              "text": "עליית אליהו בסערה השמים"
+            },
+            {
+              "key": "ד",
+              "text": "החורבן שעתיד חזאל להמיט על ישראל"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q33",
+          "display_number": "33",
+          "narrative_context": null,
+          "prompt": "מי הציג את אשתו בתור אחותו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אברהם"
+            },
+            {
+              "key": "ב",
+              "text": "יצחק"
+            },
+            {
+              "key": "ג",
+              "text": "שניהם"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחד מהם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q34",
+          "display_number": "34",
+          "narrative_context": null,
+          "prompt": "מתי היה משה עם מסווה על פניו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כשהוא בתוך אהל מועד"
+            },
+            {
+              "key": "ב",
+              "text": "כשהוא מחוץ לאהל מועד"
+            },
+            {
+              "key": "ג",
+              "text": "בשני המצבים"
+            },
+            {
+              "key": "ד",
+              "text": "באף אחד מהם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q35",
+          "display_number": "35",
+          "narrative_context": null,
+          "prompt": "את מי הרגה עתליה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אחזיה"
+            },
+            {
+              "key": "ב",
+              "text": "יואש"
+            },
+            {
+              "key": "ג",
+              "text": "שניהם"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחד מהם 12"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q36",
+          "display_number": "36",
+          "narrative_context": null,
+          "prompt": "איזה מלך מהבאים נולד בירושלים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "דוד"
+            },
+            {
+              "key": "ב",
+              "text": "שלמה"
+            },
+            {
+              "key": "ג",
+              "text": "שניהם"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחד מהם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q37",
+          "display_number": "37",
+          "narrative_context": null,
+          "prompt": "למי מהתאומים היה שם נוסף?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יעקב"
+            },
+            {
+              "key": "ב",
+              "text": "עשו"
+            },
+            {
+              "key": "ג",
+              "text": "שניהם"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחד מהם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q38",
+          "display_number": "38",
+          "narrative_context": null,
+          "prompt": "אחרי איזה מעשה הכה ליבו של דוד אותו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "קריעת מעילו של שאול"
+            },
+            {
+              "key": "ב",
+              "text": "שליחת יואב למנות את העם"
+            },
+            {
+              "key": "ג",
+              "text": "שניהם"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחד מהם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q39",
+          "display_number": "39",
+          "narrative_context": null,
+          "prompt": "באיזה יום היו בני ישראל מלקטים כמות כפולה של מן?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ביום השישי"
+            },
+            {
+              "key": "ב",
+              "text": "ביום השב ת"
+            },
+            {
+              "key": "ג",
+              "text": "בשניהם"
+            },
+            {
+              "key": "ד",
+              "text": "באף אחד מהם 13"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q40",
+          "display_number": "40",
+          "narrative_context": null,
+          "prompt": "מי ניבא על מותו הקרב של בן המלך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "נתן"
+            },
+            {
+              "key": "ב",
+              "text": "אחיה"
+            },
+            {
+              "key": "ג",
+              "text": "שניהם"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחד מהם המשך בעמוד הבא 14 חלק ב': שאלות פתוחות – זיהוי דמות"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q41",
+          "display_number": "41",
+          "narrative_context": "חֶׁ ֶׁרב מְׁצֻ ֶׁמ ֶׁדת עַּל מָּ ְׁתנָּיו ב ְׁ ַּתעְׁ ָּר ה\" ? 17 ברזל 57. מי גרם לברזל לצוף ? 58. איזה עם העביר דוד במגזרות הברזל ? 59. מי הנביא שנמשל לעמוד ברזל ? 60. למי היו 900 רכבי ברזל ? 61. תובל קין, האדם הראשון שעשה מלאכה בברזל, היה בנה של: 62. השלם את המילה החסרה: \"אִּם ֵקהָּה הַּב ַּ ְׁרזֶׁל וְׁהו א לֹא פָּנִּים ִּקלְׁ ַּקל וַּ _____ יְׁגַּב ֵר וְׁיִּ ְׁתרוֹן הַּכְׁ ֵש יר חָּכְׁמָּה\" בהצלחה! 18",
+          "prompt": "מי מבני שאול מלך אחריו ? 42. מי נצטווה לא לענות למי שיברך אותו ? 43. מי ביקשה שיקראו לה בשם אחר ? 44. מי העמיד פנים שהוא חולה ? 45. מי הרג את עמשא בן יתר ? 46. מי קנה את ההר שומרון ? 15 47. מי תמך יחד עם אהרן בידי משה במלחמה מול עמלק ? 48-50. ציין שלושה אנשים שהובאו אליהם ראש או ראשים _______________________ , _______________________ , המשך בעמוד הבא 16 שאלת מילואים (\"שובר שיוויון\") בנושא \"חרבות ברזל\" חרבות 51. בבטנו של מי נבלעה חרב במלואה ? 52. מי מל את העם ע\"י חרבות צורים ? 53. את החרב של מי נתן אחימלך הכהן לדוד ? 54. איזה שם נתן משה לבנו על הצלתו מחרב פרעה ? 55. מי המלך שביקש שיביאו לו חרב ? 56. למי הייתה?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/testmehuzimm2024.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q37 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option"
+  }
+}

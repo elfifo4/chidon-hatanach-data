@@ -1,0 +1,950 @@
+{
+  "questionnaire_id": "2017m",
+  "source_url": "http://meyda.education.gov.il/files/noar/2017m.pdf",
+  "metadata": {
+    "contest_year_civil": 2017,
+    "contest_year_hebrew": "תשע\"ז",
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [
+        "דורון קדוש"
+      ],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 25,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": "ָצ ְפ ַנת ַפ ְע ֵנ ַח \" בזכות כישרון מיוחד שהוא ניחן בו. באיזה כישרון מדובר",
+          "prompt": "אדם מסוים קיבל את הכינוי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הוא ידע להסתיר סודות מאחרים"
+            },
+            {
+              "key": "ב",
+              "text": "הוא ידע לקרוא כתב חרטומים מצרי"
+            },
+            {
+              "key": "ג",
+              "text": "הוא ידע לפתור חלומות"
+            },
+            {
+              "key": "ד",
+              "text": "הוא ידע להסתיר את זהותו"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": "ֵמ ָה ֹא ֵכל ָי ָצא ַמ ֲא ָכל ּו ֵמ ַעז ָי ָצא ָמתֹוק\"",
+          "prompt": "מי חד לרעיו את החידה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמשון"
+            },
+            {
+              "key": "ב",
+              "text": "יוסף"
+            },
+            {
+              "key": "ג",
+              "text": "בלעם"
+            },
+            {
+              "key": "ד",
+              "text": "יעקב"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": "ִאיׁש ִכי ָימּות ּו ֵבן ֵאין לֹו ְו ַה ֲע ַבְר ֶּתם ֶּאת ַנ ֲח ָלתֹו ְל ִבתֹו\". מי הן הבנות שביקשו לממש את זכותן ולקבל את נחלת אביהן המת, \" ִכי ְב ֶּח ְטאֹו ֵמת ּו ָבִנים לֹא ָהיּו לֹו\"",
+          "prompt": "לפי לשון החוק בספר במדבר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "רחל ולאה"
+            },
+            {
+              "key": "ב",
+              "text": "בנות צלופחד"
+            },
+            {
+              "key": "ג",
+              "text": "בנות לוט"
+            },
+            {
+              "key": "ד",
+              "text": "רות וערפה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": "ַוֵיי ֶּטב ֱאֹל ִהים ַל ְמַיְל ֹדת\". מה היה המעשה שעשו המיילדות, אשר בעקבותיו היטיב להן אלוהים",
+          "prompt": "בתקופת השעבוד של בני ישראל במצרים, נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הן מלו את הבנים ביום השמיני"
+            },
+            {
+              "key": "ב",
+              "text": "הן שכנעו את פרעה לבטל את גזרותיו"
+            },
+            {
+              "key": "ג",
+              "text": "הן סירבו להמית את הבנים שנולדו"
+            },
+            {
+              "key": "ד",
+              "text": "הן הביאו את הבנים הנולדים אל הכוהן"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": "ִכי ָׁשם ָב ַלל ה' ְש ַפת ָכל ָה ָאֶּרץ ּו ִמ ָשם ֱה ִפי ָצם ה' ַעל ְפ ֵני ָכל ָה ָאֶּרץ\"",
+          "prompt": "איזה מקום נקרא בשמו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ִג ל ָג ל"
+            },
+            {
+              "key": "ב",
+              "text": "בבל"
+            },
+            {
+              "key": "ג",
+              "text": "בלע"
+            },
+            {
+              "key": "ד",
+              "text": "בית אל"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "ִאם ֵתְל ִכי ִע ִמי ְו ָה ָל ְכ ִתי ְו ִאם לֹא ֵתְל ִכי ִע ִמי לֹא ֵא ֵלְך\"",
+          "prompt": "מי התנה את השתתפותו במלחמה בהצטרפותה של אישה אליו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמשון"
+            },
+            {
+              "key": "ב",
+              "text": "עתניאל בן קנז"
+            },
+            {
+              "key": "ג",
+              "text": "יפתח הגלעדי"
+            },
+            {
+              "key": "ד",
+              "text": "ברק בן אבינועם 4"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": null,
+          "prompt": "\"ַוַיְרא ָה ָעם ִכי ֹב ֵׁשׁש ֹמ ֶּׁשה ָלֶּר ֶּדת ִמן ָה ָהר\" – מה עשו בני העם כשראו שמשה אינו יורד מהר סיני?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הם ביקשו לעשות להם אלוהים חדשים"
+            },
+            {
+              "key": "ב",
+              "text": "הם עלו על ההר לחפש את משה"
+            },
+            {
+              "key": "ג",
+              "text": "הם הקריבו קורבן לאלוהים"
+            },
+            {
+              "key": "ד",
+              "text": "הם המשיכו במסעם לכיוון ארץ כנען שאלות 8-9: כמו בימינו, גם בימי התנ\"ך עזיבת הבית והמולדת הייתה מעשה רב משמעות."
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": "ַו ַת ַעְז ִבי ָא ִביְך ְו ִא ֵמְך ְו ֶּאֶּרץ מֹו ַלְד ֵתְך ַו ֵתְל ִכי ֶּאל ַעם ֲא ֶּׁשר לֹא ָי ַד ַע ְ ת ְתמֹול ִׁשְלׁשֹום\"",
+          "prompt": "מיהי האישה שזכתה להערכה רבה על שעזבה את מולדתה והצטרפה לעם אחר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ציפורה"
+            },
+            {
+              "key": "ב",
+              "text": "רבקה"
+            },
+            {
+              "key": "ג",
+              "text": "רות"
+            },
+            {
+              "key": "ד",
+              "text": "הגר"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": "ֶּלְך ְלָך ֵמ ַאְר ְצָך ּו ִממֹו ַלְד ְתָך ּו ִמ ֵבית ָא ִביָך\"",
+          "prompt": "מי נצטווה לעזוב את ביתו במילים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אברהם"
+            },
+            {
+              "key": "ב",
+              "text": "משה"
+            },
+            {
+              "key": "ג",
+              "text": "יעקב"
+            },
+            {
+              "key": "ד",
+              "text": "יפתח"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": "ַח ר שגילה את תרמיתם",
+          "prompt": "איזה תפקיד הטיל יהושע על הגבעונים, לא?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "להיות נושאי ארון האלוהים"
+            },
+            {
+              "key": "ב",
+              "text": "להיות בוני המשכן"
+            },
+            {
+              "key": "ג",
+              "text": "להיות הלוחמים במלחמת כיבוש הארץ"
+            },
+            {
+              "key": "ד",
+              "text": "להיות חוטבי עצים ושואבי מים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": "ִת ְשאּו ֶּאת ֲעֹו ֹנ ֵתי ֶּכם ַאְר ָב ִעים ָׁש ָנה ִוי ַד ְע ֶּתם ֶּאת ְתנּו ָא ִתי\". בני ישראל הלכו 40 שנה במדבר, כעונש על מעשה שנמשך 40 יום. מהו המעשה",
+          "prompt": "\" ִת ְשאּו ֶּאת ֲעֹו ֹנ ֵתי ֶּכם ַאְר ָב ִעים ָׁש ָנה ִוי ַד ְע ֶּתם ֶּאת ְתנּו ָא ִתי\". בני ישראל הלכו 40 שנה במדבר, כעונש על מעשה שנמשך 40 יום. מהו המעשה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בני ישראל עבדו את בעל פעור"
+            },
+            {
+              "key": "ב",
+              "text": "המרגלים שתרו את הארץ ולבסוף הוציאו עליה דיבה"
+            },
+            {
+              "key": "ג",
+              "text": "בני ישראל חגגו סביב עגל הזהב"
+            },
+            {
+              "key": "ד",
+              "text": "קורח ועדתו התלוננו על משה ואהרון"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": "ַוָיָרץ ָל ָבן ֶּאל ָה ִאיׁש ַהחּו ָצה ֶּאל ָה ָעִין\". בסיפור אחר מסופר שוב שלבן רץ לקראת אדם והזמין אותו לביתו. באיזה אדם מדובר במקרה הזה",
+          "prompt": "בביקורו של עבד אברהם בביתו של לבן בחרן, מסופר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ביצחק"
+            },
+            {
+              "key": "ב",
+              "text": "באבימלך"
+            },
+            {
+              "key": "ג",
+              "text": "ביעקב"
+            },
+            {
+              "key": "ד",
+              "text": "בעשיו 5"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": "ָדמֹו ְברֹאׁשֹו\", משמעו: הוא אחראי למותו. בקשר למי נעשה השימוש בביטוי הזה",
+          "prompt": "הביטוי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מי שלא יסייע לשבטי ישראל במלחמה בבני בנימין"
+            },
+            {
+              "key": "ב",
+              "text": "השבט משניים וחצי השבטים שלא יסייע בכיבוש הארץ"
+            },
+            {
+              "key": "ג",
+              "text": "מי שיי ֵצ א מביתה של רחב בזמן כיבוש יריחו"
+            },
+            {
+              "key": "ד",
+              "text": "מי שיי ָמ ֵצ א אצלו גביע הכסף של יוסף"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q14",
+          "display_number": "14",
+          "narrative_context": "ְו ֵא ֶּלה תֹו ְלדֹות ָפֶּרץ [...] ְוִי ַׁשי הֹוִליד ֶּאת ָדִוד\". לאיזה שבט משבטי ישראל השתייכה השושלת הזאת",
+          "prompt": "בספר רות מתוארת שושלת היוחסין של דוד המלך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לשבט ראובן"
+            },
+            {
+              "key": "ב",
+              "text": "לשבט לוי"
+            },
+            {
+              "key": "ג",
+              "text": "לשבט יהודה"
+            },
+            {
+              "key": "ד",
+              "text": "לשבט בנימין"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q15",
+          "display_number": "15",
+          "narrative_context": "ֶּא ְס ָפה ִלי ִׁש ְב ִעים ִאיׁש ִמִזְק ֵני ִי ְשָר ֵאל [...] ְו ָא ַצְל ִתי ִמן ָהרּו ַח ֲא ֶּׁשר ָע ֶּליָך ְו ַש ְמ ִתי ֲע ֵלי ֶּהם ְו ָנ ְשאּו ִא ְתָך ְב ַמ ָשא ָה ָעם\". בסיפור אחר, אדם מסוים הציע למשה הצעה אחרת כדי להקל מעומסו. מה הייתה ההצעה",
+          "prompt": "בסיפור אחד שבו היה ניסיון להקל מעומס עבודתו של משה, נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ל ַמ נות מנהיג נוסף, שיתחלק עם משה בעבודה שווה בשווה"
+            },
+            {
+              "key": "ב",
+              "text": "לאסור על העם להתלונן על מחסור במזון ובמים במדבר"
+            },
+            {
+              "key": "ג",
+              "text": "ל ַמ נות מנהיג צבאי שיוביל את העם במלחמותיו"
+            },
+            {
+              "key": "ד",
+              "text": "ל ַמ נות שרי אלפים, מאות, חמישים ועשרות שישפטו את העם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q16",
+          "display_number": "16",
+          "narrative_context": null,
+          "prompt": "איזה מהצמחים לא הופיע במשל שנשא יותם באוזני בעלי שכם?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "תאנה"
+            },
+            {
+              "key": "ב",
+              "text": "גפן"
+            },
+            {
+              "key": "ג",
+              "text": "רימון"
+            },
+            {
+              "key": "ד",
+              "text": "זית"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q17",
+          "display_number": "17",
+          "narrative_context": "ָנע ָו ָנד ִת ְהֶּיה ָב ָאֶּרץ\"",
+          "prompt": "למי נאמר?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לעשיו"
+            },
+            {
+              "key": "ב",
+              "text": "לקין"
+            },
+            {
+              "key": "ג",
+              "text": "לישמעאל"
+            },
+            {
+              "key": "ד",
+              "text": "ליעקב"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q18",
+          "display_number": "18",
+          "narrative_context": "ִב ְׁש ֶּכם ְב ֶּחְל ַקת ַה ָש ֶּדה ֲא ֶּׁשר ָק ָנה ַי ֲע ֹקב\"",
+          "prompt": "את עצמותיו של מי קברו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "של יוסף"
+            },
+            {
+              "key": "ב",
+              "text": "של פנחס בן אלעזר"
+            },
+            {
+              "key": "ג",
+              "text": "של אהרון"
+            },
+            {
+              "key": "ד",
+              "text": "של יהושע"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q19",
+          "display_number": "19",
+          "narrative_context": "ֵס ירב ללון ב\" ִעיר ָנ ְכִרי\", ובכל זאת התרחש אסון במשפחתו בעיר הישראלית שבה שהה",
+          "prompt": "מי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לוט"
+            },
+            {
+              "key": "ב",
+              "text": "יצחק"
+            },
+            {
+              "key": "ג",
+              "text": "יהודה"
+            },
+            {
+              "key": "ד",
+              "text": "האיש הלוי 6"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q20",
+          "display_number": "20",
+          "narrative_context": "ֵב ירך יעקב במילים: \" ְׁש ֵמ ָנה ַל ְחמֹו ְוהּוא ִי ֵתן ַמ ֲע ַד ֵני ֶּמ ֶּלְך\"",
+          "prompt": "איזה שבט?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שבט יהודה"
+            },
+            {
+              "key": "ב",
+              "text": "שבט אשר"
+            },
+            {
+              "key": "ג",
+              "text": "שבט לוי"
+            },
+            {
+              "key": "ד",
+              "text": "שבט דן"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q21",
+          "display_number": "21",
+          "narrative_context": "ְו ֵהן לֹא ַי ֲא ִמינּו ִלי ְולֹא ִי ְׁש ְמעּו ְב ֹקִלי\"",
+          "prompt": "בדו-שיח שהתקיים בין משה לאלוהים כאשר ה' שלח את משה לשליחות במצרים, העלה משה כמה טענות ובעיות. מה הייתה תגובתו של ה' לטענה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ה' הבטיח למשה שהעם יאמין לו"
+            },
+            {
+              "key": "ב",
+              "text": "ה' צירף למשה את אהרון אחיו"
+            },
+            {
+              "key": "ג",
+              "text": "ה' כעס על משה"
+            },
+            {
+              "key": "ד",
+              "text": "ה' נתן למשה אותות"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q22",
+          "display_number": "22",
+          "narrative_context": "ַמה ֹטבּו ֹא ָה ֶּליָך ַי ֲע ֹקב ִמ ְׁש ְכ ֹנ ֶּתיָך ִי ְשָר ֵאל\"",
+          "prompt": "מי בירך את עם ישראל במילים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "משה"
+            },
+            {
+              "key": "ב",
+              "text": "יתרו"
+            },
+            {
+              "key": "ג",
+              "text": "בלעם"
+            },
+            {
+              "key": "ד",
+              "text": "דבורה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q23",
+          "display_number": "23",
+          "narrative_context": "ְל ָהִקים ֵׁשם ַה ֵמת ַעל ַנ ֲח ָלתֹו\", בטענה: \"לֹא אּו ַכל ִל ְג ָאל ִלי ֶּפן ַא ְׁש ִחית ֶּאת ַנ ֲח ָל ִתי\". על כן קנה אדם אחר את זכויות הגאולה לעצמו. באמצעות מה נעשה טקס העברת זכות הגאולה",
+          "prompt": "אדם מסוים לא הסכים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "באמצעות חליצת הנעל"
+            },
+            {
+              "key": "ב",
+              "text": "באמצעות כתב ויתור"
+            },
+            {
+              "key": "ג",
+              "text": "באמצעות חרישת השדה"
+            },
+            {
+              "key": "ד",
+              "text": "באמצעות ברכה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q24",
+          "display_number": "24",
+          "narrative_context": "ַוֵי ְצאּו ֵמ ָע ָליו ָכל ָה ֹע ְמִדים ָע ָליו\"",
+          "prompt": "מיהו המלך הנוכרי שסופר עליו שכל משרתיו השאירוהו לבדו בחדרו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אבימלך מלך גרר"
+            },
+            {
+              "key": "ב",
+              "text": "פרעה מלך מצרים"
+            },
+            {
+              "key": "ג",
+              "text": "בלק מלך מואב"
+            },
+            {
+              "key": "ד",
+              "text": "עגלון מלך מואב"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q25",
+          "display_number": "25",
+          "narrative_context": null,
+          "prompt": "מי האדם שקיבל עיר במתנה ממנהיג, ולאחר מכן הציע מתנה לאיש שיכבוש עיר אחרת?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "פנחס בן אלעזר"
+            },
+            {
+              "key": "ב",
+              "text": "כלב בן יפונה"
+            },
+            {
+              "key": "ג",
+              "text": "אבימלך בן גדעון"
+            },
+            {
+              "key": "ד",
+              "text": "אברהם בהצלחה! 7"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "http://meyda.education.gov.il/files/noar/2017m.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "questionnaire_id": "writing_adults_district_quiz2016",
+  "source_url": "https://meyda.education.gov.il/files/noar/writing_adults_district_quiz2016.pdf",
+  "metadata": {
+    "contest_year_civil": 2016,
+    "contest_year_hebrew": "תשע\"ו",
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "adult",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 1,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": null,
+          "prompt": "שלמה – שיר השירים ז' 2. שמואל – שמואל א' ב' 3. פרעה – שמות י' 4. אלישע – מלכים ב' ב' 5. חובב – במדבר י' 6. בועז – רות ב' 7. בלעם – במדבר כד' 8. יוסף – בראשית לט' 9. חנה – שמואל א' ב' 11. אבנר – שמואל ב' ב' 11. האישה השונמית – מלכים ב' ד' 12. פלטי בן ליש – שמואל ב' ג' 13. דלילה – שופטים טז' 14. אשת ירבעם – מלכים א' יד' 15. נבל – שמואל א' כה' 16. יתרו – שמות ד' 17. אדוניהו – מלכים א' א' 18. רצפה בת איה – שמואל ב' כא' 19. יוסף – יהושע יז' 21. ביכורים – דברים כו' 21. שמואל – שמואל א' ג' 22. יהושע – יהושע ו' 23. דבורה – שופטים ה' 24. אלה בן בעשא – מלכים א' טז' 25. דוד – שמואל א' כט' 26. מרוז – שופטים ה' 27. מלך חמת – שמואל ב' ח' 28. בית אל – שופטים א' 29. רצין מלך ארם – מלכים ב' טז' 31. חזקיהו – מלכים ב' יט' 12 31. יעקב – בראשית כח' 32. מרדכי – אסתר ג' 33. יואב – שמואל ב' יח' 34. יהושע – יהושע א' 35. ירבעם – מלכים א' יג' 36. בועז – רות ד' 37. תולע בן פואה – שופטים י' 38. שלמה – מלכים א' ט' 39. דוד – שמואל ב' ז' 41. גלילי זהב ממלאים בתרשיש – שיר השירים ה' 41. עלי – שמואל א' ב' 42. מקושש עצים – במדבר טו' 43. יואב בן צרויה – שמואל ב' יד' 44. זקני העיר הקרובה אל החלל – דברים כא' 45. גיחזי – מלכים ב' ה' 46. שאול – שמואל א' כו' 47. יהואחז – מלכים ב' כג' 48. יצחק – בראשית כו' 49. שלמה בקוהלת – קהלת א' 51. חזקיהו – מלכים ב' כ' 51. עלי – שמואל א' ג' 52. דוד – שמואל א' כב' 53. אליהו – מלכים א' יח' 54. יהורם מלך ישראל – מלכים ב' ו' 55. הנער הלוי – שופטים יח' 56. חגיגת חג הפסח – מלכים ב' כג' 57. יואב – שמואל ב' כד' 58. שלמה בקוהלת – קהלת ט' 59. יוסף – בראשית מב' 61. שלמה – מלכים א' ח'",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/noar/writing_adults_district_quiz2016.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1; validation: q01 option count 0; q01 no correct_option"
+  }
+}

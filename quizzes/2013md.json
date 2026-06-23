@@ -1,0 +1,628 @@
+{
+  "questionnaire_id": "2013md",
+  "source_url": "http://meyda.education.gov.il/files/noar/2013md.pdf",
+  "metadata": {
+    "contest_year_civil": 2013,
+    "contest_year_hebrew": "תשע\"ג",
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 9,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": "ַעל ֵכן יַ ֲע ָזב ִאיׁש ֶאת ׆ש ִביו וְ ֶאת ִאּמֹו וְ ָד ַבק ְב ִא ְׁשּתֹו [...]\" (בראשית ב, כד). גבר מסוים ביקש מאביו ומאמו לקחת לו אישה, למרות שהביעו את מורת רוחם ממנה. מיהו האיש",
+          "prompt": "בספר בראשית קובעת התורה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שכם"
+            },
+            {
+              "key": "ב",
+              "text": "יהודה"
+            },
+            {
+              "key": "ג",
+              "text": "שמשון"
+            },
+            {
+              "key": "ד",
+              "text": "עשיו"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": null,
+          "prompt": "במהלך קרב נהגו הלוחמים לשרוף את העיר שבה נלחמו. איזו מהערים שברשימה לא נשרפה בדרך זאת?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "חצור"
+            },
+            {
+              "key": "ב",
+              "text": "שכם"
+            },
+            {
+              "key": "ג",
+              "text": "יריחו"
+            },
+            {
+              "key": "ד",
+              "text": "גבעה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": "וַיֵ ְצאּו ַה ָׄש ֶד ה וַיִ ְב ְצרּו ֶאת ַכ ְר ֵמי ֶהם וַיִ ְד ְרכּו וַיַ ֲעׂשּו ִהּלּו ִלים\" (שופטים ט, כז). על פי התורה, מתי על פירות האילן להיות \"קֶֹדׁש ִהּלּו ִלים ַל ה'\"",
+          "prompt": "על בעלי שכם נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בשנה הרביעית לנטיעתו"
+            },
+            {
+              "key": "ב",
+              "text": "בשנת השמיטה"
+            },
+            {
+              "key": "ג",
+              "text": "בשנת המע ֵׂש ר"
+            },
+            {
+              "key": "ד",
+              "text": "ממחרת השבת השביעית"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": null,
+          "prompt": "בשירתה לאחר המלחמה, דבורה מציינת שבטים מסוימים לשבח, ושבטים אחרים לגנאי. מי מהשבטים שלפניכם צוין לגנאי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יהודה"
+            },
+            {
+              "key": "ב",
+              "text": "ראובן"
+            },
+            {
+              "key": "ג",
+              "text": "גד"
+            },
+            {
+              "key": "ד",
+              "text": "יששכר 3"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": null,
+          "prompt": "מי ישב בשמיר בהר אפרים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עבדון בן הלל הפרעתוני"
+            },
+            {
+              "key": "ב",
+              "text": "אילון הזבלוני"
+            },
+            {
+              "key": "ג",
+              "text": "יאיר הגלעדי"
+            },
+            {
+              "key": "ד",
+              "text": "תולע בן פואה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "ּו ְמ ָל ִכים ֵמ ֲח ָל ֶציָך יֵ ֵצאּו\". מי האדם",
+          "prompt": "אדם התברך בכך שמזרעו יומלכו מלכים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יוסף"
+            },
+            {
+              "key": "ב",
+              "text": "יעקב"
+            },
+            {
+              "key": "ג",
+              "text": "יהודה"
+            },
+            {
+              "key": "ד",
+              "text": "בועז"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": "ַעם ׁשֵֹקט ּובֹ ֵט ַח [...] ָד ָב ר ֵאין ָל ֶהם ִעם ׆ש ָדם\". מיהו השבט",
+          "prompt": "שבט משבטי ישראל, אשר ביקש לו נחלה חדשה, מצא אותה במקום שבו היה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מנשה"
+            },
+            {
+              "key": "ב",
+              "text": "אפרים"
+            },
+            {
+              "key": "ג",
+              "text": "דן"
+            },
+            {
+              "key": "ד",
+              "text": "גד"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": "ַהּמֹו ִלי ְכָך ַב ִּמ ְד ָבר ַה ָגדֹל וְ ַהּנֹו ָרא נָ ָחׁש ָׂש ָרף וְ ַע ְק ָרב וְ ִצ ָּמאֹון ֲא ֶׁשר ֵאין ָמיִם\" (דברים ח, טו). לא בכל חניות ישראל במדבר היה מחסור. על אחד המקומות מסופר שהיה שם שפע של מים ופירות. היכן זה היה",
+          "prompt": "\" ַהּמֹו ִלי ְכָך ַב ִּמ ְד ָבר ַה ָגדֹל וְ ַהּנֹו ָרא נָ ָחׁש ָׂש ָרף וְ ַע ְק ָרב וְ ִצ ָּמאֹון ֲא ֶׁשר ֵאין ָמיִם\" (דברים ח, טו). לא בכל חניות ישראל במדבר היה מחסור. על אחד המקומות מסופר שהיה שם שפע של מים ופירות. היכן זה היה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ברפידים"
+            },
+            {
+              "key": "ב",
+              "text": "בהר סיני"
+            },
+            {
+              "key": "ג",
+              "text": "באילים"
+            },
+            {
+              "key": "ד",
+              "text": "בקדש 4"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": "ּו ָפ ְצ ָתה ָה ֲא ָד ָמה ֶאת ִפי ָה ּו ָב ְל ָעה אֹ ָתם וְ ֶאת ָכל ֲא ֶׁשר ָל ֶהם וְיְָרדּו ַחיִים ְׁשאָֹלה [...]\". מתי עוד פצתה האדמה את פיה",
+          "prompt": "על קורח, דתן ואבירם, אומר משה: \"[...]?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "במבול"
+            },
+            {
+              "key": "ב",
+              "text": "במכות מצרים"
+            },
+            {
+              "key": "ג",
+              "text": "בהריגת הבל"
+            },
+            {
+              "key": "ד",
+              "text": "בחלום פרעה 11. שור שנגח עבד והרגו: מהו דינו של בעל השור?"
+            },
+            {
+              "key": "א",
+              "text": "הוא נקי מעונש"
+            },
+            {
+              "key": "ב",
+              "text": "הוא ישלם שלושים שקלים"
+            },
+            {
+              "key": "ג",
+              "text": "הוא יומת/יתן כופר לפדיון נפשו"
+            },
+            {
+              "key": "ד",
+              "text": "בשור רגיל- א, בשור נגח מתמול שלשום - ג 11. אדם טעה בזהותה של אישה מסוימת משום שכיסתה את פניה. מיהי האישה?"
+            },
+            {
+              "key": "א",
+              "text": "רבקה"
+            },
+            {
+              "key": "ב",
+              "text": "תמר"
+            },
+            {
+              "key": "ג",
+              "text": "אשת פוטיפר"
+            },
+            {
+              "key": "ד",
+              "text": "רות 12. איזה מאורע התרחש \" ִמ ֵקץ ֶע ֶׂשר ָׁשנִים ְל ֶׁש ֶבת ׅש ְב ָרם ְב ֶא ֶרץ ְכנָ ַען\"?"
+            },
+            {
+              "key": "א",
+              "text": "לידת יצחק"
+            },
+            {
+              "key": "ב",
+              "text": "נתינת הגר לאברם"
+            },
+            {
+              "key": "ג",
+              "text": "מלחמת המלכים"
+            },
+            {
+              "key": "ד",
+              "text": "ברית בין הבתרים 5 13. במכירת יוסף היו מעורבים \"או ְר חת ישמעאלים\", ו\"אנשים מדיינים סוחרים\". מה הקשר המשפחתי בין מדיין וישמעאל?"
+            },
+            {
+              "key": "א",
+              "text": "שניהם בנים לאותו אב"
+            },
+            {
+              "key": "ב",
+              "text": "שניהם נכדים לאותו סב"
+            },
+            {
+              "key": "ג",
+              "text": "ישמעאל הוא בנו של מדיין"
+            },
+            {
+              "key": "ד",
+              "text": "מדיין הוא בנו של ישמעאל 14. באיזו מכה ממכות מצרים אנחנו מתוודעים לאנשים מעבדי פרעה שיראו את דבר ה': \" ַהיָ ֵרא ֶאת ְד ַבר ה' ֵמ ַע ְב ֵדי ַפ ְרעֹה\"?"
+            },
+            {
+              "key": "א",
+              "text": "ִכ נים"
+            },
+            {
+              "key": "ב",
+              "text": "ערֹוב"
+            },
+            {
+              "key": "ג",
+              "text": "ברד"
+            },
+            {
+              "key": "ד",
+              "text": "ארבה 15. אישה מסוימת ניצלה את שכרותו של מישהו כדי לבצע בו דבר ללא ידיעתו. מיהו האיש?"
+            },
+            {
+              "key": "א",
+              "text": "שמשון"
+            },
+            {
+              "key": "ב",
+              "text": "יוסף"
+            },
+            {
+              "key": "ג",
+              "text": "סיסרא"
+            },
+            {
+              "key": "ד",
+              "text": "לוט 16. מהו האירוע שעליו נאמר: \"וְֹלא ָהיָה ַכיֹום ַההּוא ְל ָפנָיו וְׅש ֲח ָריו ִל ְׁשמַֹע ה' ְבקֹול ִאיׁש\"?"
+            },
+            {
+              "key": "א",
+              "text": "המחילה לעם ישראל אחרי מעשה העגל"
+            },
+            {
+              "key": "ב",
+              "text": "הצלת ישמעאל במדבר באר שבע"
+            },
+            {
+              "key": "ג",
+              "text": "עצירת השמש בימי יהושע"
+            },
+            {
+              "key": "ד",
+              "text": "השבת כוחו של שמשון בבית דגון 6 17. על אשת מנוח מסופר: \"וַיֵ ָרא ַמ ְל ַאְך ה' ֶאל ָה ִא ָ׃שה וַיֹא ֶמר ֵא ֶלי ָה ִהּנֵה נָא ַא ְּת ֲע ָק ָרה וְֹלא יָ ַל ְד ְּת וְ ָה ִרית וְיָ ַל ְד ְּת ֵבן [...] ִכי ִהּנְָך ָה ָרה ו ְיַֹל ְד ְּת ֵבן [...]\". איזו אישה קיבלה בשורה דומה ממלאך ה'?"
+            },
+            {
+              "key": "א",
+              "text": "הגר"
+            },
+            {
+              "key": "ב",
+              "text": "רבקה"
+            },
+            {
+              "key": "ג",
+              "text": "רחל"
+            },
+            {
+              "key": "ד",
+              "text": "רות 18. ברית המילה היא אחת הבריתות החשובות בין ה' לעמו. מי, חוץ מאברהם, נצטווה על המילה?"
+            },
+            {
+              "key": "א",
+              "text": "יעקב"
+            },
+            {
+              "key": "ב",
+              "text": "אהרון"
+            },
+            {
+              "key": "ג",
+              "text": "לוי"
+            },
+            {
+              "key": "ד",
+              "text": "יהושע 19. כמה מתו במגפה שבאה כעונש לעם על טענתם \" ַא ֶּתם ֲה ִמ ֶּתם ֶאת ַעם ה'\"?"
+            },
+            {
+              "key": "א",
+              "text": "000,24"
+            },
+            {
+              "key": "ב",
+              "text": "000,3"
+            },
+            {
+              "key": "ג",
+              "text": "00,,14"
+            },
+            {
+              "key": "ד",
+              "text": "000,12 21. שני בנים גורשו מבית אביהם כדי למנוע מהם להתחלק בירושה עם אחיהם. מי היו הבנים?"
+            },
+            {
+              "key": "א",
+              "text": "ישמעאל ויפתח"
+            },
+            {
+              "key": "ב",
+              "text": "יוסף וברק"
+            },
+            {
+              "key": "ג",
+              "text": "עשו ומשה"
+            },
+            {
+              "key": "ד",
+              "text": "יהודה ושמעון 7 21. שליחת מרגלים היא דרך מקובלת לאיסוף מידע מודיעני לפני כיבוש. לאיזו עיר ברשימה לא נשלחו מרגלים?"
+            },
+            {
+              "key": "א",
+              "text": "לעי"
+            },
+            {
+              "key": "ב",
+              "text": "ליריחו"
+            },
+            {
+              "key": "ג",
+              "text": "ליעזר"
+            },
+            {
+              "key": "ד",
+              "text": "לחצור 22. מיהם שני האנשים שחיו 110 שנים?"
+            },
+            {
+              "key": "א",
+              "text": "משה ושרה"
+            },
+            {
+              "key": "ב",
+              "text": "משה ויוסף"
+            },
+            {
+              "key": "ג",
+              "text": "יהושע ויוסף"
+            },
+            {
+              "key": "ד",
+              "text": "יהושע ושרה 23. מתן שמות חדשים למקומות בעקבות אירוע, הוא דבר מקובל בתנ\"ך. איזה משמות הערים שלפניכם הוא שמה הראשון של העיר, לפני שהשתנה?"
+            },
+            {
+              "key": "א",
+              "text": "קנת"
+            },
+            {
+              "key": "ב",
+              "text": "בית אל"
+            },
+            {
+              "key": "ג",
+              "text": "דביר"
+            },
+            {
+              "key": "ד",
+              "text": "חברון 24. \"וַיִ ְׁש ַמע מֹ ֶׁשה ֶאת ָה ָעם בֶֹכה ְל ִמ ְׁש ְפחֹ ָתיו ִאיׁש ְל ֶפ ַתח ׆ש ֳהלֹו\". מה גרם לעם לבכות?"
+            },
+            {
+              "key": "א",
+              "text": "שעבוד מצרים"
+            },
+            {
+              "key": "ב",
+              "text": "דיווח המרגלים על שליחותם"
+            },
+            {
+              "key": "ג",
+              "text": "המגפה בעקבות חטא העגל"
+            },
+            {
+              "key": "ד",
+              "text": "המחסור בבשר 25. מי כּונתה \"אשת חיל\"?"
+            },
+            {
+              "key": "א",
+              "text": "רבקה"
+            },
+            {
+              "key": "ב",
+              "text": "יעל"
+            },
+            {
+              "key": "ג",
+              "text": "תמנע"
+            },
+            {
+              "key": "ד",
+              "text": "רות 8"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "http://meyda.education.gov.il/files/noar/2013md.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 option count 68; q09 no correct_option"
+  }
+}

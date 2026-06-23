@@ -1,0 +1,38 @@
+{
+  "questionnaire_id": "fullmmd2026",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/fullmmd2026.pdf",
+  "metadata": {
+    "contest_year_civil": 2026,
+    "contest_year_hebrew": "תשפ\"ו",
+    "track": "mamlachti_dati",
+    "stage": null,
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": null,
+      "max_points": null,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/fullmmd2026.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "unreadable",
+    "extraction_notes": "extraction error: No /Root object! - Is this really a PDF?"
+  }
+}

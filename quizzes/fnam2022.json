@@ -1,0 +1,907 @@
+{
+  "questionnaire_id": "fnam2022",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/fnam2022.pdf",
+  "metadata": {
+    "contest_year_civil": 2022,
+    "contest_year_hebrew": "תשפ\"ב",
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 31,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": null,
+          "prompt": "ֶנ ֱא ָמן מי העיד \" ֵעִדים ֶנ ֱא ָמִנים\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בועז ג. ישעיהו"
+            },
+            {
+              "key": "ב",
+              "text": "לבן ד. ירמיה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": null,
+          "prompt": "ֲח ַתן ַה ֶמ ֶלך מי ממלכי ישראל לא היה חתן של מלך נכרי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "דוד ג. אחאב"
+            },
+            {
+              "key": "ב",
+              "text": "שלמה ד. יהורם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": null,
+          "prompt": "ָסר ֶאל ִמ ְׁש ַמ ְׁע ֶתך לגבי מי מצווה התורה \"לֹא תֹא ֶבה לֹו ְולֹא ִת ְש ַמע ֵא ָליו ְולֹא ָתחֹוס ֵעיְנָך ָע ָליו ְולֹא ַת ְח ֹמל ְולֹא ְת ַכ ֶסה ָע ָליו\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מי שמתנבא בשם ה' לשקר ג. מי שאוכל את הדם עם הבשר"
+            },
+            {
+              "key": "ב",
+              "text": "מי שמסית לעבוד אלהים אחרים ד. מי שממרה את פי הכהן"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": null,
+          "prompt": "ִנ ְׁכ ָבד ְׁב ֵבי ֶתך על בנו של מי נאמר \"ְוהּוא ִנ ְכ ָבד ִמ ֹכל ֵבית ָא ִביו\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ָנ ָחש ג. ִצּפֹור"
+            },
+            {
+              "key": "ב",
+              "text": "ָש ָפן ד. ֲחמֹור \" ִהֵנה ָר ִאי ִתי ֵבן ְלִי ַשי ֵבית ַה ַל ְח ִמי ֹי ֵד ַע ַנ ֵגן ְוִגבֹור ַחִיל ְו ִאיש ִמ ְל ָח ָמה ּוְנבֹון ָד ָבר ְו ִאיש ֹת ַאר ַוה' ִעמֹו\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": null,
+          "prompt": "ֹי ֵד ַע ַנ ֵגן על נביא אחד מסופר: \"ְו ָה ָיה ְכַנ ֵגן ַה ְמַנ ֵגן ַו ְת ִהי ָע ָליו ַיד ה'\". על מה ניבא בעת הנגינה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ניצחון במלחמה ג. הולדת בן"
+            },
+            {
+              "key": "ב",
+              "text": "שנות רעב ד. רפואה ממחלה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": null,
+          "prompt": "ִגבֹור ַחִיל על איזה מנהיג נאמר: \"ַוִי ְב ַחר ... ְשֹל ִשים ֶא ֶלף ִאיש ִגבֹוֵרי ַה ַחִיל ַוִי ְש ָל ֵחם ָלְי ָלה\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "גדעון ג. אבימלך"
+            },
+            {
+              "key": "ב",
+              "text": "יהושע ד. שאול"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": null,
+          "prompt": "ִאיש ִמ ְׁל ָח ָמה מי הנביא שאמר: \" ַקְדשּו ִמ ְל ָח ָמה ָה ִעירּו ַהִגבֹוִרים ִיְגשּו ַי ֲעלּו ֹכל ַאְנ ֵשי ַה ִמ ְל ָח ָמה\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אלישע ג. ירמיהו"
+            },
+            {
+              "key": "ב",
+              "text": "עמוס ד. יואל"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": null,
+          "prompt": "ְׁנבֹון ָד ָבר איזה מעמד בימי עזרא התקיים \" ִל ְפֵני ַה ָק ָהל ֵמ ִאיש ְו ַעד ִא ָשה ְו ֹכל ֵמ ִבין ִל ְש ֹמ ַע\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הקריאה בספר התורה ג. ההחלטה להיבדל מן הנשים הנכריות"
+            },
+            {
+              "key": "ב",
+              "text": "ייסוד בית ה' ד. חידוש הקרבת הקרבנות"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": null,
+          "prompt": "ִאיש ֹת ַאר איזה תואר נאמר על אחד משלושת האבות?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ִאיש ִע ְבִרי ג. ִאיש ָתם"
+            },
+            {
+              "key": "ב",
+              "text": "ִאיש ָז ֵקן ד. ִאיש ַצִדיק"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": "ִעמֹו על איזה מלך נאמר: \"ְו ָה ָיה ה' ִעמֹו ְב ֹכל ֲא ֶשר ֵי ֵצא ַי ְש ִכיל ַוִי ְמ ֹרד ְב ֶמ ֶלְך ַאשּור ְולֹא ֲע ָבדֹו\"",
+          "prompt": "ה'?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יהושפט ג. יאשיהו"
+            },
+            {
+              "key": "ב",
+              "text": "חזקיהו ד. יהויקים שבחים אלה שנאמרו באזני שאול נשאו פרי, ומיד בבוא דוד אליו מינה אותו שאול לת פקידו הראשון: \"ַו ָיבֹא ָדִוד ֶאל ָשאּול ַו ַי ֲע ֹמד ְל ָפָניו ַו ֶי ֱא ָה ֵבהּו ְמ ֹאד ַוְי ִהי לֹו ֹנ ֵשא ֵכ ִלים\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": "ֲע ָשָרה ְנ ָעִרים ֹנ ְש ֵאי ְכ ֵלי יֹו ָאב\"",
+          "prompt": "מי נהרג על ידי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אבנר ג. עמשא"
+            },
+            {
+              "key": "ב",
+              "text": "אבשלום ד. אדוני ה בעקבות הרוח הרעה ששרתה עליו, הפך שאול עוין לדוד וביקש להעבירו לתפקיד מרוחק מן המלך: \"ַוְי ִסֵרהּו ָשאּול ֵמ ִעמֹו ַוְי ִש ֵמהּו לֹו ַשר ָא ֶלף\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": "ְל ַשר ָה ָא ֶלף\"",
+          "prompt": "מה נשלח?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "גדי עזים ג. לחם ניקודים"
+            },
+            {
+              "key": "ב",
+              "text": "נבל יין ד. חריצי חלב ובכל זאת, מעמדו הגבוה של דוד הקנה לו מקום של כבוד בשולחן המלך, כפי שהעיד בפני יהונתן: \" ִהֵנה ֹח ֶדש ָמ ָחר ְו ָא ֹנ ִכי ָי ֹשב ֵא ֵשב ִעם ַה ֶמ ֶלְך ֶל ֱאכֹול\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": null,
+          "prompt": "איזה חודש מופיע בשמו במגילת אסתר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "תשרי ג. כסלו"
+            },
+            {
+              "key": "ב",
+              "text": "חשון ד. טבת גם בעת שנמלט משאול ומצא מחסה בשדה הפלשתים, ניכרו כישרונותיו הצבאיים של דוד ולקראת המלחמה עם ישראל ביקש המלך הפלשתי למנותו לשומר ראשו, לאות על הצטיינותו ועל נאמנותו: \"ַויֹא ֶמר ָא ִכיש ֶאל ָדִוד ָל ֵכן ֹש ֵמר ְלרֹא ִשי ֲא ִשי ְמָך ָכל ַה ָי ִמים\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q14",
+          "display_number": "14",
+          "narrative_context": "ִמ ְש ָמר\" לאחר שחטא",
+          "prompt": "איזה אדם לא הושם ב?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מקושש העצים ג. שר הטבחים"
+            },
+            {
+              "key": "ב",
+              "text": "המקלל ד. שר המשקים לאחר ההתנקשות הבלתי-מתוכננת במלך היריב, איש בשת בן שאול, משחו כל שבטי ישראל את דוד למלך על ישראל: \" ַא ָתה ִתְר ֶעה ֶאת ַע ִמי ֶאת ִי ְשָר ֵאל ְו ַא ָתה ִת ְה ֶיה ְלָנִגיד ַעל ִי ְשָר ֵאל\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q15",
+          "display_number": "15",
+          "narrative_context": null,
+          "prompt": "בימי איזה מלך ניבא חגי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ארתחשסתא ג. דריוש"
+            },
+            {
+              "key": "ב",
+              "text": "כורש ד. נבוכדנצר בעת צרתו, כשברח מפני אבשלום, קיבל דוד סיוע נדיב משלושה ידידים שדאגו לצרכיו ולצרכי אנשיו. גם לאחר ששב לכס מלכותו, זכר להם דוד את החסד שעשו איתו, ולפני מותו ציווה את שלמה בנו להשיב להם חסד כגמולם. שאלות 30-16 מוסבות על משלוח החסד שקיבל דוד משלושת ידידיו: \" ִ מ ְש ָכב ְו ַסּפֹות ּו ְכ ִלי יֹו ֵצר\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q16",
+          "display_number": "16",
+          "narrative_context": null,
+          "prompt": "ִמ ְׁש ָכב מי נהרג בעודו \" ֹש ֵכב ַעל ִמ ָטתֹו ַב ֲח ַדר ִמ ְש ָכבֹו\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אמנון ג. גדליה"
+            },
+            {
+              "key": "ב",
+              "text": "עגלון ד. איש בשת"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q17",
+          "display_number": "17",
+          "narrative_context": null,
+          "prompt": "ַסּפֹו ת איזה כסא מזכיר ישעיהו בנבואתו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ִכ ֵסא ָרם ְוִנ ָשא ג. ִכ ֵסא ֵבית ִי ְשָר ֵאל"
+            },
+            {
+              "key": "ב",
+              "text": "ִכ ֵסא ֵשן ָגדֹול ד. ִכ ֵסא ַמ ְמ ָלכֹות"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q18",
+          "display_number": "18",
+          "narrative_context": null,
+          "prompt": "ְׁכ ִלי יֹו ֵצר מי אמר: \" ָכ ָכה ֶא ְש ֹבר ֶאת ָה ָעם ַה ֶזה ְו ֶאת ָה ִעיר ַהזֹאת ַכ ֲא ֶשר ִי ְש ֹבר ֶאת ְכ ִלי ַהיֹו ֵצר ֲא ֶשר לֹא יּו ַכ ל ְל ֵהָר ֵפה עֹוד\"?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מיכיהו בן ימלה ג. חנניה בן עזור"
+            },
+            {
+              "key": "ב",
+              "text": "ירמיהו בן חלקיהו ד. צדקיה בן כנענה \"ְו ִח ִטים ּו ְש ֹעִרים ְו ֶק ַמח ְו ָק ִלי ּופֹול ַו ֲע ָד ִשים ְו ָק ִלי\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q19",
+          "display_number": "19",
+          "narrative_context": null,
+          "prompt": "ִח ִטים ּו ְׁש ֹעִרים באיזו מכה נפגעה השעורה, אך לא נפגעה החיטה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ארבה ג. ערוב"
+            },
+            {
+              "key": "ב",
+              "text": "ברד ד. צפרדע"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q20",
+          "display_number": "20",
+          "narrative_context": null,
+          "prompt": "ֶק ַמח \"ְו ָל ִא ָשה ֵע ֶגל ַמְר ֵבק ַב ַבִית ַו ְת ַמ ֵהר ַו ִתְז ָב ֵחהּו ַו ִת ַקח ֶק ַמח ַו ָת ָלש ַו ֹת ֵפהּו ַמּצֹות\" - עבור מי טרחה האישה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אליהו ג. שאול"
+            },
+            {
+              "key": "ב",
+              "text": "אלישע ד. שמשון"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q21",
+          "display_number": "21",
+          "narrative_context": null,
+          "prompt": "ּפֹול כמה ככר כסף נתן מנחם לפול מלך אשור?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "10 ג. 000,1"
+            },
+            {
+              "key": "ב",
+              "text": "100 ד. 000,10"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q22",
+          "display_number": "22",
+          "narrative_context": null,
+          "prompt": "ֲע ָד ִשים \"ַו ֵי ָא ְספּו ְפ ִל ְש ִתים ַל ַח ָיה ַו ְת ִהי ָשם ֶח ְל ַקת ַה ָש ֶדה ְמ ֵל ָאה ֲע ָד ִשים\" - מי לחם בפלשתים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמגר בן ענת ג. שמא בן אגא"
+            },
+            {
+              "key": "ב",
+              "text": "מ ֻשלם בן ברכיה ד. יהונתן בן שמעה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q23",
+          "display_number": "23",
+          "narrative_context": null,
+          "prompt": "ָק ִלי \"ְו ֶל ֶחם ְו ָק ִלי ְו ַכְר ֶמל לֹא תֹא ְכלּו ַעד ֶע ֶצם ַהיֹום ַה ֶזה ַעד ֲה ִבי ֲא ֶכם ֶאת ָקְר ַבן ֱאֹל ֵהי ֶכם\" - איזה יום?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יום הנפת העומר ג. יום ראשון של סוכות"
+            },
+            {
+              "key": "ב",
+              "text": "יום הכיפורים ד. יום שביעי של פסח \"ּוְד ַבש ְו ֶח ְמ ָאה ְוצֹאן ּו ְשפֹות ָב ָקר\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q24",
+          "display_number": "24",
+          "narrative_context": null,
+          "prompt": "ְׁד ַבש מי הטיחו בפני משה: \" ַאף לֹא ֶאל ֶאֶ רץ ָז ַבת ָח ָלב ּוְד ַבש ֲה ִבי ֹא ָתנּו ַו ִת ֶתן ָלנּו ַנ ֲח ַלת ָש ֶדה ָו ָכֶרם\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בנות צלפחד ג. דתן ואבירם"
+            },
+            {
+              "key": "ב",
+              "text": "שניים וחצי השבטים ד. הכהנים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q25",
+          "display_number": "25",
+          "narrative_context": null,
+          "prompt": "ֶח ְׁמ ָאה מי ניבא: \" ֶח ְמ ָאה ּוְד ַבש יֹא ֵכל ָכל ַהנֹו ָתר ְב ֶקֶרב ָה ָאֶרץ\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ישעיהו ג. עמוס"
+            },
+            {
+              "key": "ב",
+              "text": "יואל ד. חגי"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q26",
+          "display_number": "26",
+          "narrative_context": null,
+          "prompt": "צֹאן מה קרה לצאן של איוב?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "נשבו ע\"י כשדים ג. נפל עליהם הבית"
+            },
+            {
+              "key": "ב",
+              "text": "מתו בדבר ד. נשרפו באש מן השמים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q27",
+          "display_number": "27",
+          "narrative_context": null,
+          "prompt": "ְׁשפֹות ָב ָקר מי העיד על עצמו: \" ַגם ִמ ְקֶנה ָב ָקר ָוצֹאן ַהְר ֵבה ָה ָיה ִלי ִמ ֹכל ֶש ָהיּו ְל ָפַני ִבירּו ָש ָלִם\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כורש ג. רבשקה"
+            },
+            {
+              "key": "ב",
+              "text": "קהלת ד. יהוא \" ִכי ָא ְמרּו ָה ָעם ָר ֵעב ְו ָע ֵיף ְו ָצ ֵמא ַב ִמְד ָבר\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q28",
+          "display_number": "28",
+          "narrative_context": null,
+          "prompt": "ָר ֵעב בימי מי התלוננו העם \" ְש ֹד ֵתינּו ּו ְכָר ֵמינּו ּו ָב ֵתינּו ֲאַנ ְחנּו ֹעְר ִבים ְוִנ ְק ָחה ָד ָגן ָבָר ָעב\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יוסף ג. נחמיה"
+            },
+            {
+              "key": "ב",
+              "text": "משה ד. אחאב"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q29",
+          "display_number": "29",
+          "narrative_context": null,
+          "prompt": "ָע ֵיף מנהיג ביקש מאנשי עיר אחת סיוע ללוחמיו: \" ְתנּו ָנא ִכ ְכרֹות ֶל ֶחם ָל ָעם ֲא ֶשר ְבַרְג ָלי ִכי ֲע ֵי ִפים ֵהם\". מה לא מפורט בסיפור המעשה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כמה לוחמים היו איתו ג. מדוע לא היה לו לחם"
+            },
+            {
+              "key": "ב",
+              "text": "כיצד הגיבו אנשי העיר ד. היכן הייתה המלחמה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q30",
+          "display_number": "30",
+          "narrative_context": null,
+          "prompt": "ָצ ֵמא היכן התפלל אדם שלא ימות בצמא?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ֵעין ֲח ֹרד ג. ֵעין דֹור"
+            },
+            {
+              "key": "ב",
+              "text": "ֵעין ֹר ֵגל ד. ֵעין ַהקֹוֵרא חלק שני: שאלות פתוחות לפניך 20 שאלות פתוחות בנושא: גלגל המזלות מֹאְׁז ַנִים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q31",
+          "display_number": "31",
+          "narrative_context": "ָו ֶא ְכ ֹתב ַב ֵס ֶפר ָו ֶא ְח ֹתם… ָו ֶא ְש ֹקל ַה ֶכ ֶסף ְבמֹאְזָנִים\"? 32. מי הנביא המוכיח את המתכוונים \" ְל ַה ְק ִטין ֵאי ָפה ּו ְל ַהְגִדיל ֶש ֶקל ּו ְל ַעֵּות מֹאְזֵני ִמְר ָמה\"? ַע ְׁקָרב 33. גבולו של איזה עם היה \" ִמ ַמ ֲע ֵלה ַע ְקַר ִבים ֵמ ַה ֶס ַלע ָו ָמ ְע ָלה\"? ַק ָש ת 34. מי המלך שנצטווה על ידי הנביא \" ַקח ֶק ֶשת ְו ִח ִּצים\"? 35. על מי נאמר \"ַוְי ִהי ֱאֹל ִהים ֶאת ַהַנ ַער ַוִיְג ָדל ַו ֵי ֶשב ַב ִמְד ָבר ַוְי ִהי ֹר ֶבה ַק ָשת\"? ְׁגִדי 36. מי שלח את בנו אל המלך עם \" ֲחמֹור ֶל ֶחם ְונֹאד ַיִין ּוְגִדי ִעִזים ֶא ָחד\"? ְׁד ִלי 37. על מי אמרו \"ְו ַגם ָדֹלה ָד ָלה ָלנּו ַו ַי ְש ְק ֶאת ַהּצֹאן\"? ______________________ 38. מי אמר \"ִי ַזל ַמִים ִמ ָד ְל ָיו ְו ַזְרעֹו ְב ַמִים ַר ִבים\"? _________________________ ָדִגים 39. בימי מי נבנה \" ַש ַער ַה ָדִגים\"? _______________________ 40. מה מסופר על \" ָדג ָגדֹול\"? _______________________________________ ָט ֶלה 41. מי הקריב \" ְט ֵלה ָח ָלב\"? _________________________ שֹור 42. באיזה הקשר נזכרו \"שֹור ֶא ָחד צֹאן ֵשש ְב ֻררֹות ְו ִצ ֳּּפִרים\"? 43. השלם: \"לֹא ִתְז ַבח ַלה' ֱאֹל ֶהיָך שֹור ָו ___________ ֲא ֶשר ִי ְה ֶיה בֹו מּום\"? ְׁתאֹו ִמים על שתי נשים מסופר שילדו תאומים. מיהן? 44. _________________________ 45. _________________________ ַסְׁר ָט ן 46. הסרטן נבדל משאר בעלי החיים בהליכתו לצדדים. אדם פנה לאנשים ואמר: \"ְו ַע ָתה ִאם ֶי ְש ֶכם ֹע ִשים ֶח ֶסד ֶו ֱא ֶמת... ַהִגידּו ִלי ְו ִאם לֹא ַהִגידּו ִלי ְו ֶא ְפֶנה ַעל ָי ִמ ין אֹו ַעל ְשמֹאל\". מה הייתה הבקשה שביקש מהם? _______________________________________ 47. מיהו המנהיג הקורא לעם: \" ִל ְש ֹמר ְו ַל ֲעשֹות ֵאת ָכל ַה ָכתּוב ְב ֵס ֶפר תֹוַרת ֹמ ֶשה ְל ִב ְל ִתי סּור ִמ ֶמנּו ָי ִמין ּו ְשמֹאול\"? _________________ ַאְׁר ֵיה 48. מי האשים את העם: \" ָא ְכ ָלה ַחְר ְב ֶכם ְנ ִבי ֵאי ֶכם ְכ ַאְר ֵיה ַמ ְש ִחית\"? 49. מסופר על אדם שסירב לעשות מעשה מסוים, ובעקבות כך נאמר לו: \" ַי ַען ֲא ֶשר לֹא ָש ַמ ְע ָת ְבקֹול ה' ִהְנָך הֹו ֵלְך ֵמ ִא ִתי ְו ִה ְכָך ָה ַאְר ֵיה\". מהו המעשה אותו סירב לעשות? ְׁבתּו ָלה 50. מפני איזו רעה קורא הנביא: \" ֱא ִלי ִכ ְבתּו ָלה ֲחגַֻרת ַשק ַעל ַב ַעל ְנעּוֶרי ָה\"? חלק שלישי: שאלות מילואים (שובר שוויון ) שים לב! הניקוד בשאל ות 62-51 ישמש אך ורק להכרעה, אם זו תידרש. ציין את שם האיש לפי תוארו: 51. ֲא ִבי ָכל ֹת ֵפש ִכנֹור ְועּו ָגב _____________________ 52. ַא ִביר ָה ֹר ִעים ֲא ֶשר ְל ָֹשאּול _____________________ 53. ֲא ֶשר ַעל ַה ַבִית ְב ִתְר ָצה _____________________ 54. ַהָנ ִביא ֲא ֶשר ִמ ַגת ַה ֵח ֶפר_____________________ 55. ֹכ ֵהן ֵבית ֵאל _____________________ 56. ֶמ ֶלְך ְכַנ ַען ֲא ֶשר ָמ ַלְך ְב ָחצֹור _____________________ 57. ִמ ְשֶנה ַל ֶמ ֶלְך ֲא ַח ְשֵורֹוש _____________________ 58. ֹס ֵפר ָמ ִהיר ְבתֹוַרת ֹמ ֶשה _____________________ 59. ַּפ ַחת ְיהּו ָדה _____________________ 60. ָּפ ִקיד ָנִגיד ְב ֵבית ה' _____________________ 61. ֹש ֵמר ַה ַּפְר ֵדס ֲא ֶשר ַל ֶמ ֶלְך _____________________ 62. ַשר ְצ ָבא ֲה ַדְד ֶע ֶזר _____________________ בהצלחה",
+          "prompt": "מה קנה האדם שהעיד על עצמו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/fnam2022.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 option count 2; q01 no correct_option; q02 option count 2; q02 no correct_option; q03 option count 2; q03 no correct_option; q04 option count 2; q04 no correct_option; q05 option count 2; q05 no correct_option; q06 option count 2; q06 no correct_option; q07 option count 2; q07 no correct_option; q08 option count 2; q08 no correct_option; q09 option count 2; q09 no correct_option; q10 option count 2; q10 no correct_option; q11 option count 2; q11 no correct_option; q12 option count 2; q12 no correct_option; q13 option count 2; q13 no correct_option; q15 option count 2; q15 no correct_option; q16 option count 2; q16 no correct_option; q17 option count 2; q17 no correct_option; q19 option count 2; q19 no correct_option; q20 option count 2; q20 no correct_option; q21 option count 2; q21 no correct_option; q22 option count 2; q22 no correct_option; q23 option count 2; q23 no correct_option; q24 option count 2; q24 no correct_option; q25 option count 2; q25 no correct_option; q26 option count 2; q26 no correct_option; q27 option count 2; q27 no correct_option; q28 option count 2; q28 no correct_option; q29 option count 2; q29 no correct_option; q30 option count 2; q30 no correct_option; q31 option count 0; q31 no correct_option"
+  }
+}

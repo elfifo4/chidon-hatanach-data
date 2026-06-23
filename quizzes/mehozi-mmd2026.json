@@ -1,0 +1,3003 @@
+{
+  "questionnaire_id": "mehozi-mmd2026",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/mehozi-mmd2026.pdf",
+  "metadata": {
+    "contest_year_civil": 2026,
+    "contest_year_hebrew": "תשפ\"ו",
+    "track": "mamlachti_dati",
+    "stage": "district",
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": "אריאל וייס",
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": 90,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 51,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": "בִּשְׁנַת שֵׁשׁ מֵאוֹת שָׁנָה לְחַיֵּי נֹחַ בַּחֹדֶשׁ הַשֵּׁנִי בְּשִׁבְעָה עָשָׂר יוֹם לַחֹדֶשׁ בַּיּוֹם הַזֶּה נִבְקְעוּ כׇּל מַעְיְנֹת*(בספרי ספרד ואשכנז מַעְיְנוֹת) תְּהוֹם רַבָּה וַאֲרֻבֹּת הַשָּׁמַיִם נִפְתָּחוּ",
+          "prompt": "\" ְּב ִש ְּב ָָֽעה ָע ָשר יֹום ַל ֹח ֶדש ַבּיֹום ַה ֶזה ִנ ְּב ְּקעּו ָכל ַמ ְּעְּינֹות ְּּתהֹום ַר ָבה ַו ֲא ֻר ֹבת ַה ָש ַמִים ִנ ְּפ ָּתחּו\" - באיזה חודש נבקעו התהומות?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הראשון"
+            },
+            {
+              "key": "ב",
+              "text": "השני"
+            },
+            {
+              "key": "ג",
+              "text": "השביעי"
+            },
+            {
+              "key": "ד",
+              "text": "העשירי"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "ז",
+              "verse": "יא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "השני",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "ז",
+                  "verse": "יא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": "וַתִּבָּקַע הָעִיר וְכׇל אַנְשֵׁי הַמִּלְחָמָה&thinsp;&thinsp;הַלַּיְלָה דֶּרֶךְ שַׁעַר&thinsp; בֵּין הַחֹמֹתַיִם אֲשֶׁר עַל גַּן הַמֶּלֶךְ וְכַשְׂדִּים עַל הָעִיר סָבִיב וַיֵּלֶךְ דֶּרֶךְ הָעֲרָבָה",
+          "prompt": "\" ַו ִּת ָב ַקע ָה ִעיר ְּו ָכל ַא ְּנ ֵׁשי ַה ִמ ְּל ָח ָמה ַה ַלְּי ָלה ֶד ֶרְך ַש ַער ֵׁבין ַה ֹח ֹמ ַתִים ֲא ֶשר ַעל ַגן ַה ֶמ ֶלְך ְּו ַכ ְּשִדים ַעל ָה ִעיר ָס ִביב\" - באיזה יום נבקעה העיר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בשבעה לחודש"
+            },
+            {
+              "key": "ב",
+              "text": "בשמונה לחודש"
+            },
+            {
+              "key": "ג",
+              "text": "בתשעה לחודש"
+            },
+            {
+              "key": "ד",
+              "text": "בעשור לחודש"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "כה",
+              "verse": "ד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "בתשעה לחודש",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "כה",
+                  "verse": "ד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": null,
+          "prompt": "\"ַו ִּת ָב ַקע ָה ָא ֶרץ ְּבקֹו ָלם\" - באיזה קול נבקעה הארץ?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "קול השמחה בהמלכת שלמה"
+            },
+            {
+              "key": "ב",
+              "text": "קול השמחה בהמלכת יואש"
+            },
+            {
+              "key": "ג",
+              "text": "קול הפחד במחנה הפלשתים"
+            },
+            {
+              "key": "ד",
+              "text": "קול הפחד במחנה ארם 2"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "א",
+              "verse": "מ",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "קול השמחה בהמלכת שלמה",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "א",
+                  "verse": "מ"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": null,
+          "prompt": "\"ַוְּי ִהי ְּכ ַכֹּלתֹו ְּל ַד ֵׁבר ֵׁאת ָכל ַהְּד ָבִרים ָה ֵׁא ֶלה ַו ִּת ָב ַקע ָה ֲא ָד ָמה ֲא ֶשר ַּת ְּח ֵּׁתי ֶהם\" - באיזה מדבר נבקעה האדמה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מדבר סין"
+            },
+            {
+              "key": "ב",
+              "text": "מדבר פארן"
+            },
+            {
+              "key": "ג",
+              "text": "מדבר שור"
+            },
+            {
+              "key": "ד",
+              "text": "מדבר צן"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "טז",
+              "verse": "לא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "מדבר פארן",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "טז",
+                  "verse": "לא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": "וַיְהִי כַּאֲשֶׁר כִּלּוּ הַגְּמַלִּים לִשְׁתּוֹת וַיִּקַּח הָאִישׁ נֶזֶם זָהָב בֶּקַע מִשְׁקָלוֹ וּשְׁנֵי צְמִידִים עַל יָדֶיהָ עֲשָׂרָה זָהָב מִשְׁקָלָם",
+          "prompt": "ממה היה עשוי התכשיט אשר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "זהב"
+            },
+            {
+              "key": "ב",
+              "text": "כסף"
+            },
+            {
+              "key": "ג",
+              "text": "נחושת"
+            },
+            {
+              "key": "ד",
+              "text": "לא ידוע"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "כד",
+              "verse": "כב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "זהב",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "כד",
+                  "verse": "כב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "וְאֵלֶּה נֹאדוֹת הַיַּיִן אֲשֶׁר מִלֵּאנוּ חֲדָשִׁים וְהִנֵּה הִתְבַּקָּעוּ וְאֵלֶּה שַׂלְמוֹתֵינוּ וּנְעָלֵינוּ בָּלוּ מֵרֹב הַדֶּרֶךְ מְאֹד",
+          "prompt": "על מה אומרים הגבעונים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הנעליים שברגליהם"
+            },
+            {
+              "key": "ב",
+              "text": "השלמות שעליהם"
+            },
+            {
+              "key": "ג",
+              "text": "כיכרות הלחם"
+            },
+            {
+              "key": "ד",
+              "text": "נאדות היין"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "ט",
+              "verse": "יג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "נאדות היין",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "ט",
+                  "verse": "יג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": "עֶרְיָה תֵעוֹר קַשְׁתֶּךָ שְׁבֻעוֹת מַטּוֹת אֹמֶר סֶלָה נְהָרוֹת תְּבַקַּע אָרֶץ",
+          "prompt": "לפי חבקוק - מה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הרים"
+            },
+            {
+              "key": "ב",
+              "text": "עמקים"
+            },
+            {
+              "key": "ג",
+              "text": "נהרות"
+            },
+            {
+              "key": "ד",
+              "text": "תהומות 3"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "חבקוק",
+              "chapter": "ג",
+              "verse": "ט",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "נהרות",
+              "source_refs": [
+                {
+                  "book": "חבקוק",
+                  "chapter": "ג",
+                  "verse": "ט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": "וְנָמַסּוּ הֶהָרִים תַּחְתָּיו וְהָעֲמָקִים יִתְבַּקָּעוּ כַּדּוֹנַג מִפְּנֵי הָאֵשׁ כְּמַיִם מֻגָּרִים בְּמוֹרָד",
+          "prompt": "ולפי מיכה - מה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הרים"
+            },
+            {
+              "key": "ב",
+              "text": "עמקים"
+            },
+            {
+              "key": "ג",
+              "text": "נהרות"
+            },
+            {
+              "key": "ד",
+              "text": "תהומות"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מיכה",
+              "chapter": "א",
+              "verse": "ד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "עמקים",
+              "source_refs": [
+                {
+                  "book": "מיכה",
+                  "chapter": "א",
+                  "verse": "ד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": "וַיֵּרְדוּ (שלשים) [שְׁלֹשָׁה] מֵהַשְּׁלֹשִׁים רֹאשׁ וַיָּבֹאוּ אֶל קָצִיר אֶל דָּוִד אֶל מְעָרַת עֲדֻלָּם וְחַיַּת פְּלִשְׁתִּים חֹנָה בְּעֵמֶק רְפָאִים וְדָוִד אָז בַּמְּצוּדָה וּמַצַּב פְּלִשְׁתִּים אָז בֵּית לָחֶם וַיִּתְאַוֶּה דָוִד וַיֹּאמַר מִי יַשְׁקֵנִי מַיִם מִבֹּאר בֵּית לֶחֶם אֲשֶׁר בַּשָּׁעַר&nbsp;{ס}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; וַיִּבְקְעוּ שְׁלֹשֶׁת הַגִּבֹּרִים בְּמַחֲנֵה פְלִשְׁתִּים וַיִּשְׁאֲבוּ מַיִם מִבֹּאר בֵּית לֶחֶם אֲשֶׁר בַּשַּׁעַר וַיִּשְׂאוּ וַיָּבִאוּ אֶל דָּוִד וְלֹא אָבָה לִשְׁתּוֹתָם וַיַּסֵּךְ אֹתָם לַיהֹוָה",
+          "prompt": "\" ַוִּי ְּב ְּקעּו ְּשֹל ֶשת ַה ִג ֹבִרים ְּב ַמ ֲח ֵׁנה ְּפ ִל ְּש ִּתים ַוִּי ְּש ֲאבּו ַמִים ִמבֹאר ֵׁבית ֶל ֶחם ֲא ֶשר ַב ַש ַער ַוִּי ְּשאּו ַוָּי ִבאּו ֶאל ָדִוד\" - היכן היה אז דוד?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מערת ע ֻדלם"
+            },
+            {
+              "key": "ב",
+              "text": "מצפה מואב"
+            },
+            {
+              "key": "ג",
+              "text": "עמק רפאים"
+            },
+            {
+              "key": "ד",
+              "text": "עיר דוד"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "כג",
+              "verse": "יג-טז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "מערת ע ֻדלם",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "כג",
+                  "verse": "יג-טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": "אָז יַכֶּה מְנַחֵם אֶת תִּפְסַח וְאֶת כׇּל אֲשֶׁר בָּהּ וְאֶת גְּבוּלֶיהָ מִתִּרְצָה כִּי לֹא פָתַח וַיַּךְ אֵת כׇּל הֶהָרוֹתֶיהָ בִּקֵּעַ&nbsp;{פ}",
+          "prompt": "על איזה מלך שהיכה עיר נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מנחם בן גדי"
+            },
+            {
+              "key": "ב",
+              "text": "פקח בן רמליהו"
+            },
+            {
+              "key": "ג",
+              "text": "חזאל"
+            },
+            {
+              "key": "ד",
+              "text": "תגלת פלאסר ִכי ָע ָפר ַא ָּתה ְּו ֶאל ָע ָפר ָּתשּוב"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "טו",
+              "verse": "טז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "מנחם בן גדי",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "טו",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": "כִּי מִקְרֶה בְנֵי הָאָדָם וּמִקְרֶה הַבְּהֵמָה וּמִקְרֶה אֶחָד לָהֶם כְּמוֹת זֶה כֵּן מוֹת זֶה וְרוּחַ אֶחָד לַכֹּל וּמוֹתַר הָאָדָם מִן הַבְּהֵמָה אָיִן כִּי הַכֹּל הָבֶל הַכֹּל הוֹלֵךְ אֶל מָקוֹם אֶחָד הַכֹּל הָיָה מִן הֶעָפָר וְהַכֹּל שָׁב אֶל הֶעָפָר",
+          "prompt": "בלשון דומה מתבטא קהלת?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אין יתרון לחכם על הכסיל 4"
+            },
+            {
+              "key": "ב",
+              "text": "אין יתרון לצדיק על הרשע"
+            },
+            {
+              "key": "ג",
+              "text": "אין יתרון לאדם על הבהמה"
+            },
+            {
+              "key": "ד",
+              "text": "אין יתרון לחיים על המתים"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "קהלת",
+              "chapter": "ג",
+              "verse": "יט-כ",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "אין יתרון לאדם על הבהמה",
+              "source_refs": [
+                {
+                  "book": "קהלת",
+                  "chapter": "ג",
+                  "verse": "יט-כ"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": "וַיֵּלֶךְ דָּוִד וַאֲנָשָׁיו בַּדָּרֶךְ&nbsp;{ס}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;וְשִׁמְעִי הֹלֵךְ בְּצֵלַע הָהָר לְעֻמָּתוֹ הָלוֹךְ וַיְקַלֵּל וַיְסַקֵּל בָּאֲבָנִים לְעֻמָּתוֹ וְעִפַּר בֶּעָפָר&nbsp;{פ}",
+          "prompt": "על אדם אחד מסופר ש?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "להביע את אבלו"
+            },
+            {
+              "key": "ב",
+              "text": "להסתיר את זהותו"
+            },
+            {
+              "key": "ג",
+              "text": "להטמין רכוש"
+            },
+            {
+              "key": "ד",
+              "text": "להכות אדם"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "טז",
+              "verse": "יג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "להכות אדם",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "טז",
+                  "verse": "יג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": null,
+          "prompt": "איזו מכה הגיעה ע\"י הכאת עפר הארץ?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כינים"
+            },
+            {
+              "key": "ב",
+              "text": "ארבה"
+            },
+            {
+              "key": "ג",
+              "text": "שתיהן"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחת מהן"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "ח",
+              "verse": "יג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "כינים",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "ח",
+                  "verse": "יג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q14",
+          "display_number": "14",
+          "narrative_context": "וְשַׂמְתִּי אֶת זַרְעֲךָ כַּעֲפַר הָאָרֶץ אֲשֶׁר&thinsp; אִם יוּכַל אִישׁ לִמְנוֹת אֶת עֲפַר הָאָרֶץ גַּם זַרְעֲךָ יִמָּנֶה",
+          "prompt": "מתי נאמר לאברהם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לפני שיצא מחרן לארץ כנען"
+            },
+            {
+              "key": "ב",
+              "text": "לאחר פרידתו מלוט"
+            },
+            {
+              "key": "ג",
+              "text": "כשירד למצרים מפני הרעב"
+            },
+            {
+              "key": "ד",
+              "text": "במעמד הברית בין הבתרים 5"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "יג",
+              "verse": "טז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "לאחר פרידתו מלוט",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "יג",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q15",
+          "display_number": "15",
+          "narrative_context": "יַעַן אֲשֶׁר הֲרִימֹתִיךָ מִן הֶעָפָר וָאֶתֶּנְךָ נָגִיד עַל עַמִּי יִשְׂרָאֵל וַתֵּלֶךְ&thinsp; בְּדֶרֶךְ יָרׇבְעָם וַתַּחֲטִא אֶת עַמִּי יִשְׂרָאֵל לְהַכְעִיסֵנִי בְּחַטֹּאתָם",
+          "prompt": "איזה נביא אמר לאיזה מלך בשם ה'?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "נתן לדוד"
+            },
+            {
+              "key": "ב",
+              "text": "אחיה לירבעם"
+            },
+            {
+              "key": "ג",
+              "text": "יהוא לבעשא"
+            },
+            {
+              "key": "ד",
+              "text": "אליהו לאחאב"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "טז",
+              "verse": "ב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "יהוא לבעשא",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "טז",
+                  "verse": "ב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q16",
+          "display_number": "16",
+          "narrative_context": "מֵקִים מֵעָפָר דָּל מֵאַשְׁפֹּת יָרִים אֶבְיוֹן לְהוֹשִׁיב עִם נְדִיבִים וְכִסֵּא כָבוֹד יַנְחִלֵם כִּי לַיהֹוָה מְצֻקֵי אֶרֶץ וַיָּשֶׁת עֲלֵיהֶם תֵּבֵל חָכָם בְּעֵינָיו אִישׁ עָשִׁיר וְדַל מֵבִין יַחְקְרֶנּוּ",
+          "prompt": "חנה אומרת בתפילתה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "נֹו ֵׁתן ָל … ֵׁאין ַמ ְּחסֹור ּו ַמ ְּע ִלים ֵׁעי ָניו ַרב ְּמ ֵׁארֹות"
+            },
+            {
+              "key": "ב",
+              "text": "טֹוב … הֹו ֵׁלְך ְּב ֻתמֹו ֵׁמ ִע ֵׁקש ְּד ָר ַכִים ְּוהּוא ָע ִשיר"
+            },
+            {
+              "key": "ג",
+              "text": "ַקח ִב ְּגדֹו ִכי ָע ַרב … ּו ְּב ַעד ָנ ְּכִרָּיה ַח ְּב ֵׁלהּו"
+            },
+            {
+              "key": "ד",
+              "text": "ָח ָכם ְּב ֵׁעי ָניו ִאיש ָע ִשיר ְּו … ֵׁמ ִבין ַי ְּח ְּק ֶרנּו"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל א",
+              "chapter": "ב",
+              "verse": "ח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "משלי",
+              "chapter": "כח",
+              "verse": "יא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ָח ָכם ְּב ֵׁעי ָניו ִאיש ָע ִשיר ְּו … ֵׁמ ִבין ַי ְּח ְּק ֶרנּו",
+              "source_refs": [
+                {
+                  "book": "שמואל א",
+                  "chapter": "ב",
+                  "verse": "ח"
+                },
+                {
+                  "book": "משלי",
+                  "chapter": "כח",
+                  "verse": "יא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q17",
+          "display_number": "17",
+          "narrative_context": "מְזֵי רָעָב וּלְחֻמֵי רֶשֶׁף וְקֶטֶב מְרִירִי&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;וְשֶׁן בְּהֵמֹת אֲשַׁלַּח בָּם עִם חֲמַת זֹחֲלֵי עָפָר&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "prompt": "בשירת האזינו - לתיאור מה מזכיר משה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "העונש שיבוא על עם ישראל"
+            },
+            {
+              "key": "ב",
+              "text": "העונש שיבוא על אויבי ישראל"
+            },
+            {
+              "key": "ג",
+              "text": "תנאי השטח במדבר סיני"
+            },
+            {
+              "key": "ד",
+              "text": "תנאי השטח בסדום ועמורה"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "דברים",
+              "chapter": "לב",
+              "verse": "כד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "העונש שיבוא על עם ישראל",
+              "source_refs": [
+                {
+                  "book": "דברים",
+                  "chapter": "לב",
+                  "verse": "כד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q18",
+          "display_number": "18",
+          "narrative_context": "וַיִּשְׁלַח אֵלָיו בֶּן הֲדַד וַיֹּאמֶר כֹּה יַעֲשׂוּן לִי אֱלֹהִים וְכֹה יוֹסִפוּ אִם יִשְׂפֹּק עֲפַר שֹׁמְרוֹן לִשְׁעָלִים לְכׇל הָעָם אֲשֶׁר בְּרַגְלָי",
+          "prompt": "בדברי הרהב שמשמיע בן הדד - לתיאור מה הוא מזכיר את?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "את מראה העיר שומרון לאחר שיכבוש אותה"
+            },
+            {
+              "key": "ב",
+              "text": "את מעמדו הנקלה של מלך שומרון בעיניו 6"
+            },
+            {
+              "key": "ג",
+              "text": "את מצבה הדל של שומרון בעקבות הרעב"
+            },
+            {
+              "key": "ד",
+              "text": "את חולשתה של שומרון לעומת צבא ארם"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "כ",
+              "verse": "י",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "את חולשתה של שומרון לעומת צבא ארם",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "כ",
+                  "verse": "י"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q19",
+          "display_number": "19",
+          "narrative_context": "כִּי לֹא הִשְׁאִיר לִיהוֹאָחָז עָם כִּי אִם חֲמִשִּׁים פָּרָשִׁים וַעֲשָׂרָה רֶכֶב וַעֲשֶׂרֶת אֲלָפִים רַגְלִי כִּי אִבְּדָם מֶלֶךְ אֲרָם וַיְשִׂמֵם כֶּעָפָר לָדֻשׁ",
+          "prompt": "השלם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "10 ָפ ָר ִשים ַו -50 ֶר ֶכב ַו -000,10 ַר ְּג ִלי"
+            },
+            {
+              "key": "ב",
+              "text": "50 ָפ ָר ִשים ַו -10 ֶר ֶכב ַו -000,10 ַר ְּג ִלי"
+            },
+            {
+              "key": "ג",
+              "text": "10 ָפ ָר ִשים ַו -10 ֶר ֶכב ַו -000,50 ַר ְּג ִלי"
+            },
+            {
+              "key": "ד",
+              "text": "50 ָפ ָר ִשים ַו -50 ֶר ֶכב ַו -000,10 ַר ְּג ִלי"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "יג",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "50 ָפ ָר ִשים ַו -10 ֶר ֶכב ַו -000,10 ַר ְּג ִלי",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "יג",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q20",
+          "display_number": "20",
+          "narrative_context": "וְכׇל הַבְּאֵרֹת אֲשֶׁר חָפְרוּ עַבְדֵי אָבִיו בִּימֵי אַבְרָהָם אָבִיו סִתְּמוּם פְּלִשְׁתִּים וַיְמַלְאוּם עָפָר",
+          "prompt": "מי הם חופרי הבארות עליהם מסופר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עבדי אברהם"
+            },
+            {
+              "key": "ב",
+              "text": "עבדי יצחק"
+            },
+            {
+              "key": "ג",
+              "text": "אברהם ויצחק"
+            },
+            {
+              "key": "ד",
+              "text": "אבימלך ופיכל"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "כו",
+              "verse": "טו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "עבדי אברהם",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "כו",
+                  "verse": "טו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q21",
+          "display_number": "21",
+          "narrative_context": "וַיִּקְרַע יְהוֹשֻׁעַ שִׂמְלֹתָיו וַיִּפֹּל עַל פָּנָיו אַרְצָה לִפְנֵי אֲרוֹן יְהֹוָה עַד הָעֶרֶב הוּא וְזִקְנֵי יִשְׂרָאֵל וַיַּעֲלוּ עָפָר עַל רֹאשָׁם",
+          "prompt": "\" ַוִּי ְּק ַרע ְּיהֹו ֻש ַע ִש ְּמֹל ָתיו ַוִּי ֹפל ַעל ָפ ָניו ַאְּר ָצה ִל ְּפ ֵׁני ֲארֹון ה' ַעד ָה ֶע ֶרב הּוא ְּו ִז ְּק ֵׁני ִי ְּש ָר ֵׁאל ַוַּי ֲעלּו ָע ָפר ַעל רֹא ָשם\" - היכן היו יהושע וזקני ישראל?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ביריחו"
+            },
+            {
+              "key": "ב",
+              "text": "בגלגל"
+            },
+            {
+              "key": "ג",
+              "text": "במקדה"
+            },
+            {
+              "key": "ד",
+              "text": "בשכם 7"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "ז",
+              "verse": "ו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ביריחו",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "ז",
+                  "verse": "ו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q22",
+          "display_number": "22",
+          "narrative_context": "וַיַּעַן אַבְרָהָם וַיֹּאמַר הִנֵּה נָא הוֹאַלְתִּי לְדַבֵּר אֶל אֲדֹנָי וְאָנֹכִי עָפָר וָאֵפֶר",
+          "prompt": "בתחנוניו להצלת סדום, מבקש אברהם בכל פעם לקבוע את רף ההצלה במספר קטן יותר של צדיקים. איזו מן הפעמים נפתחת כך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אּו ַלי ֵׁיש ֲח ִמ ִשים ַצִדי ִקם ְּבתֹוְך ָה ִעיר"
+            },
+            {
+              "key": "ב",
+              "text": "אּו ַלי ַי ְּח ְּסרּון ֲח ִמ ִשים ַה ַצִדי ִקם ֲח ִמ ָשה"
+            },
+            {
+              "key": "ג",
+              "text": "אּו ַלי ִי ָמ ְּצאּון ָשם ַאְּר ָב ִעים"
+            },
+            {
+              "key": "ד",
+              "text": "אּו ַלי ִי ָמ ְּצאּון ָשם ֲע ָש ָרה ֶזה ְּל ֻע ַמת ֶזה"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "יח",
+              "verse": "כז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "אּו ַלי ַי ְּח ְּסרּון ֲח ִמ ִשים ַה ַצִדי ִקם ֲח ִמ ָשה",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "יח",
+                  "verse": "כז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q23",
+          "display_number": "23",
+          "narrative_context": null,
+          "prompt": "דוד ברח מקעילה מפני שאול ומירושלים מפני אבשלום. מה משותף לשתי הפעמים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הוא שאל לפני כן באפוד אם לברוח"
+            },
+            {
+              "key": "ב",
+              "text": "אדם הגיע להגיד לו שעליו לברוח"
+            },
+            {
+              "key": "ג",
+              "text": "מספר האנשים הבורחים איתו היה 600"
+            },
+            {
+              "key": "ד",
+              "text": "הוא ברח אל המדבר ולא אל עיר אחרת"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל א",
+              "chapter": "כג",
+              "verse": "יד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל ב",
+              "chapter": "טו",
+              "verse": "כח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "הוא ברח אל המדבר ולא אל עיר אחרת",
+              "source_refs": [
+                {
+                  "book": "שמואל א",
+                  "chapter": "כג",
+                  "verse": "יד"
+                },
+                {
+                  "book": "שמואל ב",
+                  "chapter": "טו",
+                  "verse": "כח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q24",
+          "display_number": "24",
+          "narrative_context": null,
+          "prompt": "שלושה מבניו של יאשיהו מלכו על יהודה. מה לא משותף לשניים מהם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "צדקיהו ויהואחז בני אותה האם"
+            },
+            {
+              "key": "ב",
+              "text": "צדקיהו ויהואחז מתו ברבלה"
+            },
+            {
+              "key": "ג",
+              "text": "צדקיהו ויהויקים קיבלו שם חדש"
+            },
+            {
+              "key": "ד",
+              "text": "צדקיהו ויהויקים מלכו אותו מספר של שנים 8"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "כג",
+              "verse": "לא-לו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "מלכים ב",
+              "chapter": "כד",
+              "verse": "יז-יח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "צדקיהו ויהואחז מתו ברבלה",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "כג",
+                  "verse": "לא-לו"
+                },
+                {
+                  "book": "מלכים ב",
+                  "chapter": "כד",
+                  "verse": "יז-יח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q25",
+          "display_number": "25",
+          "narrative_context": "וַתֵּרֶא הָאָתוֹן אֶת מַלְאַךְ יְהֹוָה נִצָּב בַּדֶּרֶךְ וְחַרְבּוֹ שְׁלוּפָה בְּיָדוֹ וַתֵּט הָאָתוֹן מִן הַדֶּרֶךְ וַתֵּלֶךְ בַּשָּׂדֶה וַיַּךְ בִּלְעָם אֶת הָאָתוֹן לְהַטֹּתָהּ הַדָּרֶךְ וַיְהִי בִּהְיוֹת יְהוֹשֻׁעַ בִּירִיחוֹ וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה אִישׁ עֹמֵד לְנֶגְדּוֹ וְחַרְבּוֹ שְׁלוּפָה בְּיָדוֹ וַיֵּלֶךְ יְהוֹשֻׁעַ אֵלָיו וַיֹּאמֶר לוֹ הֲלָנוּ אַתָּה אִם לְצָרֵינוּ וַיֹּאמֶר&thinsp; לֹא כִּי אֲנִי שַׂר צְבָא יְהֹוָה עַתָּה בָאתִי וַיִּפֹּל יְהוֹשֻׁעַ אֶל פָּנָיו אַרְצָה וַיִּשְׁתָּחוּ וַיֹּאמֶר לוֹ מָה אֲדֹנִי מְדַבֵּר אֶל עַבְדּוֹ",
+          "prompt": "על שני אנשים מסופר שפגשו מלאך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "האדם שאל את המלאך האם הוא מלאך"
+            },
+            {
+              "key": "ב",
+              "text": "המלאך שאל את האדם לאן הוא הולך"
+            },
+            {
+              "key": "ג",
+              "text": "האדם השתחווה למלאך"
+            },
+            {
+              "key": "ד",
+              "text": "המלאך בירך את האדם"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "כב",
+              "verse": "כג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "יהושע",
+              "chapter": "ה",
+              "verse": "יג-יד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "האדם השתחווה למלאך",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "כב",
+                  "verse": "כג"
+                },
+                {
+                  "book": "יהושע",
+                  "chapter": "ה",
+                  "verse": "יג-יד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q26",
+          "display_number": "26",
+          "narrative_context": "ִכי ַגם ָנ ִביא ַגם ֹכ ֵׁהן ָח ֵׁנפּו\" - מי בתקופתו היה גם נביא שקר וגם כהן",
+          "prompt": "ירמיהו הנביא אומר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "פשחור בן אמר"
+            },
+            {
+              "key": "ב",
+              "text": "חנניה בן עזור"
+            },
+            {
+              "key": "ג",
+              "text": "צפניה בן מעשיה"
+            },
+            {
+              "key": "ד",
+              "text": "שמעיה הנחלמי"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "ירמיהו",
+              "chapter": "כ",
+              "verse": "פסוקים",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "פשחור בן אמר",
+              "source_refs": [
+                {
+                  "book": "ירמיהו",
+                  "chapter": "כ",
+                  "verse": "פסוקים"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q27",
+          "display_number": "27",
+          "narrative_context": null,
+          "prompt": "ומי מבין נביאי האמת הבאים הוכיח את מלך יהודה על כך שנשען על מלך נוכרי במקום על ה'?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ֲע ַזְּרָי הּו ֶבן עֹו ֵׁדד"
+            },
+            {
+              "key": "ב",
+              "text": "ֱא ִלי ֶע ֶזר ֶבן ֹד ָדָוהּו"
+            },
+            {
+              "key": "ג",
+              "text": "ֵׁיהּוא ֶבן ֲח ָנ ִני"
+            },
+            {
+              "key": "ד",
+              "text": "ֲח ָנ ִני ָה ֹר ֶאה"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "דברי הימים ב",
+              "chapter": "טז",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ֲח ָנ ִני ָה ֹר ֶאה",
+              "source_refs": [
+                {
+                  "book": "דברי הימים ב",
+                  "chapter": "טז",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q28",
+          "display_number": "28",
+          "narrative_context": null,
+          "prompt": "4 פעמים מוזכר פחד ה' בדברי הימים. איזו מן הפעמים לא אמורה בימי יהושפט? 9",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ַוְּי ִהי ַפ ַחד ֱאֹל ִהים ַעל ָכל ַמ ְּמ ְּלכֹות ָה ֲא ָרצֹות ְּב ָש ְּמ ָעם ִכי ִנ ְּל ַחם ה' ִעם אֹוְּי ֵׁבי ִי ְּש ָר ֵׁאל"
+            },
+            {
+              "key": "ב",
+              "text": "ַוְּי ִהי ַפ ַחד ה' ַעל ָכל ַמ ְּמ ְּלכֹות ָה ֲא ָרצֹות ֲא ֶשר ְּס ִביבֹות ְּיהּו ָדה ְּולֹא ִנ ְּל ֲחמּו ִעם …"
+            },
+            {
+              "key": "ג",
+              "text": "ְּו ַע ָּתה ְּי ִהי ַפ ַחד ה' ֲע ֵׁלי ֶכם ִש ְּמרּו ַו ֲעשּו ִכי ֵׁאין ִעם ה' ֱאֹל ֵׁהינּו ַעְּו ָלה ּו ַמשֹא ָפ ִנים"
+            },
+            {
+              "key": "ד",
+              "text": "ַוַּיכּו ֵׁאת ָכל ֶה ָעִרים… ִכי ָהָיה ַפ ַחד ה' ֲע ֵׁלי ֶהם ַוָּי ֹבזּו ֶאת ָכל ֶה ָעִרים"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "דברי הימים ב",
+              "chapter": "יד",
+              "verse": "יג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ַוַּיכּו ֵׁאת ָכל ֶה ָעִרים… ִכי ָהָיה ַפ ַחד ה' ֲע ֵׁלי ֶהם ַוָּי ֹבזּו ֶאת ָכל ֶה ָעִרים",
+              "source_refs": [
+                {
+                  "book": "דברי הימים ב",
+                  "chapter": "יד",
+                  "verse": "יג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q29",
+          "display_number": "29",
+          "narrative_context": null,
+          "prompt": "לצד שמו הרשמי - עשו, הוא נקרא בשני שמות נוספים - אדום ושעיר. באילו מן השמות הללו לא קורא לו עובדיה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עשו"
+            },
+            {
+              "key": "ב",
+              "text": "אדום"
+            },
+            {
+              "key": "ג",
+              "text": "שעיר"
+            },
+            {
+              "key": "ד",
+              "text": "בכולם הוא קורא לו"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "עובדיה",
+              "chapter": "א",
+              "verse": "ח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "שעיר",
+              "source_refs": [
+                {
+                  "book": "עובדיה",
+                  "chapter": "א",
+                  "verse": "ח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q30",
+          "display_number": "30",
+          "narrative_context": null,
+          "prompt": "על איזה אירוע נוכל לקרוא גם במגילת רות וגם במגילת אסתר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אישה יולדת"
+            },
+            {
+              "key": "ב",
+              "text": "אישה מתה"
+            },
+            {
+              "key": "ג",
+              "text": "אישה באה באמצע לילה"
+            },
+            {
+              "key": "ד",
+              "text": "אישה עוזבת בבוקר"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "רות",
+              "chapter": "ג",
+              "verse": "יד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "אסתר",
+              "chapter": "ב,",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "אסתר",
+              "chapter": "יד",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "אישה עוזבת בבוקר",
+              "source_refs": [
+                {
+                  "book": "רות",
+                  "chapter": "ג",
+                  "verse": "יד"
+                },
+                {
+                  "book": "אסתר",
+                  "chapter": "ב,",
+                  "verse": null
+                },
+                {
+                  "book": "אסתר",
+                  "chapter": "יד",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q31",
+          "display_number": "31",
+          "narrative_context": null,
+          "prompt": "שלמה המלך מרבה בתיאורים ריחניים הן בספר משלי והן במגילת שיר השירים. את מה מהבאים הוא מזכיר בשניהם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ְּלבֹו ָנה"
+            },
+            {
+              "key": "ב",
+              "text": "ְּב ָש ִמים"
+            },
+            {
+              "key": "ג",
+              "text": "ֹנ ֶפת 10"
+            },
+            {
+              "key": "ד",
+              "text": "צּוף ֶע ְּג ָלה ְּמ ֻל ָמ ָדה"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "משלי",
+              "chapter": "כז",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "משלי",
+              "chapter": "שיר",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "משלי",
+              "chapter": "השירים",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ֹנ ֶפת 10",
+              "source_refs": [
+                {
+                  "book": "משלי",
+                  "chapter": "כז",
+                  "verse": "ז"
+                },
+                {
+                  "book": "משלי",
+                  "chapter": "שיר",
+                  "verse": null
+                },
+                {
+                  "book": "משלי",
+                  "chapter": "השירים",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q32",
+          "display_number": "32",
+          "narrative_context": "וְהַשִּׁשִּׁי יִתְרְעָם לְעֶגְלָה אֵשֶׁת דָּוִד אֵלֶּה יֻלְּדוּ לְדָוִד בְּחֶבְרוֹן&nbsp;{פ}",
+          "prompt": "אחת מנשי דוד נקראה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אמנון"
+            },
+            {
+              "key": "ב",
+              "text": "שפטיה"
+            },
+            {
+              "key": "ג",
+              "text": "יתרעם"
+            },
+            {
+              "key": "ד",
+              "text": "כלאב"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "ג",
+              "verse": "ה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "יתרעם",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "ג",
+                  "verse": "ה"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q33",
+          "display_number": "33",
+          "narrative_context": "וַיְהִי&thinsp; בַּיּוֹם הַשְּׁבִיעִי וַיֹּאמְרוּ לְאֵשֶׁת שִׁמְשׁוֹן פַּתִּי אֶת אִישֵׁךְ וְיַגֶּד לָנוּ אֶת הַחִידָה פֶּן נִשְׂרֹף אוֹתָךְ וְאֶת בֵּית אָבִיךְ בָּאֵשׁ הַלְיׇרְשֵׁנוּ קְרָאתֶם לָנוּ הֲלֹא",
+          "prompt": "לאשת שמשון לא קראו עגלה, אך כך הוא מכנה אותה -?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "פיתו אותה"
+            },
+            {
+              "key": "ב",
+              "text": "התחננו אליה"
+            },
+            {
+              "key": "ג",
+              "text": "עינו אותה"
+            },
+            {
+              "key": "ד",
+              "text": "איימו עליה"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "יד",
+              "verse": "טו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "איימו עליה",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "יד",
+                  "verse": "טו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q34",
+          "display_number": "34",
+          "narrative_context": null,
+          "prompt": "מה נכון לומר על מלכה של העיר עגלון?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הרגו אותו בתוך מערה"
+            },
+            {
+              "key": "ב",
+              "text": "שרפו את מרכבותיו באש"
+            },
+            {
+              "key": "ג",
+              "text": "תלו אותו על עץ"
+            },
+            {
+              "key": "ד",
+              "text": "הקימו על קברו גל אבנים"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "י",
+              "verse": "כו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "תלו אותו על עץ",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "י",
+                  "verse": "כו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q35",
+          "display_number": "35",
+          "narrative_context": "וַיַּקְרֵב אֶת הַמִּנְחָה לְעֶגְלוֹן מֶלֶךְ מוֹאָב וְעֶגְלוֹן אִישׁ בָּרִיא מְאֹד",
+          "prompt": "במעשה אהוד ועגלון - באיזה שלב של העלילה נמסר לנו הפרט ש?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כשאהוד מגיע בשליחות בני ישראל להקריב לו את המנחה"
+            },
+            {
+              "key": "ב",
+              "text": "כשעגלון קם מעל הכיסא לכבוד דבר האלהים שבפי אהוד"
+            },
+            {
+              "key": "ג",
+              "text": "כשהחרב נבלעת במלואה בבטן עגלון ולא נשלפת החוצה"
+            },
+            {
+              "key": "ד",
+              "text": "כשעבדי עגלון מתמהמהים ומחכים עד בוש מחוץ לעלייה"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "ג",
+              "verse": "יז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "כשאהוד מגיע בשליחות בני ישראל להקריב לו את המנחה",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "ג",
+                  "verse": "יז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q36",
+          "display_number": "36",
+          "narrative_context": null,
+          "prompt": "בתפילתו לה' שיסלח לעם על חטא העגל, איזו טענה לא מעלה משה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "המצרים יאמרו שה' הוציא את העם ממצרים \" ְּל ַכֹּל ָתם ֵׁמ ַעל ְּפ ֵׁני ָָֽה ֲא ָד ָמה\""
+            },
+            {
+              "key": "ב",
+              "text": "הגוים יאמרו כי \" ִמ ִב ְּל ִּתי ְּי ֹכ ֶלת ה'\" להביא את העם אל הארץ הוא הרג אותם"
+            },
+            {
+              "key": "ג",
+              "text": "השבועה שנשבע ה' לאבות להרבות את זרעם \" ְּככֹו ְּכ ֵׁבי ַה ָש ָמִים\""
+            },
+            {
+              "key": "ד",
+              "text": "השבועה שנשבע ה' לאבות לתת לזרעם את הארץ \"ְּו ָנ ֲחלּו ְּל ֹע ָלם\""
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "לב",
+              "verse": "יב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "במדבר",
+              "chapter": "יד",
+              "verse": "טז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "הגוים יאמרו כי \" ִמ ִב ְּל ִּתי ְּי ֹכ ֶלת ה'\" להביא את העם אל הארץ הוא הרג אותם",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "לב",
+                  "verse": "יב"
+                },
+                {
+                  "book": "במדבר",
+                  "chapter": "יד",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q37",
+          "display_number": "37",
+          "narrative_context": "רַק חֲטָאֵי יָרׇבְעָם בֶּן נְבָט אֲשֶׁר הֶחֱטִיא אֶת יִשְׂרָאֵל לֹא סָר יֵהוּא מֵאַחֲרֵיהֶם עֶגְלֵי הַזָּהָב אֲשֶׁר בֵּית אֵל וַאֲשֶׁר בְּדָן&nbsp;{פ}",
+          "prompt": "על מי ממלכי ישראל נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יהוא"
+            },
+            {
+              "key": "ב",
+              "text": "יהואש"
+            },
+            {
+              "key": "ג",
+              "text": "יהורם"
+            },
+            {
+              "key": "ד",
+              "text": "אחזיה"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "י",
+              "verse": "כט",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "יהוא",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "י",
+                  "verse": "כט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q38",
+          "display_number": "38",
+          "narrative_context": "וַיֹּאמֶר אֵלָיו קְחָה לִי עֶגְלָה מְשֻׁלֶּשֶׁת וְעֵז מְשֻׁלֶּשֶׁת וְאַיִל מְשֻׁלָּשׁ וְתֹר וְגוֹזָל",
+          "prompt": "אילו בעלי חיים משולשים מוזכרים לצד?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "פר ואיל"
+            },
+            {
+              "key": "ב",
+              "text": "איל ועז"
+            },
+            {
+              "key": "ג",
+              "text": "עז ותור"
+            },
+            {
+              "key": "ד",
+              "text": "תור ופר 12"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "טו",
+              "verse": "ט",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "איל ועז",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "טו",
+                  "verse": "ט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q39",
+          "display_number": "39",
+          "narrative_context": "לִבִּי לְמוֹאָב יִזְעָק בְּרִיחֶהָ עַד צֹעַר עֶגְלַת שְׁלִשִׁיָּה כִּי&thinsp; מַעֲלֵה הַלּוּחִית בִּבְכִי יַעֲלֶה בּוֹ כִּי דֶּרֶךְ חוֹרֹנַיִם זַעֲקַת שֶׁבֶר יְעֹעֵרוּ",
+          "prompt": "במשאו על איזו אומה מזכיר ישעיהו את?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "משא בבל"
+            },
+            {
+              "key": "ב",
+              "text": "משא מואב"
+            },
+            {
+              "key": "ג",
+              "text": "משא דמשק"
+            },
+            {
+              "key": "ד",
+              "text": "משא צור"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "ישעיהו",
+              "chapter": "טו",
+              "verse": "ה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "משא מואב",
+              "source_refs": [
+                {
+                  "book": "ישעיהו",
+                  "chapter": "טו",
+                  "verse": "ה"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q40",
+          "display_number": "40",
+          "narrative_context": "עֶגְלָה יְפֵה פִיָּה מִצְרָיִם קֶרֶץ מִצָּפוֹן בָּא בָא",
+          "prompt": "ולמי קורא ירמיהו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שומרון"
+            },
+            {
+              "key": "ב",
+              "text": "ירושלים"
+            },
+            {
+              "key": "ג",
+              "text": "עזה"
+            },
+            {
+              "key": "ד",
+              "text": "מצרים"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "ירמיהו",
+              "chapter": "מו",
+              "verse": "כ",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "מצרים",
+              "source_refs": [
+                {
+                  "book": "ירמיהו",
+                  "chapter": "מו",
+                  "verse": "כ"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q41",
+          "display_number": "41",
+          "narrative_context": "וַיֹּאמֶר שְׁמוּאֵל אֵיךְ אֵלֵךְ וְשָׁמַע שָׁאוּל וַהֲרָגָנִי וַיֹּאמֶר יְהֹוָה עֶגְלַת בָּקָר תִּקַּח בְּיָדֶךָ וְאָמַרְתָּ לִזְבֹּחַ לַיהֹוָה בָּאתִי וְקָרָאתָ לְיִשַׁי בַּזָּבַח וְאָנֹכִי אוֹדִיעֲךָ אֵת אֲשֶׁר תַּעֲשֶׂה וּמָשַׁחְתָּ לִי אֵת אֲשֶׁר אֹמַר אֵלֶיךָ וַיַּעַשׂ שְׁמוּאֵל אֵת אֲשֶׁר דִּבֶּר יְהֹוָה וַיָּבֹא בֵּית לָחֶם וַיֶּחֶרְדוּ זִקְנֵי הָעִיר לִקְרָאתוֹ וַיֹּאמֶר שָׁלֹם בּוֹאֶךָ וַיֹּאמֶר&thinsp; שָׁלוֹם לִזְבֹּחַ לַיהֹוָה בָּאתִי הִתְקַדְּשׁוּ וּבָאתֶם אִתִּי בַּזָּבַח וַיְקַדֵּשׁ אֶת יִשַׁי וְאֶת בָּנָיו וַיִּקְרָא לָהֶם לַזָּבַח",
+          "prompt": "באיזו עיר אכלו אנשים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עין דור"
+            },
+            {
+              "key": "ב",
+              "text": "בית לחם"
+            },
+            {
+              "key": "ג",
+              "text": "שילה"
+            },
+            {
+              "key": "ד",
+              "text": "בית אל"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל א",
+              "chapter": "טז",
+              "verse": "ב-ה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "בית לחם",
+              "source_refs": [
+                {
+                  "book": "שמואל א",
+                  "chapter": "טז",
+                  "verse": "ב-ה"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q42",
+          "display_number": "42",
+          "narrative_context": null,
+          "prompt": "במצוות העגלה הערופה - איזו מן הפעולות נעשית על ידי הכהנים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מדידת העיר הקרובה אל החלל"
+            },
+            {
+              "key": "ב",
+              "text": "עריפת העגלה בנחל איתן"
+            },
+            {
+              "key": "ג",
+              "text": "תפילה לה' לכפרה על הדם"
+            },
+            {
+              "key": "ד",
+              "text": "אף תשובה אינה נכונה 13"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "דברים",
+              "chapter": "כא",
+              "verse": "א-ט",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "אף תשובה אינה נכונה 13",
+              "source_refs": [
+                {
+                  "book": "דברים",
+                  "chapter": "כא",
+                  "verse": "א-ט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q43",
+          "display_number": "43",
+          "narrative_context": null,
+          "prompt": "מה לא מזכיר הושע בספרו?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ָפרֹות"
+            },
+            {
+              "key": "ב",
+              "text": "ָפִרים"
+            },
+            {
+              "key": "ג",
+              "text": "ְּשָוִרים"
+            },
+            {
+              "key": "ד",
+              "text": "ֲע ָג ִלים"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "הושע",
+              "chapter": "יב",
+              "verse": "יב",
+              "quoted_text": null,
+              "scope": "answer_option:ב"
+            },
+            {
+              "book": "הושע",
+              "chapter": "יג",
+              "verse": "ב",
+              "quoted_text": null,
+              "scope": "answer_option:ג"
+            },
+            {
+              "book": "הושע",
+              "chapter": "יד",
+              "verse": "ג",
+              "quoted_text": null,
+              "scope": "answer_option:ד"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ָפרֹות",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q44",
+          "display_number": "44",
+          "narrative_context": "כׇּל דָּבָר אֲשֶׁר יָבֹא בָאֵשׁ תַּעֲבִירוּ בָאֵשׁ וְטָהֵר אַךְ בְּמֵי נִדָּה יִתְחַטָּא וְכֹל אֲשֶׁר לֹא יָבֹא בָּאֵשׁ תַּעֲבִירוּ בַמָּיִם",
+          "prompt": "המים החיים בהם ניתן אפר הפרה האדומה נקראים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אדם שהרג נפש או נגע בחלל"
+            },
+            {
+              "key": "ב",
+              "text": "בגדים וכלים שעשויים מעור"
+            },
+            {
+              "key": "ג",
+              "text": "זהב וכסף שבאים באש"
+            },
+            {
+              "key": "ד",
+              "text": "נחושת וברזל שלא באים באש"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "לא",
+              "verse": "כג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "זהב וכסף שבאים באש",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "לא",
+                  "verse": "כג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q45",
+          "display_number": "45",
+          "narrative_context": "וַיְשַׁלְּחוּ אֶת אֲרוֹן הָאֱלֹהִים עֶקְרוֹן וַיְהִי כְּבוֹא אֲרוֹן הָאֱלֹהִים עֶקְרוֹן וַיִּזְעֲקוּ הָעֶקְרֹנִים לֵאמֹר הֵסַבּוּ אֵלַי אֶת אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל לַהֲמִיתֵנִי וְאֶת עַמִּי וַיִּשַּׁרְנָה הַפָּרוֹת בַּדֶּרֶךְ עַל דֶּרֶךְ בֵּית שֶׁמֶשׁ בִּמְסִלָּה אַחַת הָלְכוּ הָלֹךְ וְגָעוֹ וְלֹא סָרוּ יָמִין וּשְׂמֹאול וְסַרְנֵי פְלִשְׁתִּים הֹלְכִים אַחֲרֵיהֶם עַד גְּבוּל בֵּית שָׁמֶשׁ",
+          "prompt": "על הפרות ששלחו הפלשתים עם ארון ה' מסופר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אשדוד ואפק"
+            },
+            {
+              "key": "ב",
+              "text": "גת ושילה"
+            },
+            {
+              "key": "ג",
+              "text": "עקרון ובית שמש"
+            },
+            {
+              "key": "ד",
+              "text": "עזה וקרית יערים"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל א",
+              "chapter": "ה",
+              "verse": "י",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל א",
+              "chapter": "ו",
+              "verse": "יב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "עקרון ובית שמש",
+              "source_refs": [
+                {
+                  "book": "שמואל א",
+                  "chapter": "ה",
+                  "verse": "י"
+                },
+                {
+                  "book": "שמואל א",
+                  "chapter": "ו",
+                  "verse": "יב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q46",
+          "display_number": "46",
+          "narrative_context": null,
+          "prompt": "כמה פרות שלח יעקב לעשו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "10"
+            },
+            {
+              "key": "ב",
+              "text": "20 14"
+            },
+            {
+              "key": "ג",
+              "text": "30"
+            },
+            {
+              "key": "ד",
+              "text": "40"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "לב",
+              "verse": "טז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "40",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "לב",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q47",
+          "display_number": "47",
+          "narrative_context": null,
+          "prompt": "כמה פרים הקריבו בהמלכת שלמה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "100"
+            },
+            {
+              "key": "ב",
+              "text": "000,1"
+            },
+            {
+              "key": "ג",
+              "text": "000,10"
+            },
+            {
+              "key": "ד",
+              "text": "000,100"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "דברי הימים א",
+              "chapter": "כט",
+              "verse": "כא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "000,1",
+              "source_refs": [
+                {
+                  "book": "דברי הימים א",
+                  "chapter": "כט",
+                  "verse": "כא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q48",
+          "display_number": "48",
+          "narrative_context": "וַיָּשׇׁב מֵאַחֲרָיו וַיִּקַּח אֶת צֶמֶד הַבָּקָר וַיִּזְבָּחֵהוּ וּבִכְלִי הַבָּקָר בִּשְּׁלָם הַבָּשָׂר וַיִּתֵּן לָעָם וַיֹּאכֵלוּ וַיָּקׇם וַיֵּלֶךְ אַחֲרֵי אֵלִיָּהוּ וַיְשָׁרְתֵהוּ&nbsp;{פ}",
+          "prompt": "על מי נאמר?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שאול"
+            },
+            {
+              "key": "ב",
+              "text": "אלישע"
+            },
+            {
+              "key": "ג",
+              "text": "ארונה"
+            },
+            {
+              "key": "ד",
+              "text": "דוד"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "יט",
+              "verse": "כא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "אלישע",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "יט",
+                  "verse": "כא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q49",
+          "display_number": "49",
+          "narrative_context": "כִּי כׇּל אֹכֵל חֵלֶב מִן הַבְּהֵמָה אֲשֶׁר יַקְרִיב מִמֶּנָּה אִשֶּׁה לַיהֹוָה וְנִכְרְתָה הַנֶּפֶשׁ הָאֹכֶלֶת מֵעַמֶּיהָ",
+          "prompt": "\" ָכל ֵׁח ֶלב שֹור… לֹא תֹא ֵׁכלּו\" - מה מהבאים נכון לומר לגבי אכילת ֵׁח ֶלב השור?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אם השור טרפה, החלב מותר באכילה"
+            },
+            {
+              "key": "ב",
+              "text": "אם השור טרפה, האוכל מן החלב טמא"
+            },
+            {
+              "key": "ג",
+              "text": "אם השור לזבח שלמים, האוכל מן החלב נכרת מעמיו"
+            },
+            {
+              "key": "ד",
+              "text": "אם השור לזבח שלמים, החלב ניתן לאכילה לבני אהרן"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "ויקרא",
+              "chapter": "ז",
+              "verse": "כה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "אם השור לזבח שלמים, האוכל מן החלב נכרת מעמיו",
+              "source_refs": [
+                {
+                  "book": "ויקרא",
+                  "chapter": "ז",
+                  "verse": "כה"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q50",
+          "display_number": "50",
+          "narrative_context": "אוֹ נוֹדַע כִּי שׁוֹר נַגָּח הוּא מִתְּמוֹל שִׁלְשֹׁם וְלֹא יִשְׁמְרֶנּוּ בְּעָלָיו שַׁלֵּם יְשַׁלֵּם שׁוֹר תַּחַת הַשּׁוֹר וְהַמֵּת יִהְיֶה לּוֹ&nbsp;{ס}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "prompt": "מה דין התורה במקרה בו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ַהשֹור ִי ָס ֵׁקל ְּו ַגם ְּב ָע ָליו יּו ָמת 15"
+            },
+            {
+              "key": "ב",
+              "text": "ָסקֹול ִי ָס ֵׁקל ַהשֹור ְּולֹא ֵׁי ָא ֵׁכל ֶאת ְּב ָשרֹו ּו ַב ַעל ַהשֹור ָנִָֽקי"
+            },
+            {
+              "key": "ג",
+              "text": "ַש ֵׁלם ְּי ַש ֵׁלם שֹור ַּת ַחת ַהשֹור ְּו ַה ֵׁמת ִי ְּהֶיה לֹו"
+            },
+            {
+              "key": "ד",
+              "text": "ּו ָמ ְּכרּו ֶאת ַהשֹור ַה ַחי ְּו ָחצּו ֶאת ַכ ְּספֹו ְּו ַגם ֶאת ַה ֵׁמת ֶי ֱחצּון"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "כא",
+              "verse": "לו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ַש ֵׁלם ְּי ַש ֵׁלם שֹור ַּת ַחת ַהשֹור ְּו ַה ֵׁמת ִי ְּהֶיה לֹו",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "כא",
+                  "verse": "לו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q51",
+          "display_number": "51",
+          "narrative_context": "יָדַע שׁוֹר קֹנֵהוּ וַחֲמוֹר אֵבוּס בְּעָלָיו יִשְׂרָאֵל לֹא יָדַע עַמִּי לֹא הִתְבּוֹנָן",
+          "prompt": "ציין תכונה של השור שהנביא אומר שחסרה לעם ישראל 52. היכן שחטו העם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "ישעיהו",
+              "chapter": "א",
+              "verse": "ג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        }
+      ]
+    }
+  ],
+  "answer_key_present": true,
+  "answer_key_location": "same_document",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/mehozi-mmd2026.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 51; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q51 option count 0; q51 no correct_option"
+  }
+}

@@ -1,0 +1,870 @@
+{
+  "questionnaire_id": "early2-2026",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/early2-2026.pdf",
+  "metadata": {
+    "contest_year_civil": 2026,
+    "contest_year_hebrew": "תשפ\"ו",
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "adult",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [
+        "לירון בן משה"
+      ],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 13,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": null,
+          "prompt": "באיזה חודש נחה תיבת נח על הרי אררט?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הראשון"
+            },
+            {
+              "key": "ב",
+              "text": "השני"
+            },
+            {
+              "key": "ג",
+              "text": "השביעי"
+            },
+            {
+              "key": "ד",
+              "text": "העשירי"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": "ַוְי ִהי ְכנֹו ַח ֲע ֵלי ֶהם ָהרּו ַח ַוִי ְת ַנ ְבאּו\"",
+          "prompt": "על מי נאמר?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "להקת הנביאים ברמה"
+            },
+            {
+              "key": "ב",
+              "text": "חבל הנביאים בגבעה"
+            },
+            {
+              "key": "ג",
+              "text": "שבעים הזקנים"
+            },
+            {
+              "key": "ד",
+              "text": "אלדד ומידד"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": "לֹא ִי ְהֶיה לֹו ִאיׁש יֹו ֵׁשב ְבתֹוְך ָה ָעם ַה ֶזה\"",
+          "prompt": "על מי אמר ירמיהו?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "חנניה בן עזור"
+            },
+            {
+              "key": "ב",
+              "text": "פשחור בן אמר"
+            },
+            {
+              "key": "ג",
+              "text": "כניהו בן יהויקים"
+            },
+            {
+              "key": "ד",
+              "text": "שמעיה הנחלמי 2"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": "ְו ָכ ָלה ַא ִפי ַו ֲה ִנחֹו ִתי ֲח ָמ ִתי ָבם ְו ִה ֶנ ָח ְמ ִתי ְוָיְדעּו ִכי ֲא ִני ה'\". מהי חלוקת העונש",
+          "prompt": "יחזקאל מפרט את עונשם של ישראל, שלאחריו יאמר ה'?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שליש בדבר; שליש ברעב; שליש בחרב"
+            },
+            {
+              "key": "ב",
+              "text": "שליש בדבר וברעב; שליש בחרב; שליש בגלות"
+            },
+            {
+              "key": "ג",
+              "text": "שליש בדבר וברעב ובחרב; שליש בגלות; שליש לא ייענשו"
+            },
+            {
+              "key": "ד",
+              "text": "שליש בדבר וברעב ובחרב ובגלות; שליש לא ייענשו; שליש ישובו לירושלים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": "ָמנֹו ַח",
+          "prompt": "מה מהבאים עשה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ישב בשדה"
+            },
+            {
+              "key": "ב",
+              "text": "ישב בסלע עיטם"
+            },
+            {
+              "key": "ג",
+              "text": "אכל גדי עזים"
+            },
+            {
+              "key": "ד",
+              "text": "אכל דבש"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "ָינֹו ַח",
+          "prompt": "לאיזו ארץ הוגלו יושבי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מצרים"
+            },
+            {
+              "key": "ב",
+              "text": "ארם"
+            },
+            {
+              "key": "ג",
+              "text": "בבל"
+            },
+            {
+              "key": "ד",
+              "text": "אשור"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": "ָזנֹו ַח",
+          "prompt": "ואיזה שער החזיקו יושבי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שער הגיא"
+            },
+            {
+              "key": "ב",
+              "text": "שער העין"
+            },
+            {
+              "key": "ג",
+              "text": "שער הישנה"
+            },
+            {
+              "key": "ד",
+              "text": "שער האשפות 3"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": null,
+          "prompt": "\"ַוַי ַעל ָדִוד ִמ ָשם ַוֵי ֶׁשב ִב ְמ ָצדֹות ֵעין ֶגִדי\" - מהיכן עלה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "קעילה"
+            },
+            {
+              "key": "ב",
+              "text": "חורשה"
+            },
+            {
+              "key": "ג",
+              "text": "סלע המחלקות"
+            },
+            {
+              "key": "ד",
+              "text": "גבעת החכילה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": "ּו ְׁש ָאר ַהְיהּוִדים ֲא ֶׁשר ִב ְמִדינֹות ַה ֶמ ֶלְך ִנ ְק ֲהלּו ְו ָע ֹמד ַעל ַנ ְפ ָׁשם ְונֹו ַח ֵמ ֹאְי ֵבי ֶהם ְו ָה ֹרג ְבשְֹנ ֵאי ֶהם…",
+          "prompt": "השלם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ְׁשֹלׁש ֵמאֹות ִאיׁש"
+            },
+            {
+              "key": "ב",
+              "text": "ֲח ֵמׁש ֵמאֹות ִאיׁש"
+            },
+            {
+              "key": "ג",
+              "text": "ִׁש ְב ָעה ַו ֲח ִמ ִשים ָא ֶלף"
+            },
+            {
+              "key": "ד",
+              "text": "ֲח ִמ ָשה ְו ִׁש ְב ִעים ָא ֶלף"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": null,
+          "prompt": "\"ַוֵי ְׁשבּו ָכל ָה ָעם ִב … ַמְר ִעיִדים ַעל ַה ָד ָבר ּו ֵמ ַה ְג ָׁש ִמים\" - באיזה רחוב ישבו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ְרחֹוב ֵבית ָה ֱאֹל ִהים"
+            },
+            {
+              "key": "ב",
+              "text": "ְרחֹוב ַׁש ַער ַה ַמִים"
+            },
+            {
+              "key": "ג",
+              "text": "ְרחֹוב ַה ִמ ְז ָרח"
+            },
+            {
+              "key": "ד",
+              "text": "ְרחֹוב ָה ִעיר"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": "ֵבית מֹו ַׁשב ִעיר חֹו ָמה\"",
+          "prompt": "באיזה מקרה לא יוצא ביובל?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אם הוא נגאל בתוך שנה ממכירתו"
+            },
+            {
+              "key": "ב",
+              "text": "אם הוא נגאל בתוך 50 שנה ממכירתו"
+            },
+            {
+              "key": "ג",
+              "text": "אם הוא נמכר ללויים 4"
+            },
+            {
+              "key": "ד",
+              "text": "הוא לעולם לא יוצא ביובל"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": "ּו... ֹי ֵׁשב ִבירּו ָׁש ַלִם ִכי ַעל ֻׁׁש ְל ַחן ַה ֶמ ֶלְך ָת ִמיד הּוא ֹא ֵכל\"",
+          "prompt": "מי מהבאים היה מאותו השבט של האיש עליו נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "האיש עליו נאמר: \"ַוֵי ֶׁשב ... ִבירּו ָׁש ַלִם ַביֹום ַההּוא ּו ִמ ָמ ֳח ָרת\""
+            },
+            {
+              "key": "ב",
+              "text": "האיש עליו נאמר: \"ַוֵי ֶׁשב ... ִבירּו ָׁש ַלִם ְׁש ָנ ַתִים ָי ִמים\""
+            },
+            {
+              "key": "ג",
+              "text": "האיש עליו נאמר: \"ַוֵי ֶׁשב ... ִבירּו ָׁש ַלִם ָי ִמים ַר ִבים\""
+            },
+            {
+              "key": "ד",
+              "text": "אף תשובה אינה נכונה \"ְולֹא ָמ ְצ ָאה ַהּיֹו ָנה ָמנֹו ַח ְל ַכף ַר ְג ָלּה\""
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": "ש\"לֹא ָמ ְצ ָאה ָמנֹו ַח\"? _____________ 14. ומי, בניגוד ליונה, \" ָמ ְצ ָאה ָלּה ָמנֹו ַח\"? _________________ 15. מי הנביא שאמר: \"זֹאת ַה ְמנּו ָחה ָה ִניחּו ֶל ָעֵיף\"? __________________ 16. ומי הנביא שאמר: \"קּומּו ּו ְלכּו ִכי לֹא זֹאת ַה ְמנּו ָחה\"? ____________________ 17. לפי שלמה בקהלת - היכן ינוח כעס? _____________________- 18. ולפי שלמה במשלי - היכן תנוח חכמה? ______________________-- \" ִמ ְמכֹון ִש ְבּתֹו ִה ְש ִגי ַח ֶאל ָכל ֹי ְש ֵבי ָה ָא ֶרץ\" ציין מי הנביא שאמר כל אחד מן הפסוקים הבאים: 19. \" ִכי ִריב ַלה' ִעם יֹו ְׁש ֵבי ָה ָא ֶרץ\" ______________________ 20. \" ִכי לֹא ֶא ְחמֹול עֹוד ַעל ֹי ְׁש ֵבי ָה ָא ֶרץ ְנ ֻׁאם ה'\" ______________________ 21. \" ִכי ָכ ָלה ַאְך ִנ ְב ָה ָלה ַי ֲע ֶשה ֵאת ָכל ֹי ְׁש ֵבי ָה ָא ֶרץ\" ________________________ 22. \"ִיְר ְגזּו ֹכל ֹי ְׁש ֵבי ָה ָא ֶרץ ִכי ָבא יֹום ה'\" ___________________________ 5 בדברי מי הוזכרו: 23. \" ִקְרָיה ְו ָכל ֹי ְׁש ֵבי ָבּה\" ____________________ 24. \" ֵת ֵבל ְו ָכל ֹי ְׁש ֵבי ָבּה\" ______________________ 25. \" ֶא ֶרץ ּו ְמלֹו ָאּה ִעיר ְוֹי ְׁש ֵבי ָבּה\" _____________________- 26. \" ָה ָא ֶרץ ּו ְמלֹו ָאּה ֵת ֵבל ְוֹי ְׁש ֵבי ָבּה\" ____________________ עבודה ומלאכה 27. על מי נאמר \" ִכי ֹע ֵשה ְמ ָלא ָכה הּוא\"",
+          "prompt": "נוסף על היונה, על מי עוד נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יוסף"
+            },
+            {
+              "key": "ב",
+              "text": "ירבעם"
+            },
+            {
+              "key": "ג",
+              "text": "חירם"
+            },
+            {
+              "key": "ד",
+              "text": "בצלאל 28. למי שלח נחמיה לאמר: \" ָל ָמה ִת ְׁש ַבת ַה ְמ ָלא ָכה ַכ ֲא ֶׁשר ַאְר ֶפ ָה ְוָי ַרְד ִתי ֲא ֵלי ֶכם\"?"
+            },
+            {
+              "key": "א",
+              "text": "סנבלט וטוביה"
+            },
+            {
+              "key": "ב",
+              "text": "טוביה וגשם"
+            },
+            {
+              "key": "ג",
+              "text": "גשם וסנבלט"
+            },
+            {
+              "key": "ד",
+              "text": "סנבלט, טוביה וגשם 29. למי אמר דניאל: \"ְו ֵהיְך יּו ַכל ֶע ֶבד ֲא ֹד ִני ֶזה ְל ַד ֵבר ִעם ֲא ֹד ִני ֶזה\"?"
+            },
+            {
+              "key": "א",
+              "text": "מיכאל"
+            },
+            {
+              "key": "ב",
+              "text": "גבריאל"
+            },
+            {
+              "key": "ג",
+              "text": "אחד קדוש"
+            },
+            {
+              "key": "ד",
+              "text": "איש לבוש בדים 6 30. על איזה מלך מסופר: \" ַוִי ְק ָרא ְל ָכל ֲע ָב ָדיו ַוְי ַד ֵבר ֶאת ָכל ַהְד ָבִרים ָה ֵא ֶלה ְב ָא ְז ֵני ֶהם\"?"
+            },
+            {
+              "key": "א",
+              "text": "מלך פלשתים"
+            },
+            {
+              "key": "ב",
+              "text": "מלך ארם"
+            },
+            {
+              "key": "ג",
+              "text": "מלך מצרים"
+            },
+            {
+              "key": "ד",
+              "text": "מלך ישראל 31. נביא אחד גער באנשים הכובשים את אחיהם לעבדים: \"ְו ַע ָתה ְב ֵני ְיהּו ָדה ִוירּו ָׁש ַלִם ַא ֶתם ֹא ְמִרים ִל ְכ ֹבׁש ַל ֲע ָבִדים ְו ִל ְׁש ָפחֹות\". מי היה מלך יהודה באותה העת?"
+            },
+            {
+              "key": "א",
+              "text": "אמציהו"
+            },
+            {
+              "key": "ב",
+              "text": "אחז"
+            },
+            {
+              "key": "ג",
+              "text": "יהויקים"
+            },
+            {
+              "key": "ד",
+              "text": "צדקיהו 32. במגילת רות - מה ידוע לנו על עֹו ֵבד?"
+            },
+            {
+              "key": "א",
+              "text": "שם סבו"
+            },
+            {
+              "key": "ב",
+              "text": "שם סבתו"
+            },
+            {
+              "key": "ג",
+              "text": "שניהם"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחד מהם 33. בספר שופטים - אחרי מי שפט ַע ְבדֹון?"
+            },
+            {
+              "key": "א",
+              "text": "יאיר"
+            },
+            {
+              "key": "ב",
+              "text": "אבצן"
+            },
+            {
+              "key": "ג",
+              "text": "תולע 7"
+            },
+            {
+              "key": "ד",
+              "text": "אילון 34. על שני אנשים מסופר שהייתה להם \" ֲע ֻׁב ָדה ַר ָבה\". מה עוד מוזכר לגבי שניהם?"
+            },
+            {
+              "key": "א",
+              "text": "ְק ִשי ָטה"
+            },
+            {
+              "key": "ב",
+              "text": "ִמ ְׁש ֶתה"
+            },
+            {
+              "key": "ג",
+              "text": "ֵא ֶפר"
+            },
+            {
+              "key": "ד",
+              "text": "ְב ֵאר 35. מי הציע למי: \"ֵי ְלכּו ֲע ָב ַדי ִעם ֲע ָב ֶדיָך ָב ֳא ִניֹות\"?"
+            },
+            {
+              "key": "א",
+              "text": "מלך נוכרי למלך ישראל"
+            },
+            {
+              "key": "ב",
+              "text": "מלך ישראל למלך נוכרי"
+            },
+            {
+              "key": "ג",
+              "text": "מלך יהודה למלך ישראל"
+            },
+            {
+              "key": "ד",
+              "text": "מלך ישראל למלך יהודה 36. \"ַוָי ֶשם ָדִוד ְנ ִצ ִבים ַב ֲא ַרם ַד ֶמ ֶשק ַו ְת ִהי ֲא ָרם ְל ָדִוד ַל ֲע ָבִדים נֹו ְש ֵאי ִמ ְנ ָחה\" - כמה אנשים מארם דמשק הכה דוד קודם לכן?"
+            },
+            {
+              "key": "א",
+              "text": "000,20"
+            },
+            {
+              "key": "ב",
+              "text": "000,22"
+            },
+            {
+              "key": "ג",
+              "text": "000,40"
+            },
+            {
+              "key": "ד",
+              "text": "000,42 8 37. על אחד ממלכי ישראל או יהודה נאמר: \"ַוְי ִהי לֹו … ֶע ֶבד ָׁשֹלׁש ָׁש ִנים ַוָי ָׁשב ַוִי ְמ ָרד בֹו\". באיזה מלך מרד?"
+            },
+            {
+              "key": "א",
+              "text": "נבוכדנצר"
+            },
+            {
+              "key": "ב",
+              "text": "שלמנאסר"
+            },
+            {
+              "key": "ג",
+              "text": "פרעה נכה"
+            },
+            {
+              "key": "ד",
+              "text": "סנחריב 38. איזו מכה הגיעה \" ֵבי ָתה ַפְר ֹעה ּו ֵבית ֲע ָב ָדיו\"?"
+            },
+            {
+              "key": "א",
+              "text": "צפרדע"
+            },
+            {
+              "key": "ב",
+              "text": "ערוב"
+            },
+            {
+              "key": "ג",
+              "text": "דבר"
+            },
+            {
+              "key": "ד",
+              "text": "בכורות 39. מי התפלל וביקש: \" ְת ִהי ָנא ָא ְז ְנָך ַק ֶש ֶבת ֶאל ְת ִפ ַלת ַע ְבְדָך ְו ֶאל ְת ִפ ַלת ֲע ָב ֶדיָך\"?"
+            },
+            {
+              "key": "א",
+              "text": "שלמה"
+            },
+            {
+              "key": "ב",
+              "text": "דניאל"
+            },
+            {
+              "key": "ג",
+              "text": "עזרא"
+            },
+            {
+              "key": "ד",
+              "text": "נחמיה 40. מי ציווה את מי: \" ְל ַא ֲה ָבה ֶאת ה' ֱאֹל ֵהי ֶכם ְו ָל ֶל ֶכת ְב ָכל ְד ָר ָכיו ְו ִל ְׁש ֹמר ִמ ְצֹו ָתיו ּו ְל ָד ְב ָקה בֹו ּו ְל ָע ְבדֹו ְב ָכל ְל ַב ְב ֶכם ּו ְב ָכל ַנ ְפ ְׁש ֶכם\"?"
+            },
+            {
+              "key": "א",
+              "text": "משה את כל העם"
+            },
+            {
+              "key": "ב",
+              "text": "יהושע את כל העם"
+            },
+            {
+              "key": "ג",
+              "text": "משה את שניים וחצי השבטים 9"
+            },
+            {
+              "key": "ד",
+              "text": "יהושע את שניים וחצי השבטים 41. מה מהבאים נאמר על עץ או עצים?"
+            },
+            {
+              "key": "א",
+              "text": "לֹא ֵי ָע ֵבד בֹו"
+            },
+            {
+              "key": "ב",
+              "text": "לֹא ֵי ָע ֶשה ִל ְמ ָלא ָכה"
+            },
+            {
+              "key": "ג",
+              "text": "לֹא ַנ ֲע ָשה ָב ֶהם ְמ ָלא ָכה"
+            },
+            {
+              "key": "ד",
+              "text": "ָכל ְמ ָלא ָכה לֹא ֵי ָע ֶשה ָב ֶהם 42. \" ְב ֵר ֵעהּו ַי ֲע ֹבד ִח ָנם ּו ֹפ ֲעלֹו לֹא ִי ֶתן לֹו\" - מה העבודה?"
+            },
+            {
+              "key": "א",
+              "text": "רעיית צאן"
+            },
+            {
+              "key": "ב",
+              "text": "ייצור כלי מלחמה"
+            },
+            {
+              "key": "ג",
+              "text": "כיבוש ארץ"
+            },
+            {
+              "key": "ד",
+              "text": "בניית בית 43. \"ַוְי ַח ְזקּום ֲא ֵחי ֶהם ַה ְלִוִים ַעד ְכלֹות ַה ְמ ָלא ָכה\" - מה המלאכה?"
+            },
+            {
+              "key": "א",
+              "text": "שחיטת העולות"
+            },
+            {
+              "key": "ב",
+              "text": "הפשטת העולות"
+            },
+            {
+              "key": "ג",
+              "text": "קבלת הדם"
+            },
+            {
+              "key": "ד",
+              "text": "זריקת הדם 44. באיזה מהציטוטים הבאים נכלל ְז ֻׁר ָב ֶבל ֶבן ְׁש ַא ְל ִתי ֵאל?"
+            },
+            {
+              "key": "א",
+              "text": "ַוָי ֹבאּו ַוַי ֲעשּו ְמ ָלא ָכה ְב ֵבית ה' ְצ ָבאֹות ֱאֹל ֵהי ֶהם"
+            },
+            {
+              "key": "ב",
+              "text": "ַוַי ֲע ִמידּו ֶאת ַה ְלִוִים ִמ ֶבן ֶע ְשִרים ָׁש ָנה ָו ַמ ְע ָלה ְל ַנ ֵצ ַח ַעל ְמ ֶלא ֶכת ֵבית ה'"
+            },
+            {
+              "key": "ג",
+              "text": "שניהם 10"
+            },
+            {
+              "key": "ד",
+              "text": "אף אחד מהם 45. \"ּו ַביֹום ַה ְש ִבי ִעי ִמ ְק ָרא ֹק ֶדׁש ִי ְהֶיה ָל ֶכם ָכל ְמ ֶלא ֶכת ֲע ֹב ָדה לֹא ַת ֲעשּו\" - כמה פרים יש להקריב ביום זה (מלבד עולת התמיד)?"
+            },
+            {
+              "key": "א",
+              "text": "1"
+            },
+            {
+              "key": "ב",
+              "text": "2"
+            },
+            {
+              "key": "ג",
+              "text": "3"
+            },
+            {
+              "key": "ד",
+              "text": "7 46. על איזה מקרה מהבאים לא נאמר הדין: \" ְׁש ֻׁב ַעת ה' ִת ְהֶיה ֵבין ְׁש ֵני ֶהם ִאם לֹא ָׁש ַלח ָידֹו ִב ְמ ֶלא ֶכת ֵר ֵעהּו\"?"
+            },
+            {
+              "key": "א",
+              "text": "אדם נתן לרעהו שה לשמירה. באו אנשים וגנבו את השה ואין עדים"
+            },
+            {
+              "key": "ב",
+              "text": "אדם נתן לרעהו שור לשמירה. באו אנשים וחרשו עם השור ואין עדים"
+            },
+            {
+              "key": "ג",
+              "text": "אדם נתן לרעהו כבש לשמירה. באו אנשים ופצעו את הכבש ואין עדים"
+            },
+            {
+              "key": "ד",
+              "text": "אדם נתן לרעהו חמור לשמירה. באו אנשים והרגו את החמור ואין עדים 47. עמל האדם מוזכר פעמים רבות במגילת קהלת. מהו הפסוק המאוחר ביותר במגילה מבין הבאים:"
+            },
+            {
+              "key": "א",
+              "text": "ַמה ִי ְתרֹון ָל ָא ָדם ְב ָכל ֲע ָמלֹו ֶׁשַי ֲע ֹמל ַת ַחת ַה ָש ֶמׁש"
+            },
+            {
+              "key": "ב",
+              "text": "ַגם ָכל ָה ָא ָדם ֲא ֶׁשר ָנ ַתן לֹו ָה ֱאֹל ִהים ֹע ֶׁשר ּו ְנ ָכ ִסים ְו ִה ְׁש ִליטֹו ֶל ֱא ֹכל ִמ ֶמנּו ְו ָל ֵשאת ֶאת ֶח ְלקֹו ְו ִל ְש ֹמ ַח ַב ֲע ָמלֹו ֹזה ַמ ַתת ֱאֹל ִהים ִהיא"
+            },
+            {
+              "key": "ג",
+              "text": "ִכי ֵיׁש ָא ָדם ֶׁש ֲע ָמלֹו ְב ָח ְכ ָמה ּו ְב ַד ַעת ּו ְב ִכ ְׁשרֹון ּו ְל ָא ָדם ֶׁשלֹא ָע ַמל בֹו ִי ְת ֶננּו ֶח ְלקֹו"
+            },
+            {
+              "key": "ד",
+              "text": "ְו ַגם ָכל ָה ָא ָדם ֶׁשיֹא ַכל ְו ָׁש ָתה ְו ָר ָאה טֹוב ְב ָכל ֲע ָמלֹו ַמ ַתת ֱאֹל ִהים ִהיא 11 48. בספר תהלים מוזכר העמל בשרשרת של סיבה ותוצאה לצד האון והשקר. מהו הסדר הנכון בפסוק:"
+            },
+            {
+              "key": "א",
+              "text": "ִה ֵנה ְי ַח ֶבל ָע ָמל ְו ָה ָרה ֶׁש ֶקר ְוָי ַלד ָאֶון"
+            },
+            {
+              "key": "ב",
+              "text": "ִה ֵנה ְי ַח ֶבל ֶׁש ֶקר ְו ָה ָרה ָע ָמל ְוָי ַלד ָאֶון"
+            },
+            {
+              "key": "ג",
+              "text": "ִה ֵנה ְי ַח ֶבל ָע ָמל ְו ָה ָרה ָאֶון ְוָי ַלד ָׁש ֶקר"
+            },
+            {
+              "key": "ד",
+              "text": "ִה ֵנה ְי ַח ֶבל ָאֶון ְו ָה ָרה ָע ָמל ְוָי ַלד ָׁש ֶקר 49. ומיהו האומר בספר איוב: \" ִכי ָא ָדם ְל ָע ָמל יּו ָלד\"?"
+            },
+            {
+              "key": "א",
+              "text": "אליפז"
+            },
+            {
+              "key": "ב",
+              "text": "בלדד"
+            },
+            {
+              "key": "ג",
+              "text": "צופר"
+            },
+            {
+              "key": "ד",
+              "text": "איוב 50. מה היה מספר \" ֹע ֵשי ַה ְמ ָלא ָכה ַל ַבִית\"? ________________ 51. בהקשר אחד נזכרים \" ֹע ֵשי ַה ְמ ָלא ָכה ֲא ֶׁשר ַל ֶמ ֶלְך\" - מיהו המלך? ______________ 52. אדם אחד עשה את \" ְמ ֶלא ֶכת ַה ֶמ ֶלְך\" - מיהו המלך? ________________ 53. מי \"ָי ָצא ֶאל ַע ְב ֵדי ֲא ֹד ָניו\"? __________________ 54. ועל מי מסופר: \"ְוהּוא ָי ָצא ַו ֲע ָב ָדיו ָבאּו\"? ________________ 55. למי נאמר: \" ַקח ֶאת ַע ְב ֵדי ֲא ֹד ֶניָך\"? _____________________ 56. ולמי נאמר: \"ְקחּו ִע ָמ ֶכם ֶאת ַע ְב ֵדי ֲא ֹד ֵני ֶכם\"? ____________________ 57. מה שם אביו של אדם בשם \" ֶע ֶבד\"? ___________________ 58. ומה שם בנו של אדם בשם \" ֶע ֶבד\"? _____________________ 59. מה שם בנו של ַע ְב ָדא? ____________________ 60. ומה שם בנו של ַע ְבְד ֵאל? ______________________ בהצלחה 12"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/early2-2026.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 option count 92; q13 no correct_option"
+  }
+}

@@ -1,0 +1,740 @@
+{
+  "questionnaire_id": "early_written_test_adults23",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/early_written_test_adults23.pdf",
+  "metadata": {
+    "contest_year_civil": null,
+    "contest_year_hebrew": null,
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "adult",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 17,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": "לִ ְרא ֹות הֲ ָפ ְר ָחה הַגֶּּ ֶּפן הֵנֵצוּ הָ ִר ּמֹנִים\"",
+          "prompt": "להיכן יש לרדת כדי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עֲרוּג ֹות הַ ּבֹ ֶּ שם"
+            },
+            {
+              "key": "ב",
+              "text": "גִּנַּת ֱאג ֹוז"
+            },
+            {
+              "key": "ג",
+              "text": "ּכְ ָר ִמים"
+            },
+            {
+              "key": "ד",
+              "text": "גַּן נָעוּל"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": null,
+          "prompt": "איזה צירוף לא נזכר בשיר השירים?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ֵרי ַח לְבָנ ֹון"
+            },
+            {
+              "key": "ב",
+              "text": "ִמגְ ַדּל הַלְּבָנ ֹון"
+            },
+            {
+              "key": "ג",
+              "text": "עֲצֵי הַלְּבָנ ֹון"
+            },
+            {
+              "key": "ד",
+              "text": "ַא ְרזֵי הַלְּבָנ ֹון"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": null,
+          "prompt": "איזה שם מופיע גם מחוץ למגילת רות?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אלימלך"
+            },
+            {
+              "key": "ב",
+              "text": "נעמי"
+            },
+            {
+              "key": "ג",
+              "text": "בעז"
+            },
+            {
+              "key": "ד",
+              "text": "רות"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": "ּבָעֵץ ּכָ ָ של וּ\"",
+          "prompt": "על מי נאמר במגילת איכה?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שרים"
+            },
+            {
+              "key": "ב",
+              "text": "נערים"
+            },
+            {
+              "key": "ג",
+              "text": "זקנים"
+            },
+            {
+              "key": "ד",
+              "text": "בחורים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": null,
+          "prompt": "איזה רהיט מופיע במגילת קהלת? (שים לב : כולל הטיות)",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כסא"
+            },
+            {
+              "key": "ב",
+              "text": "שולחן"
+            },
+            {
+              "key": "ג",
+              "text": "דלת"
+            },
+            {
+              "key": "ד",
+              "text": "ארון"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": null,
+          "prompt": "מה לא מסופר פעמיים במגילת אסתר?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמרדכי לבש בגדי מלכות"
+            },
+            {
+              "key": "ב",
+              "text": "שאחשורוש הושיט לאסתר את שרביט הזהב"
+            },
+            {
+              "key": "ג",
+              "text": "שמרדכי לא השתחווה להמן"
+            },
+            {
+              "key": "ד",
+              "text": "שכתב אשר נכתב בשם המלך אין להשיב"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": "הֵן יַ ְח ּתֹף ִמי יְ ִ שיבֶּנּוּ ִמי יֹא ַמר ֵאלָיו ַמה ַּתעֲ ֶּ שה\"",
+          "prompt": "מי אמר?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "איוב"
+            },
+            {
+              "key": "ב",
+              "text": "בלדד"
+            },
+            {
+              "key": "ג",
+              "text": "צופר"
+            },
+            {
+              "key": "ד",
+              "text": "אליפז"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": "הֶּן ֵאל לֹא יִ ְמ ַאס ָּתם וְלֹא יַ ֲחזִיק ּבְיַד ְמ ֵרעִים\"",
+          "prompt": "ומי אמר?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "איוב"
+            },
+            {
+              "key": "ב",
+              "text": "בלדד"
+            },
+            {
+              "key": "ג",
+              "text": "צופר"
+            },
+            {
+              "key": "ד",
+              "text": "אליפז"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": null,
+          "prompt": "מי מהבאים מוזכר הן בספר תהילים והן בספר משלי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אויל"
+            },
+            {
+              "key": "ב",
+              "text": "כסיל"
+            },
+            {
+              "key": "ג",
+              "text": "עצל"
+            },
+            {
+              "key": "ד",
+              "text": "גנב ה' דּ ֹו ֶּחה\"? ְ"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": "יִהְיוּ ּכְמֹץ לִ ְפנֵי רוּ ַח וּ ַמלְ ַאך",
+          "prompt": "על מי התפלל דוד?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הרשעים ופועלי האון"
+            },
+            {
+              "key": "ב",
+              "text": "כל העמים"
+            },
+            {
+              "key": "ג",
+              "text": "מבקשי נפשו"
+            },
+            {
+              "key": "ד",
+              "text": "הנלחמים בציון חלק ב': ֵּאל ֶּה ִמ ְ ש ְפחֹת ב ְנֵּי נֹ ַח לְתוֹלְדֹ ָתם ב ְגוֹיֵּהֶּ ם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": null,
+          "prompt": "איזה עם מהבאים הוא מצאצאי חם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מואב"
+            },
+            {
+              "key": "ב",
+              "text": "מדין"
+            },
+            {
+              "key": "ג",
+              "text": "ארם"
+            },
+            {
+              "key": "ד",
+              "text": "פלשתים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": "ֹו ֵסר ֹות וּמֹט ֹות\"",
+          "prompt": "למלך של איזה עם נשלחו: \"מ?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מואב"
+            },
+            {
+              "key": "ב",
+              "text": "מדין"
+            },
+            {
+              "key": "ג",
+              "text": "ארם"
+            },
+            {
+              "key": "ד",
+              "text": "פלשתים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": "ְ ש ֵדה- ֱאד ֹום)",
+          "prompt": "שדהו של איזה עם לא מוזכר? (לדוגמה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מואב"
+            },
+            {
+              "key": "ב",
+              "text": "מדין"
+            },
+            {
+              "key": "ג",
+              "text": "ארם"
+            },
+            {
+              "key": "ד",
+              "text": "פלשתים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q14",
+          "display_number": "14",
+          "narrative_context": "ּבְנ ֹות-יִ ְ ש ָר ֶּאל)",
+          "prompt": "בנותיו של איזה עם לא מוזכרות? (לדוגמה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מואב"
+            },
+            {
+              "key": "ב",
+              "text": "מדין"
+            },
+            {
+              "key": "ג",
+              "text": "ארם"
+            },
+            {
+              "key": "ד",
+              "text": "פלשתים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q15",
+          "display_number": "15",
+          "narrative_context": null,
+          "prompt": "שריו של איזה עם לא מוזכרים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מואב"
+            },
+            {
+              "key": "ב",
+              "text": "מדין"
+            },
+            {
+              "key": "ג",
+              "text": "ארם"
+            },
+            {
+              "key": "ד",
+              "text": "פלשתים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q16",
+          "display_number": "16",
+          "narrative_context": "ּבַת צִיֹּון\", אך לא מזכיר את \" ּבַת יְרוּ ָ שלִַם\"",
+          "prompt": "מיהו הנביא המזכיר בדבריו את?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ירמיהו"
+            },
+            {
+              "key": "ב",
+              "text": "ישעיהו"
+            },
+            {
+              "key": "ג",
+              "text": "מיכה"
+            },
+            {
+              "key": "ד",
+              "text": "צפניה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q17",
+          "display_number": "17",
+          "narrative_context": "ּבַת ּבָבֶּל\"? 18. \"וַיָּ ֶּ שם ָדּוִד ֶּאת הַ ְדּבָ ִרים הָ ֵאלֶּּה ּבִלְבָב ֹו וַיִּ ָרא ְמאֹד ִמ ְּפנֵי ָאכִי ש ֶּמלֶּך ְ גַּת\". להיכן הלך דוד מגת? 19-20. שני נביאים מזכירים את העיר גת בנבואתם. מיהם? , __________________________ __________________________ 21. כמה לוחמים שכרו בני עמון ממעכה למלחמתם עם דוד? 22. כמה ככרות כסף נתנו בני עמון למלך יותם? __________________________ חלק ג': ַרב ִי ִ ש ְמעוֹן אוֹ ֵּמר: ְ של ָ שה כְ ָת ִרים הֵּם - כֶּ ֶּתר תוֹ ָרה וְכֶּ ֶּתר כְהֻנ ָה וְכֶּ ֶּתר ַמלְכו ת וְכֶּ ֶּתר ֵּ שם טוֹב עוֹלֶּה עַל ג ַב ֵּיהֶּן (אבות ד', י\"ג) כתר תור ה 23. השלם: \" ּת ֹו ַרת ֱאלֹהָיו ּבְלִ ּב ֹו {...}",
+          "prompt": "ומי הנביא המזכיר את?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "וְ ֶּח ְר ָּפה לֹא נָ ָ שא עַל ְקרֹב ֹו"
+            },
+            {
+              "key": "ב",
+              "text": "לֹא ִת ְמעַד ֲא ֻׁ ש ָריו"
+            },
+            {
+              "key": "ג",
+              "text": "ּבְי ֹום ָרעָה יְ ַמלְּ ֵטהוּ ה'"
+            },
+            {
+              "key": "ד",
+              "text": "ֵאין ַּפ ַחד ֱאלֹהִים לְנֶּגֶּד עֵינָי ו 24. השלם את הפסוק המלא מספר משלי: \" ּת ֹו ַרת _____________________________________________________\" 25. היכן יש לקיים את ציווי התורה: \"וְכָ ַתבְ ָּת עַל הָ ֲאבָנִים ֶּאת ּכָל ִדּבְ ֵרי הַ ּת ֹו ָרה הַּזֹאת ּבַ ֵאר הֵי ֵטב\"? ___________________________________ _ 26. במקום אחר בתנ\"ך, נזכר אדם בשם זה. מה שם אביו? ___________________ _ 27. מי הנביא שאמר: \" וַ ִּת ְ ש ּכַח ּת ֹו ַרת ֱאלֹהֶּיך ָ ֶּא ְ ש ּכַח ּבָנֶּיך ָ גַּם ָאנִי\"? ___________________ _ 28. מי הנביא שאמר: \" זִכְרוּ ּת ֹו ַרת מֹ ֶּ שה עַבְ ִדּי\"? _______________________ _ 29. מי אמר: \" וְת ֹו ָרה ּתֹאבַד ִמ ּכֹהֵן וְעֵצָה ִמּזְ ֵקנִים\"? _______________________ _ כתר כהונ ה 30. \" ַרק הַ ּכֹהֲנִים הָיוּ לִ ְמעָט וְלֹא יָכְלוּ לְהַ ְפ ִ שיט ֶּאת ּכָל הָעֹל ֹות וַיְּ ַחּזְקוּם ֲא ֵחיהֶּם הַלְוִיִּם עַד ּכְל ֹות הַ ְּמלָאכָה\". על אילו קורבנות מדבר הכתוב?"
+            },
+            {
+              "key": "א",
+              "text": "הקרבנות בטיהור המקדש"
+            },
+            {
+              "key": "ב",
+              "text": "הקרבנות שהתנדבו הקהל אחרי טיהור המקדש"
+            },
+            {
+              "key": "ג",
+              "text": "הקרבנות בפסח השני"
+            },
+            {
+              "key": "ד",
+              "text": "הקרבנות בשבעת הימים הנוספים שיזמו הקהל 31. מה לא מסופר על הכהנים בספר נחמיה?"
+            },
+            {
+              "key": "א",
+              "text": "בנו את אחד משערי ירושלים"
+            },
+            {
+              "key": "ב",
+              "text": "התנדבו לשבת בירושלים"
+            },
+            {
+              "key": "ג",
+              "text": "נתנו לאוצר המלאכה"
+            },
+            {
+              "key": "ד",
+              "text": "חתמו על האמנה 32. על מה נאמר: \"קֹ ֶּד ש יִהְיוּ לַה' לַ ּכֹהֵן\"? __________________ _____ _ 33. ובאיזה הקשר נאמר: \"וְנִגְּ שוּ הַ ּכֹהֲנִים ּבְנֵי לֵוִי ּכִי בָם ּבָ ַחר ה' ֱאלֹהֶּיך ָ לְ ָ ש ְרת ֹו\"? 34. מי הנביא המכנה את הכהנים \" ְמ ָ ש ְר ֵתי ה'\"? 35. \" ַא ַחר הַ ָד בָר הַ זֶּה לֹא ָ שב יָ ָרבְעָם ִמ ַדּ ְר ּכ ֹו הָ ָרעָה וַיָּ ָ שב וַיַּעַ ש ִמ ְקצ ֹות הָעָם ּכֹהֲנֵי בָמ ֹות הֶּ ָח ֵפץ יְ ַמלֵּא ֶּאת יָד ֹו וִיהִי ּכֹהֲנֵי בָמ ֹות\" – מה היה הדבר? 36. מי נשלח על ידי המלך אל הכהן הגדול? _______________________ _ כתר מלכו ת 37. מלכי יהודה נזכרים בכתוב יחד עם שם אמם, זולתי שני מלכים. איזה תיאור מהבאים משותף גם הוא רק לשניהם?"
+            },
+            {
+              "key": "א",
+              "text": "וַיֵּלֶּך ְ ּבְ ֶּד ֶּרך ְ ַמלְכֵי יִ ְ ש ָר ֵאל"
+            },
+            {
+              "key": "ב",
+              "text": "וַיַּכְעֵס ֶּאת ה' ֱאלֹהֵי יִ ְ ש ָר ֵאל"
+            },
+            {
+              "key": "ג",
+              "text": "וְלֹא הָיָה לְבָב ֹו ָ שלֵם עִם ה' ֱאלֹהָיו ּכִלְבַב ָדּוִיד ָאבִיו"
+            },
+            {
+              "key": "ד",
+              "text": "וַיֵּלֶּך ְ ּבְ ֶּד ֶּרך ְ יָ ָרבְעָם וּבְ ַח ָּטאת ֹו ֲא ֶּ שר הֶּ ֱח ִטיא ֶּאת יִ ְ ש ָר ֵאל 38. איזה מלך נמשל במראות דניאל ל\" ֶּק ֶּרן ָחזוּת\"?"
+            },
+            {
+              "key": "א",
+              "text": "מלך עז פנים"
+            },
+            {
+              "key": "ב",
+              "text": "מלך הנגב"
+            },
+            {
+              "key": "ג",
+              "text": "מלך פרס הרביע י"
+            },
+            {
+              "key": "ד",
+              "text": "מלך יון הראשון 39. \"וַיִּ ֵּתן ה' גַּם א ֹו ָת ּה ּבְיַד יִ ְ ש ָר ֵאל וְ ֶּאת ַמלְ ּכָ ּה וַיַּ ּכֶּהָ לְ ִפי ֶּח ֶּרב וְ ֶּאת ּכָל הַנֶּּ ֶּפ ש ֲא ֶּ שר ּבָ ּה לֹא הִ ְ ש ִאיר ּבָ ּה ָ ש ִריד וַיַּעַ ש לְ ַמלְ ּכָ ּה ּכַ ֲא ֶּ שר עָ ָ שה לְ ֶּמלֶּך ְ יְ ִריח ֹו\" – על מלכה של איזו עיר מדבר הכתוב? _______________________ _ עַל הֶּהָ ִרים וְ ֵאין ְמ ַק ּבֵץ\" – על מלכו של איזה עם מדבר הכתוב? ָ 40. \"נָפֹ שוּ עַ ְּמך _______________________ _ 41. השלם: \"וַיִּ ְק ָרא ֶּאל _____________ וַיָּבֹא ֶּאל הַ ֶּּמלֶּך ְ וַיִּ ְ ש ַּתחוּ ל ֹו עַל ַא ָּפיו ַא ְרצָה לִ ְפנֵי ְ הַ ֶּּמלֶּך \". \". מי היה המלך? ְ 42. אדם אחד הביע את מוראו מן המלך: \"יָ ֵרא ֲאנִי ֶּאת ֲאדֹנִי הַ ֶּּמלֶּך _______________________ _ 43. מיהו המלך עליו נאמר: \" וַיְהִי ְ שמ ֹו בְכָל הַגֹּויִם ָסבִיב\"? __________________ _ כתר שם טו ב \"? ָ 44. למי הובטח: \"וַ ֲאגַ ְדּלָה ְ ש ֶּמך"
+            },
+            {
+              "key": "א",
+              "text": "אברה ם"
+            },
+            {
+              "key": "ב",
+              "text": "יצחק"
+            },
+            {
+              "key": "ג",
+              "text": "יעקב"
+            },
+            {
+              "key": "ד",
+              "text": "משה 45-48. שמותיהם הטובים העבריים של דניאל, חנניה, מישאל ועזריה הוחלפו בשמות נכריים. במקומות אחרים בתנ\"ך מופיעים אנשים נוספים בשמות אלה: דניאל היה מבני ________________________________ מישאל היה מבני ________________________________ אחד השרים בימי יהויקים היה: _____________________________ בן חנניהו אחד הלויים בימי חזקיהו היה: _____________________________ בן עזריהו 49. הביטוי \" ֵ שם ה' ֱאלֹהֵי יִ ְ ש ָר ֵאל\" נזכר בפי: ______________________________ 50. והביטוי \" ֵ שם ֱאלֹהֵי יַעֲקֹב\" נזכר בפי: ______________________________ בהצלחה!"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/early_written_test_adults23.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q03 no correct_option; q05 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 option count 24; q17 no correct_option"
+  }
+}

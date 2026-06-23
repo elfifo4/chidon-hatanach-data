@@ -1,0 +1,528 @@
+{
+  "questionnaire_id": "2015m",
+  "source_url": "http://meyda.education.gov.il/files/noar/2015m.pdf",
+  "metadata": {
+    "contest_year_civil": 2015,
+    "contest_year_hebrew": "תשע\"ה",
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 4,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": "ִּז ְמ ַרת ָהָא ֶרץ\" הוא כינוי למוצרים החקלאיים המאפיינים את ארץ ישראל: \" ְמ ַעט ֳצ ִּרי ּו ְמ ַעט ְד ַבׁש נְכֹאת וָֹלט ָב ְטנִּים ּו ְׁש ֵק ִּדים.\" מי האיש ש ִּמ נחה כזאת הובאה אליו",
+          "prompt": "הצירוף?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יוסף"
+            },
+            {
+              "key": "ב",
+              "text": "יעקב"
+            },
+            {
+              "key": "ג",
+              "text": "עגלון מלך מואב"
+            },
+            {
+              "key": "ד",
+              "text": "בועז"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": null,
+          "prompt": "מה נמכר תמורת נזיד עדשים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ברכה"
+            },
+            {
+              "key": "ב",
+              "text": "בכורה"
+            },
+            {
+              "key": "ג",
+              "text": "מערה"
+            },
+            {
+              "key": "ד",
+              "text": "נער"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": "נַ ֲע ֶשה וְנִּ ְׁש ַמע\"",
+          "prompt": "באיזה אירוע אמרו בני העם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בהכרזה על יציאת מצרים"
+            },
+            {
+              "key": "ב",
+              "text": "בעת הציווי לחצות את ים סּוף"
+            },
+            {
+              "key": "ג",
+              "text": "בעת כריתת הברית בהר סיני"
+            },
+            {
+              "key": "ד",
+              "text": "בעת כריתת הברית בגלגל 5. \" ְסדֹום וַ ֲעמֹו ָרה\" היו שתי ערים מקראיות מפורסמות שתושביהן חטאו מאוד. עד היום משתמשים בשמותיהן כדי לבטא אי סדר ומצב שאינו תקין. מה היה סופן של הערים האלה?"
+            },
+            {
+              "key": "א",
+              "text": "הרס וחורבן"
+            },
+            {
+              "key": "ב",
+              "text": "תושביהן חזרו בתשובה"
+            },
+            {
+              "key": "ג",
+              "text": "תושביהן הוגלו"
+            },
+            {
+              "key": "ד",
+              "text": "תושביהן נפלו בקרב"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": "ֶח ֶרב ִּפי ִּפּיֹות\" היא חרב חדה מאוד משני צדיה. איזה שופט הושיע את עמו באמצעות חרב בעלת שתי פיות",
+          "prompt": "\" ֶח ֶרב ִּפי ִּפּיֹות\" היא חרב חדה מאוד משני צדיה. איזה שופט הושיע את עמו באמצעות חרב בעלת שתי פיות?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמשון"
+            },
+            {
+              "key": "ב",
+              "text": "אהוד בן גרא"
+            },
+            {
+              "key": "ג",
+              "text": "עתניאל בן קנז"
+            },
+            {
+              "key": "ד",
+              "text": "שמגר בן ענת 4 6. לפני אחת ממכות מצרים נאמר למשה: \"ּו ְלכֹל ְבנֵי יִּ ְש ָר ֵאל ֹלא יֶ ֱח ַרץ ֶכ ֶלב ְלׁשֹנֹו,\" כלומר, בני ישראל יהיו כה מוגנים מפני המכה עד כי אפילו הכלבים לא יאיימו לפגוע בהם. באיזו מכה מדובר?"
+            },
+            {
+              "key": "א",
+              "text": "במכת ערוב"
+            },
+            {
+              "key": "ב",
+              "text": "במכת ארבה"
+            },
+            {
+              "key": "ג",
+              "text": "במכת חושך"
+            },
+            {
+              "key": "ד",
+              "text": "במכת בכורות 7. מה היה עיסוקה של האישה שכּונתה \" ֵא ֶׁשת ַל ִּפידֹות\"?"
+            },
+            {
+              "key": "א",
+              "text": "מיילדת"
+            },
+            {
+              "key": "ב",
+              "text": "רועת צאן"
+            },
+            {
+              "key": "ג",
+              "text": "מינקת"
+            },
+            {
+              "key": "ד",
+              "text": "שופטת 8. בעקבות מה נאמר: \"וַּיִּ ַמס ְל ַבב ָה ָעם\"?"
+            },
+            {
+              "key": "א",
+              "text": "בעקבות התבוסה בעי"
+            },
+            {
+              "key": "ב",
+              "text": "בראותם את מחנה מדיין בעמק"
+            },
+            {
+              "key": "ג",
+              "text": "בעקבות התבוסה למלך ערד"
+            },
+            {
+              "key": "ד",
+              "text": "בראותם את פרעה רודף אחריהם 9. על אדם חדש שרק הגיע לעיר תמהו: \" ָה ֶא ָחד ָבא ַלּגּור וַּיִּ ְׁשפֹוט ָׁשפֹוט\"?! מיהו האדם?"
+            },
+            {
+              "key": "א",
+              "text": "לוט"
+            },
+            {
+              "key": "ב",
+              "text": "יעקב"
+            },
+            {
+              "key": "ג",
+              "text": "אברהם"
+            },
+            {
+              "key": "ד",
+              "text": "משה 11. דבר המתרחש מדי שנה בשנה מכּונה במקרא: \" ִּמּיָ ִּמים יָ ִּמי ָמה\". מה מתרחש, במשך ארבעה ימים, \" ִּמּיָ ִּמים יָ ִּמי ָמה\"?"
+            },
+            {
+              "key": "א",
+              "text": "בני ישראל קוראים את התורה"
+            },
+            {
+              "key": "ב",
+              "text": "בנות ישראל מקוננות על בת יפתח"
+            },
+            {
+              "key": "ג",
+              "text": "בני ישראל חוגגים את חג ה' בשיֹלה"
+            },
+            {
+              "key": "ד",
+              "text": "בני ישראל מזכירים את יציאת מצרים 6 11. את מי פגש אברהם במקום הנקרא \" ֵע ֶמק ָׁשוֵה\"?"
+            },
+            {
+              "key": "א",
+              "text": "את מלך עמורה"
+            },
+            {
+              "key": "ב",
+              "text": "את מלך סדום"
+            },
+            {
+              "key": "ג",
+              "text": "את מלך גרר"
+            },
+            {
+              "key": "ד",
+              "text": "את מלך שנער 12. על אדם שהוא כמו כל האנשים, אדם רגיל לגמרי, אומרים שהוא \" ְכ ַא ַחד ָהָא ָדם\". מי חשש שהוא עתיד לאבד את כוחו ולהיות \" ְכַא ַחד ָהָא ָדם\"?"
+            },
+            {
+              "key": "א",
+              "text": "משה"
+            },
+            {
+              "key": "ב",
+              "text": "שמשון"
+            },
+            {
+              "key": "ג",
+              "text": "פרעה"
+            },
+            {
+              "key": "ד",
+              "text": "יהושע 13. הביטוי \" ִּכ ְלחְֹך ַהּׁשֹור\" מתאר חיסול של דבר מה עד תום - עד שלא נשאר ממנו דבר. איזה עם הביע חשש שבני ישראל \"יְ ַל ֲחכּו [...] ֶאת ָכל ְס ִּביבֵֹתינּו ִּכ ְלחְֹך ַהּׁשֹור ֵאת יֶֶרק ַה ָש ֶדה\"?"
+            },
+            {
+              "key": "א",
+              "text": "מואב"
+            },
+            {
+              "key": "ב",
+              "text": "מדיין"
+            },
+            {
+              "key": "ג",
+              "text": "עמון"
+            },
+            {
+              "key": "ד",
+              "text": "אדום 15. על פי דברי השכנות, רות טובה לנעמי יותר מ..."
+            },
+            {
+              "key": "א",
+              "text": "מחלון וכיליון"
+            },
+            {
+              "key": "ב",
+              "text": "רחל ולאה"
+            },
+            {
+              "key": "ג",
+              "text": "שבעה בנים"
+            },
+            {
+              "key": "ד",
+              "text": "תמר 14. אחת המידות האלוהיות, שמשמעה \"סבלנות\" ו\"סלחנות\", היא:"
+            },
+            {
+              "key": "א",
+              "text": "ֵאל ֶע ְליֹון"
+            },
+            {
+              "key": "ב",
+              "text": "פֵֹקד ֲעו ֹן"
+            },
+            {
+              "key": "ג",
+              "text": "ֶא ֶרְך ַא ַפיִּם"
+            },
+            {
+              "key": "ד",
+              "text": "קֹנֵה ָׁש ַמיִּם וָָא ֶרץ 7 16. \" ֲח ִּלי ָלּה ִּלי ֵמ ֲעשֹות זֹאת,\" ובסלנג של ימינו: \"אין מצב\"... לאיזו הצעה סירב האיש שאמר זאת?"
+            },
+            {
+              "key": "א",
+              "text": "להפוך קבוצת אנשים לעבדים"
+            },
+            {
+              "key": "ב",
+              "text": "לשחרר עם של עבדים"
+            },
+            {
+              "key": "ג",
+              "text": "למכור את אחיו לעבדּות"
+            },
+            {
+              "key": "ד",
+              "text": "לרמות את אחיו 17. \" ֶד ֶרך ַה ֶמ ֶלך\" היא דרך ראשית, נוחה וישרה. לאיזה מלך הבטיח משה: \" ֶד ֶרְך ַה ֶמ ֶלְך נֵ ֵלְך ֹלא נִּ ֶטה יָ ִּמין ּו ְשמֹאול\"?"
+            },
+            {
+              "key": "א",
+              "text": "למלך מואב"
+            },
+            {
+              "key": "ב",
+              "text": "למלך ערד"
+            },
+            {
+              "key": "ג",
+              "text": "לפרעה מלך מצרים"
+            },
+            {
+              "key": "ד",
+              "text": "למלך אדום 18. מי העיד על עצמו כי הוא \"ֹלא ִּאיׁש ְד ָב ִּרים\" ולאחר מכן הוכח שביכולתו לומר דברים רבים...?"
+            },
+            {
+              "key": "א",
+              "text": "גדעון"
+            },
+            {
+              "key": "ב",
+              "text": "יפתח"
+            },
+            {
+              "key": "ג",
+              "text": "משה"
+            },
+            {
+              "key": "ד",
+              "text": "יהושע 19. מיהי האישה שהביעה נאמנות מוחלטת לאישה אחרת באומרה: \" ֶאל ֲא ֶׁשר ֵת ְל ִּכי ֵא ֵלְך\"?"
+            },
+            {
+              "key": "א",
+              "text": "נעמי"
+            },
+            {
+              "key": "ב",
+              "text": "רות"
+            },
+            {
+              "key": "ג",
+              "text": "בלהה"
+            },
+            {
+              "key": "ד",
+              "text": "דינה 21. מי אמר שארץ ישראל היא ארץ שקשה לחיות בה, ארץ מסוכנת, \" ֶא ֶרץ אֶֹכ ֶלת יֹו ְׁש ֶבי ָה \"?"
+            },
+            {
+              "key": "א",
+              "text": "עכן"
+            },
+            {
+              "key": "ב",
+              "text": "גדעון"
+            },
+            {
+              "key": "ג",
+              "text": "כלב בן יפונה"
+            },
+            {
+              "key": "ד",
+              "text": "עשרת המרגלים 8 21. מי ביקש לבדוק \" ַה ְכ ַצ ֲע ָק ָתּה?\", כלומר, האם הדברים אכן כה חמּורים?"
+            },
+            {
+              "key": "א",
+              "text": "ה'"
+            },
+            {
+              "key": "ב",
+              "text": "ראובן ושמעון"
+            },
+            {
+              "key": "ג",
+              "text": "אלדד ומידד"
+            },
+            {
+              "key": "ד",
+              "text": "כלב בן יפונה ויהושע בן נון 22. ב ֵא ילו מילים עודד ה' ו ֵב ירך את יהושע?"
+            },
+            {
+              "key": "א",
+              "text": "ֲח ַזק וֶ ֱא ָמץ"
+            },
+            {
+              "key": "ב",
+              "text": "וְ ַה ְר ָבה ַא ְר ֶבה ֶאת ַז ְר ֲע ך"
+            },
+            {
+              "key": "ג",
+              "text": "יַ ַע ְבדּוָך ַע ִּמים"
+            },
+            {
+              "key": "ד",
+              "text": "ַעל ַח ְר ְבָך ִּת ְחיֶה 23. מי השתמש בביטוי \" ָד ַרְך כֹו ָכבֹו\" ב ַד ברֹו על עם ישראל?"
+            },
+            {
+              "key": "א",
+              "text": "יתרו"
+            },
+            {
+              "key": "ב",
+              "text": "מלכי-צדק"
+            },
+            {
+              "key": "ג",
+              "text": "אדני-צדק"
+            },
+            {
+              "key": "ד",
+              "text": "בלעם 25. אדם מסוים \" ִּד ֵבר ָקׁשֹות\", כלומר באופן חריף ומאיים, אל אנשים אחרים. מי הם האנשים?"
+            },
+            {
+              "key": "א",
+              "text": "עבדיו"
+            },
+            {
+              "key": "ב",
+              "text": "אויביו"
+            },
+            {
+              "key": "ג",
+              "text": "אחיו"
+            },
+            {
+              "key": "ד",
+              "text": "הוריו 24. מהו הספר שמצווה להקדיש לו את כל הזמן וכל המרץ: \"וְ ָה ִּגי ָת בֹו יֹו ָמם וָ ַליְ ָלה\"?"
+            },
+            {
+              "key": "א",
+              "text": "ספר מלחמות ה'"
+            },
+            {
+              "key": "ב",
+              "text": "ספר הישר"
+            },
+            {
+              "key": "ג",
+              "text": "ספר התורה"
+            },
+            {
+              "key": "ד",
+              "text": "ספר התפילה ָאז ַּת ְצ ִלי ַּח ֶאת ְד ָר ֶכָך וְָאז ַּת ְש ִכיל... 9"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "http://meyda.education.gov.il/files/noar/2015m.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 option count 8; q03 no correct_option; q04 option count 84; q04 no correct_option"
+  }
+}

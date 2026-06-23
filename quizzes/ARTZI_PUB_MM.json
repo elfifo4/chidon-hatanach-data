@@ -1,0 +1,38 @@
+{
+  "questionnaire_id": "ARTZI_PUB_MM",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/ARTZI_PUB_MM.pdf",
+  "metadata": {
+    "contest_year_civil": null,
+    "contest_year_hebrew": null,
+    "track": "mamlachti",
+    "stage": "national",
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": null,
+      "max_points": null,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/ARTZI_PUB_MM.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "unreadable",
+    "extraction_notes": "image-based PDF (known from prior research)"
+  }
+}

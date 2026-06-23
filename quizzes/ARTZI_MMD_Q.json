@@ -1,0 +1,1147 @@
+{
+  "questionnaire_id": "ARTZI_MMD_Q",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/ARTZI_MMD_Q.pdf",
+  "metadata": {
+    "contest_year_civil": null,
+    "contest_year_hebrew": null,
+    "track": null,
+    "stage": "national",
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 31,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": "וַי ָּ ֶׂ שם ֶׂאת נַ ְפ ׁש ֹו בְכַ פ ֹו וַי ַך יִ ְ ש ָּר ֵאל\"",
+          "prompt": "על מי נאמר?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ֶׂאלְעָּזָּר בֶׂן ד ֹד ֹו"
+            },
+            {
+              "key": "ב",
+              "text": "יְה ֹונָּ ָּתן בֶׂן ִׁש ְמעָּה"
+            },
+            {
+              "key": "ג",
+              "text": "ֲאבִי ַׁשי בֶׂן צְרו יָּה"
+            },
+            {
+              "key": "ד",
+              "text": "ָּד וִד בֶׂן יִ ַׁשי"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": "עֹבדיה ו",
+          "prompt": "מה היה חשש ו של?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שאחאב יגלה על החבאת הנביאים מפני איזבל"
+            },
+            {
+              "key": "ב",
+              "text": "שאחאב יגלה שעֹבדיה ו פגש את אליה ו ולא הודיע לו"
+            },
+            {
+              "key": "ג",
+              "text": "שאליה ו לא יתגלה לאחאב אחרי שעֹבדיה ו יקרא לו"
+            },
+            {
+              "key": "ד",
+              "text": "שאחאב יטיל עלי ו את האחריות לרעב בשומרון"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": "וַי ִ ְקח ו ֶׂאת בְנ ֹו ֵתיהֶׂם לָּהֶׂם לְנָּ ִׁשים וְ ֶׂאת בְנ ֹו ֵתיהֶׂם נָּ ְתנ ו לִבְנֵיהֶׂם וַי ַעַבְד ו ֶׂאת ֱאלֹהֵיהֶׂם\"",
+          "prompt": "באיזה ספר מסופר על התבוללות העם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שופטים"
+            },
+            {
+              "key": "ב",
+              "text": "מלכים ב '"
+            },
+            {
+              "key": "ג",
+              "text": "ירמיהו"
+            },
+            {
+              "key": "ד",
+              "text": "נחמיה 3"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": "ֲא ֶׁׂשר לֹא י ֹועִיל ו וְלֹא יַצ ִיל ו כִי תֹה ו הֵ ָּמה\"",
+          "prompt": "מי תיאר את אלהי הנכר ככאלה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יהושע"
+            },
+            {
+              "key": "ב",
+              "text": "שמואל"
+            },
+            {
+              "key": "ג",
+              "text": "שלמה"
+            },
+            {
+              "key": "ד",
+              "text": "חזקיהו"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": null,
+          "prompt": "בכיבוש יריח ו - מה היה סדר ההולכים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מאסף - ארון - כהנים - חלוץ"
+            },
+            {
+              "key": "ב",
+              "text": "מאסף - ארון - חלוץ - כהנים"
+            },
+            {
+              "key": "ג",
+              "text": "מאסף - כהנים - חלוץ - ארון"
+            },
+            {
+              "key": "ד",
+              "text": "מאסף - כהנים - ארון - חלוץ"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "ַפעַם ו ְׁש ָּתיִם\" בספר נחמיה",
+          "prompt": "מה קרה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "סנבלט וגשם שלח ו אגרת לנחמיה"
+            },
+            {
+              "key": "ב",
+              "text": "בוני החומה הוזהר ו ע\"י אחיהם היהודי ם"
+            },
+            {
+              "key": "ג",
+              "text": "הרוכלים לנ ו מחוץ לירושלים"
+            },
+            {
+              "key": "ד",
+              "text": "נחמיה הוכיח את החורים והסגנים 4"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": null,
+          "prompt": "מה לא מסופר פעמיים במגילת אסתר ?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמרדכי לבש לבוש מלכות"
+            },
+            {
+              "key": "ב",
+              "text": "שהמן דיבר עם זרש"
+            },
+            {
+              "key": "ג",
+              "text": "שאחשורוש הושיט לאסתר את שרביט הזהב"
+            },
+            {
+              "key": "ד",
+              "text": "שכתב אשר נכתב בשם המלך אין להשיב"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": "וַי ִ ַקח … ֶׂאת … וַ ְתהִי ל ֹו לְ ִא ָּׁשה וַי ָּבֹא ֵאלֶׂיהָּ\"",
+          "prompt": "על איזה זוג מסופר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יצחק ורבקה"
+            },
+            {
+              "key": "ב",
+              "text": "יהודה ותמר"
+            },
+            {
+              "key": "ג",
+              "text": "בועז ורות"
+            },
+            {
+              "key": "ד",
+              "text": "דוד ובת שבע"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": "וַי ָּ ָּחן ה' אֹ ָּתם וַיְ ַר ֲח ֵמם וַי ִ ֶׂפן ֲאלֵיהֶׂם לְ ַמעַן בְ ִרית ֹו ֶׂאת ַאבְ ָּרהָּם יִצְ ָּחק וְיַעֲקֹב\"",
+          "prompt": "על התשועה מיד מי ממלכי ארם נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "חזאל"
+            },
+            {
+              "key": "ב",
+              "text": "בן הד ד"
+            },
+            {
+              "key": "ג",
+              "text": "רצין"
+            },
+            {
+              "key": "ד",
+              "text": "כושן 5"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": "וַי ֶׂעְ ַתר יִצְ ָּחק ֽ לַה' לְנֹכַח ִא ְׁש ת ֹו כִי עֲ ָּק ָּרה הִוא וַי ֵעָּ ֶׂתר ל ֹו ה' וַ ַתהַר ִרבְ ָּקה ִא ְׁש ֽת ֹו\". שלמה המלך מתפלל שה' ייעתר לתפילות ישראל מפני צרות שונות. מאיז ו צרה לא מסופרת תשועת ה' בלשון \"וַי ֵעָּ ֵתר\"? ָּ",
+          "prompt": "מה על תפילת יצחק מסופר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בְהִנ ָּגֵף עַ ְמך יִ ְ ש ָּר ֵאל לִ ְפנֵי א ֹויֵב"
+            },
+            {
+              "key": "ב",
+              "text": "בְהֵעָּצֵר ָּׁש ַמיִם וְלֹא יִהְיֶׂה ָּמ ָּטר"
+            },
+            {
+              "key": "ג",
+              "text": "ָּרעָּב כִי יִהְיֶׂה בָּ ָּא ֶׂר ץ"
+            },
+            {
+              "key": "ד",
+              "text": "ֶׂד בֶׂר כִי יִהְיֶׂ ה ִּד ְר ׁשו ֵּמעַל ֵּס ֶּפר ה' ו ְק ָּרא ו"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": null,
+          "prompt": "\"וַי ִ ְק ְרא ו בְ ֵס ֶׂפר ת ֹו ַרת ה' ֱאלֹהֵיהֶׂם ְרבִעִית הַי ֹום\" - איזה יום?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יום אחד לחודש הראשון"
+            },
+            {
+              "key": "ב",
+              "text": "יום עשרים וארבעה לחודש הראשון"
+            },
+            {
+              "key": "ג",
+              "text": "יום אחד לחודש השביעי"
+            },
+            {
+              "key": "ד",
+              "text": "יום עשרים וארבעה לחודש השביעי ֶׂאל ֵס ֶׂפר\"? ָּ ֵאת כָּל הַ ְד בָּ ִרים ֲא ֶׁׂשר ִד בַ ְר ִתי ֵאלֶׂיך ָּ"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": "כְ ָּתב לְך",
+          "prompt": "מי נצטווה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "משה"
+            },
+            {
+              "key": "ב",
+              "text": "יחזקאל"
+            },
+            {
+              "key": "ג",
+              "text": "ירמיהו"
+            },
+            {
+              "key": "ד",
+              "text": "ברוך 6"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": null,
+          "prompt": "\"וַי ִכְ תֹב בַ ֵס ֶׂפר וַי ַנ ַח לִ ְפנֵי ה'\" - היכן?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בשכ ם"
+            },
+            {
+              "key": "ב",
+              "text": "במצפ ה"
+            },
+            {
+              "key": "ג",
+              "text": "בהר עיב ל"
+            },
+            {
+              "key": "ד",
+              "text": "ברפידי ם לִּ ְׁשמֹעַ עַל ִּד בְ ֵּרי עֲבָּ ַדי הַנ ְבִּ ִּאי ם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q14",
+          "display_number": "14",
+          "narrative_context": null,
+          "prompt": "לאיז ו ממלכה נכרית לא הגיע נביא מישראל?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ארם"
+            },
+            {
+              "key": "ב",
+              "text": "אשור"
+            },
+            {
+              "key": "ג",
+              "text": "מואב"
+            },
+            {
+              "key": "ד",
+              "text": "מצרים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q15",
+          "display_number": "15",
+          "narrative_context": "פֹעַל ה' לֹא יַ בִיט ו ו ַמעֲ ֵ שה יָּ ָּדי ו לֹא ָּרא ו \"",
+          "prompt": "מה ו הגורם, לדברי הנביא, המביא את העם לכך ש?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "תחושת ביטחון בארצם ובבריתם עם עמים אחרי ם"
+            },
+            {
+              "key": "ב",
+              "text": "חינוך קלוקל מצד ראשי הע ם"
+            },
+            {
+              "key": "ג",
+              "text": "שקיעה בעבודה זרה"
+            },
+            {
+              "key": "ד",
+              "text": "שכרות והוללות 7"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q16",
+          "display_number": "16",
+          "narrative_context": "ֵרא ִׁשית ַח ָּטאת הִיא לְבַת צִי ֹון\"",
+          "prompt": "איז ו עיר מגנה מיכה הנביא באמר ו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "גת"
+            },
+            {
+              "key": "ב",
+              "text": "מרשה"
+            },
+            {
+              "key": "ג",
+              "text": "ע ֻדלם"
+            },
+            {
+              "key": "ד",
+              "text": "לכיש"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q17",
+          "display_number": "17",
+          "narrative_context": null,
+          "prompt": "נְחֹ ֶׁׂשת ָּקלָּל נזכרת פעמיים בתנ\"ך - בתיאור החיות והאופנים בנבואת יחזקאל ובתיאור האיש לבוש הבדים בחזון דניאל. מה מהבאים לא נזכר גם כן בשני התיאורים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "גחלי ם"
+            },
+            {
+              "key": "ב",
+              "text": "תרשיש"
+            },
+            {
+              "key": "ג",
+              "text": "ברק"
+            },
+            {
+              "key": "ד",
+              "text": "לפידים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q18",
+          "display_number": "18",
+          "narrative_context": null,
+          "prompt": "באיזה ספר נוכל למצוא כבש, אריה, פר ה, דג וסו ס?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ישעיהו"
+            },
+            {
+              "key": "ב",
+              "text": "יחזקאל"
+            },
+            {
+              "key": "ג",
+              "text": "הושע"
+            },
+            {
+              "key": "ד",
+              "text": "עמוס 8"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q19",
+          "display_number": "19",
+          "narrative_context": null,
+          "prompt": "איזה מושג/ביטוי לא מזכיר הנביא זכריה פעמיים בספר ו?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ֲאד ֹון כָּל הָּ ָּא ֶׂרץ"
+            },
+            {
+              "key": "ב",
+              "text": "ַא ְר בַע רו ח ֹות הַ ָּׁש ַמיִם"
+            },
+            {
+              "key": "ג",
+              "text": "צֶׂ ַמח"
+            },
+            {
+              "key": "ד",
+              "text": "נְחֹ ֶׁׂשת"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q20",
+          "display_number": "20",
+          "narrative_context": null,
+          "prompt": "שני נביאים מתנבאים על אות ו השבט - האחד מזהיר מפני חורבנ ו באש, והשני מדמה אות ו לאש שתנצח את האויב. מי הם שני הנביאים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הושע ויואל"
+            },
+            {
+              "key": "ב",
+              "text": "יואל ועמוס"
+            },
+            {
+              "key": "ג",
+              "text": "עמוס ועובדיה"
+            },
+            {
+              "key": "ד",
+              "text": "עובדיה ומיכה ָּרא ֵּׁשי הַ ְמ ׁשֹ ְר ִּרים וְ ִּׁשיר ְתהִּל ָּה וְהֹדוֹת לֵּאלֹהִּים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q21",
+          "display_number": "21",
+          "narrative_context": null,
+          "prompt": "היכן אמר משה את שירת האזינ ו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הר נב ו"
+            },
+            {
+              "key": "ב",
+              "text": "ערבות מואב"
+            },
+            {
+              "key": "ג",
+              "text": "עיי העברי ם"
+            },
+            {
+              "key": "ד",
+              "text": "קדש ברנע 9"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q22",
+          "display_number": "22",
+          "narrative_context": null,
+          "prompt": "איזה צמד לא מופיע בדברי קהלת?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בוקר וערב"
+            },
+            {
+              "key": "ב",
+              "text": "שמש וירח"
+            },
+            {
+              "key": "ג",
+              "text": "אור וחושך"
+            },
+            {
+              "key": "ד",
+              "text": "לבן ושחור"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q23",
+          "display_number": "23",
+          "narrative_context": "ָּ וְ ֶׂאל ְת ִפל ַת עֲבָּ ֶׂדיך ָּ ַק ֶׁׂשבֶׂת ֶׂאל ְת ִפל ַת עַבְ ְד ך ָּ",
+          "prompt": "מה נאמר בכריעת ברך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ְתהִי נָּא ָּאזְנְך"
+            },
+            {
+              "key": "ב",
+              "text": "הַ ֵטה ֱאלֹהַי ָּאזְנְך ָּ ו ֲׁש ָּמע ְפ ַקח עֵינֶׂיך ָּ ו ְר ֵאה ׁשֹ ְממֹ ֵתינ ו"
+            },
+            {
+              "key": "ג",
+              "text": "וְ ַא ָּתה צַ ִד יק עַל כָּל הַ בָּא עָּלֵינ ו כִי ֱא ֶׂמת עָּ ִ שי ָּת וַ ֲאנַ ְחנ ו הִ ְר ָּׁשעְנ ו"
+            },
+            {
+              "key": "ד",
+              "text": "ה' ֱאלֹהֵי יִ ְ ש ָּר ֵאל צַ ִד יק ַא ָּתה כִי נִ ְׁש ַא ְרנ ו ְפלֵי ָּטה כְהַי ֹום הַ זֶׂ ה ָּק ְראו בִּ ְׁשמוֹ ָּתם עֲלֵּי ֲא ָּדמוֹ ת צִ ְד ִקי ָּה ו ֶׂאת … וְ ֶׂאת צְ ַפנְיָּה ו בֶׂן ַמעֲ ֵ שיָּה הַ כֹהֵן ֶׂאל יִ ְר ְמיָּה ו הַנ ָּבִיא\" ְ"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q24",
+          "display_number": "24",
+          "narrative_context": "וַי ִ ְׁשלַח הַ ֶׂמלֶׂך",
+          "prompt": "השלם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יְהו כַל בֶׂן ֶׁׂשלֶׂ ְמיָּה"
+            },
+            {
+              "key": "ב",
+              "text": "גְ ַדלְיָּה ו בֶׂן ַפ ְׁשחו ר"
+            },
+            {
+              "key": "ג",
+              "text": "ְ ש ָּריָּה ו בֶׂן עַזְ ִרי ֵאל"
+            },
+            {
+              "key": "ד",
+              "text": "צִ ְד ִקי ָּה ו בֶׂן ֲחנַנְיָּה ו 10"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q25",
+          "display_number": "25",
+          "narrative_context": null,
+          "prompt": "איזה מקום לא קיבל את שמ ו החדש מדוד?",
+          "question_type": "negative_exclusion",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ֶׂחלְ ַקת הַצ ֻ ִרים"
+            },
+            {
+              "key": "ב",
+              "text": "בַעַל ְפ ָּרצִי ם"
+            },
+            {
+              "key": "ג",
+              "text": "ֶׂפ ֶׂרץ עֻ זָּ ה"
+            },
+            {
+              "key": "ד",
+              "text": "עִיר ָּד וִד"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q26",
+          "display_number": "26",
+          "narrative_context": null,
+          "prompt": "מי מהבאים מופיעים באות ו הספר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ֲחנַנְיָּה בֶׂן ֶׁׂשלֶׂ ְמיָּה, ֶׁׂשלֶׂ ְמיָּה בֶׂן ֲחנַנְיָּ ה"
+            },
+            {
+              "key": "ב",
+              "text": "ְׁש ַמעְיָּה בֶׂן ְד לָּיָּה, ְד לָּיָּה ו בֶׂן ְׁש ַמעְיָּה ו"
+            },
+            {
+              "key": "ג",
+              "text": "ִפינְ ָּחס בֶׂן ֶׂאלְעָּזָּר, ֶׂאלְעָּזָּר בֶׂן ִפינְ ָּח ס"
+            },
+            {
+              "key": "ד",
+              "text": "אף תשובה אינה נכונה וְזֶּה ֲא ֶּׁשר ַתעֲ ֶּ שה עַל הַ ִּמזְב ֵּ ַח"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q27",
+          "display_number": "27",
+          "narrative_context": null,
+          "prompt": "מי בנה מזבח בבאר שב ע?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אברה ם"
+            },
+            {
+              "key": "ב",
+              "text": "יצח ק"
+            },
+            {
+              "key": "ג",
+              "text": "יעקב"
+            },
+            {
+              "key": "ד",
+              "text": "שמואל 11 הַ ִמזְ בֵ ַח צָּפ ֹונָּה\"? ְ"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q28",
+          "display_number": "28",
+          "narrative_context": "עַל יֶׂ ֶׂרך",
+          "prompt": "את מה הציב המלך אחז?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מזבח הנחושת"
+            },
+            {
+              "key": "ב",
+              "text": "מוסך השבת"
+            },
+            {
+              "key": "ג",
+              "text": "הכיור"
+            },
+            {
+              "key": "ד",
+              "text": "הים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q29",
+          "display_number": "29",
+          "narrative_context": "ש\"הַ בָּמ ֹות לֹא ָּסר ו \" - עד שסוף סוף הן סר ו, בימי המלך עלי ו נאמר:",
+          "prompt": "לאורך ספר מלכים חוזרת שוב ושוב הקינה על כך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "וַי ִ ְד בַק בַה' לֹא ָּסר ֵמ ַא ֲח ָּריו"
+            },
+            {
+              "key": "ב",
+              "text": "וַי ֵלֶׂך ְ בְכָּל ֶׂד ֶׂרך ְ ָּד וִד ָּאבִי ו וְלֹא ָּסר יָּ ִמין ו ְ שמֹאול"
+            },
+            {
+              "key": "ג",
+              "text": "וַי ֵלֶׂך ְ בְכָּל ֶׂד ֶׂרך ְ … ָּאבִי ו לֹא ָּסר ִמ ֶׂמנ ו"
+            },
+            {
+              "key": "ד",
+              "text": "עָּ ָּ שה … ֶׂאת הַי ָּ ָּׁשר בְעֵינֵי ה' וְלֹא ָּסר ִמ כֹל ֲא ֶׁׂשר צִו ָּה ו"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q30",
+          "display_number": "30",
+          "narrative_context": "וַי ַעַ ש לָּהֶׂם כְכָּל הַ ַמעֲ ִ שים ֲא ֶׁׂשר עָּ ָּ שה בְבֵית ֵאל\"",
+          "prompt": "על מה נאמר?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בָּ ֵתי הַ ְק ֵד ִׁשים ֲא ֶׁׂשר בְבֵית ה '"
+            },
+            {
+              "key": "ב",
+              "text": "בָּ ֵתי הַ בָּמ ֹות ֲא ֶׁׂשר בְעָּ ֵרי ׁשֹ ְמר ֹון"
+            },
+            {
+              "key": "ג",
+              "text": "הַ בָּמ ֹות ֲא ֶׁׂשר עַל ְפנֵי יְרו ָּׁשלִַם"
+            },
+            {
+              "key": "ד",
+              "text": "הַ ִמזְ בְח ֹות ֲא ֶׁׂשר עַל הַג ָּג עֲלִי ַת ָּא ָּחז המשך בעמוד הבא 12 חלק ב': שאלות פתוחו ת לפניך 20 שאלות פתוחות, ענה עליהן בקצרה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q31",
+          "display_number": "31",
+          "narrative_context": "ִמזְ בַח הַ ְקטֹ ֶׂרת\"? 32. מה היה הקרבן שהוקרב על המזבח שנבנה \" בְ ֵׁשם ה'\"? 33. כמה שלמי צאן נזבחו בחנוכת בית ה'? 34. כמה הין יין יש לנסך על המזבח בעבור זבח השלמים בחג השבועות? 35. מי קראו לאחרים לאכול מן הזבחים? 36. מי שלח לאחרים מהבהמות שזבח? _____________________________________________ _ ו כְ ַמ ְס ֵּתר ָּפנִּים ִּמ ֶּמנ ו שאלות 37-39 – מי הנביא שאמר : וָּ ַא ְס ִתר ָּפנַי ֵמהֶׂם וָּ ֶׂא ְתנֵם בְיַד צָּ ֵריהֶׂם וַי ִ ְפלו בַ ֶׂח ֶׂרב כֻל ָּ ם _____________________________________________ _ 13 ָּאז יִזְעֲקו ֶׂאל ה' וְלֹא יַעֲנֶׂה א ֹו ָּתם וְיַ ְס ֵתר ָּפנָּיו ֵמהֶׂם בָּעֵת הַהִיא _____________________________________________ _ וְ ָּאנֹכִי הַ ְס ֵתר ַא ְס ִתיר ָּפנַי בַי ֹום הַהו א עַל כָּל הָּ ָּרעָּה ֲא ֶׁׂשר עָּ ָּ שה _____________________________________________ _ לְ ָּדם יְאֹ ֵּריהֶּ ם ְ וַיַ הֲפֹך 40. מה נמצא \" בִ ְקצֵה יְאֹ ֵרי ִמצְ ָּריִם\"? _____________________________________________ _ 41. מה עתיד להיהפך לדם? _____________________________________________ _ 42. \"וַי ֶׂ ֱחזַק לֵב ַפ ְרעֹה וְלֹא ָּׁש ַמע ֲאלֵהֶׂם כַ ֲא ֶׁׂשר ִד בֶׂר ה - \"'ציין שמו של מלך נוסף שה' חיזק את ליבו _____________________________________________ _ ו ִּמי ֲאבִּיהֶּ ם שאלות 43-46 – ציין מה שם האב: ֲא ֵחיהֶׂם ְ וַי ִ ֵתן לָּהֶׂם ֲאבִּיהֶּם נַ ֲחלָּה בְת ֹוך _____________________________________________ _ 14 ָּ ָּ עָּ שֹה ֶׂאעֱ ֶׂ שה עִ ְמך ֶׂח ֶׂסד בַעֲבו ר {...} ָּאבִּיך _____________________________________________ _ בְכָּל ַח טֹאות ָּאבִּיו ֲא ֶׁׂשר עָּ ָּ שה לְ ָּפנָּיו ְ וַי ֵלֶׂך _____________________________________________ _ ו לְ ָּאבִּיו לֹא הִג ִיד _____________________________________________ _ עַל ְׁשלֹ ָּׁשה ִּפ ְׁשעֵּי ֱאדוֹם וְעַל ַא ְרב ָּעָּה לֹא ֲא ִּׁשיבֶּנ ו 47-50. ציין ארבעה מלכי ישראל / יהודה שנלחמו באדום: _____________________________ מלך יהודה _____________________________ מלך יהודה _____________________________ מלך ישראל _____________________________ מלך ישראל בהצלחה ! 15",
+          "prompt": "באיזה הקשר נזכר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/ARTZI_MMD_Q.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q20 no correct_option; q21 no correct_option; q23 no correct_option; q24 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q31 option count 0; q31 no correct_option"
+  }
+}

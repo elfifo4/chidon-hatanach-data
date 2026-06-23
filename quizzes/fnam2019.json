@@ -1,0 +1,1131 @@
+{
+  "questionnaire_id": "fnam2019",
+  "source_url": "https://meyda.education.gov.il/files/bible-contest/fnam2019.pdf",
+  "metadata": {
+    "contest_year_civil": 2019,
+    "contest_year_hebrew": "תשע\"ט",
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [
+        "יאיר רשלבך",
+        "רגב גולן"
+      ],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 26,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": "ַוִּיְזַרע ָבָאֶרץ ַוִּי ְמ ָצא ַב ָש ָנה ַה ִּהוא מָאה ְש ָעִּרים\". מי זכה לשגשוג המתואר",
+          "prompt": "שמה של שכונת מאה שערים בירושלים לקוח מן הפסוק?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אברהם"
+            },
+            {
+              "key": "ב",
+              "text": "יצחק"
+            },
+            {
+              "key": "ג",
+              "text": "דוד"
+            },
+            {
+              "key": "ד",
+              "text": "שלמה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": "ָז ַכְר ִּתי ָלְך ֶח ֶסד ְנעּוַרִּיְך ַא ֲה ַבת ְכלּוֹל ָתִּיְך\". את מי ציטט",
+          "prompt": "בליל בחירות 1977 הקדיש ראש הממשלה, מנחם בגין ז\"ל, לאשתו עליזה קטע מנאום מקראי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "נחמיה"
+            },
+            {
+              "key": "ב",
+              "text": "ירמיה"
+            },
+            {
+              "key": "ג",
+              "text": "יהושע"
+            },
+            {
+              "key": "ד",
+              "text": "ישעיה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": null,
+          "prompt": "מבין הבאים, על איזה עץ לא מסופר שישב תחתיו אדם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "רותם"
+            },
+            {
+              "key": "ב",
+              "text": "תומר"
+            },
+            {
+              "key": "ג",
+              "text": "אלון"
+            },
+            {
+              "key": "ד",
+              "text": "אשל"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": "ְי ַגר ָש ֲהדּו ָתא. מהו שמו העברי של המקום",
+          "prompt": "שתי המילים היחידות בתורה שנכתבו בארמית הן שם של מקום,?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בית אל"
+            },
+            {
+              "key": "ב",
+              "text": "מחניים"
+            },
+            {
+              "key": "ג",
+              "text": "גלעד"
+            },
+            {
+              "key": "ד",
+              "text": "חרן"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": "ְו ַגּנ ֹו ִּתי ֶאל ָה ִּעיר ַה ֹזאת ְלה ֹו ִּשי ָעּה\". מי נשא דברים אלה",
+          "prompt": "בכיכר הדוידקה בירושלים ניצבת אנדרטה לזכר לוחמי מלחמת העצמאות, אשר בגבה נחקק?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אלישע"
+            },
+            {
+              "key": "ב",
+              "text": "נתן"
+            },
+            {
+              "key": "ג",
+              "text": "ישעיה"
+            },
+            {
+              "key": "ד",
+              "text": "שמואל"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "ֶקֶרן ַהּפּוְך",
+          "prompt": "מיהו אביה של?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "אחאב"
+            },
+            {
+              "key": "ב",
+              "text": "איוב"
+            },
+            {
+              "key": "ג",
+              "text": "נבות"
+            },
+            {
+              "key": "ד",
+              "text": "אליפז"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": "ַו ָת ֶשם ַבּפּוְך עי ֶני ָה\"",
+          "prompt": "על מי מסופר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עתליה"
+            },
+            {
+              "key": "ב",
+              "text": "איזבל"
+            },
+            {
+              "key": "ג",
+              "text": "מלכת שבא"
+            },
+            {
+              "key": "ד",
+              "text": "חולדה הנביאה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": "ִּמ ֶמִּּני ִּתְראּו ְו כן ַת ֲעשּו\" היא סיסמת בית הספר לקצינים של צה\"ל, בה\"ד 1. מה ניתן לומר לגבי מי שטבע אותה",
+          "prompt": "\" ִּמ ֶמִּּני ִּתְראּו ְו כן ַת ֲעשּו\" היא סיסמת בית הספר לקצינים של צה\"ל, בה\"ד 1. מה ניתן לומר לגבי מי שטבע אותה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "היה בנו של גלעד"
+            },
+            {
+              "key": "ב",
+              "text": "זכה בעקבות מעשה שביצע לשם נוסף"
+            },
+            {
+              "key": "ג",
+              "text": "שני בניו נרצחו לעיניו"
+            },
+            {
+              "key": "ד",
+              "text": "הכה שש מאות פלשתים במלמד בקר"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": "ַל ֹכל ְז ָמן ְו עת ְל ָכל- ח ֶפץ ַת ַחת ַה ָש ָמִּים\". איזה זוג אירועים אינו מוזכר בדבריו",
+          "prompt": "קהלת מזכיר אירועים שונים בחייו של אדם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עת לאהוב ועת לשנוא"
+            },
+            {
+              "key": "ב",
+              "text": "עת להוסיף ועת לגרע"
+            },
+            {
+              "key": "ג",
+              "text": "עת לבקש ועת לאבד"
+            },
+            {
+              "key": "ד",
+              "text": "עת לחשות ועת לדבר"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": "ְו ִּכ ְתתּו ַחְרב ֹו ָתם ְל ִּא ִּתים ַו ֲחִּנית ֹו תי ֶהם ְל ַמְז מר ֹות ֹלא ִּי ָשא ג ֹוי ֶאל ּג ֹוי ֶחֶרב ְוֹלא ִּי ְל ְמדּו ע ֹוד ִּמ ְל ָח ָמה\". מי הנביא שאמר דברים אלה",
+          "prompt": "בכניסה למטה האו\"ם בניו-יורק מוטבע פסוק המביע נבואה לשלום?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ישעיה"
+            },
+            {
+              "key": "ב",
+              "text": "יואל"
+            },
+            {
+              "key": "ג",
+              "text": "עמוס"
+            },
+            {
+              "key": "ד",
+              "text": "ירמיה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": "ַה ַמ ְש ִּביר ְל ָכל ַעם ָהָאֶרץ\"",
+          "prompt": "רשת \"המשביר לצרכן\" נקראת ע\"ש \"המשביר המרכזי\", משרד שדאג לספק מזון בתקופת הרעב במלחה\"ע הראשונה. מי כונה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יוסף"
+            },
+            {
+              "key": "ב",
+              "text": "משה רבנו"
+            },
+            {
+              "key": "ג",
+              "text": "שאול"
+            },
+            {
+              "key": "ד",
+              "text": "דוד"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": "ַל ֲעשֹת ֲחנֻ ָכה ְו ִּש ְמ ָחה ּו ְבת ֹוד ֹות ּו ְב ִּשיר ְמ ִּצ ְל ַתִּים ְנ ָב ִּלים ּו ְב ִּכ ֹּנר ֹות\"",
+          "prompt": "איזה מאורע משמח מתאר הכתוב במילים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "חנוכת המקדש"
+            },
+            {
+              "key": "ב",
+              "text": "חנוכת חומות ירושלים"
+            },
+            {
+              "key": "ג",
+              "text": "סיום בניית המילוא"
+            },
+            {
+              "key": "ד",
+              "text": "העלאת ארון הברית לירושלים בימי דוד"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": "ָהל ֹוְך ָה ְלכּו ָה ע ִּצים ִּל ְמ ֹש ַח ֲע לי ֶהם ֶמ ֶלְך\". איזה מהבאים אינו מוזכר במשל כמועמד למלוכה",
+          "prompt": "במשלו בפני בעלי שכם, מתאר יותם, בנו של גדעון, עצים המחפשים מלך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "תאנה"
+            },
+            {
+              "key": "ב",
+              "text": "גפן"
+            },
+            {
+              "key": "ג",
+              "text": "תמר"
+            },
+            {
+              "key": "ד",
+              "text": "זית"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q14",
+          "display_number": "14",
+          "narrative_context": null,
+          "prompt": "\"ַו יָא ְספּו ָכל- ָה ָעם ְכ ִּאיש ֶא ָחד ֶאל- ָהְרח ֹוב ֲא ֶשר ִּל ְפ ני ַש ַער- ַה ָמִּים\". במעמד זה חודש מועד, ש\"ֹלא- ָעשּו ִּמי מי ישּו ַע ִּבן-נּון כן\". איזה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יום הכיפורים"
+            },
+            {
+              "key": "ב",
+              "text": "שבועות"
+            },
+            {
+              "key": "ג",
+              "text": "פסח"
+            },
+            {
+              "key": "ד",
+              "text": "סוכות"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q15",
+          "display_number": "15",
+          "narrative_context": "ָשד ֹות ַב ֶכ ֶסף ִּי ְקנּו\". מבין המקומות הבאים, איזה מקום נקנה באמצעות ככרי כסף",
+          "prompt": "הנביא ירמיה מנבא באחת מנבואותיו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שכם"
+            },
+            {
+              "key": "ב",
+              "text": "שדה עפרון והמערה שבו"
+            },
+            {
+              "key": "ג",
+              "text": "גורן ארונה"
+            },
+            {
+              "key": "ד",
+              "text": "הר שומרון"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q16",
+          "display_number": "16",
+          "narrative_context": "ְב אין ַת ְח ֻבל ֹות ִּי ָּפל ָעם ּו ְתשּו ָעה ְב ֹרב י ֹו עץ\". מיהו המצביא שניתנה בו \" ְתשּו ָעה ַל ֲאָרם\"",
+          "prompt": "סיסמתו של המוסד למודיעין ולתפקידים מיוחדים, \"המוסד\", היא פסוק ממשלי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "רזון בן-אלידע"
+            },
+            {
+              "key": "ב",
+              "text": "חזאל"
+            },
+            {
+              "key": "ג",
+              "text": "רצין"
+            },
+            {
+              "key": "ד",
+              "text": "נעמן"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q17",
+          "display_number": "17",
+          "narrative_context": "ַוִּיְר ֶאה ֶאת ָב ָניו ְו ֶאת ְב ני ָב ָניו ַאְר ָב ָעה ֹדר ֹות\". לאיזה מלך הובטח: \" ְב ני ְר ִּבי ִּעים י ְשבּו ְלָך ַעל ִּכ סא ִּי ְשָר אל\"",
+          "prompt": "על איוב נאמר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "דוד"
+            },
+            {
+              "key": "ב",
+              "text": "שלמה"
+            },
+            {
+              "key": "ג",
+              "text": "יהוא"
+            },
+            {
+              "key": "ד",
+              "text": "שאול"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q18",
+          "display_number": "18",
+          "narrative_context": "ַשר ַמ ֲח ִּצית ָהָר ֶכב\"",
+          "prompt": "מי ממלכי ישראל שימש בעברו כ?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "פקח בן רמליהו"
+            },
+            {
+              "key": "ב",
+              "text": "זמרי"
+            },
+            {
+              "key": "ג",
+              "text": "יהוא בן נמשי"
+            },
+            {
+              "key": "ד",
+              "text": "בעשא בן אחיה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q19",
+          "display_number": "19",
+          "narrative_context": "ָוָאִּרי ָבה ֶאת ַה ֹחִּרים ְו ֶאת ַה ְס ָגִּנים\". מה היה דרישת נחמיה מהחורים ומהסגנים במסגרת הוויכוח",
+          "prompt": "\"העם דורש צדק חברתי\" הייתה סיסמת המחאה החברתית בשנת 2011. בימי נחמיה, היה ויכוח על צדק חברתי בין נחמיה לחורים ולסגנים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שייתנו תרומות ומעשרות"
+            },
+            {
+              "key": "ב",
+              "text": "שיוותרו על חובות"
+            },
+            {
+              "key": "ג",
+              "text": "שיריבו ריב יתום ואלמנה"
+            },
+            {
+              "key": "ד",
+              "text": "שייתנו צדקה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q20",
+          "display_number": "20",
+          "narrative_context": "ַא ְס ָּפ ָתא ו ֲא ַד ְל ָיא",
+          "prompt": "מיהם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שני שרים בממשלת פרס"
+            },
+            {
+              "key": "ב",
+              "text": "שני סריסים בארמון המלך אחשוורוש"
+            },
+            {
+              "key": "ג",
+              "text": "שניים מבניו של המן"
+            },
+            {
+              "key": "ד",
+              "text": "שניים מנציבי המלך אחשוורוש"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q21",
+          "display_number": "21",
+          "narrative_context": "ְו ָה ָיה ַבי ֹום ַההּוא ִּי ְטפּו ֶה ָהִּרים ָע ִּסיס ְו ַהְּג ָבע ֹות ת ַל ְכ ָנה ָח ָלב ְו ָכל- ֲא ִּפי קי ְיהּו ָדה י ְלכּו ָמִּים\"",
+          "prompt": "מי אמר?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יואל"
+            },
+            {
+              "key": "ב",
+              "text": "ישעיה"
+            },
+            {
+              "key": "ג",
+              "text": "עמוס"
+            },
+            {
+              "key": "ד",
+              "text": "חגי"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q22",
+          "display_number": "22",
+          "narrative_context": "ֹכ הן בית אל בימי הנביא עמוס",
+          "prompt": "מי היה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מתן"
+            },
+            {
+              "key": "ב",
+              "text": "יונתן"
+            },
+            {
+              "key": "ג",
+              "text": "אוריה"
+            },
+            {
+              "key": "ד",
+              "text": "אמציה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q23",
+          "display_number": "23",
+          "narrative_context": "ֹלא יּו ַכל ְל ִּה ָמנ ֹות\"",
+          "prompt": "על מה אמר קהלת שהוא?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שכל"
+            },
+            {
+              "key": "ב",
+              "text": "הבל"
+            },
+            {
+              "key": "ג",
+              "text": "חיסרון"
+            },
+            {
+              "key": "ד",
+              "text": "מעשה האדם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q24",
+          "display_number": "24",
+          "narrative_context": "ַאל- ָנא ְת ַכ ֲחִּדי ִּמ ֶמִּּני ָד ָבר\"",
+          "prompt": "מי נתבקשה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "האישה התקועית"
+            },
+            {
+              "key": "ב",
+              "text": "האישה השונמית"
+            },
+            {
+              "key": "ג",
+              "text": "רחב"
+            },
+            {
+              "key": "ד",
+              "text": "דבורה הנביאה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q25",
+          "display_number": "25",
+          "narrative_context": "ַאּק ֹו\"",
+          "prompt": "מהו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שם של מקום"
+            },
+            {
+              "key": "ב",
+              "text": "שם של חיה"
+            },
+            {
+              "key": "ג",
+              "text": "שם של כלי עבודה"
+            },
+            {
+              "key": "ד",
+              "text": "שם של עיר חלק ב': שאלות בנושאים נבחרים שאלות בנושא שירי התנ\"ך התנ\"ך הוא מקור השראה לאמנים וליוצרים רבים, אשר כתבו לאורו ושזרו את פסוקיו בשיריהם."
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q26",
+          "display_number": "26",
+          "narrative_context": "ְּפ אר ַת ַחת א ֶפר ֶש ֶמן ָשש ֹון ַת ַחת א ֶבל ַמ ֲע טה ְת ִּה ָלה ַת ַחת רּו ַח כ ָהה\"? (ישי ריבו, \"תוכו רצוף אהבה\") ______________________ 27. באיזו עיר גרה מי שזכתה לנבואה: \" ַכד ַה ֶּק ַמח ֹלא ִּת ְכ ָלה ְו ַצ ַּפ ַחת ַה ֶש ֶמן ֹלא ֶת ְח ָסר\"? (נעמי שמר, \"כד הקמח\") ______________________ 28. מי נשא את התפילה: \" ָק ֹטְנ ִּתי ִּמ ֹכל ַה ֲח ָסִּדים ּו ִּמ ָכל ָה ֱא ֶמת ֲא ֶשר ָע ִּשי ָת ֶאת ַע ְב ֶדָך\"? (יונתן רזאל, \"קטונתי\") __________________ 29. נורית הירש הלחינה פסוקים המתארים הפסד צורם של אויב מר: \" ַנ ַחל ִּקיש ֹון ְּגָר ָפם ַנ ַחל ְקדּו ִּמים ַנ ַחל ִּקיש ֹון\". בפי מי מובא פסוק זה? __________________ שאלות בנושא חקלאות חקלאות היא ענף מרכזי ומהותי בארץ ישראל, מימי התנ\"ך ועד ימינו. החקלאות הישראלית היא גאווה לאומית. 30. מי הזהיר את העם במילים: \"ְו ֶאת- ְשד ֹו תי ֶכם ְו ֶאת- ַכְר מי ֶכם ְו זי תי ֶכם ַהט ֹו ִּבים ִּי ָּקח\"? ____________________ 31. ִּמ ְק ָשה הוא שדה בו מגדלים אבטיחים וקישואים. על מי נאמר: \"ְונ ֹו ְתָרה... ְכ ֻס ָכה ְב ָכֶרם ִּכ ְמלּו ָנה ְב ִּמ ְק ָשה\"? _____________________ 32. פרדס הוא המטע בו מגדלים פירות הדר. מי העיד על עושרו באומרו: \" ָע ִּשי ִּתי ִּלי ַּגּנ ֹות ּו ַפְר ד ִּסים ְו ָנ ַט ְע ִּתי ָב ֶהם עץ ָכל- ֶּפִּרי\"? ____________________ 33. עמיר הוא צרור שיבולים. מי ניבא לממלכת ישראל עונש עתידי: \" ִּה ּנה ָא ֹנ ִּכי מ ִּעיק ַת ְח תי ֶכם ַכ ֲא ֶשר ָת ִּעיק ָה ֲע ָג ָלה ַה ְמ לָאה ָלּה ָע ִּמיר\"? __________________ שאלות בנושא סמלים ישנם סמלי עיריות ומוסדות בישראל המנציחים אירועים ופסוקים מהתנ\"ך. 34. בסמל משרד התיירות מופיע אשכול ענבים הנישא בידי שני אנשים: \" ֶא ְשכ ֹול ֲע ָנ ִּבים ֶא ָחד ִּמן ָהִּר ֹמִּנים ּו ִּמן ַה ְת אִּנים\". מאיזה נחל הובא אשכול הענבים? _________________ 35. בסמל העיר תל-אביב-יפו מופיע הביטוי \" ֶא ְב נְך ְוִּנ ְב נית\", הלקוח מדבריו של נביא: \"ע ֹוד ֶא ְב נְך ְוִּנ ְב נית ְבתּו ַלת ִּי ְשָר אל\". מיהו הנביא? ___________________ 36. בסמל הסתדרות הרופאים בישראל מופיע, לצד המנורה, מטה שעליו כרוך נחש. אחד המלכים השמיד אותו: \"ְו ִּכ ַתת ְנ ַחש ַהְּנ ֹח ֶשת ֲא ֶשר ָע ָשה ֹמ ֶשה\". מדוע? _______________________________________________________. 37. בסמל העיר רחובות מופיע הפסוק שהעניק לעיר את שמה: \"ַוִּי ְקָרא ְש ָמּה ְר ֹחב ֹות ַו ֹיא ֶמר ִּכי ַע ָתה ִּהְר ִּחיב ה' ָלנּו\". מי קרא למקום המתואר בשם רחובות? ___________________ שאלות בנושא בחירות בימים אלו אנו בעיצומה של מערכת בחירות. בתנ\"ך נעשו לא מעט בחירות; בין אנשים, בין עמים ובין תחומים שונים. 38. ידוע כי תהליך בחירת מלך ישראל הוא תהליך משמעותי מאוד. איזה עם נוכרי כינה את שאול המלך \" ְב ִּחיר ה'\"? _____________________ 39. מה שם הילד עליו ניבא ישעיה: \" ֶח ְמָאה ּוְד ַבש ֹיא כל ְל ַד ְעת ֹו ָמא ֹוס ָבָרע ּו ָבח ֹור ַבט ֹוב\"? _____________________ 40. סיירת חות\"ם היא ההנהגה הצעירה של חידוני התנ\"ך במשרד החינוך. שמה לקוח מדבריו של הנביא חגי: \"ְו ַש ְמ ִּתיָך ַכח ֹו ָתם ִּכי ְבָך ָב ַחְר ִּתי\". למי אמר הנביא דברים אלה? _____________________ שאלות בנושא שלום שלום ושלווה הם משאת נפשם של כל אדם ואומה באשר הם. בתנ\"ך, השלום תופס מקום מרכזי: בדיבור בין אנשים, בחלומות עתידיים וגם במציאות רגילה של חיים. 41. על מי נאמר שהיה \"ָרצּוי ְל ֹרב ֶא ָחיו ֹד רש ט ֹוב ְל ַעמ ֹו ְו ֹד בר ָשל ֹום ְל ָכל ַזְרע ֹו \"",
+          "prompt": "מי ניבא כי האבלים יזכו ל?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "משה רבנו"
+            },
+            {
+              "key": "ב",
+              "text": "דוד"
+            },
+            {
+              "key": "ג",
+              "text": "מרדכי"
+            },
+            {
+              "key": "ד",
+              "text": "שלמה 42. מי הנביא שבדבריו מוזכר: \" ִּהְנִּני ֹנ ֶטה א ֶלי ָה ְכ ָנ ָהר ָשל ֹום ּו ְכ ַנ ַחל ש ֹו טף ְכב ֹוד ּג ֹוִּים\"?"
+            },
+            {
+              "key": "א",
+              "text": "יואל"
+            },
+            {
+              "key": "ב",
+              "text": "חגי"
+            },
+            {
+              "key": "ג",
+              "text": "ישעיה"
+            },
+            {
+              "key": "ד",
+              "text": "עמוס 43. בפרשת קדושים מצּווה על היהודי לאהוב אדם אחר כמו שהוא אוהב את עצמו: \"ְוָא ַה ְב ָ ת ל ֹו ָכמ ֹוָך\". מיהו אותו אדם?"
+            },
+            {
+              "key": "א",
+              "text": "הזקן"
+            },
+            {
+              "key": "ב",
+              "text": "הגר"
+            },
+            {
+              "key": "ג",
+              "text": "היתום"
+            },
+            {
+              "key": "ד",
+              "text": "העני 44. שליחו של אדם אמר לקבוצת אנשים: \" ָשל ֹום ָל ֶכם ַאל ִּתיָראּו\". מה היחס בין קבוצת האנשים לשולח השליח?"
+            },
+            {
+              "key": "א",
+              "text": "חייליו"
+            },
+            {
+              "key": "ב",
+              "text": "אחיו"
+            },
+            {
+              "key": "ג",
+              "text": "בניו"
+            },
+            {
+              "key": "ד",
+              "text": "עבדיו 45. \"ּו ַב ָמק ֹום ַה ֶזה ֶא תן ָשל ֹום ְנ ֻאם ה'\". מהו אותו מקום?"
+            },
+            {
+              "key": "א",
+              "text": "שילה"
+            },
+            {
+              "key": "ב",
+              "text": "המשכן"
+            },
+            {
+              "key": "ג",
+              "text": "בית המקדש הראשון"
+            },
+            {
+              "key": "ד",
+              "text": "בית המקדש השני שאלות בנושא ספרים התנ\"ך הוא \"ספר הספרים\". ספרים רבים מופיעים ב\"ספר הספרים\", בהקשרים שונים ומגוונים. 46. מי שלחה ספרים וחתמה עליהם בשם אדם אחר?"
+            },
+            {
+              "key": "א",
+              "text": "איזבל"
+            },
+            {
+              "key": "ב",
+              "text": "אסתר"
+            },
+            {
+              "key": "ג",
+              "text": "עתליה"
+            },
+            {
+              "key": "ד",
+              "text": "דבורה 47. אדם הואשם ששלח ספרים בעלי תוכן שלילי אל צפניה הכהן בימי ירמיה. מיהו?"
+            },
+            {
+              "key": "א",
+              "text": "אחאב בן קוליה"
+            },
+            {
+              "key": "ב",
+              "text": "חנניה בן עזור"
+            },
+            {
+              "key": "ג",
+              "text": "אחיקם בן שפן"
+            },
+            {
+              "key": "ד",
+              "text": "שמעיהו הנחלמי 48. מי קרא את ס ֶפר ַה ְבִּרית באזני העם?"
+            },
+            {
+              "key": "א",
+              "text": "יהושע"
+            },
+            {
+              "key": "ב",
+              "text": "שמואל"
+            },
+            {
+              "key": "ג",
+              "text": "נחמיה"
+            },
+            {
+              "key": "ד",
+              "text": "משה רבנו 49. מי המלך שקיבל במתנה ממלך זר \" ְס ָפִּרים ּו ִּמְנ ָחה\"?"
+            },
+            {
+              "key": "א",
+              "text": "שלמה"
+            },
+            {
+              "key": "ב",
+              "text": "דוד"
+            },
+            {
+              "key": "ג",
+              "text": "חזקיהו"
+            },
+            {
+              "key": "ד",
+              "text": "יאשיהו 50. לאחר אחד מחטאי ישראל התדיין משה עם ה' באשר לעתידו של העם, ובמהלך ההתדיינות ביקש מה' שיימחה אותו מספרו אם לא ייסלח לישראל. מהו אותו החטא?"
+            },
+            {
+              "key": "א",
+              "text": "חטא העגל"
+            },
+            {
+              "key": "ב",
+              "text": "חטא בעל פעור"
+            },
+            {
+              "key": "ג",
+              "text": "חטא המרגלים"
+            },
+            {
+              "key": "ד",
+              "text": "חטא מי מריבה חלק ג': שאלות מילואים שימו לב! הניקוד שתצברו בשאלות 51-60 ישמש רק במצב של שוויון במהלך החידון. 51. לפני איזו מכה ממכות מצרים אמרו לפרעה עבדיו: \" ַעד ָמ ַתי ִּי ְה ֶיה ֶזה ָלנּו ְלמ ֹו קש ַש ַלח ֶאת ָה ֲא ָנ ִּשים\"? _____________________ 52. מבין שניים עשר המרגלים שנשלחו לארץ, מה היה שמו הפרטי של המרגל משבט אפרים? _____________________ 53. לאיזו עיר עלה הורם מלך גזר לעזור בזמן מלחמתה עם יהושע? _____________ 54. ע\"י מי כונו דוד ואנשיו: \"ִּג ֹבִּרים ה ָמה ּו ָמ רי ֶנ ֶפש ה ָמה ְכ ֹדב ַשכּול ַב ָש ֶדה\"? _____________________ 55. איזה שבט המשיל משה בברכותיו ל\"ּגּור ַאְר יה\"? ____________________ 56. מי התבקש: \" ֲע לה ִּא ִּתי ְב ֹגָר ִּלי\"? ____________________ 57. \" ַעל ְשֹל ָשה ִּּפ ְש עי... ְו ַעל ַאְר ָב ָעה ֹלא ֲא ִּשי ֶבּנּו\". ציין את שמה של הממלכה הראשונה המועדת לעונש שאת שמה מזכיר הנביא. ____________________ (58-60). על שלושה אנשים מסופר שהכינו מצות לאורחיהם. ציין את שמותיהם. 58. ____________________ 59. ____________________ 60. ____________________ בהצלחה!"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "https://meyda.education.gov.il/files/bible-contest/fnam2019.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 option count 40; q26 no correct_option"
+  }
+}

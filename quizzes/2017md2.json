@@ -1,0 +1,410 @@
+{
+  "questionnaire_id": "2017md2",
+  "source_url": "http://meyda.education.gov.il/files/noar/2017md2.pdf",
+  "metadata": {
+    "contest_year_civil": 2017,
+    "contest_year_hebrew": "תשע\"ז",
+    "track": null,
+    "stage": null,
+    "sitting": null,
+    "age_group": "youth",
+    "annual_theme": null,
+    "credits": {
+      "program_supervisor": null,
+      "quiz_coordinator": null,
+      "question_authors": [
+        "אביעד שלמה מוריה"
+      ],
+      "editor": null,
+      "committee_members": []
+    },
+    "syllabus": [],
+    "time_limit_minutes": null,
+    "instructions_text": null,
+    "source_text_edition": null,
+    "scoring_summary": {
+      "points_per_question": 1,
+      "max_points": 10,
+      "scoring_is_tiered": false
+    }
+  },
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": "ֲא דְר ֹכִנים על ידי:",
+          "prompt": "לבית המקדש נתרמו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "חירם מלך צור"
+            },
+            {
+              "key": "ב",
+              "text": "השרים בימי דוד"
+            },
+            {
+              "key": "ג",
+              "text": "כורש מלך פרס"
+            },
+            {
+              "key": "ד",
+              "text": "ראשי האבות בימי נחמיה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": "ֲא ָבִנים ְג ֹדלֹות\"",
+          "prompt": "לאיזו מהמטרות לא נעשה שימוש ב?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לייסוד בניין"
+            },
+            {
+              "key": "ב",
+              "text": "להקמת גל"
+            },
+            {
+              "key": "ג",
+              "text": "לאות נבואי"
+            },
+            {
+              "key": "ד",
+              "text": "לכליאת אנשים"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": "ֵאל ֱאֹל ֵהי ִי ְשָר ֵאל\"",
+          "prompt": "איזה מזבח נקרא?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "המזבח שבנה יעקב בבית אל"
+            },
+            {
+              "key": "ב",
+              "text": "המזבח שבנה משה ברפידים"
+            },
+            {
+              "key": "ג",
+              "text": "המזבח שבנו ב ֵנ י גד וב ֵנ י ראובן בגלילות הירדן"
+            },
+            {
+              "key": "ד",
+              "text": "המזבח שבנה גדעון בעפרה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": "ֲה יד ה' ִתְק ָצר\"? מי עוד שואל שאלה זאת בשם ה': \" ֲה ָקצֹור ָק ְצָרה ָיִדי […]\"",
+          "prompt": "ה' מכריז לפני משה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ישעיהו"
+            },
+            {
+              "key": "ב",
+              "text": "חנניה בן עזור"
+            },
+            {
+              "key": "ג",
+              "text": "חגי"
+            },
+            {
+              "key": "ד",
+              "text": "חנני ה רֹאה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": null,
+          "prompt": "מי מהמ ס פרים את תולדות העם, מזכיר/ים בהם את יצחק?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יהושע"
+            },
+            {
+              "key": "ב",
+              "text": "שמואל"
+            },
+            {
+              "key": "ג",
+              "text": "הושע"
+            },
+            {
+              "key": "ד",
+              "text": "הלוויים בימי נחמיה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "ִע ָמ ֶכם ֶח ֶסד כ ֲא ֶשר ֲע ִשי ֶתם ִעם ה ֵמ ִתים ְו ִע ָמִדי.\" מיהם \"המתים\"",
+          "prompt": "\" י עש ה'?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בני אחאב"
+            },
+            {
+              "key": "ב",
+              "text": "שאול ובניו"
+            },
+            {
+              "key": "ג",
+              "text": "מחלון וכליון"
+            },
+            {
+              "key": "ד",
+              "text": "אחי אבימלך"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": "וְי ס ֵפר ֹמ ֶשה ְל ֹח ְתנֹו […] ֵאת ָכל ה ְת ָל ָאה ֲא ֶשר ְמ ָצ ָא תם ב ֶדֶרְך\". למי עוד סיפר משה על \" ה ְת ָל ָאה ֲא ֶשר ְמ ָצ ָא ְתנּו\"",
+          "prompt": "\" וְי ס ֵפר ֹמ ֶשה ְל ֹח ְתנֹו […] ֵאת ָכל ה ְת ָל ָאה ֲא ֶשר ְמ ָצ ָא תם ב ֶדֶרְך\". למי עוד סיפר משה על \" ה ְת ָל ָאה ֲא ֶשר ְמ ָצ ָא ְתנּו\"?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לכל ישראל"
+            },
+            {
+              "key": "ב",
+              "text": "לבני גד ולבני ראובן"
+            },
+            {
+              "key": "ג",
+              "text": "למלך אדום"
+            },
+            {
+              "key": "ד",
+              "text": "לסיחון מלך האמורי"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": null,
+          "prompt": "בספר דברים מספר משה על כך שנאסר עליו ועל העם להילחם באדום, במואב ובעמון. מי מזכיר את האיסור הזה מאוחר יותר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יהושע"
+            },
+            {
+              "key": "ב",
+              "text": "יפתח"
+            },
+            {
+              "key": "ג",
+              "text": "דוד"
+            },
+            {
+              "key": "ד",
+              "text": "יהושפט"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": "ִעֵּור\"",
+          "prompt": "מהו שמו של עבד ה' שישעיהו אומר עליו שהוא?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כֹוֶרש"
+            },
+            {
+              "key": "ב",
+              "text": "ְרחּום"
+            },
+            {
+              "key": "ג",
+              "text": "ִא ֵמר"
+            },
+            {
+              "key": "ד",
+              "text": "ְמ ש ָלם"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": "בִית ה ָגדֹול\" יוכה וייחרב. באיזה שם מתאר עמוס את שאריותיו",
+          "prompt": "על פי עמוס, \" ה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ְש ָבִרים"
+            },
+            {
+              "key": "ב",
+              "text": "ְבִק ִעים"
+            },
+            {
+              "key": "ג",
+              "text": "ְש ָב ִבים"
+            },
+            {
+              "key": "ד",
+              "text": "ְר ִסי ִסים חלק ב - \" ְלרֹאׁש ּו ְל ָׂשר\" - שאלות על ראשים ושרים בתנ\"ך לפניכם 20 שאלות פתוחות. כל תשובה מלאה ומדויקת ת ז כה אתכם ב-2 נקודות. סך הכול אפשר לצבור בחלק הזה עד 40 נקודות. 11-12. מי נחלקו ל\" אְר ָב ָעה ָרא ִשים\"? ____________ ____________ 13. למי היה בן שנקרא \"רֹאש\"? ____________ 14. מי חשש \"ְו ִח י ְב ֶתם ֶאת רֹא ִשי\"? ___________ 15. \" וָי ָגז ֶאת רֹאשֹו.\" מי הוא? ____________ 16. מי משתמש בביטוי \"רֹאש פְרעֹות אֹוֵיב\"?___________ 17. באיזה חודש במבול \"ִנְראּו ָרא ֵשי ֶה ָהִרים\"? ___________ 18. בהקשר של איזה מקום מוזכרים \"ָרא ֵשי ה ְב ָכ ִאים\"? _________________________ 19. מי מגיבורי דוד היה \"רֹאש ה ְשֹל ָשה [...] ְו עד ה ְשֹל ָשה לֹא ָבא\"? _______________ 20. מי ניבא: \"ְו ָשמּו ָל ֶהם רֹאש ֶא ָחד ְו ָעלּו ִמן ָה ָאֶרץ\"? ____________________ שרים השרים היו ממונים על תחומים ומקצועות שונים. תחת רשימת השרים שלפניכם מצוינים המקומות שבהם מופיעים בעלי המקצוע עצמם. ז הו במי מדובר וענו על השאלות: ַׂשר ַׂה ַׂט ָׂב ִחים - 21. במקום אחד מוזכר אדם המשמש בתפקיד ה\" ט ָבח\". למי הוא מגיש את האוכל? ַׂשר ַׂה ַׂמ ְׁשִקים - 22. במקום אחד מוזכר בשמו אדם המשמש בתפקיד ה\" מ ְש ֶקה\". מה שמו? ַׂשר ֲח ִמ ִשים - 23. במקום אחד מוזכרים גם \" ֲח ִמ ָשיו\" של שר החמישים. מהו שם המלך של אותם ח ִמ שים? ָׂשֵרי ַׂהִנ ָׂצ ִבים - 24-25. פעמיים מוזכר אדם ש\"ניצב על\" פועלים או על עבדים. על מי הוא ניצב בכל אחד מהמקרים? 26. \"ִנ ָצב\" מופיע פעם אחת גם במשמעות של חלק בכלי נשק. של מי הנשק? ַׂשר ַׂה ָׂסִרי ִסים - 27-28. פעמיים מינה מלך \" ָסִריס ֶא ָחד\" לשליחות מסוימת. מהן השליחויות? 29. מה היה תפקידו של \" ָסִריס ֶא ָחד'' שלקח רב טבחים בכובשו את ירושלים? 30. מי מכונה \" ִאיש ָסִריס\"? ____________________________ בהצלחה!"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+        }
+      ]
+    }
+  ],
+  "answer_key_present": false,
+  "answer_key_location": "none",
+  "import_provenance": {
+    "fetched_from": "http://meyda.education.gov.il/files/noar/2017md2.pdf",
+    "fetch_date": "2026-06-23",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option"
+  }
+}

@@ -22,6 +22,7 @@ import re
 import sys
 import time
 import datetime
+import unicodedata
 import urllib.parse
 from pathlib import Path
 
@@ -29,7 +30,9 @@ from pathlib import Path
 # Constants
 # --------------------------------------------------------------------------- #
 ROOT = Path(__file__).resolve().parent
-QUIZ_DIR = ROOT / "quizzes"
+CONTENT_DIR = ROOT / "content"
+QUIZ_DIR = CONTENT_DIR / "quizzes"
+MANIFEST_PATH = CONTENT_DIR / "manifest.json"
 LOG_DIR = ROOT / "logs"
 TMP_DIR = ROOT / ".tmp"
 
@@ -109,14 +112,85 @@ def gematria(s: str) -> int:
 _DIGIT_RUN = re.compile(r"\d+")
 
 
+def _is_hebrew_mark(ch: str) -> bool:
+    """Hebrew combining points & cantillation marks (U+0591–U+05C7)."""
+    return "֑" <= ch <= "ׇ"
+
+
 def _delogicalize(line: str) -> str:
     """pdfplumber returns Hebrew lines in visual (reversed) order.
 
-    Reversing the whole line restores logical Hebrew order, but multi-digit
-    numbers (e.g. '25') get reversed too ('52') -- so we flip digit runs back.
+    A naive full-line reverse restores consonant order but flips every
+    [base][marks] cluster into [marks][base] -- detaching niqqud from its
+    letter. So we reverse *cluster* order, keeping each base letter together
+    with its trailing combining marks, then flip multi-digit runs back, then
+    NFC-normalize.
     """
-    rev = line[::-1]
-    return _DIGIT_RUN.sub(lambda m: m.group(0)[::-1], rev)
+    clusters: list[str] = []
+    i, n = 0, len(line)
+    while i < n:
+        if line[i].isspace():
+            clusters.append(line[i])
+            i += 1
+            continue
+        j = i + 1
+        while j < n and _is_hebrew_mark(line[j]):
+            j += 1
+        clusters.append(line[i:j])
+        i = j
+    rev = "".join(reversed(clusters))
+    rev = _DIGIT_RUN.sub(lambda m: m.group(0)[::-1], rev)
+    return unicodedata.normalize("NFC", rev)
+
+
+# A *detached* mark is one not preceded by its base letter: at string start or
+# right after whitespace. A correctly-placed mark is always preceded by a letter,
+# so anchoring on (^|\s) avoids touching good text.
+_DETACHED_MARK = re.compile(r"(^|\s)([֑-ׇ]+)([א-ת])")
+_SPACE_THEN_MARK = re.compile(r"\s[֑-ׇ]")
+
+
+def repair_hebrew_pdf_text(text: str | None) -> str | None:
+    """Deterministically repair Hebrew text damaged by PDF extraction.
+
+    Conservative and safe:
+      * NFC normalize.
+      * Reattach only *detached* combining marks -- those at a word/string start
+        (after a space or the beginning), which cannot be correct since no word
+        starts with a mark. " ֵּה" -> " הֵּ". The leading space is preserved, so
+        real word boundaries are never merged (per requirement: do not merge
+        words). Correctly-placed marks (preceded by their letter) are untouched.
+      * Collapse runs of whitespace.
+
+    Verse word boundaries (spurious intra-word spaces) and font-lost final
+    letters (`�`) are NOT recovered here -- those come from Sefaria enrichment.
+    """
+    if not text:
+        return text
+    s = unicodedata.normalize("NFC", text)
+    prev = None
+    while prev != s:  # repeat for chained detached clusters
+        prev = s
+        s = _DETACHED_MARK.sub(r"\1\3\2", s)
+    s = re.sub(r"[ \t]{2,}", " ", s).strip()
+    return unicodedata.normalize("NFC", s)
+
+
+def audit_hebrew(obj, path: str = "") -> list[tuple[str, str]]:
+    """Walk a questionnaire dict and return (json_path, snippet) for any string
+    still showing a detached combining mark (space + mark) or the lost-char `�`.
+    """
+    found: list[tuple[str, str]] = []
+    if isinstance(obj, str):
+        if _SPACE_THEN_MARK.search(obj) or REPLACEMENT_CHAR in obj:
+            found.append((path, obj[:60]))
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            found.extend(audit_hebrew(v, f"{path}.{k}"))
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            found.extend(audit_hebrew(v, f"{path}[{i}]"))
+    return found
 
 
 def extract_pdf_pages(path: Path) -> list[str]:
@@ -555,6 +629,10 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
     for ru in raw_units:
         n = ru["number"]
         narrative, prompt = split_narrative(ru["prompt"])
+        prompt = repair_hebrew_pdf_text(prompt)
+        narrative = repair_hebrew_pdf_text(narrative)
+        for o in ru["options"]:
+            o["text"] = repair_hebrew_pdf_text(o["text"])
         qtype = classify_question(prompt, ru["options"])
         ak = answers.get(n, {})
         correct = ak.get("correct_option")
@@ -876,6 +954,12 @@ def process_file(entry: dict, force: bool) -> dict:
         q["import_provenance"]["extraction_notes"] = f"{existing}; {fail_note}" if existing else fail_note
         quality = "manual_review_needed"
 
+    suspicious = audit_hebrew(q)
+    if suspicious:
+        result["suspicious_hebrew"] = len(suspicious)
+        for jpath, snip in suspicious[:3]:
+            print(f"   ! suspicious Hebrew at {jpath}: {snip!r}")
+
     write_json(out_path, q)
     count = len(q["sections"][0]["question_units"]) if q["sections"] else 0
     result.update(status="success", extraction_quality=quality, question_count=count,
@@ -913,7 +997,7 @@ def regenerate_manifest() -> dict:
             "has_answer_key": q.get("answer_key_present", False),
         })
     manifest = {"schema_version": SCHEMA_VERSION, "generated_at": TODAY, "quizzes": quizzes}
-    write_json(QUIZ_DIR / "manifest.json", manifest)
+    write_json(MANIFEST_PATH, manifest)
     return manifest
 
 
@@ -925,6 +1009,7 @@ def write_log(results: list[dict]) -> None:
         "processed": sum(1 for s in statuses if s == "success"),
         "skipped_existing": sum(1 for s in statuses if s == "skipped_existing"),
         "failed": sum(1 for s in statuses if s == "fetch_failed"),
+        "suspicious_hebrew_total": sum(r.get("suspicious_hebrew", 0) for r in results),
         "results": results,
     }
     write_json(LOG_DIR / "extraction_log.json", log)
@@ -942,7 +1027,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="list what would be processed")
     args = ap.parse_args()
 
-    QUIZ_DIR.mkdir(exist_ok=True)
+    QUIZ_DIR.mkdir(parents=True, exist_ok=True)
     LOG_DIR.mkdir(exist_ok=True)
 
     if args.manifest_only:

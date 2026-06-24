@@ -146,8 +146,34 @@ def _delogicalize(line: str) -> str:
 # A *detached* mark is one not preceded by its base letter: at string start or
 # right after whitespace. A correctly-placed mark is always preceded by a letter,
 # so anchoring on (^|\s) avoids touching good text.
-_DETACHED_MARK = re.compile(r"(^|\s)([֑-ׇ]+)([א-ת])")
+_DETACHED_MARK = re.compile(r"(^|\s)([֑-ׇ]+)\s*([א-ת])")
 _SPACE_THEN_MARK = re.compile(r"\s[֑-ׇ]")
+# A lone vocalized fragment: exactly one Hebrew base letter + niqqud, as a whole
+# token (allowing surrounding punctuation such as an opening quote). A single
+# vocalized letter is never a standalone Hebrew word (prefixes attach to the next
+# word), so such a token is a spurious intra-word break.
+_LONE_VOCALIZED = re.compile(r"^[^א-ת]*[א-ת][֑-ׇ]+[^א-ת]*$")
+
+
+def _join_lone_fragments(s: str) -> str:
+    """Reattach spurious intra-word breaks where vocalized words were split into
+    single-letter fragments, e.g. 'וְ הִ נְ נִי אֹ מֵר' -> 'וְהִנְנִי אֹמֵר'.
+
+    A token is merged onto the previous token iff the previous token was a lone
+    vocalized single letter. Genuine words (>=2 letters, or unvocalized) start a
+    fresh token, so real word boundaries are preserved.
+    """
+    out: list[str] = []
+    attach = False
+    for tok in s.split(" "):
+        if not tok:
+            continue
+        if attach and out:
+            out[-1] += tok
+        else:
+            out.append(tok)
+        attach = bool(_LONE_VOCALIZED.match(tok))
+    return " ".join(out)
 
 
 def repair_hebrew_pdf_text(text: str | None) -> str | None:
@@ -158,12 +184,15 @@ def repair_hebrew_pdf_text(text: str | None) -> str | None:
       * Reattach only *detached* combining marks -- those at a word/string start
         (after a space or the beginning), which cannot be correct since no word
         starts with a mark. " ֵּה" -> " הֵּ". The leading space is preserved, so
-        real word boundaries are never merged (per requirement: do not merge
-        words). Correctly-placed marks (preceded by their letter) are untouched.
+        real word boundaries are never merged. Correctly-placed marks (preceded
+        by their letter) are untouched.
+      * Rejoin words split into lone single-letter vocalized fragments
+        (see _join_lone_fragments) -- never merges genuine multi-letter words.
       * Collapse runs of whitespace.
 
-    Verse word boundaries (spurious intra-word spaces) and font-lost final
-    letters (`�`) are NOT recovered here -- those come from Sefaria enrichment.
+    Font-lost final letters (`�`) are NOT recovered here, and rarer multi-letter
+    fragment splits may remain (flagged by audit_hebrew); fully-correct verse
+    text comes from Sefaria enrichment where a reference exists.
     """
     if not text:
         return text
@@ -173,6 +202,7 @@ def repair_hebrew_pdf_text(text: str | None) -> str | None:
         prev = s
         s = _DETACHED_MARK.sub(r"\1\3\2", s)
     s = re.sub(r"[ \t]{2,}", " ", s).strip()
+    s = _join_lone_fragments(s)
     return unicodedata.normalize("NFC", s)
 
 
@@ -1029,6 +1059,7 @@ def main() -> int:
 
     QUIZ_DIR.mkdir(parents=True, exist_ok=True)
     LOG_DIR.mkdir(exist_ok=True)
+    _load_verse_cache()  # reuse Sefaria lookups across runs
 
     if args.manifest_only:
         m = regenerate_manifest()
@@ -1036,7 +1067,10 @@ def main() -> int:
         return 0
 
     if args.file:
-        entries = [build_file_entry(args.file)]
+        # Prefer the discovered entry (correct extension/URL); fall back to a
+        # .pdf guess only if discovery can't find it.
+        match = next((e for e in discover_files() if e["base"] == args.file), None)
+        entries = [match or build_file_entry(args.file)]
     elif args.all:
         print("Discovering files from archive pages...")
         entries = [e for e in discover_files() if not e["is_answer_key"]]

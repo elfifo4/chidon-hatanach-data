@@ -75,6 +75,22 @@ def test_clean_text_unchanged():
     assert extract.repair_hebrew_pdf_text(clean) == clean
 
 
+def test_clean_vocalized_verse_unchanged():
+    """Clean Sefaria-style verse text must not be altered (no false merges)."""
+    verse = "תֻּמֶּיךָ וְאוּרֶיךָ לְאִישׁ חֲסִידֶךָ"
+    assert extract.repair_hebrew_pdf_text(verse) == verse
+
+
+def test_lone_fragment_spaces_collapsed():
+    """Single-letter vocalized fragments rejoin into words (the user's example)."""
+    broken = 'שולח אליו שלמה: "וְ הִ נְ נִי אֹ מֵר לִ בְנוֹת בַּיִת לְ שֵׁם ה\' אֱ הָי"'
+    out = extract.repair_hebrew_pdf_text(broken)
+    assert "וְהִנְנִי" in out and "אֹמֵר" in out and "לִבְנוֹת" in out, repr(out)
+    assert "וְ הִ" not in out and "אֹ מֵר" not in out
+    # real word boundary kept: 'ה'' (the Name) stays a separate token
+    assert "ה'" in out.split()
+
+
 # --------------------------------------------------------------------------- #
 # Sefaria integration -- exact verse recovery by reference (network).
 # --------------------------------------------------------------------------- #

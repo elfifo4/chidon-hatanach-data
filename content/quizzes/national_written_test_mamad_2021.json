@@ -37,7 +37,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "עִ זִים\" / \"ג ְּ ִדי עִ זִים\"",
+          "narrative_context": "עִ זיִם\" / \"ג ְּ דִי עִ זיִם\"",
           "prompt": "בן גוריון גדל בעיירה פלונסק שבפולין. ביתו שכן בקצה \"רחוב העיזים\". ברכושו של מי לא מוזכר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -102,19 +102,19 @@
           "options": [
             {
               "key": "א",
-              "text": "גֵי בֶן הִנ ֹּם"
+              "text": "גיֵ בןֶ הנִ םֹּ"
             },
             {
               "key": "ב",
-              "text": "עֵ ֶמק עָכוֹּר"
+              "text": "עֵ מֶק עכָורֹּ"
             },
             {
               "key": "ג",
-              "text": "הַ ָש רוֹּן"
+              "text": "הַ שָ רוןֹּ"
             },
             {
               "key": "ד",
-              "text": "הַ ְּש ֵפלָ ה"
+              "text": "הַ שְּ פֵלָ ה"
             }
           ],
           "correct_option": null,
@@ -139,7 +139,7 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "וַי ִ פֹּל ג ַם הו א עַל ַח ְּר בוֹּ וַי ָ ָמת עִ מוֹּ\"",
+          "narrative_context": "ויַ ִ פלֹּ ג םַ הו א עלַ חַ רְּ בוֹּ ויַ ָ מָת עִ מו\"ֹּ",
           "prompt": "בנאום ההשבעה השני של בן גוריון לכנסת הוא אמר: \"פנינו לשלום אך לא להתאבדות\". בעקבות מותו של מי מסופר על אדם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -175,7 +175,7 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "וַי ַעַל וַי ָצַר עַל ש ֹּ ְּמרוֹּן\"",
+          "narrative_context": "ויַ עַלַ ויַ צָרַ עלַ ש ֹּ מְּרוןֹּ\"",
           "prompt": "בשנת 1906 עלתה משפחתו של שרת ארצה והתגוררה בכפר הערבי \"עין סיניא\" שבשומרון. מי היה מלך ישראל בעת בה נאמר על מלך נכרי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -295,7 +295,7 @@
             },
             {
               "key": "ד",
-              "text": "למי שאמר \"נַעֲ ֶ שה לְּ ָפנֶיךָ ג ְּ ִדי עִ זִים \" לוי אשכול (שאלות 7-9 )"
+              "text": "למי שאמר \"נעֲַ ֶ שה לְּ פָניֶךָ ג ְּ דִי עִ זיִם \" לוי אשכול (שאלות 7-9 )"
             }
           ],
           "correct_option": null,
@@ -407,7 +407,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "וַי ָבֵא ֶאת הַ ַמיִם הָעִי ָרה\"",
+          "narrative_context": "ויַ בָאֵ אֶת הַ מַיםִ העָיִ רָה\"",
           "prompt": "כישוריו הארגוניים והכלכליים של אשכול הביאוהו להיות איש מפתח במספר יוזמות מרכזיות. בשנת 1937 יסד אשכול את חברת \"מקורות\"- חברת המים הלאומית של ישראל. על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -422,7 +422,7 @@
             },
             {
               "key": "ג",
-              "text": "מי שבהקשר אליו הוזכר \" ֶש ֶמן הַ טוֹּ ב \""
+              "text": "מי שבהקשר אליו הוזכר \" שֶ מֶן הַ טוֹּ ב \""
             },
             {
               "key": "ד",
@@ -486,19 +486,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ְּ שנִיר"
+              "text": "ְּ שניִר"
             },
             {
               "key": "ב",
-              "text": "בָ ָש ן"
+              "text": "בָ שָ ן"
             },
             {
               "key": "ג",
-              "text": "ִמצְּ ַריִם"
+              "text": "מִצְּ רַיםִ"
             },
             {
               "key": "ד",
-              "text": "ִאי ֵי ֱאלִי ָש ה 5"
+              "text": "אִי יֵ אֱליִ שָ ה 5"
             }
           ],
           "correct_option": null,
@@ -534,7 +534,7 @@
             },
             {
               "key": "ב",
-              "text": "קיבל \"נֵבֶל יַיִן \""
+              "text": "קיבל \"נבֵלֶ ייַןִ \""
             },
             {
               "key": "ג",
@@ -603,7 +603,7 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ב\"יִזְּ ְּרעֶאל\"",
+          "narrative_context": "ב\"יזְִּ רְּעאֶל\"",
           "prompt": "בזמן מסעותיה של מאיר בארץ היא התיישבה לזמן מה ב\"מרחביה\", קיבוץ השוכן בעמק יזרעאל. מי מהבאים לא חנה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -654,7 +654,7 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "עֲ ֶ ש ֶרת ֲאלָ ִפים ַרגְּלִי\"",
+          "narrative_context": "עֲ ֶ ש רֶת אֲלָ פִים רַגלְּיִ\"",
           "prompt": "כחלק מההנצחות לזכרה של מאיר היה שטר 000,10 השקלים. מצדו האחד של השטר היה דיוקנה ומצדו השני של השטר היה הכיתוב: \"שלח את עמי\". בהקשר למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -690,7 +690,7 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "הַג ְּדו ד הַ זֶה\"",
+          "narrative_context": "הגַ דְּו ד הַ זהֶ\"",
           "prompt": "בשנת 1917 הצטרף רבין לגדוד העברי שהוקם בארצות הברית על ידי יצחק בן צבי (לימים נשיא ה השני של מדינת ישראל) ודוד בן גוריון, והפליג עם הגדוד לארץ ישראל. מי השתמש בביטוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -726,7 +726,7 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "ֹּ ֶפה\"",
+          "narrative_context": "ֹּ פֶה\"",
           "prompt": "לאחר ניצחון מלחמת ששת הימים העניקה האוניברסיטה העברית לרבין תואר דוקטור לשם כבוד. בטקס קבלת התואר, שנערך על הר הצופים נשא רבין את \"נאום הר הצופים\", שביטא את רוח צה\"ל וזכה להד רב. באילו מהמקרים הבאים לא נכח \"צ?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -737,7 +737,7 @@
             },
             {
               "key": "ב",
-              "text": "חזרת בני המלך מחגיגת הגֵז של אבשלום"
+              "text": "חזרת בני המלך מחגיגת הגזֵ של אבשלום"
             },
             {
               "key": "ג",
@@ -1236,19 +1236,19 @@
           "options": [
             {
               "key": "א",
-              "text": "עֲנָה"
+              "text": "ענֲהָ"
             },
             {
               "key": "ב",
-              "text": "נַ ַחת"
+              "text": "נַ חַת"
             },
             {
               "key": "ג",
-              "text": "ְּרעו ֵאל"
+              "text": "רְּעו אֵל"
             },
             {
               "key": "ד",
-              "text": "לוֹּ ָטן"
+              "text": "לוֹּ טָן"
             }
           ],
           "correct_option": null,
@@ -1392,7 +1392,7 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/noar/national_written_test_mamad_2021.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q14 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 option count 0; q31 no correct_option"
   }

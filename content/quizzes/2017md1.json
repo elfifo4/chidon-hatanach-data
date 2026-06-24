@@ -39,7 +39,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "ִּכי ֶאל ַאְר ִּצי ְו ֶאל מֹו ַלְד ִּתי ֵּת ֵּלְך\". מי עוד העדיף את ארצו במילים \" ִּכי ִּאם ֶאל ַאְר ִּצי ְו ֶאל מֹו ַלְד ִּתי ֵּא ֵּלְך\"",
+          "narrative_context": "כִּי אֶל אַרְ צִּי וְ אֶל מוֹ לַדְ תִּי תֵּ לֵּךְ\". מי עוד העדיף את ארצו במילים \" כִּי אִּם אֶל אַרְ צִּי וְ אֶל מוֹ לַדְ תִּי אֵּ לֵּךְ\"",
           "prompt": "אברהם מקפיד עם עבדו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -75,7 +75,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ָּב ָּדד ַיְנ ֶחּנּו ְו ֵּאין ִּעּמֹו ֵּאל ֵּנ ָּכר\"",
+          "narrative_context": "בָּ דָּד יַנְ חֶנּוּ וְ אֵּין עִּמּוֹ אֵּל נֵּ כָּר\"",
           "prompt": "היכן נאמר על ישראל: \"ה'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -111,7 +111,7 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "ַר ֶבה ְצ ָּב ֲאָך ָּו ֵּצ ָּאה\"",
+          "narrative_context": "רַ בֶה צְ בָּ אֲךָ וָּ צֵּ אָּה\"",
           "prompt": "מי קרא תיגר על יריב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -147,26 +147,26 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ֻּס ֹּכת. מה הייתה החניה הבאה שלהם",
+          "narrative_context": "סֻּ כֹּת. מה הייתה החניה הבאה שלהם",
           "prompt": "במהלך מסעם ישבו ישראל במקום הנקרא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ֵּא ָּתם"
+              "text": "אֵּ תָּם"
             },
             {
               "key": "ב",
-              "text": "ֵּבין ִּמ ְג ֹּדל ּו ֵּבין ַהָּים"
+              "text": "בֵּין מִּ גְ דֹּל וּ בֵּין הַיָּם"
             },
             {
               "key": "ג",
-              "text": "ֵּאי ִּלם"
+              "text": "אֵּי לִּם"
             },
             {
               "key": "ד",
-              "text": "ִּמְד ַבר ָּפאָּרן"
+              "text": "מִּדְ בַר פָּארָּן"
             }
           ],
           "correct_option": null,
@@ -183,7 +183,7 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ִּכי ַא ָּתה ה' ַכ ֲא ֶשר ָּח ַפ ְצ ָּת ָּע ִּשי ָּת\"",
+          "narrative_context": "כִּי אַ תָּה ה' כַ אֲ שֶר חָּ פַ צְ תָּ עָּ שִּי תָּ\"",
           "prompt": "מי קרא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -255,8 +255,8 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "ַמס ֹּע ֵּבד\" הוא מס שמעלה ַעם משועבד ל ַעם משעבד. על איזה משבטי ישראל נאמר \"ַוְי ִּהי ְל ַמס ֹּע ֵּבד\"",
-          "prompt": "\" ַמס ֹּע ֵּבד\" הוא מס שמעלה ַעם משועבד ל ַעם משעבד. על איזה משבטי ישראל נאמר \"ַוְי ִּהי ְל ַמס ֹּע ֵּבד\"?",
+          "narrative_context": "מַס עֹּ בֵּד\" הוא מס שמעלה עַם משועבד ל עַם משעבד. על איזה משבטי ישראל נאמר \"וַיְ הִּי לְ מַס עֹּ בֵּד\"",
+          "prompt": "\" מַס עֹּ בֵּד\" הוא מס שמעלה עַם משועבד ל עַם משעבד. על איזה משבטי ישראל נאמר \"וַיְ הִּי לְ מַס עֹּ בֵּד\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -327,7 +327,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "ָּהֶר ֶכב ְו ַהסּו ִּסים ְו ִּעיר ִּמ ְב ָּצר ְו ַה ָּּנ ֶשק\" אך נכנעו ללא קרב",
+          "narrative_context": "הָּרֶ כֶב וְ הַסוּ סִּים וְ עִּיר מִּ בְ צָּר וְ הַ נָּּ שֶק\" אך נכנעו ללא קרב",
           "prompt": "למי היו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -364,7 +364,7 @@
           "unit_id": "q10",
           "display_number": "10",
           "narrative_context": null,
-          "prompt": "\"ּמֹוִּרים\" הם קשתים היורים חיצים. מי נהרג על ידי \" ַהּמֹוִּראים\"?",
+          "prompt": "\"מּוֹרִּים\" הם קשתים היורים חיצים. מי נהרג על ידי \" הַמּוֹרִּאים\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -435,7 +435,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ֵּבית ֶכ ֶלא\"",
+          "narrative_context": "בֵּית כֶ לֶא\"",
           "prompt": "בסוף ספר מלכים מסופר על הוצאת המלך יהויכין מבית הכלא על ידי אוויל מרודך. איזה מלך נוסף הושם ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -471,7 +471,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "ְּמחּו ָּגה\" נזכרת ככלי המשמש את:",
+          "narrative_context": "מְּחוּ גָּה\" נזכרת ככלי המשמש את:",
           "prompt": "ה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -507,7 +507,7 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ְב ֶטֶרם ַי ִּכיר ִּאיש ֶאת ֵּר ֵּעהּו”",
+          "narrative_context": "בְ טֶרֶם יַ כִּיר אִּיש אֶת רֵּ עֵּהוּ”",
           "prompt": "מה קרה לפנות בוקר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -543,7 +543,7 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "ֵּש ם או כינוי אחד, או ששמם שּונה. למי מהאנשים לא מופיע בתנ\"ך שם נוסף",
+          "narrative_context": "שֵּ ם או כינוי אחד, או ששמם שוּנה. למי מהאנשים לא מופיע בתנ\"ך שם נוסף",
           "prompt": "לאנשים רבים בתנ\"ך היה יותר מ?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -615,7 +615,7 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "ַכ ֶשה ַל ֶט ַבח יּו ָּבל\". באיזה בעל חיים נוסף משתמש שם ישעיהו לדימוי כזה",
+          "narrative_context": "כַ שֶה לַ טֶ בַח יוּ בָּל\". באיזה בעל חיים נוסף משתמש שם ישעיהו לדימוי כזה",
           "prompt": "ישעיהו מתאר את עבד ה' הנושא עליו את עוון הפושעים, והוא משתמש בין השאר בביטוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -651,7 +651,7 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "ּו ִּמ ָּב ֶניָך [...] ִּי ָּקחּו ְו ָּהיּו ָּסִּרי ִּסים ְב ֵּהי ַכל ֶמ ֶלְך ָּב ֶבל\"",
+          "narrative_context": "וּ מִּ בָּ נֶיךָ [...] יִּ קָּחוּ וְ הָּיוּ סָּרִּי סִּים בְ הֵּי כַל מֶ לֶךְ בָּ בֶל\"",
           "prompt": "למי נאמרה הנבואה?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -694,19 +694,19 @@
           "options": [
             {
               "key": "א",
-              "text": "משפחת ַה ַאְרִּ די"
+              "text": "משפחת הַ אַרְִּ די"
             },
             {
               "key": "ב",
-              "text": "משפחת ַה ַז ְר ִּחי"
+              "text": "משפחת הַ זַ רְ חִּי"
             },
             {
               "key": "ג",
-              "text": "משפחת ַה ִּ ש ְמ ִּעי"
+              "text": "משפחת הַ ִּ ש מְ עִּי"
             },
             {
               "key": "ד",
-              "text": "משפחת ַה ַמ ְטִּרי"
+              "text": "משפחת הַ מַ טְרִּי"
             }
           ],
           "correct_option": null,
@@ -723,8 +723,8 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "ִּהְנִּני ַמ ְב ִּעיר ַא ֲחֵּרי ַב ְע ָּשא ְו ַא ֲחֵּרי ֵּביתֹו\". מי השמיד למעשה את בית בעשא",
-          "prompt": "\" ִּהְנִּני ַמ ְב ִּעיר ַא ֲחֵּרי ַב ְע ָּשא ְו ַא ֲחֵּרי ֵּביתֹו\". מי השמיד למעשה את בית בעשא?",
+          "narrative_context": "הִּנְנִּי מַ בְ עִּיר אַ חֲרֵּי בַ עְ שָּא וְ אַ חֲרֵּי בֵּיתוֹ\". מי השמיד למעשה את בית בעשא",
+          "prompt": "\" הִּנְנִּי מַ בְ עִּיר אַ חֲרֵּי בַ עְ שָּא וְ אַ חֲרֵּי בֵּיתוֹ\". מי השמיד למעשה את בית בעשא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -759,7 +759,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "ַשר ְגדּוד\" לפני שהיה למלך _______________ 22. אביו של זה \" ֲא ֶשר ָּמ ָּצא ֶאת ַהֵּי ִּמם ַב ִּּמְד ָּבר\" _______________ 23. ֶמ ֶלְך ַיְרמּות _______________ 24. בנו של ְג ַמְרָּיהּו ֶבן ָּש ָּפן _______________ 25. אחיו של ִּאי ָּכבֹוד _______________ בהצלחה!",
+          "narrative_context": "שַר גְדוּד\" לפני שהיה למלך _______________ 22. אביו של זה \" אֲ שֶר מָּ צָּא אֶת הַיֵּ מִּם בַ מִּּדְ בָּר\" _______________ 23. מֶ לֶךְ יַרְמוּת _______________ 24. בנו של גְ מַרְיָּהוּ בֶן שָּ פָּן _______________ 25. אחיו של אִּי כָּבוֹד _______________ בהצלחה!",
           "prompt": "היה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -782,7 +782,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2017md1.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q19 no correct_option; q20 no correct_option; q21 option count 0; q21 no correct_option"
   }

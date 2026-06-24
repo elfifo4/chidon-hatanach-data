@@ -39,7 +39,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "ֲע ֵלה ַזִית ָטָרף ְּב ִפי ָה \", זה היה סימן ש...",
+          "narrative_context": "עֲ לֵה זַיִת טָרָף בְּ פִי הָ \", זה היה סימן ש...",
           "prompt": "נח שלח את היונה שלוש פעמים מהתיבה. כאשר היונה חזרה עם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -111,7 +111,7 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "ָא ֻסָרה ָנא ְּו ֶאְּר ֶאה ֶאת ַה ַמְּר ֶאה ַה ָג ֹדל ַה ֶזה\". מהו המראה הגדול עליו מדובר",
+          "narrative_context": "אָ סֻרָה נָא וְּ אֶרְּ אֶה אֶת הַ מַרְּ אֶה הַ גָ דֹל הַ זֶה\". מהו המראה הגדול עליו מדובר",
           "prompt": "משה ראה מראה מיוחד ואמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -147,26 +147,26 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ַבָי ִמים ָה ֵהם ֵאין ֶמ ֶלְך ְּבִי ְּשָר ֵאל [...]\". לפי המשך הפסוק, מהי התוצאה של חוסר המלכות בישראל",
+          "narrative_context": "בַיָ מִים הָ הֵם אֵין מֶ לֶךְ בְּיִ שְּרָ אֵל [...]\". לפי המשך הפסוק, מהי התוצאה של חוסר המלכות בישראל",
           "prompt": "תקופת השופטים מתוארת בכתוב כך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ַו ִת ְּש ֹקט ָה ָאֶרץ ַאְּר ָב ִעים ָש ָנה"
+              "text": "וַ תִ שְּ קֹט הָ אָרֶץ אַרְּ בָ עִים שָ נָה"
             },
             {
               "key": "ב",
-              "text": "ַוִי ַחר ַאף ה' ְּבִי ְּשָר ֵאל"
+              "text": "וַיִ חַר אַף ה' בְּיִ שְּרָ אֵל"
             },
             {
               "key": "ג",
-              "text": "ַוַי ֲעשּו ְּב ֵני ִי ְּשָר ֵאל ֶאת ָהַרע ְּב ֵעי ֵני ה'"
+              "text": "וַיַ עֲשוּ בְּ נֵי יִ שְּרָ אֵל אֶת הָרַע בְּ עֵי נֵי ה'"
             },
             {
               "key": "ד",
-              "text": "ִאיש ַהָי ָשר ְּב ֵעי ָניו ַי ֲע ֶשה"
+              "text": "אִיש הַיָ שָר בְּ עֵי נָיו יַ עֲ שֶה"
             }
           ],
           "correct_option": null,
@@ -183,7 +183,7 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ֲא ֶשר ַעל ֵביתֹו\" לשים את גביע הכסף באמתחתו של ...",
+          "narrative_context": "אֲ שֶר עַל בֵיתוֹ\" לשים את גביע הכסף באמתחתו של ...",
           "prompt": "יוסף ציווה את האיש?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -219,7 +219,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "ִכי ָשת ִלי ֱאֹל ִהים ֶזַרע ַא ֵחר\"",
+          "narrative_context": "כִי שָת לִי אֱלֹ הִים זֶרַע אַ חֵר\"",
           "prompt": "מי הסבירה את השם שנתנה לבנה במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -255,7 +255,7 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "ְּב ָכל ֵבי ִתי ֶנ ֱא ָמן הּוא: ֶפה ֶאל ֶפה ֲא ַד ֶבר בֹו ּו ַמְּר ֶאה ְּולֹא ְּב ִחי ֹדת ּו ְּת ֻמ ַנת ה' ַי ִביט\". מיהו המנהיג",
+          "narrative_context": "בְּ כָל בֵי תִי נֶ אֱ מָן הוּא: פֶה אֶל פֶה אֲ דַ בֶר בוֹ וּ מַרְּ אֶה וְּלאֹ בְּ חִי דֹת וּ תְּ מֻ נַת ה' יַ בִיט\". מיהו המנהיג",
           "prompt": "הקשר המיוחד בין ה' לאחד ממנהיגי ישראל מתואר בכתוב כך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -327,7 +327,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "ִאיש ֹע ֵמד ְּל ֶנ ְּגּדֹו ְּו ַחְּרבֹו ְּשלּו ָפה ְּבָידֹו\". על אדם נוסף נאמר שדמות כזו עמדה בדרכו, אך הוא לא ראה אותה. מי האדם",
+          "narrative_context": "אִיש עֹ מֵד לְּ נֶ גְּדּוֹ וְּ חַרְּבוֹ שְּלוּ פָה בְּיָדוֹ\". על אדם נוסף נאמר שדמות כזו עמדה בדרכו, אך הוא לא ראה אותה. מי האדם",
           "prompt": "מסופר על יהושע שהוא ראה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -364,7 +364,7 @@
           "unit_id": "q10",
           "display_number": "10",
           "narrative_context": ".",
-          "prompt": "\"ַוֶי ְּע ַתר ִי ְּצ ָחק ַלה' ְּל ֹנ ַכח ִא ְּשתֹו\". יצחק התפלל על רבקה משום ש...",
+          "prompt": "\"וַיֶ עְּ תַר יִ צְּ חָק לַה' לְּ נֹ כַח אִ שְּתוֹ\". יצחק התפלל על רבקה משום ש...",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -399,7 +399,7 @@
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "ָתמֹות ַנ ְּפ ִשי ִעם ְּפִל ְּש ִתים\"",
+          "narrative_context": "תָמוֹת נַ פְּ שִי עִם פְּלִ שְּ תִים\"",
           "prompt": "מיהו האדם שמילותיו האחרונות היו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -410,7 +410,7 @@
             },
             {
               "key": "ב",
-              "text": "ָכ ֵלב"
+              "text": "כָ לֵב"
             },
             {
               "key": "ג",
@@ -435,8 +435,8 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ִמי ָשם ֶפה ָל ָא ָדם אֹו ִמי ָישּום ִא ֵלם אֹו ֵחֵרש אֹו ִפ ֵק ַח אֹו ִעֵּור ֲהלֹא ָא ֹנ ִכי ה'\". למי אמר ה' משפט זה",
-          "prompt": "\" ִמי ָשם ֶפה ָל ָא ָדם אֹו ִמי ָישּום ִא ֵלם אֹו ֵחֵרש אֹו ִפ ֵק ַח אֹו ִעֵּור ֲהלֹא ָא ֹנ ִכי ה'\". למי אמר ה' משפט זה?",
+          "narrative_context": "מִי שָם פֶה לָ אָ דָם אוֹ מִי יָשוּם אִ לֵם אוֹ חֵרֵש אוֹ פִ קֵ חַ אוֹ עִוֵּר הֲלאֹ אָ נֹ כִי ה'\". למי אמר ה' משפט זה",
+          "prompt": "\" מִי שָם פֶה לָ אָ דָם אוֹ מִי יָשוּם אִ לֵם אוֹ חֵרֵש אוֹ פִ קֵ חַ אוֹ עִוֵּר הֲלאֹ אָ נֹ כִי ה'\". למי אמר ה' משפט זה?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -471,7 +471,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "ֶע ְּגלֹון היה מלכו",
+          "narrative_context": "עֶ גְּלוֹן היה מלכו",
           "prompt": "מיהי האם הקדומה של העם, ש?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -543,7 +543,7 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "ּו ְּב ֻק ְּצְּר ֶכם ֶאת ְּק ִציר ַאְּר ְּצ ֶכם לֹא ְּת ַכ ֶלה ְּפ ַאת ָשְּדָך ִלְּק ֹצר ְּו ֶל ֶקט ְּק ִציְּרָך לֹא ְּת ַל ֵקט [...] ֶל ָעִני ְּו ַל ֵגר ַת ֲע ֹזב ֹא ָתם\". באיזה סיפור מקראי אנו מוצאים יישום של החוק הזה",
+          "narrative_context": "וּ בְּ קֻ צְּרְּ כֶם אֶת קְּ צִיר אַרְּ צְּ כֶם לאֹ תְּ כַ לֶה פְּ אַת שָדְּךָ לִקְּ צֹר וְּ לֶ קֶט קְּ צִירְּךָ לאֹ תְּ לַ קֵט [...] לֶ עָנִי וְּ לַ גֵר תַ עֲ זֹב אֹ תָם\". באיזה סיפור מקראי אנו מוצאים יישום של החוק הזה",
           "prompt": "בספר ויקרא מופיע ציווי הקשור לקציר השדה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -579,7 +579,7 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "ב\"ְּי ֵמי ִבכּוֵרי ֲע ָנ ִבים\"",
+          "narrative_context": "ב\"יְּ מֵי בִכוּרֵי עֲ נָ בִים\"",
           "prompt": "איזה אירוע התרחש?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -759,7 +759,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "ִכי ָשִרי ָת ִעם ֱאֹל ִהים ְּו ִעם ֲא ָנ ִשים ַותּו ָכל\". מי האדם",
+          "narrative_context": "כִי שָרִי תָ עִם אֱלֹ הִים וְּ עִם אֲ נָ שִים וַתוּ כָל\". מי האדם",
           "prompt": "לאחר קרב שנמשך כל הלילה בין אדם לבין מלאך, העניק המלאך לאדם שם חדש ואמר לו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -795,7 +795,7 @@
         {
           "unit_id": "q22",
           "display_number": "22",
-          "narrative_context": "ְּי ֻר ַב ַעל בעקבות מריבה עם האל בעל: \"ָיֶרב בֹו ַה ַב ַעל ִכי ָנ ַתץ ֶאת ִמְּז ְּבחֹו\"",
+          "narrative_context": "יְּ רֻ בַ עַל בעקבות מריבה עם האל בעל: \"יָרֶב בוֹ הַ בַ עַל כִי נָ תַץ אֶת מִזְּ בְּחוֹ\"",
           "prompt": "מי קיבל את השם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -867,7 +867,7 @@
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "ְּל ֵבי ָתּה, ואמר לה: \" ַאל ָתבֹו ִאי ֵרי ָקם ֶאל ֲחמֹו ֵתְך\". מה הוא נתן לה",
+          "narrative_context": "לְּ בֵי תָהּ, ואמר לה: \" אַל תָבוֹ אִי רֵי קָם אֶל חֲמוֹ תֵךְ\". מה הוא נתן לה",
           "prompt": "אדם לא רצה לשלוח אישה בידיים ריקות?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -903,7 +903,7 @@
         {
           "unit_id": "q25",
           "display_number": "25",
-          "narrative_context": "ָשֹלש ְּפ ָע ִמים ַב ָש ָנה ֵיָר ֶאה ָכל ְּזכּוְּרָך ֶאת ְּפ ֵני ָה ָא ֹדן ה' ֱאֹל ֵהי ִי ְּשָר ֵאל\". מה הבטיח ה' בנוגע לימים אלה",
+          "narrative_context": "שָלֹש פְּ עָ מִים בַ שָ נָה יֵרָ אֶה כָל זְּכוּרְּךָ אֶת פְּ נֵי הָ אָ דֹן ה' אֱלֹ הֵי יִ שְּרָ אֵל\". מה הבטיח ה' בנוגע לימים אלה",
           "prompt": "בני ישראל נצטוו לעלות לרגל שלוש פעמים בשנה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -943,7 +943,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2018m.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option"
   }

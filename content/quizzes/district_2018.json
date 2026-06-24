@@ -39,7 +39,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "ֵנ ַצח ִי ְׂשָר ֵאל לֹא ְׂי ַש ֵקר\". מי אמר מילים אלה",
+          "narrative_context": "נֵ צַח יִ שְׂרָ אֵל לאֹ יְׂ שַ קֵר\". מי אמר מילים אלה",
           "prompt": "השנה אנו מציינים 100 שנים לפעילותה של רשת הריגול ניל\"י. שמה של רשת הריגול הוא ראשי התיבות של הפסוק?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -75,7 +75,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ֹע ֹרת ְׂג ָדֵיי ָה ִעִזים [...] ַעל ָי ָדיו ְׂו ַעל ֶחְׂל ַקת ַצָואָריו\", כדי ְׂל ִה ָדמֹות ל...",
+          "narrative_context": "עֹ רֹת גְׂ דָיֵי הָ עִזִים [...] עַל יָ דָיו וְׂ עַל חֶלְׂ קַת צַוָארָיו\", כדי לְׂ הִ דָמוֹת ל...",
           "prompt": "אדם לבש את?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -111,7 +111,7 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "ָי ִמים ַר ִבים\", עושר או ניצחון על אויביו. מה ביקש אותו מלך",
+          "narrative_context": "יָ מִים רַ בִים\", עושר או ניצחון על אויביו. מה ביקש אותו מלך",
           "prompt": "ה' שיבח מלך מסוים על שלא ביקש לעצמו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -147,8 +147,8 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ֹכה ָא ַמר ה' ֲהָר ַצ ְׂח ָת ְׂו ַגם ָיָר ְׂש ָת ?!\" – מה ירש האיש שכלפיו הופנו דברים אלה",
-          "prompt": "\" ֹכה ָא ַמר ה' ֲהָר ַצ ְׂח ָת ְׂו ַגם ָיָר ְׂש ָת ?!\" – מה ירש האיש שכלפיו הופנו דברים אלה?",
+          "narrative_context": "כֹה אָ מַר ה' הֲרָ צַ חְׂ תָ וְׂ גַם יָרָ שְׂ תָ ?!\" – מה ירש האיש שכלפיו הופנו דברים אלה",
+          "prompt": "\" כֹה אָ מַר ה' הֲרָ צַ חְׂ תָ וְׂ גַם יָרָ שְׂ תָ ?!\" – מה ירש האיש שכלפיו הופנו דברים אלה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -184,7 +184,7 @@
           "unit_id": "q05",
           "display_number": "5",
           "narrative_context": ".",
-          "prompt": "ִפ ֹתם וַר ַע ְׂמ ֵסס הם השמות של ...",
+          "prompt": "פִ תֹם ורַ עַ מְׂ סֵס הם השמות של ...",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -219,7 +219,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "ֶש ַבע ְׂפ ָע ִמים ריפאה אדם מצרעתו.",
+          "narrative_context": "שֶ בַע פְׂ עָ מִים ריפאה אדם מצרעתו.",
           "prompt": "מקום שטבילה בו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -255,7 +255,7 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "ָנה \" ְׂפֹלִני ַאְׂל ֹמִני\"",
+          "narrative_context": "נָה \" פְׂלֹנִי אַלְׂ מֹנִי\"",
           "prompt": "מי האיש שכו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -291,26 +291,26 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "ַהּיֹום ַגּלֹו ִתי ֶאת ֶחְׂר ַפת ִמ ְׂצַרִים ֵמ ֲע ֵלי ֶכם\" – איזה מקום בארץ נקרא על שם מאורע זה",
-          "prompt": "\" ַהּיֹום ַגּלֹו ִתי ֶאת ֶחְׂר ַפת ִמ ְׂצַרִים ֵמ ֲע ֵלי ֶכם\" – איזה מקום בארץ נקרא על שם מאורע זה?",
+          "narrative_context": "הַיּוֹם גַלּוֹ תִי אֶת חֶרְׂ פַת מִ צְׂרַיִם מֵ עֲ לֵי כֶם\" – איזה מקום בארץ נקרא על שם מאורע זה",
+          "prompt": "\" הַיּוֹם גַלּוֹ תִי אֶת חֶרְׂ פַת מִ צְׂרַיִם מֵ עֲ לֵי כֶם\" – איזה מקום בארץ נקרא על שם מאורע זה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ִגֹלה"
+              "text": "גִלֹה"
             },
             {
               "key": "ב",
-              "text": "ַגִּלים"
+              "text": "גַלִּים"
             },
             {
               "key": "ג",
-              "text": "ִגְׂל ָגל"
+              "text": "גִלְׂ גָל"
             },
             {
               "key": "ד",
-              "text": "ֻּגֹּלת ִעִּלית"
+              "text": "גֻּלֹּת עִלִּית"
             }
           ],
           "correct_option": null,
@@ -363,7 +363,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "ְׂו ָהָיה ְׂב ָהִני ַח ה' ֱאֹל ֶהיָך ְׂלָך ִמ ָכל ֹאְׂי ֶביָך ִמ ָס ִביב [...] ִת ְׂמ ֶחה ֶאת ֵז ֶכר ֲע ָמ ֵלק ִמ ַת ַחת ַה ָש ָמִים לֹא ִת ְׂש ָכח:\" (דברים כה, 19). מי המלך שהוטל עליו לקיים צו זה",
+          "narrative_context": "וְׂ הָיָה בְׂ הָנִי חַ ה' אֱלֹ הֶיךָ לְׂךָ מִ כָל אֹיְׂ בֶיךָ מִ סָ בִיב [...] תִ מְׂ חֶה אֶת זֵ כֶר עֲ מָ לֵק מִ תַ חַת הַ שָ מָיִם לאֹ תִ שְׂ כָח:\" (דברים כה, 19). מי המלך שהוטל עליו לקיים צו זה",
           "prompt": "התורה מצווה על בני ישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -508,7 +508,7 @@
           "unit_id": "q14",
           "display_number": "14",
           "narrative_context": null,
-          "prompt": "\"ַוַּיְׂרא ָדִוד ִכי ֲע ָב ָדיו ִמ ְׂת ַל ֲח ִשים\" – מה הבין דוד לאחר שראה את עבדיו מתלחשים?",
+          "prompt": "\"וַיַּרְׂא דָוִד כִי עֲ בָ דָיו מִ תְׂ לַ חֲ שִים\" – מה הבין דוד לאחר שראה את עבדיו מתלחשים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -543,8 +543,8 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "ִמי ָכ ֹמ ָכה ָב ֵאִלם ה' ִמי ָכ ֹמ ָכה ֶנ ְׂא ָדר ַב ֹק ֶדש נֹוָרא ְׂת ִהֹּלת ֹע ֵשה ֶפ ֶלא\" – דברי שירה אלו נאמרו בעקבות...",
-          "prompt": "\" ִמי ָכ ֹמ ָכה ָב ֵאִלם ה' ִמי ָכ ֹמ ָכה ֶנ ְׂא ָדר ַב ֹק ֶדש נֹוָרא ְׂת ִהֹּלת ֹע ֵשה ֶפ ֶלא\" – דברי שירה אלו נאמרו בעקבות...",
+          "narrative_context": "מִי כָ מֹ כָה בָ אֵלִם ה' מִי כָ מֹ כָה נֶ אְׂ דָר בַ קֹ דֶש נוֹרָא תְׂ הִלֹּת עֹ שֵה פֶ לֶא\" – דברי שירה אלו נאמרו בעקבות...",
+          "prompt": "\" מִי כָ מֹ כָה בָ אֵלִם ה' מִי כָ מֹ כָה נֶ אְׂ דָר בַ קֹ דֶש נוֹרָא תְׂ הִלֹּת עֹ שֵה פֶ לֶא\" – דברי שירה אלו נאמרו בעקבות...",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -626,15 +626,15 @@
             },
             {
               "key": "ב",
-              "text": "הלביש אותו ִב ְׂג ֵדי ֵשש"
+              "text": "הלביש אותו בִ גְׂ דֵי שֵש"
             },
             {
               "key": "ג",
-              "text": "נתן לו ֲא ֻּח ָזה ְׂב ֶאֶרץ ִמ ְׂצַרִים"
+              "text": "נתן לו אֲ חֻּ זָה בְׂ אֶרֶץ מִ צְׂרַיִם"
             },
             {
               "key": "ד",
-              "text": "הרכיב אותו ְׂב ִמְׂר ֶכ ֶבת ַה ִמ ְׂש ֶנה"
+              "text": "הרכיב אותו בְׂ מִרְׂ כֶ בֶת הַ מִ שְׂ נֶה"
             }
           ],
           "correct_option": null,
@@ -651,8 +651,8 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "ִכי ַל ָנ ִביא ַהּיֹום ִי ָקֵרא ְׂל ָפִנים ָה ֹר ֶאה\" – בימיו של איזה נביא כו ָנה הנביא ' ָה ֹר ֶאה'",
-          "prompt": "\" ִכי ַל ָנ ִביא ַהּיֹום ִי ָקֵרא ְׂל ָפִנים ָה ֹר ֶאה\" – בימיו של איזה נביא כו ָנה הנביא ' ָה ֹר ֶאה'?",
+          "narrative_context": "כִי לַ נָ בִיא הַיּוֹם יִ קָרֵא לְׂ פָנִים הָ רֹ אֶה\" – בימיו של איזה נביא כו נָה הנביא ' הָ רֹ אֶה'",
+          "prompt": "\" כִי לַ נָ בִיא הַיּוֹם יִ קָרֵא לְׂ פָנִים הָ רֹ אֶה\" – בימיו של איזה נביא כו נָה הנביא ' הָ רֹ אֶה'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -687,7 +687,7 @@
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "ָכל ִגבֹוֵרי ַה ַחִיל ֲע ֶשֶרת ֲא ָל ִפים גֹו ֶלה ְׂו ָכל ֶה ָחָרש ְׂו ַה ַמ ְׂס ֵגר\"",
+          "narrative_context": "כָל גִבוֹרֵי הַ חַיִל עֲ שֶרֶת אֲ לָ פִים גוֹ לֶה וְׂ כָל הֶ חָרָש וְׂ הַ מַ סְׂ גֵר\"",
           "prompt": "בימיו של איזה מלך מיהודה נלקחו לגלות?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -723,7 +723,7 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "ְׂל ַא ֲה ָבה ֶאת שְֹׂנ ֶאיָך ְׂוִל ְׂשנֹא ֶאת ֹא ֲה ֶביָך\"",
+          "narrative_context": "לְׂ אַ הֲ בָה אֶת שנְֹׂ אֶיךָ וְׂלִ שְׂנאֹ אֶת אֹ הֲ בֶיךָ\"",
           "prompt": "מי הטיח בפני אדם דברים קשים על חוסר ההיגיון שבהתנהגותו, במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -759,7 +759,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "ֵמ ֵא ֶּלה ָנ ְׂפ ָצה ָכל ָה ָאֶרץ\"",
+          "narrative_context": "מֵ אֵ לֶּה נָ פְׂ צָה כָל הָ אָרֶץ\"",
           "prompt": "על מי נאמר: \"ו?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -802,19 +802,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ַהכֹו ָכ ִבים ִמ ְׂמ ִסּלֹו ָתם ִנְׂל ֲחמו"
+              "text": "הַכוֹ כָ בִים מִ מְׂ סִלּוֹ תָם נִלְׂ חֲמו"
             },
             {
               "key": "ב",
-              "text": "ָהִרים ָנְׂזלו ִמ ְׂפ ֵני ה'"
+              "text": "הָרִים נָזְׂלו מִ פְׂ נֵי ה'"
             },
             {
               "key": "ג",
-              "text": "ָק ְׂפאו ְׂת ֹה ֹמת ְׂב ֶלב ָים"
+              "text": "קָ פְׂאו תְׂ הֹ מֹת בְׂ לֶב יָם"
             },
             {
               "key": "ד",
-              "text": "ֶאֶרץ ָר ָע ָשה ַגם ָש ַמִים ָנ ָטפו"
+              "text": "אֶרֶץ רָ עָ שָה גַם שָ מַיִם נָ טָפו"
             }
           ],
           "correct_option": null,
@@ -903,7 +903,7 @@
         {
           "unit_id": "q25",
           "display_number": "25",
-          "narrative_context": "ַח ָקִדים",
+          "narrative_context": "חַ קָדִים",
           "prompt": "באיזה מהסיפורים הבאים מוזכרת רו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -939,7 +939,7 @@
         {
           "unit_id": "q26",
           "display_number": "26",
-          "narrative_context": "ַוָּי ֶשם ַשק ַעל ְׂב ָשרֹו ַוָּיצֹום ַוִּי ְׂש ַכב ַב ָשק ַוְׂי ַה ֵּלְך ַאט\", ולכן ה' אמר עליו: \"ַי ַען ִכי ִנ ְׂכ ַנע ִמ ָפ ַני לֹא ָא ִביא ָהָר ָעה ְׂבָי ָמיו ִבי ֵמי ְׂבנֹו ָא ִביא ָהָר ָעה ַעל ֵביתֹו\".",
+          "narrative_context": "וַיָּ שֶם שַק עַל בְׂ שָרוֹ וַיָּצוֹם וַיִּ שְׂ כַב בַ שָק וַיְׂ הַ לֵּךְ אַט\", ולכן ה' אמר עליו: \"יַ עַן כִי נִ כְׂ נַע מִ פָ נַי לאֹ אָ בִיא הָרָ עָה בְׂיָ מָיו בִי מֵי בְׂנוֹ אָ בִיא הָרָ עָה עַל בֵיתוֹ\".",
           "prompt": "מלך ישראל שקרע בגדיו,?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -975,26 +975,26 @@
         {
           "unit_id": "q27",
           "display_number": "27",
-          "narrative_context": "ֶחֶרב ְׂו ָלּה ְׂש ֵני ֵפיֹות\" נתקעה בבטנו",
+          "narrative_context": "חֶרֶב וְׂ לָהּ שְׂ נֵי פֵיוֹת\" נתקעה בבטנו",
           "prompt": "כיצד תואר האיש ש?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ִאיש ָבִריא ְׂמ ֹאד"
+              "text": "אִיש בָרִיא מְׂ אֹד"
             },
             {
               "key": "ב",
-              "text": "ִגבֹור ַחִיל ְׂמ ֹצָרע"
+              "text": "גִבוֹר חַיִל מְׂ צֹרָע"
             },
             {
               "key": "ג",
-              "text": "ִאיש ִמְׂל ָח ָמה"
+              "text": "אִיש מִלְׂ חָ מָה"
             },
             {
               "key": "ד",
-              "text": "ָג ְׂבהֹו ֵשש ַאמֹות ָו ָזֶרת 6"
+              "text": "גָ בְׂהוֹ שֵש אַמוֹת וָ זָרֶת 6"
             }
           ],
           "correct_option": null,
@@ -1047,7 +1047,7 @@
         {
           "unit_id": "q29",
           "display_number": "29",
-          "narrative_context": "ָה ָא ָדם ְׂו ַה ְׂב ֵה ָמה ַה ָב ָקר ְׂו ַהצֹאן ַאל ִי ְׂט ֲעמו ְׂמאו ָמה ַאל ִיְׂרעו ו ַמִים ַאל ִי ְׂשתו\". בעקבות איזו בשורה הטיל המלך צו זה",
+          "narrative_context": "הָ אָ דָם וְׂ הַ בְׂ הֵ מָה הַ בָ קָר וְׂ הַצאֹן אַל יִ טְׂ עֲמו מְׂאו מָה אַל יִרְׂעו ו מַיִם אַל יִ שְׂתו\". בעקבות איזו בשורה הטיל המלך צו זה",
           "prompt": "מלך של עיר מסוימת הטיל צו על כל תושבי העיר ועל בעלי החיים שבה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1083,7 +1083,7 @@
         {
           "unit_id": "q30",
           "display_number": "30",
-          "narrative_context": "ַה ֵנ ֶזר וה ֶא ְׂצ ָע ָדה של מלך מסוים, הביא אותם כראייה ל...",
+          "narrative_context": "הַ נֵ זֶר וה אֶ צְׂ עָ דָה של מלך מסוים, הביא אותם כראייה ל...",
           "prompt": "נער שהביא איתו את?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1119,7 +1119,7 @@
         {
           "unit_id": "q31",
           "display_number": "31",
-          "narrative_context": "ֶד ֶבר ְׂבִי ְׂשָר ֵאל ֵמ ַה ֹב ֶקר ְׂו ַעד ֵעת מֹו ֵעד\"",
+          "narrative_context": "דֶ בֶר בְׂיִ שְׂרָ אֵל מֵ הַ בֹ קֶר וְׂ עַד עֵת מוֹ עֵד\"",
           "prompt": "איזה מעשה עשה מלך, שבעקבותיו הוא נענש ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1130,7 +1130,7 @@
             },
             {
               "key": "ב",
-              "text": "ציווה ִל ְׂמ נות את העם"
+              "text": "ציווה לִ מְׂ נות את העם"
             },
             {
               "key": "ג",
@@ -1227,7 +1227,7 @@
         {
           "unit_id": "q34",
           "display_number": "34",
-          "narrative_context": "ֹא ֶח ֶזת ַב ֲע ֵקב ֵע ָשו\". בסיפור אחר, במהלך לידת תאומים, הצליח הצעיר לפרוץ את דרכו קדימה ועקף את אחיו בלידה. מי האחים",
+          "narrative_context": "אֹ חֶ זֶת בַ עֲ קֵב עֵ שָו\". בסיפור אחר, במהלך לידת תאומים, הצליח הצעיר לפרוץ את דרכו קדימה ועקף את אחיו בלידה. מי האחים",
           "prompt": "יעקב נקרא בשמו משום שבלידתו הייתה ידו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1299,7 +1299,7 @@
         {
           "unit_id": "q36",
           "display_number": "36",
-          "narrative_context": "עֹו ֵבד",
+          "narrative_context": "עוֹ בֵד",
           "prompt": "מי נתן לבנם של רות ובועז את שמו –?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1371,7 +1371,7 @@
         {
           "unit_id": "q38",
           "display_number": "38",
-          "narrative_context": "ֲא ִבי ֶע ֶזר הייתה משפחה משבט...",
+          "narrative_context": "אֲ בִי עֶ זֶר הייתה משפחה משבט...",
           "prompt": "משפחת?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1407,7 +1407,7 @@
         {
           "unit_id": "q39",
           "display_number": "39",
-          "narrative_context": "ְׂב ֵני ְׂר ִב ִעים ישבו לו על כיסא ישראל",
+          "narrative_context": "בְׂ נֵי רְׂ בִ עִים ישבו לו על כיסא ישראל",
           "prompt": "למי הובטח שבעקבות מעשיו הטובים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1443,26 +1443,26 @@
         {
           "unit_id": "q40",
           "display_number": "40",
-          "narrative_context": "ֶאל ַב ְׂע ָשא ְׂו ֶאל ֵביתֹו ְׂו ַעל ָכל ָהָר ָעה ֲא ֶשר ָע ָשה ְׂב ֵעי ֵני ה' ְׂל ַה ְׂכ ִעיסֹו\"",
+          "narrative_context": "אֶל בַ עְׂ שָא וְׂ אֶל בֵיתוֹ וְׂ עַל כָל הָרָ עָה אֲ שֶר עָ שָה בְׂ עֵי נֵי ה' לְׂ הַ כְׂ עִיסוֹ\"",
           "prompt": "מיהו הנביא שבפיו היה דבר ה'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ֲא ִחָּיה ַה ִשיֹלִני"
+              "text": "אֲ חִיָּה הַ שִילֹנִי"
             },
             {
               "key": "ב",
-              "text": "ֵיהוא ֶבן ֲח ָנִני"
+              "text": "יֵהוא בֶן חֲ נָנִי"
             },
             {
               "key": "ג",
-              "text": "ִמי ָכְׂיהו ֶבן ִי ְׂמ ָלה"
+              "text": "מִי כָיְׂהו בֶן יִ מְׂ לָה"
             },
             {
               "key": "ד",
-              "text": "ִצְׂדִקָּיה ֶבן ְׂכ ַנ ֲע ָנה 8 המצאות ישראליות – גאווה ישראלית"
+              "text": "צִדְׂקִיָּה בֶן כְׂ נַ עֲ נָה 8 המצאות ישראליות – גאווה ישראלית"
             }
           ],
           "correct_option": null,
@@ -1479,7 +1479,7 @@
         {
           "unit_id": "q41",
           "display_number": "41",
-          "narrative_context": "ִה ְׂת ַא ֵמץ ַל ֲעלֹות ַב ֶמְׂר ָכ ָבה ָלנוס ְׂירו ָש ָלִם\"",
+          "narrative_context": "הִ תְׂ אַ מֵץ לַ עֲלוֹת בַ מֶרְׂ כָ בָה לָנוס יְׂרו שָ לָםִ\"",
           "prompt": "טנק המרכבה הוא טנק שפותח בישראל, ונחשב לאחד הטנקים הטובים בעולם. מיהו מלך יהודה ש?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1515,26 +1515,26 @@
         {
           "unit_id": "q42",
           "display_number": "42",
-          "narrative_context": "ִה ְׂש ָקה ֶאת ָכל ְׂפ ֵני ָה ֲא ָד ָמה\" לפני בריאת האדם",
+          "narrative_context": "הִ שְׂ קָה אֶת כָל פְׂ נֵי הָ אֲ דָ מָה\" לפני בריאת האדם",
           "prompt": "\"טפטפות\" הן המצאה ישראלית בדמות מערכת השקיה מתוחכמת, המטפטפת מים בכמויות מדודות כדי לחסוך במים. מה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ַל ַהט ַה ֶחֶרב ַה ִמ ְׂת ַה ֶפ ֶכת"
+              "text": "לַ הַט הַ חֶרֶב הַ מִ תְׂ הַ פֶ כֶת"
             },
             {
               "key": "ב",
-              "text": "ְׂב ֹד ַלח"
+              "text": "בְׂ דֹ לַח"
             },
             {
               "key": "ג",
-              "text": "ֵאד"
+              "text": "אֵד"
             },
             {
               "key": "ד",
-              "text": "ַה ַמִים ֲא ֶשר ֵמ ַעל ָלָרִקי ַע"
+              "text": "הַ מַיִם אֲ שֶר מֵ עַל לָרָקִי עַ"
             }
           ],
           "correct_option": null,
@@ -1551,7 +1551,7 @@
         {
           "unit_id": "q43",
           "display_number": "43",
-          "narrative_context": "ְׂוהֹוֵרי ִתי ֶא ְׂת ֶכם ְׂב ֶדֶרְך ַהּטֹו ָבה ְׂו ַהְׂי ָשָרה\"",
+          "narrative_context": "וְׂהוֹרֵי תִי אֶ תְׂ כֶם בְׂ דֶרֶךְ הַטּוֹ בָה וְׂ הַיְׂ שָרָה\"",
           "prompt": "יישומון (אפליקציית) \"ezaW\" הוא פיתוח ישראלי המאפשר לנהגים למצוא את הדרך המהירה ביותר להגיע ליעדם. מיהו הנביא שאמר לעם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1587,7 +1587,7 @@
         {
           "unit_id": "q44",
           "display_number": "44",
-          "narrative_context": "ַוה' ִה ְׂשִליְך ֲע ֵלי ֶהם ֲא ָבִנים ְׂג ֹדלֹות ִמן ַה ָש ַמִים [...] ַוָּי ֻּמתו ַר ִבים ֲא ֶשר ֵמתו ְׂב ַא ְׂב ֵני ַה ָבָרד ֵמ ֲא ֶשר ָהְׂרגו ְׂב ֵני ִי ְׂשָר ֵאל ֶב ָחֶרב\". נגד מי הייתה המלחמה",
+          "narrative_context": "וַה' הִ שְׂלִיךְ עֲ לֵי הֶם אֲ בָנִים גְׂ דֹלוֹת מִן הַ שָ מַיִם [...] וַיָּ מֻּתו רַ בִים אֲ שֶר מֵתו בְׂ אַ בְׂ נֵי הַ בָרָד מֵ אֲ שֶר הָרְׂגו בְׂ נֵי יִ שְׂרָ אֵל בֶ חָרֶב\". נגד מי הייתה המלחמה",
           "prompt": "כיפת ברזל היא מערכת הגנה ליירוט טילים באוויר שפותחה ומיוצרת בישראל. באחת ממלחמות ישראל באה תשועה מן השמיים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1623,7 +1623,7 @@
         {
           "unit_id": "q45",
           "display_number": "45",
-          "narrative_context": "ְׂו ִה ָכה ַב ִכּיֹור אֹו ַבדוד אֹו ַב ַק ַּל ַחת אֹו ַב ָפרור ֹכל ֲא ֶשר ַי ֲע ֶלה ַה ַמְׂז ֵלג ִי ַקח ַה ֹכ ֵהן בֹו\"",
+          "narrative_context": "וְׂ הִ כָה בַ כִיּוֹר אוֹ בַדוד אוֹ בַ קַ לַּ חַת אוֹ בַ פָרור כֹל אֲ שֶר יַ עֲ לֶה הַ מַזְׂ לֵג יִ קַח הַ כֹ הֵן בוֹ\"",
           "prompt": "דוד שמש הוא מתקן ביתי שמשתמש באנרגיית השמש כדי לחמם מים, והוא פיתוח ישראלי. על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1659,7 +1659,7 @@
         {
           "unit_id": "q46",
           "display_number": "46",
-          "narrative_context": "ְׂש ֵנים ָע ָשר ְׂנ ִשי ִאם יֹו ִליד וְׂנ ַת ִתיו ְׂלגֹוי ָגדֹול\"",
+          "narrative_context": "שְׂ נֵים עָ שָר נְׂ שִי אִם יוֹ לִיד ונְׂ תַ תִיו לְׂגוֹי גָדוֹל\"",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1695,7 +1695,7 @@
         {
           "unit_id": "q47",
           "display_number": "47",
-          "narrative_context": "ְׂנ ִשיא ֵבית ָאב ַל ִש ְׂמ ֹעִני\" ו\" ַבת ְׂנ ִשיא ִמְׂדָין\" הוכו יחדיו, ולאחר שהוכו, נעצרה המגפה שפשטה בעם. מי הכה אותם",
+          "narrative_context": "נְׂ שִיא בֵית אָב לַ שִ מְׂ עֹנִי\" ו\" בַת נְׂ שִיא מִדְׂיָן\" הוכו יחדיו, ולאחר שהוכו, נעצרה המגפה שפשטה בעם. מי הכה אותם",
           "prompt": "אדם שהיה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1732,7 +1732,7 @@
           "unit_id": "q48",
           "display_number": "48",
           "narrative_context": null,
-          "prompt": "\"ְׂולֹא ִהכום ְׂב ֵני ִי ְׂשָר ֵאל ִכי ִנ ְׂש ְׂבעו ָל ֶהם ְׂנ ִשי ֵאי ָה ֵע ָדה ַבה' ֱאֹל ֵהי ִי ְׂשָר ֵאל\" – למי נשבעו נשיאי העדה שלא יהרגו אותם?",
+          "prompt": "\"וְׂלאֹ הִכום בְׂ נֵי יִ שְׂרָ אֵל כִי נִ שְׂ בְׂעו לָ הֶם נְׂ שִי אֵי הָ עֵ דָה בַה' אֱלֹ הֵי יִ שְׂרָ אֵל\" – למי נשבעו נשיאי העדה שלא יהרגו אותם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1767,7 +1767,7 @@
         {
           "unit_id": "q49",
           "display_number": "49",
-          "narrative_context": "ַוֹּי ֵצא ֶפַרח ַוָּי ֵצץ ִציץ ַוִּי ְׂג ֹמל ְׂש ֵקִדים\"",
+          "narrative_context": "וַיֹּ צֵא פֶרַח וַיָּ צֵץ צִיץ וַיִּ גְׂ מֹל שְׂ קֵדִים\"",
           "prompt": "משה הביא לאוהל העדות 12 מטות של 12 נשיאי השבטים – נשיא מכל שבט. מי השבט שמטהו פרח בסופו של דבר,?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1803,7 +1803,7 @@
         {
           "unit_id": "q50",
           "display_number": "50",
-          "narrative_context": "ְׂנ ִשיא ֱאֹל ִהים ַא ָתה ְׂבתֹו ֵכנו\"",
+          "narrative_context": "נְׂ שִיא אֱלֹ הִים אַ תָה בְׂתוֹ כֵנו\"",
           "prompt": "מי נחשב לאדם מכובד בעיני אנשים שלא מעם ישראל, ונאמר לו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1843,7 +1843,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/district_2018.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q37 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option; q41 no correct_option; q42 no correct_option; q43 no correct_option; q44 no correct_option; q47 no correct_option; q48 no correct_option; q49 no correct_option; q50 no correct_option"
   }

@@ -39,7 +39,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "ַה ֶּכר ָנא ְל ִמי ַה ֹח ֶּת ֶּמת ְו ַה ְפ ִתיִלים ְו ַה ַמ ֶּטה ָה ֵא ֶּלה:\"",
+          "narrative_context": "הַ כֶּר נָא לְ מִי הַ חֹ תֶּ מֶּת וְ הַ פְ תִילִים וְ הַ מַ טֶּה הָ אֵ לֶּה:\"",
           "prompt": "למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -75,7 +75,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ָל ָמה ֶּזה ֲע ַז ְב ֶּתן ֶּאת ָה ִאיׁש ִקְר ֶּאן לֹו ְויֹא ַכל ָל ֶּחם:\"",
+          "narrative_context": "לָ מָה זֶּה עֲ זַ בְ תֶּן אֶּת הָ אִישׁ קִרְ אֶּן לוֹ וְיאֹ כַל לָ חֶּם:\"",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -111,7 +111,7 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "ִׁשְל ָחה ַה ַנ ַער ִא ִתי ְו ָנקּו ָמה ְו ֵנ ֵל ָכה ְוִנ ְחֶּיה ְולֹא ָנמּות ַגם ֲא ַנ ְחנּו ַגם ַא ָתה ַגם ַט ֵפנּו:\"",
+          "narrative_context": "שִׁלְ חָה הַ נַ עַר אִ תִי וְ נָקוּ מָה וְ נֵ לֵ כָה וְנִ חְיֶּה וְלאֹ נָמוּת גַם אֲ נַ חְנוּ גַם אַ תָה גַם טַ פֵנוּ:\"",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -147,7 +147,7 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ְו ַע ָתה ְת ָנה ִלי ֶּאת ָה ָהר ַה ֶּזה [...] אּו ַלי ה' אֹו ִתי ְוהֹוַר ְׁש ִתים\"",
+          "narrative_context": "וְ עַ תָה תְ נָה לִי אֶּת הָ הָר הַ זֶּה [...] אוּ לַי ה' אוֹ תִי וְהוֹרַ שְׁ תִים\"",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -183,7 +183,7 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ְו ַע ָתה ְל ָכה ָנא ָאָרה ִלי ֶּאת ָה ָעם ַה ֶּזה [...] ִכי ָי ַד ְע ִתי ֵאת ֲא ֶּׁשר ְת ָבֵרְך ְמ ֹבָרְך ַו ֲא ֶּׁשר ָת ֹאר יּו ָאר:\"",
+          "narrative_context": "וְ עַ תָה לְ כָה נָא אָרָה לִי אֶּת הָ עָם הַ זֶּה [...] כִי יָ דַ עְ תִי אֵת אֲ שֶּׁר תְ בָרֵךְ מְ בֹרָךְ וַ אֲ שֶּׁר תָ אֹר יוּ אָר:\"",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -219,7 +219,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "ְצִליל ֶּל ֶּחם ְש ֹעִרים\"",
+          "narrative_context": "צְלִיל לֶּ חֶּם שְ עֹרִים\"",
           "prompt": "מה סימל חלום שבו הופיע?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -255,7 +255,7 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "ַוִי ְב ַחר [...] ַאְנ ֵׁשי ַחִיל ִמ ָכל ִי ְשָר ֵאל ַוִי ֵתן ֹא ָתם ָרא ִׁשים ַעל ָה ָעם ָשֵרי ֲא ָל ִפים ָשֵרי ֵמאֹות ָשֵרי ֲח ִמ ִשים ְו ָשֵרי ֲע ָש ֹרת:\"",
+          "narrative_context": "וַיִ בְ חַר [...] אַנְ שֵׁי חַיִל מִ כָל יִ שְרָ אֵל וַיִ תֵן אֹ תָם רָא שִׁים עַל הָ עָם שָרֵי אֲ לָ פִים שָרֵי מֵאוֹת שָרֵי חֲ מִ שִים וְ שָרֵי עֲ שָ רֹת:\"",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -291,7 +291,7 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "מֹוָרה לֹא ָע ָלה ַעל רֹא ִׁשי ִכי ְנִזיר ֱאֹל ִהים ֲאִני ִמ ֶּב ֶּטן ִא ִמי\"",
+          "narrative_context": "מוֹרָה לאֹ עָ לָה עַל ראֹ שִׁי כִי נְזִיר אֱלֹ הִים אֲנִי מִ בֶּ טֶּן אִ מִי\"",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -327,7 +327,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "הּוא ַה ַשִליט ַעל ָה ָאֶּרץ הּוא ַה ַמ ְׁש ִביר ְל ָכל ַעם ָה ָאֶּרץ\"",
+          "narrative_context": "הוּא הַ שַלִיט עַל הָ אָרֶּץ הוּא הַ מַ שְׁ בִיר לְ כָל עַם הָ אָרֶּץ\"",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -363,7 +363,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "ַוְי ִהי ַב ֲח ִצי ַה ַלְי ָלה ַוֶּי ֱחַרד ָה ִאיׁש ַוִי ָל ֵפת ְו ִה ֵנה ִא ָשה ֹׁש ֶּכ ֶּבת ַמְר ְגֹל ָתיו\"",
+          "narrative_context": "וַיְ הִי בַ חֲ צִי הַ לַיְ לָה וַיֶּ חֱרַד הָ אִישׁ וַיִ לָ פֵת וְ הִ נֵה אִ שָה שֹׁ כֶּ בֶּת מַרְ גְלֹ תָיו\"",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -399,7 +399,7 @@
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "ַוִי ְׁש ֹקל [...] ֶּאת ַה ֶּכ ֶּסף [...] ַאְר ַבע ֵמאֹות ֶּׁש ֶּקל ֶּכ ֶּסף ֹע ֵבר ַל ֹס ֵחר:\"",
+          "narrative_context": "וַיִ שְׁ קֹל [...] אֶּת הַ כֶּ סֶּף [...] אַרְ בַע מֵאוֹת שֶּׁ קֶּל כֶּ סֶּף עֹ בֵר לַ סֹ חֵר:\"",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -435,7 +435,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ַו ִת ָס ֵגר [...] ִמחּוץ ַל ַמ ֲח ֶּנה ִׁש ְב ַעת ָי ִמים ְו ָה ָעם לֹא ָנ ַסע\"",
+          "narrative_context": "וַ תִ סָ גֵר [...] מִחוּץ לַ מַ חֲ נֶּה שִׁ בְ עַת יָ מִים וְ הָ עָם לאֹ נָ סַע\"",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -471,7 +471,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "ֵאין קֹול ֲענֹות ְגבּוָרה ְו ֵאין קֹול ֲענֹות ֲחלּו ָׁשה קֹול ַענֹות ָא ֹנ ִכי ֹׁש ֵמ ַע \"",
+          "narrative_context": "אֵין קוֹל עֲנוֹת גְבוּרָה וְ אֵין קוֹל עֲנוֹת חֲלוּ שָׁה קוֹל עַנוֹת אָ נֹ כִי שֹׁ מֵ עַ \"",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -507,7 +507,7 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ֵאיְך תֹא ַמר ֲא ַה ְב ִתיְך ְוִל ְבָך ֵאין ִא ִתי ֶּזה ָׁשֹלׁש ְפ ָע ִמים ֵה ַתְל ָת ִבי\"",
+          "narrative_context": "אֵיךְ תאֹ מַר אֲ הַ בְ תִיךְ וְלִ בְךָ אֵין אִ תִי זֶּה שָׁלֹשׁ פְ עָ מִים הֵ תַלְ תָ בִי\"",
           "prompt": "מי אמרה?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -558,11 +558,11 @@
             },
             {
               "key": "ג",
-              "text": "ְמ ַצ ֵחק"
+              "text": "מְ צַ חֵק"
             },
             {
               "key": "ד",
-              "text": "ֹא ֵמן"
+              "text": "אֹ מֵן"
             }
           ],
           "correct_option": null,
@@ -579,7 +579,7 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "ַוַי ְס ֵתר [...] ָפ ָניו ִכי ָיֵרא ֵמ ַה ִביט ֶּאל ָה ֱאֹל ִהים\". איזה מראה הוא ראה",
+          "narrative_context": "וַיַ סְ תֵר [...] פָ נָיו כִי יָרֵא מֵ הַ בִיט אֶּל הָ אֱלֹ הִים\". איזה מראה הוא ראה",
           "prompt": "על אדם מסופר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -615,7 +615,7 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "ִאם ִמחּוט ְו ַעד ְשרֹוְך ַנ ַעל ְו ִאם ֶּא ַקח ִמ ָכל ֲא ֶּׁשר ָלְך\"",
+          "narrative_context": "אִם מִחוּט וְ עַד שְרוֹךְ נַ עַל וְ אִם אֶּ קַח מִ כָל אֲ שֶּׁר לָךְ\"",
           "prompt": "מי סירב לקחת משלל המלחמה ואמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -651,7 +651,7 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "ִמְז ֵב ַח ָגדֹול ְל ַמְר ֶּאה\" כדי שתהיה עדות לקשר בינם לבין שבטי ישראל. מיהי קבוצת האנשים",
+          "narrative_context": "מִזְ בֵ חַ גָדוֹל לְ מַרְ אֶּה\" כדי שתהיה עדות לקשר בינם לבין שבטי ישראל. מיהי קבוצת האנשים",
           "prompt": "קבוצת אנשים בנתה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -688,7 +688,7 @@
           "unit_id": "q19",
           "display_number": "19",
           "narrative_context": ".",
-          "prompt": "ֵע ֶּשק, ִש ְט ָנה, ְר ֹחבֹות – אלה הם שמות של...",
+          "prompt": "עֵ שֶּק, שִ טְ נָה, רְ חֹבוֹת – אלה הם שמות של...",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -724,7 +724,7 @@
           "unit_id": "q20",
           "display_number": "20",
           "narrative_context": null,
-          "prompt": "\"ַוָי ֹבאּו ְב ֵני ִי ְשָר ֵאל ָכל ָה ֵע ָדה ֹהר ָה ָהר\". איזה מאורע התרחש על פסגתו?",
+          "prompt": "\"וַיָ בֹאוּ בְ נֵי יִ שְרָ אֵל כָל הָ עֵ דָה הֹר הָ הָר\". איזה מאורע התרחש על פסגתו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -759,7 +759,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "ָמָרא\" והסבירה: \" ִכי ֵה ַמר ַׁש ַדי ִלי ְמ ֹאד\"",
+          "narrative_context": "מָרָא\" והסבירה: \" כִי הֵ מַר שַׁ דַי לִי מְ אֹד\"",
           "prompt": "מי ביקשה לשנות את שמה ל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -867,7 +867,7 @@
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "ִא ֵטר ַיד ְי ִמינֹו\" הוא אדם שידו השמאלית חזקה יותר. מי מתואר כך בתנ\"ך",
+          "narrative_context": "אִ טֵר יַד יְ מִינוֹ\" הוא אדם שידו השמאלית חזקה יותר. מי מתואר כך בתנ\"ך",
           "prompt": "אדם שהוא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -903,7 +903,7 @@
         {
           "unit_id": "q25",
           "display_number": "25",
-          "narrative_context": "ַוַי ְכֵרת ֶּאת ָה ֲע ָנִקים ִמן ָה ָהר ִמן ֶּח ְברֹון ִמן ְד ִבר ִמן ֲע ָנב ּו ִמ ֹכל ַהר ְיהּו ָדה ּו ִמ ֹכל ַהר ִי ְשָר ֵאל\"",
+          "narrative_context": "וַיַ כְרֵת אֶּת הָ עֲ נָקִים מִן הָ הָר מִן חֶּ בְרוֹן מִן דְ בִר מִן עֲ נָב וּ מִ כֹל הַר יְהוּ דָה וּ מִ כֹל הַר יִ שְרָ אֵל\"",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -943,7 +943,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2018_school_quiz.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q06 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option"
   }

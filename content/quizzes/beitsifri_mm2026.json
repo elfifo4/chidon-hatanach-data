@@ -384,7 +384,7 @@
           "unit_id": "q07",
           "display_number": "7",
           "narrative_context": null,
-          "prompt": "\"ַוִיּ ָשּׁ ֲארוּ ְשׁ ֵני ֲא ָנ ִשׁים ַבּ ַמּ ֲח ֶנ ה ֵשׁם ָה ֶא ָחד… ְו ֵשׁם ַה ֵשּׁ ִני… ַו ָתּ ַנח ֲﬠ ֵל ֶהם ָהרוּ ַח ְו ֵה ָמּה ַבּ ְכּ ֻת ִבים ְולֹא ָי ְצאוּ ָה ֹא ֱה ָלה ַוִיּ ְת ַנ ְבּאוּ ַבּ ַמּ ֲח ֶנה\" - מה שמות האנשים שהתנבאו במחנה?",
+          "prompt": "\"וַיִּ שָּׁ אֲרוּ שְׁ נֵי אֲ נָ שִׁים בַּ מַּ חֲ נֶ ה שֵׁם הָ אֶ חָד… וְ שֵׁם הַ שֵּׁ נִי… וַ תָּ נַח ﬠֲ לֵ הֶם הָרוּ חַ וְ הֵ מָּה בַּ כְּ תֻ בִים וְלאֹ יָ צְאוּ הָ אֹ הֱ לָה וַיִּ תְ נַ בְּאוּ בַּ מַּ חֲ נֶה\" - מה שמות האנשים שהתנבאו במחנה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -720,7 +720,7 @@
           "unit_id": "q13",
           "display_number": "13",
           "narrative_context": null,
-          "prompt": "\"ַוִיָּוּ ֵתר ַי ֲﬠ ֹקב ְל ַבדּוֹ ַוֵיּ ָא ֵבק ִאישׁ ִﬠמּוֹ ַﬠד ֲﬠלוֹת ַה ָשּׁ ַחר\" - באיזה מצב היה יעקב בתום המאבק?",
+          "prompt": "\"וַיִּוָּ תֵר יַ ﬠֲ קֹב לְ בַדּוֹ וַיֵּ אָ בֵק אִישׁ ﬠִמּוֹ ﬠַד ﬠֲלוֹת הַ שָּׁ חַר\" - באיזה מצב היה יעקב בתום המאבק?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1451,7 +1451,7 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/beitsifri_mm2026.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "clean"
   }
 }

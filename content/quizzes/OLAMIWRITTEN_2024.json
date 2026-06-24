@@ -109,7 +109,7 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "ָאז נִבְהֲל ו ַאל ו ֵפי ֱאדוֹם ֵאילֵי מוֹ ָא ב יֹא ֲחזֵמ וֹ ָרעַד\"",
+          "narrative_context": "אָז נבִהְלֲ ו אַל ו פֵי אֱדוםֹ אֵיליֵ מוֹ אָ ב יאֹ חֲזמֵ וֹ רָעדַ\"",
           "prompt": "בעקבות איזה אירו ע נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -217,7 +217,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "יְכָלְיָה ו ִמירו ָש לִָם",
+          "narrative_context": "יכְלָיְהָ ו מִירו שָ לםִָ",
           "prompt": "מי היה בנה של?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -253,7 +253,7 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "ְמעַ ט וְ ָרעִים הָי ו יְ ֵמי ְש נֵי ַחי ַי וְלֹא הִ ִ שיג ו ֶאת יְ ֵמי ְש נֵי ַחי ֵי ֲאבֹ ַתי\"",
+          "narrative_context": "מְעַ ט וְ רָעיִם היָ ו יְ מֵי שְ ניֵ חַי יַ ולְאֹ הִ ִ שיג ו אֶת יְ מֵי שְ ניֵ חַי יֵ אֲבֹ תַי\"",
           "prompt": "מה היה גיל פטירתו של האדם שאמר?",
           "question_type": "numeric",
           "answer_style": "single_correct",
@@ -289,7 +289,7 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "כָכָה יֵעָ ֶ שה לָ ִאיש ֲא ֶש ר הַ ֶמלֶך ְ ָח ֵפץ בִי ָקר וֹ\"",
+          "narrative_context": "ככָהָ יעֵָ ֶ שה לָ אִיש אֲ שֶ ר הַ מֶלךֶ ְ חָ פֵץ ביִ קָר ו\"ֹ",
           "prompt": "מי הציע לקרוא ברחו ב העיר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -361,7 +361,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "ְטלֵה ָחלָ ב ֶא ָח ד\"",
+          "narrative_context": "טְלהֵ חָלָ ב אֶ חָ ד\"",
           "prompt": "על מי מסופר שהקרי ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -433,7 +433,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "בִ ְתעָלַת הַ בְ ֵרכָה הָעֶלְיוֹנָה ֲא ֶש ר בִ ְמ ִסל ַת ְ ש ֵדה כוֹבֵ ס\"",
+          "narrative_context": "בִ תְעלָתַ הַ בְ רֵכהָ העָלֶיְונֹהָ אֲ שֶ ר בִ מְ סִל תַ ְ ש דֵה כובֵֹ ס\"",
           "prompt": "שליחי ו של איז ה מלך עמד ו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -469,7 +469,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "כְ ַד בֵר ַא ַחת הַנ ְבָלוֹת ְת ַד בֵ ִרי\"",
+          "narrative_context": "כְ דַ ברֵ אַ חַת הנַ בְלָותֹ תְ דַ בֵ רִי\"",
           "prompt": "מי אמר למי?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -505,7 +505,7 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ַמת נָ א ֶאת הָ ִאיש הַ זֶ ה כִי עַל כֵן הו א ְמ ַר ֵפ א ֶאת יְ ֵדי ַאנְ ֵש י הַ ִמלְ ָח ָמה\"",
+          "narrative_context": "מַת נָ א אֶת הָ אִיש הַ זֶ ה כיִ עלַ כןֵ הו א מְ רַ פֵ א אֶת יְ דֵי אַנְ שֵ י הַ מִלְ חָ מָה\"",
           "prompt": "מי האיש לגבי ו הוגש ה הבקשה \"יו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -548,19 +548,19 @@
           "options": [
             {
               "key": "א",
-              "text": "כִי בְרֹ ב הַי ָ ִמים ִת ְמצָ ֶאנ ו"
+              "text": "כיִ ברְֹ ב היַ ָ מִים תִ מְצָ אֶנ ו"
             },
             {
               "key": "ב",
-              "text": "כִי לֹא ֵת ַדע ַמה י ִהְיֶה ָרעָ ה עַל הָ ָא ֶר ץ"
+              "text": "כיִ לאֹ תֵ דַע מַה י הִיְהֶ רָעָ ה עלַ הָ אָ רֶ ץ"
             },
             {
               "key": "ג",
-              "text": "כִי הַ כֹל הֶבֶל ו ְרעו ת רו ַח"
+              "text": "כיִ הַ כלֹ הבֶלֶ ו רְעו ת רו חַ"
             },
             {
               "key": "ד",
-              "text": "כִי לֹא ֵת ַדע ַמה י ֵלֶד יוֹ ם"
+              "text": "כיִ לאֹ תֵ דַע מַה י לֵדֶ יוֹ ם"
             }
           ],
           "correct_option": null,
@@ -620,19 +620,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ַמלְ כִי צֶ ֶדק ֶמלֶך ְ ָש לֵ ם"
+              "text": "מַלְ כיִ צֶ דֶק מֶלךֶ ְ שָ לֵ ם"
             },
             {
               "key": "ב",
-              "text": "בֶ ַרע ֶמלֶך ְ ְסדֹ ם"
+              "text": "בֶ רַע מֶלךֶ ְ סְדֹ ם"
             },
             {
               "key": "ג",
-              "text": "הוֹהָם ֶמלֶך ְ ֶחבְרוֹ ן"
+              "text": "הוהֹםָ מֶלךֶ ְ חֶברְוֹ ן"
             },
             {
               "key": "ד",
-              "text": "ַא ְח ָא ב ֶמלֶך ְ ש וֹ ְמרוֹן"
+              "text": "אַ חְ אָ ב מֶלךֶ ְ ש וֹ מְרוןֹ"
             }
           ],
           "correct_option": null,
@@ -757,7 +757,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "ָאסו ר בָאזִ ִקים בְתוֹך ְ כָל ג ָלו ת יְרו ָש לִַם וִיהו ָדה הַ ֻּמגְלִים בָבֶלָה\"",
+          "narrative_context": "אָסו ר באָזִ קִים בתְוךֹ ְ כלָ ג לָו ת ירְו שָ לםִַ ויִהו דָה הַ מֻּגלְיִם בבָלֶהָ\"",
           "prompt": "על מי מסופר שהיה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -865,7 +865,7 @@
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "צֻּו ָה לאכול לחם העשוי מ\" ִח ִטין ו ְ שעֹ ִרים ו פוֹ ל וַעֲ ָד ִש ים וְדֹ ַחן וְכֻּ ְס ִמים\"",
+          "narrative_context": "צוֻּ הָ לאכול לחם העשוי מ\" חִ טִין ו ְ שעֹ רִים ו פוֹ ל ועֲַ דָ שִ ים ודְֹ חַן וכְֻּ סְ מִים\"",
           "prompt": "מי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -901,7 +901,7 @@
         {
           "unit_id": "q25",
           "display_number": "25",
-          "narrative_context": "וַי ֶ ֶר ב הַי ַעַר לֶ ֱאכֹל בָעָם ֵמ ֲא ֶש ר ָאכְלָה הַ ֶח ֶר ב בַי וֹם הַהו א\"",
+          "narrative_context": "ויַ ֶ רֶ ב היַ עַרַ לֶ אֱכלֹ בעָםָ מֵ אֲ שֶ ר אָכלְהָ הַ חֶ רֶ ב ביַ וםֹ ההַו א\"",
           "prompt": "היכן הייתה המלחמ ה בה מסופר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -973,7 +973,7 @@
         {
           "unit_id": "q27",
           "display_number": "27",
-          "narrative_context": "ָארו ר הָ ִאיש … ֲא ֶש ר יָקו ם ו בָנָה ֶאת הָעִיר הַ זֹאת\"",
+          "narrative_context": "אָרו ר הָ אִיש … אֲ שֶ ר יקָו ם ו בנָהָ אֶת העָיִר הַ זאֹת\"",
           "prompt": "על בניית איזו עיר קילל אדם את הבונה אותה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1009,7 +1009,7 @@
         {
           "unit_id": "q28",
           "display_number": "28",
-          "narrative_context": "וַי ִ ַקח {...} וַי ָצַר אֹתוֹ בַ ֶח ֶרט וַי ַעֲ ֵ שהו עֵגֶל ַמ ֵסכָה\"",
+          "narrative_context": "ויַ ִ קַח {...} ויַ צָרַ אתֹוֹ בַ חֶ רֶט ויַ עֲַ ֵ שהו עגֵלֶ מַ סֵכהָ\"",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1045,7 +1045,7 @@
         {
           "unit_id": "q29",
           "display_number": "29",
-          "narrative_context": "יְהִ י ְרצו י ֶא ָחיו וְטֹבֵל בַ ֶש ֶמן ַרגְלוֹ\"",
+          "narrative_context": "יהְִ י רְצו י אֶ חָיו וטְבֹלֵ בַ שֶ מֶן רַגלְו\"ֹ",
           "prompt": "את איזה שב ט בירך משה לפני פטירתו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1081,7 +1081,7 @@
         {
           "unit_id": "q30",
           "display_number": "30",
-          "narrative_context": "וַי ִ ְתנו כֶ ֶסף לַחֹצְבִים וְלֶ ָח ָר ִש ים ו ַמ ֲאכָל ו ִמ ְש ֶתה וָ ֶש ֶמן לַצ ִדֹנִים וְלַצ ֹ ִרים לְהָבִיא עֲצֵי ֲא ָרזִים ִמן הַל ְבָנוֹן ֶאל יָם יָפוֹ א\"",
+          "narrative_context": "ויַ ִ תְנו כֶ סֶף לחַצֹבְיִם ולְֶ חָ רָ שִ ים ו מַ אֲכלָ ו מִ שְ תֶה וָ שֶ מֶן לצַ דִנֹיִם ולְצַ ֹ רִים להְבָיִא עצֲיֵ אֲ רָזיִם מִן הלַ בְנָוןֹ אֶל יםָ יפָוֹ א\"",
           "prompt": "בימי מי נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1153,7 +1153,7 @@
         {
           "unit_id": "q32",
           "display_number": "32",
-          "narrative_context": "וְלֹא יָכֹל לַהֲ ִש יבָ ה ֵאלָיו\"",
+          "narrative_context": "ולְאֹ יכָלֹ להֲַ שִ יבָ ה אֵליָו\"",
           "prompt": "מי המלך שיבשה ידו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1189,7 +1189,7 @@
         {
           "unit_id": "q33",
           "display_number": "33",
-          "narrative_context": "בהֹר ההר",
+          "narrative_context": "בהרֹ ההר",
           "prompt": "מתי מת אהרון?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1340,19 +1340,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ֶאלְ ָחנָן וַ ֲאבִיעֶזֶ ר"
+              "text": "אֶלְ חָנןָ וַ אֲביִעזֶֶ ר"
             },
             {
               "key": "ב",
-              "text": "עִי ָרא וְגָ ֵר ב"
+              "text": "עיִ רָא וגְָ רֵ ב"
             },
             {
               "key": "ג",
-              "text": "ִאי ַתי וְיִגְ ָא ל"
+              "text": "אִי תַי ויְגְִ אָ ל"
             },
             {
               "key": "ד",
-              "text": "יוֹ ָא ב וֶ ֱאלִי ֶפלֶ ט"
+              "text": "יוֹ אָ ב וֶ אֱליִ פֶלֶ ט"
             }
           ],
           "correct_option": null,
@@ -1477,7 +1477,7 @@
         {
           "unit_id": "q41",
           "display_number": "41",
-          "narrative_context": "בֵי ָת ה בְ ִקי ר הַחוֹ ָמה ו בַחוֹ ָמה הִי א יוֹ ָש בֶת\" ? ___________________________________ _ 44. נגד מ י נלחמו ישרא ל במלחמה במהלכה נפלה חומה על 000,27 אי ש ? ___________________________________ _ 45. מי ניבא: \"וְנֶהֶ ְרס ו הֶהָ ִרים וְנָ ְפל ו הַ ַמ ְד ֵרגוֹת וְכָל חוֹ ָמה לָ ָא ֶר ץ ִת פוֹל\" ? ___________________________________ _ 46. באיזה חבל אר ץ היו \" ִש ִש ים עָ ִרים ג ְדֹלוֹת חוֹ ָמה ו בְ ִרי ַח נְחֹ ֶש ת\" ? ___________________________________ _ שאלות בנושא גאולת ישאל 47. מי ניב א שגלות ישראל מצרפת וספרד \"יִ ְרש ו ֵאת עָ ֵרי הַנ ֶגֶ ב\" ? ___________________________________ _ 48. מי תיא ר את שארית ישראל כ\" ַטל ֵמ ֵאת ה' כִ ְרבִיבִים עֲלֵי עֵ ֶ ש ב ֲא ֶש ר לֹ א יְ ַקו ֶה לְ ִאיש וְלֹא יְיַ ֵחל לִבְנֵי ָא ָדם\" ? ___________________________________ _ 13 49. מ י הנביא שהבטיח \"וְ ִש ל ַ ְמ ִתי לָכֶם ֶאת הַ ָש נִים ֲא ֶש ר ָאכַל הָ ַא ְר בֶה הַי ֶלֶק וְהֶ ָח ִסי ל וְהַג ָזָם ֵחילִי הַג ָדוֹל ֲא ֶש ר ִש ל ַ ְח ִת י בָכֶם\" ? ___________________________________ _ 50. מ י ניבא על שגשו ג בעת חזרת ישראל לארצו: \"וְ ַש בְ ִתי ֶאת ְש בו ת עַ ִמי יִ ְ ש ָר ֵאל ו בָנ ו עָ ִרים נְ ַש מוֹת וְיָ ָש ב ו וְנָ ְטע ו כְ ָר ִמים וְ ָש ת ו ֶאת יֵינָם וְעָ ש ו גַנ וֹת וְ ָאכְל ו ֶאת ְפ ִריהֶ ם\" ? ___________________________________ _ בהצלחה! 14",
+          "narrative_context": "ביֵ תָ ה בְ קִי ר החַוֹ מָה ו בחַוֹ מָה היִ א יוֹ שָ בתֶ\" ? ___________________________________ _ 44. נגד מ י נלחמו ישרא ל במלחמה במהלכה נפלה חומה על 000,27 אי ש ? ___________________________________ _ 45. מי ניבא: \"ונְהֶֶ רְס ו ההֶָ רִים ונְָ פְל ו הַ מַ דְ רֵגותֹ וכְלָ חוֹ מָה לָ אָ רֶ ץ תִ פולֹ\" ? ___________________________________ _ 46. באיזה חבל אר ץ היו \" שִ שִ ים עָ רִים ג דְלֹותֹ חוֹ מָה ו בְ רִי חַ נחְֹ שֶ ת\" ? ___________________________________ _ שאלות בנושא גאולת ישאל 47. מי ניב א שגלות ישראל מצרפת וספרד \"יִ רְש ו אֵת עָ רֵי הנַ גֶֶ ב\" ? ___________________________________ _ 48. מי תיא ר את שארית ישראל כ\" טַל מֵ אֵת ה' כִ רְביִביִם עלֲיֵ עֵ ֶ ש ב אֲ שֶ ר לֹ א יְ קַו הֶ לְ אִיש ולְאֹ ייְַ חֵל לבִנְיֵ אָ דָם\" ? ___________________________________ _ 13 49. מ י הנביא שהבטיח \"וְ שִ ל ַ מְ תִי לכָםֶ אֶת הַ שָ ניִם אֲ שֶ ר אָכלַ הָ אַ רְ בהֶ היַ לֶקֶ והְֶ חָ סִי ל והְגַ זָםָ חֵיליִ הגַ דָולֹ אֲ שֶ ר שִ ל ַ חְ תִ י בכָםֶ\" ? ___________________________________ _ 50. מ י ניבא על שגשו ג בעת חזרת ישראל לארצו: \"וְ שַ בְ תִי אֶת שְ בו ת עַ מִי יִ ְ ש רָ אֵל ו בנָ ו עָ רִים נְ שַ מותֹ ויְָ שָ ב ו ונְָ טְע ו כְ רָ מִים וְ שָ ת ו אֶת ייֵנםָ ועְָ ש ו גנַ ותֹ וְ אָכלְ ו אֶת פְ רִיהֶ ם\" ? ___________________________________ _ בהצלחה! 14",
           "prompt": "היכן לראשונה בתורה נזכרת העיר עז ה ? ___________________________________ _ 42. מי הנביא האחרון שדיבר על עזה ? ___________________________________ _ שאלות בנושא חומה 43. על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1500,7 +1500,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/OLAMIWRITTEN_2024.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q06 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q37 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option"
   }

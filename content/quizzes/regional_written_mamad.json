@@ -145,7 +145,7 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ַהר- ָּג ַעׁש'",
+          "narrative_context": "הַר- גָּ עַשׁ'",
           "prompt": "באיזו נחלה מוזכר '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -181,26 +181,26 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ַהֵּי ִמם' במדבר",
+          "narrative_context": "הַיֵּ מִם' במדבר",
           "prompt": "מי מצא את '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ֲע ָנה בן ִצ ְבעֹון"
+              "text": "עֲ נָה בן צִ בְעוֹן"
             },
             {
               "key": "ב",
-              "text": "ֲע ָנה בן ֵׂש ִעיר"
+              "text": "עֲ נָה בן שֵׂ עִיר"
             },
             {
               "key": "ג",
-              "text": "ִדׁשֹון בן ֵׂש ִעיר"
+              "text": "דִשׁוֹן בן שֵׂ עִיר"
             },
             {
               "key": "ד",
-              "text": "ִד ֹׁׁשן בן ֲע ָנה"
+              "text": "דִ שֹׁׁן בן עֲ נָה"
             }
           ],
           "correct_option": null,
@@ -289,7 +289,7 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "ִאיׁש ֵּשי ָּבה'",
+          "narrative_context": "אִישׁ שֵּי בָּה'",
           "prompt": "מי מהבאים משתמש בביטוי '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -332,19 +332,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ִבי ֲא ֹׁד ָני ְׁש ל ח ָנא ְב יד ִת ְׁש ָלח"
+              "text": "בִי אֲ דֹׁ נָי שְׁ ל ח נָא בְ יד תִ שְׁ לָח"
             },
             {
               "key": "ב",
-              "text": "ָל ָמה ֲהֵׂר ֹׁע ָתה ָל ָעם ה ֶּזה"
+              "text": "לָ מָה הֲרֵׂ עֹׁ תָה לָ עָם ה זֶּה"
             },
             {
               "key": "ג",
-              "text": "לֹׁא ִאיׁש ְד ָבִרים ָא ֹׁנ ִכי"
+              "text": "לאֹׁ אִישׁ דְ בָרִים אָ נֹׁ כִי"
             },
             {
               "key": "ד",
-              "text": "ְו ֵׂהן לֹׁא י ֲא ִמינּו ִלי"
+              "text": "וְ הֵׂן לאֹׁ י אֲ מִינוּ לִי"
             }
           ],
           "correct_option": null,
@@ -361,7 +361,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "ִאיׁש ִמ ְל ָּח ָּמה ִמְנ ֻעָּריו'",
+          "narrative_context": "אִישׁ מִ לְ חָּ מָּה מִנְ עֻרָּיו'",
           "prompt": "על מי נאמר שהיה '?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -433,7 +433,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ִמ ְׁש ַפט ַה ֹּכ ֲהִנים ֵּמ ֵּאת ָּה ָּעם' על פי ציווי התורה",
+          "narrative_context": "מִ שְׁ פַט הַ כֹּ הֲנִים מֵּ אֵּת הָּ עָּם' על פי ציווי התורה",
           "prompt": "מהו '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -469,7 +469,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "ֵּתל-עֹו ָּלם'",
+          "narrative_context": "תֵּל-עוֹ לָּם'",
           "prompt": "על איזו עיר נצטוו ישראל להותירה '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -505,7 +505,7 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ֹּח ֶדׁש בלבד",
+          "narrative_context": "חֹּ דֶשׁ בלבד",
           "prompt": "מי מלך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -541,7 +541,7 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "ַבחּוִרים'",
+          "narrative_context": "בַחוּרִים'",
           "prompt": "מה מהדברים נכון לגבי המקום '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -656,19 +656,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ֵׂעת ל ֲהרֹוג ְו ֵׂעת ִלְרּפֹוא"
+              "text": "עֵׂת ל הֲרוֹג וְ עֵׂת לִרְפּוֹא"
             },
             {
               "key": "ב",
-              "text": "ֵׂעת ִל ְׁשמֹור ְו ֵׂעת ְל א ֵׂבד"
+              "text": "עֵׂת לִ שְׁמוֹר וְ עֵׂת לְ א בֵׂד"
             },
             {
               "key": "ג",
-              "text": "ֵׂעת ֶּל ֱא ֹׁהב ְו ֵׂעת ִל ְשנֹׁא"
+              "text": "עֵׂת לֶּ אֱ הֹׁב וְ עֵׂת לִ שְנאֹׁ"
             },
             {
               "key": "ד",
-              "text": "ֵׂעת ִל ְבּכֹות ְו ֵׂעת ִל ְשחֹוק"
+              "text": "עֵׂת לִ בְכּוֹת וְ עֵׂת לִ שְחוֹק"
             }
           ],
           "correct_option": null,
@@ -721,7 +721,7 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "ִמ ֵּבית ָּהסּוִרים ָּי ָּצא ִל ְמֹלְך' נאמר בקהלת. בעוד מקום אחד מכונה כך בית הסהר - מי מהבאים היה ב' ֵּב ית ָּה ֲאסּוִרים'",
+          "narrative_context": "מִ בֵּית הָּסוּרִים יָּ צָּא לִ מְלֹךְ' נאמר בקהלת. בעוד מקום אחד מכונה כך בית הסהר - מי מהבאים היה ב' בֵּ ית הָּ אֲסוּרִים'",
           "prompt": "'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -764,19 +764,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ִּפ ְׁש ֵׂתי ֵׂעץ"
+              "text": "פִּ שְׁ תֵׂי עֵׂץ"
             },
             {
               "key": "ב",
-              "text": "ִרפֹות"
+              "text": "רִפוֹת"
             },
             {
               "key": "ג",
-              "text": "ְּכ ֵׂלי ָב ָקר"
+              "text": "כְּ לֵׂי בָ קָר"
             },
             {
               "key": "ד",
-              "text": "ְתָר ִפים"
+              "text": "תְרָ פִים"
             }
           ],
           "correct_option": null,
@@ -829,7 +829,7 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "בּדּוד",
+          "narrative_context": "בדּוּד",
           "prompt": "מה מהדברים הבאים לא היה?",
           "question_type": "negative_exclusion",
           "answer_style": "single_correct",
@@ -948,7 +948,7 @@
             },
             {
               "key": "ב",
-              "text": "ֶּסֶּרן"
+              "text": "סֶּרֶּן"
             },
             {
               "key": "ג",
@@ -956,7 +956,7 @@
             },
             {
               "key": "ד",
-              "text": "ס ָמל"
+              "text": "ס מָל"
             }
           ],
           "correct_option": null,
@@ -1045,7 +1045,7 @@
         {
           "unit_id": "q29",
           "display_number": "29",
-          "narrative_context": "ְו ָּכל-ִי ְשָּר ֵּאל ִויהּו ָּדה ֹּא ֵּהב ֶאת- ָּּדִוד\" על מי מהבאים לא נאמר באופן פרטני ש - 'אהב' את דוד",
+          "narrative_context": "וְ כָּל-יִ שְרָּ אֵּל וִיהוּ דָּה אֹּ הֵּב אֶת- דָּּוִד\" על מי מהבאים לא נאמר באופן פרטני ש - 'אהב' את דוד",
           "prompt": "דוד היה איש אהוב על סביבתו, עד שנאמר עליו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1262,7 +1262,7 @@
           "unit_id": "q35",
           "display_number": "35",
           "narrative_context": null,
-          "prompt": "\"ְוָּר ַדף ֹּא ָּתם קֹול ָּע ֶלה ִנ ָּּדף\". מי מהבאים נסו מ'קול'?",
+          "prompt": "\"וְרָּ דַף אֹּ תָּם קוֹל עָּ לֶה נִ דָּּף\". מי מהבאים נסו מ'קול'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1297,26 +1297,26 @@
         {
           "unit_id": "q36",
           "display_number": "36",
-          "narrative_context": "קֹול ְצ ָע ָדה\"?_________________ 37. באיזה אירוע נאמר: ' ו ִת ָב קע ָה ָאֶּרץ ְבקֹו ָלם'? _________________ 38. היכן מוזכר 'ּקֹול ְמ ח ְצ ִצים'? _________________ 39. באיזו מכה ממכות מצרים מוזכר שהיו \" ֹׁקֹלת ֱאֹל ִהים\"? _________________ 40. מי שמעה את \"קֹול ָהָר ִצין\" _________________ 41. מי שמע \"קֹול ְד ָמ ָמה ד ָּקה\"? _________________ 42. מי זיהה 'קול רגלים' של אשה בפתח ביתו? _________________ 43. מה גרם להשמעת \"קֹול ה ְתרּו ָעה ה ְגדֹו ָלה\" במחנה ישראל? _________________ 44. בדברי איזה נביא מוזכר \"קֹול ֲחָר ָדה\" _________________ 6 חלק ג' - שאלות פתוחות 47-45. שלוש פעמים מנבא ישעיהו על ירושלים שיקרא לה בעתיד שם אחר. מהם 3 השמות? _________________ _________________ _________________ .50-48 לעתים נעזרו בגורל לגלות אשמת אדם הגלויה לא-להים. מי השלושה שנמצאו אשמים בצורה כזו? _________________ _________________ _________________ שאלות מילואים- למקרה שאין הכרעה 1. מה נתן חזקיהו לאשור בנוסף לדלתות היכל ה'",
+          "narrative_context": "קוֹל צְ עָ דָה\"?_________________ 37. באיזה אירוע נאמר: ' ו תִ בָ קע הָ אָרֶּץ בְקוֹ לָם'? _________________ 38. היכן מוזכר 'קּוֹל מְ ח צְ צִים'? _________________ 39. באיזו מכה ממכות מצרים מוזכר שהיו \" קֹׁלֹת אֱלֹ הִים\"? _________________ 40. מי שמעה את \"קוֹל הָרָ צִין\" _________________ 41. מי שמע \"קוֹל דְ מָ מָה ד קָּה\"? _________________ 42. מי זיהה 'קול רגלים' של אשה בפתח ביתו? _________________ 43. מה גרם להשמעת \"קוֹל ה תְרוּ עָה ה גְדוֹ לָה\" במחנה ישראל? _________________ 44. בדברי איזה נביא מוזכר \"קוֹל חֲרָ דָה\" _________________ 6 חלק ג' - שאלות פתוחות 47-45. שלוש פעמים מנבא ישעיהו על ירושלים שיקרא לה בעתיד שם אחר. מהם 3 השמות? _________________ _________________ _________________ .50-48 לעתים נעזרו בגורל לגלות אשמת אדם הגלויה לא-להים. מי השלושה שנמצאו אשמים בצורה כזו? _________________ _________________ _________________ שאלות מילואים- למקרה שאין הכרעה 1. מה נתן חזקיהו לאשור בנוסף לדלתות היכל ה'",
           "prompt": "היכן התרחש הקרב בו נתן ה' סימן לתקיפה בשמיעת?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ֹׁא ְמנֹות"
+              "text": "אֹׁ מְנוֹת"
             },
             {
               "key": "ב",
-              "text": "ֹליֹות"
+              "text": "לֹיוֹת"
             },
             {
               "key": "ג",
-              "text": "ִת ֹׁמ ֹׁרת"
+              "text": "תִ מֹׁ רֹׁת"
             },
             {
               "key": "ד",
-              "text": "ֻּגּלֹות 2. על איזו מצוה מובא הנימוק: \" ְל ַמ ַען ִת ְל ַמד ְלִיְר ָּאה ֶאת-ה' א -ֹל ֶהיָך ָּכל- ַהָּי ִמים\"?"
+              "text": "גֻּלּוֹת 2. על איזו מצוה מובא הנימוק: \" לְ מַ עַן תִ לְ מַד לְיִרְ אָּה אֶת-ה' א -לֹ הֶיךָ כָּל- הַיָּ מִים\"?"
             },
             {
               "key": "א",
@@ -1332,7 +1332,7 @@
             },
             {
               "key": "ד",
-              "text": "עליה אל מקום משכן ה' למשפט 3. משורר תהלים מעיד על א-להי ישראל ש\"לֹּא ָּינּום ְולֹּא ִיי ָּׁשן\". על מי עוד, להבדיל, נאמר ביטוי זה?"
+              "text": "עליה אל מקום משכן ה' למשפט 3. משורר תהלים מעיד על א-להי ישראל ש\"לאֹּ יָּנוּם וְלאֹּ יִי שָּׁן\". על מי עוד, להבדיל, נאמר ביטוי זה?"
             },
             {
               "key": "א",
@@ -1401,7 +1401,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/regional_written_mamad.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q22 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 option count 20; q36 no correct_option"
   }

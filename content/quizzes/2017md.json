@@ -39,8 +39,8 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "ְּב ִמ ְּס ַּפר ַּהָּי ִמים [...] ַּאְּר ָּב ִעים יֹום יֹום ַּל ָּש ָּנה יֹום ַּל ָּש ָּנה ִת ְּשאּו ֶאת ֲעֹו תנ יתי ֶכם\". בני ישראל נענשו בהליכה במדבר במשך 40 שנה, כנגד 40 ימים. על אילו 40 ימים מדובר",
-          "prompt": "\" ְּב ִמ ְּס ַּפר ַּהָּי ִמים [...] ַּאְּר ָּב ִעים יֹום יֹום ַּל ָּש ָּנה יֹום ַּל ָּש ָּנה ִת ְּשאּו ֶאת ֲעֹו תנ יתי ֶכם\". בני ישראל נענשו בהליכה במדבר במשך 40 שנה, כנגד 40 ימים. על אילו 40 ימים מדובר?",
+          "narrative_context": "בְּ מִ סְּ פַּר הַּיָּ מִים [...] אַּרְּ בָּ עִים יוֹם יוֹם לַּ שָּ נָּה יוֹם לַּ שָּ נָּה תִ שְּאוּ אֶת עֲוֹ תנ יתי כֶם\". בני ישראל נענשו בהליכה במדבר במשך 40 שנה, כנגד 40 ימים. על אילו 40 ימים מדובר",
+          "prompt": "\" בְּ מִ סְּ פַּר הַּיָּ מִים [...] אַּרְּ בָּ עִים יוֹם יוֹם לַּ שָּ נָּה יוֹם לַּ שָּ נָּה תִ שְּאוּ אֶת עֲוֹ תנ יתי כֶם\". בני ישראל נענשו בהליכה במדבר במשך 40 שנה, כנגד 40 ימים. על אילו 40 ימים מדובר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -75,7 +75,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ַּה יעי יני ָּה ֲא ָּנ ִשים ָּה יהם ְּת ַּנ יקר\"",
+          "narrative_context": "הַּ יעי יני הָּ אֲ נָּ שִים הָּ יהם תְּ נַּ יקר\"",
           "prompt": "אל מי הוטחו הדברים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -130,7 +130,7 @@
             },
             {
               "key": "ד",
-              "text": "שבקרוב היא עלולה למות מ ִז קנה והן יישארו לבדן בארץ זרה"
+              "text": "שבקרוב היא עלולה למות מ זִ קנה והן יישארו לבדן בארץ זרה"
             }
           ],
           "correct_option": null,
@@ -147,14 +147,14 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ַּמה נתא ַּכל ַּב ָּש ָּנה ַּה ְּש ִבי ִעת\"",
+          "narrative_context": "מַּה נתא כַּל בַּ שָּ נָּה הַּ שְּ בִי עִת\"",
           "prompt": "מהי תשובת ה' לשאלה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "תאכלו את התבואה הַּר בה של השנה השישית"
+              "text": "תאכלו את התבואה הרַּ בה של השנה השישית"
             },
             {
               "key": "ב",
@@ -162,7 +162,7 @@
             },
             {
               "key": "ג",
-              "text": "תאכלו את התבואה הַּר בה שתצא באותה שנה ללא עבודת אדם"
+              "text": "תאכלו את התבואה הרַּ בה שתצא באותה שנה ללא עבודת אדם"
             },
             {
               "key": "ד",
@@ -183,14 +183,14 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ָּדמֹו ְּברתאשֹו\", משמעו: האדם נושא באחריות למותו. בקשר למי נעשה שימוש בביטוי הזה",
+          "narrative_context": "דָּמוֹ בְּרתאשוֹ\", משמעו: האדם נושא באחריות למותו. בקשר למי נעשה שימוש בביטוי הזה",
           "prompt": "הביטוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "מי שיי ָּמ צא באמתחתו הגביע של יוסף"
+              "text": "מי שיי מָּ צא באמתחתו הגביע של יוסף"
             },
             {
               "key": "ב",
@@ -219,26 +219,26 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "ָּחְּר ָּמה\" לאחר שנכבשה",
+          "narrative_context": "חָּרְּ מָּה\" לאחר שנכבשה",
           "prompt": "להחרים עיר, משמעו: להשמידה ולא להשאיר לה שריד. איזו עיר נקראה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ָּחצֹור"
+              "text": "חָּצוֹר"
             },
             {
               "key": "ב",
-              "text": "ֲא יפק"
+              "text": "אֲ יפק"
             },
             {
               "key": "ג",
-              "text": "ֶב ֶזק"
+              "text": "בֶ זֶק"
             },
             {
               "key": "ד",
-              "text": "ְּצ ַּפת"
+              "text": "צְּ פַּת"
             }
           ],
           "correct_option": null,
@@ -255,8 +255,8 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "ָּהלֹוְך ָּהְּלכּו ָּה יע ִצים ִל ְּמ תש ַּח ֲע ילי ֶהם ֶמ ֶלְך\". לאיזה מהצמחים לא פנו העצים בבקשה שימלוך עליהם",
-          "prompt": "\" ָּהלֹוְך ָּהְּלכּו ָּה יע ִצים ִל ְּמ תש ַּח ֲע ילי ֶהם ֶמ ֶלְך\". לאיזה מהצמחים לא פנו העצים בבקשה שימלוך עליהם?",
+          "narrative_context": "הָּלוֹךְ הָּלְּכוּ הָּ יע צִים לִ מְּ תש חַּ עֲ ילי הֶם מֶ לֶךְ\". לאיזה מהצמחים לא פנו העצים בבקשה שימלוך עליהם",
+          "prompt": "\" הָּלוֹךְ הָּלְּכוּ הָּ יע צִים לִ מְּ תש חַּ עֲ ילי הֶם מֶ לֶךְ\". לאיזה מהצמחים לא פנו העצים בבקשה שימלוך עליהם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -291,7 +291,7 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "קּו ָּמה ְּו ַּנ ֲע ֶלה ֲע ילי ֶהם ִכי ָּר ִאינּו ֶאת ָּה ָּאֶרץ ְּו ִה ינה טֹו ָּבה ְּמ תאד\"",
+          "narrative_context": "קוּ מָּה וְּ נַּ עֲ לֶה עֲ ילי הֶם כִי רָּ אִינוּ אֶת הָּ אָּרֶץ וְּ הִ ינה טוֹ בָּה מְּ תאד\"",
           "prompt": "מי אמרו?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -327,7 +327,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "ָּמ לֹון\" היא כנוי למקום עצירה ולינה בעת מסע. איזה מהאירועים אירע במקום שהכתוב מכנה אותו \" ָּמ לֹון\"",
+          "narrative_context": "מָּ לוֹן\" היא כנוי למקום עצירה ולינה בעת מסע. איזה מהאירועים אירע במקום שהכתוב מכנה אותו \" מָּ לוֹן\"",
           "prompt": "בתנ\"ך המילה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -363,7 +363,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "ָּה ִסרּו ֶאת ֱאֹל יהי ַּה ינ ָּכר ֲא ֶשר ְּב תת ְּכ ֶכם ְּו ִה ַּט ֲהרּו ְּו ַּה ֲחִליפּו ִש ְּמֹל יתי ֶכם\"",
+          "narrative_context": "הָּ סִרוּ אֶת אֱלֹ יהי הַּ ינ כָּר אֲ שֶר בְּ תת כְּ כֶם וְּ הִ טַּ הֲרוּ וְּ הַּ חֲלִיפוּ שִ מְּלֹ יתי כֶם\"",
           "prompt": "לקראת איזה אירוע נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -399,7 +399,7 @@
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "ַּב ֶחֶרט\"",
+          "narrative_context": "בַּ חֶרֶט\"",
           "prompt": "מה נוצר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -435,7 +435,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ַּב תח ֶדש ַּה ְּש ִבי ִעי ְּב ִש ְּב ָּעה ָּע ָּשר יֹום ַּל תח ֶדש\"",
+          "narrative_context": "בַּ תח דֶש הַּ שְּ בִי עִי בְּ שִ בְּ עָּה עָּ שָּר יוֹם לַּ תח דֶש\"",
           "prompt": "איזה ממאורעות המבול היה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -471,7 +471,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "ָּהִיי ִתי ְּב ֶאֶרץ ָּנ ְּכִרָּיה\" – אלה הם דבריו של...",
+          "narrative_context": "הָּיִי תִי בְּ אֶרֶץ נָּ כְּרִיָּה\" – אלה הם דבריו של...",
           "prompt": "\" יגר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -507,7 +507,7 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ִה ינה ָּנא ָּז ַּקְּנ ִתי לתא ָּי ַּד ְּע ִתי יֹום מֹו ִתי\" כדי להסביר...",
+          "narrative_context": "הִ ינה נָּא זָּ קַּנְּ תִי לתא יָּ דַּ עְּ תִי יוֹם מוֹ תִי\" כדי להסביר...",
           "prompt": "אדם מסוים אמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -586,15 +586,15 @@
           "options": [
             {
               "key": "א",
-              "text": "ב ַּמ יק ָּדה"
+              "text": "ב מַּ יק דָּה"
             },
             {
               "key": "ב",
-              "text": "ב ֲע יז ָּקה"
+              "text": "ב עֲ יז קָּה"
             },
             {
               "key": "ג",
-              "text": "ב ִל ְּב ָּנה"
+              "text": "ב לִ בְּ נָּה"
             },
             {
               "key": "ד",
@@ -615,8 +615,8 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "ִאיש ִכי ָּימּות ּו יבן יאין לֹו ְּו ַּה ֲע ַּבְּר ֶתם ֶאת ַּנ ֲח ָּלתֹו\". על פי החוק הזה, למי יש להעביר את נחלתו של מי שמת במקרה שאין לו בנים",
-          "prompt": "\" ִאיש ִכי ָּימּות ּו יבן יאין לֹו ְּו ַּה ֲע ַּבְּר ֶתם ֶאת ַּנ ֲח ָּלתֹו\". על פי החוק הזה, למי יש להעביר את נחלתו של מי שמת במקרה שאין לו בנים?",
+          "narrative_context": "אִיש כִי יָּמוּת וּ יבן יאין לוֹ וְּ הַּ עֲ בַּרְּ תֶם אֶת נַּ חֲ לָּתוֹ\". על פי החוק הזה, למי יש להעביר את נחלתו של מי שמת במקרה שאין לו בנים",
+          "prompt": "\" אִיש כִי יָּמוּת וּ יבן יאין לוֹ וְּ הַּ עֲ בַּרְּ תֶם אֶת נַּ חֲ לָּתוֹ\". על פי החוק הזה, למי יש להעביר את נחלתו של מי שמת במקרה שאין לו בנים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -651,14 +651,14 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "ְּל ִמ ְּש ֶמֶרת ְּלאֹות ִל ְּב יני ֶמִרי ּו ְּת ַּכל ְּתלּו תנ ָּתם ימ ָּע ַּלי\"",
+          "narrative_context": "לְּ מִ שְּ מֶרֶת לְּאוֹת לִ בְּ יני מֶרִי וּ תְּ כַּל תְּלוּ תנ תָּם ימ עָּ לַּי\"",
           "prompt": "מה נעשה כדי שיהיה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "שמירת מלוא העומר ָּמ ן לפני העדות"
+              "text": "שמירת מלוא העומר מָּ ן לפני העדות"
             },
             {
               "key": "ב",
@@ -687,26 +687,26 @@
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "ָּה ָּא ָּדם ַּה ָּגדֹול ָּב ֲע ָּנִקים\"",
+          "narrative_context": "הָּ אָּ דָּם הַּ גָּדוֹל בָּ עֲ נָּקִים\"",
           "prompt": "מי מכונה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "עֹוג ֶמ ֶלְך ַּה ָּב ָּשן"
+              "text": "עוֹג מֶ לֶךְ הַּ בָּ שָּן"
             },
             {
               "key": "ב",
-              "text": "ֲא ִחי ַּמן"
+              "text": "אֲ חִי מַּן"
             },
             {
               "key": "ג",
-              "text": "ַּת ְּל ַּמי"
+              "text": "תַּ לְּ מַּי"
             },
             {
               "key": "ד",
-              "text": "ַּאְּר ַּבע"
+              "text": "אַּרְּ בַּע"
             }
           ],
           "correct_option": null,
@@ -723,7 +723,7 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "ַּי ַּחד ִש ְּב יטי ִי ְּשָּר יאל\"",
+          "narrative_context": "יַּ חַּד שִ בְּ יטי יִ שְּרָּ יאל\"",
           "prompt": "היכן נאמר הביטוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -759,7 +759,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "ְּו תא ְּכ ָּליו ֲעֹונֹו ִי ָָּּׂא ִכי ֶאת תק ֶדש ה' ִח ילל\"",
+          "narrative_context": "וְּ תא כְּ לָּיו עֲוֹנוֹ יִ אָָּּׂ כִי אֶת תק דֶש ה' חִ ילל\"",
           "prompt": "על מה נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -774,7 +774,7 @@
             },
             {
               "key": "ג",
-              "text": "ָּמ ן שנשמר מיום האתמול"
+              "text": "מָּ ן שנשמר מיום האתמול"
             },
             {
               "key": "ד",
@@ -831,7 +831,7 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "ִעיר ָּנ ְּכִרי\"",
+          "narrative_context": "עִיר נָּ כְּרִי\"",
           "prompt": "מי סירב ללון ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -867,7 +867,7 @@
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "ֶפל\"",
+          "narrative_context": "פֶל\"",
           "prompt": "לשם איזה מהמקרים נעשה שימוש ב\" יס?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -878,11 +878,11 @@
             },
             {
               "key": "ב",
-              "text": "שמירת מלוא העומר ָּמ ן לפני העדות"
+              "text": "שמירת מלוא העומר מָּ ן לפני העדות"
             },
             {
               "key": "ג",
-              "text": "מדידת המים שמּוצּו מן הגיזה של גדעון"
+              "text": "מדידת המים שמוּצוּ מן הגיזה של גדעון"
             },
             {
               "key": "ד",
@@ -943,7 +943,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2017md.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option"
   }

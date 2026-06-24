@@ -75,7 +75,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ִמְּלבֹוא ֲח ָמת ַעד ָים ָה ֲעָר ָבה\"",
+          "narrative_context": "מִלְּבוֹא חֲ מָת עַד יָם הָ עֲרָ בָה\"",
           "prompt": "בימי מי מתואר גבול ישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -111,7 +111,7 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "ֱאִלי ָש ָמע'",
+          "narrative_context": "אֱלִי שָ מָע'",
           "prompt": "שמו של מי מהבאים לא היה '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -122,7 +122,7 @@
             },
             {
               "key": "ב",
-              "text": "ניצב שלמה ָב ֲא ֻרבֹות"
+              "text": "ניצב שלמה בָ אֲ רֻבוֹת"
             },
             {
               "key": "ג",
@@ -183,26 +183,26 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ִחִוי'",
+          "narrative_context": "חִוִי'",
           "prompt": "מי מהאנשים הבאים היה '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ֶע ְּפרֹון"
+              "text": "עֶ פְּרוֹן"
             },
             {
               "key": "ב",
-              "text": "ֵאילֹון"
+              "text": "אֵילוֹן"
             },
             {
               "key": "ג",
-              "text": "ִחיָרה"
+              "text": "חִירָה"
             },
             {
               "key": "ד",
-              "text": "ִצ ְּבעֹון"
+              "text": "צִ בְּעוֹן"
             }
           ],
           "correct_option": null,
@@ -219,7 +219,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "ַב ֲח ִמ ָשה ָע ָשר יֹום ַל ֹח ֶדש ַה ֵשִני",
+          "narrative_context": "בַ חֲ מִ שָה עָ שָר יוֹם לַ חֹ דֶש הַ שֵנִי",
           "prompt": "מה קרה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -255,7 +255,7 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "ֶחֶרב ְּמ ֻצ ֶמ ֶדת'",
+          "narrative_context": "חֶרֶב מְּ צֻ מֶ דֶת'",
           "prompt": "למי היתה '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -346,7 +346,7 @@
             },
             {
               "key": "ד",
-              "text": "שֹו ֹכה"
+              "text": "שוֹ כֹה"
             }
           ],
           "correct_option": null,
@@ -363,7 +363,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "ֵמי ֹנ ַח\"",
+          "narrative_context": "מֵי נֹ חַ\"",
           "prompt": "באיזה הקשר מזכיר הנביא את?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -374,15 +374,15 @@
             },
             {
               "key": "ב",
-              "text": "השארת ְּפ ֵל ָטה לאחר החורבן"
+              "text": "השארת פְּ לֵ טָה לאחר החורבן"
             },
             {
               "key": "ג",
-              "text": "גודל החורבן ה ָקֵרב"
+              "text": "גודל החורבן ה קָרֵב"
             },
             {
               "key": "ד",
-              "text": "התגלות ה' ב ֶקֶרב הארץ"
+              "text": "התגלות ה' ב קֶרֶב הארץ"
             }
           ],
           "correct_option": null,
@@ -399,7 +399,7 @@
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "ֵי ָח ֵשב לו \" ָדם ָנִקיא\" במעשה שהוא עתיד לעשות",
+          "narrative_context": "יֵ חָ שֵב לו \" דָם נָקִיא\" במעשה שהוא עתיד לעשות",
           "prompt": "מי התפלל שלא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -435,7 +435,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ַה ַפ ַחת ַה ָגדֹול'",
+          "narrative_context": "הַ פַ חַת הַ גָדוֹל'",
           "prompt": "היכן היה '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -446,7 +446,7 @@
             },
             {
               "key": "ב",
-              "text": "ַב ֶשכו"
+              "text": "בַ שֶכו"
             },
             {
               "key": "ג",
@@ -471,7 +471,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "ָמ ַל ך 9 שנים",
+          "narrative_context": "מָ לַ ך 9 שנים",
           "prompt": "מי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -586,19 +586,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ֶח ְּברֹון"
+              "text": "חֶ בְּרוֹן"
             },
             {
               "key": "ב",
-              "text": "ֹצ ַער"
+              "text": "צֹ עַר"
             },
             {
               "key": "ג",
-              "text": "ַע ָזה"
+              "text": "עַ זָה"
             },
             {
               "key": "ד",
-              "text": "ִג ְּבעֹון"
+              "text": "גִ בְּעוֹן"
             }
           ],
           "correct_option": null,
@@ -615,7 +615,7 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "ִצְּנ ֶצ ֶנת",
+          "narrative_context": "צִנְּ צֶ נֶת",
           "prompt": "מה היה בתוך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -630,7 +630,7 @@
             },
             {
               "key": "ג",
-              "text": "ַפ ֻק ֹעת שדה, לשים בנזיד לבני הנביאים"
+              "text": "פַ קֻ עֹת שדה, לשים בנזיד לבני הנביאים"
             },
             {
               "key": "ד",
@@ -666,7 +666,7 @@
             },
             {
               "key": "ג",
-              "text": "כדוגמה לחטא שקשה ְּל ִה ָט ֵהר ממנו"
+              "text": "כדוגמה לחטא שקשה לְּ הִ טָ הֵר ממנו"
             },
             {
               "key": "ד",
@@ -687,26 +687,26 @@
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "ְּנ ֹח ֶשת ְּמ ֹמָרט",
+          "narrative_context": "נְּ חֹ שֶת מְּ מֹרָט",
           "prompt": "מה מהדברים הבאים היה עשוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ַהָים"
+              "text": "הַיָם"
             },
             {
               "key": "ב",
-              "text": "ְּכ ֵלי ֵבית ַי ַער ַהְּל ָבנֹון"
+              "text": "כְּ לֵי בֵית יַ עַר הַלְּ בָנוֹן"
             },
             {
               "key": "ג",
-              "text": "ְּכ ֵלי ַמ ְּש ֵקה ַה ֶמ ֶלְך ְּשֹל ֹמה"
+              "text": "כְּ לֵי מַ שְּ קֵה הַ מֶ לֶךְ שְּלֹ מֹה"
             },
             {
               "key": "ד",
-              "text": "ַה ֹפתֹות ְּל ַדְּלתֹות ַה ַבִית ַה ְּפִני ִמי"
+              "text": "הַ פֹתוֹת לְּ דַלְּתוֹת הַ בַיִת הַ פְּנִי מִי"
             }
           ],
           "correct_option": null,
@@ -759,7 +759,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "'לֹא תו ַכל ְּל ֵהָר ֵפא'",
+          "narrative_context": "'לאֹ תו כַל לְּ הֵרָ פֵא'",
           "prompt": "על איזו מחלה מעידים לחולה בה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -795,7 +795,7 @@
         {
           "unit_id": "q22",
           "display_number": "22",
-          "narrative_context": "ְּפִקִדים ַעל ָה ָאֶרץ\"",
+          "narrative_context": "פְּקִדִים עַל הָ אָרֶץ\"",
           "prompt": "מי המלך שקיבל המלצה להפקיד?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -867,7 +867,7 @@
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "ָש ֵקד / ְּש ֵקִדים",
+          "narrative_context": "שָ קֵד / שְּ קֵדִים",
           "prompt": "באיזה מהסיפורים הבאים לא מופיעים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1011,7 +1011,7 @@
         {
           "unit_id": "q28",
           "display_number": "28",
-          "narrative_context": "ִיָו ַדע בואו של מבקר אליו",
+          "narrative_context": "יִוָ דַע בואו של מבקר אליו",
           "prompt": "רחב מסתירה את מרגלי יהושע בביתה ומשקרת לשליחי המלך. מי עוד דאג שלא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1083,7 +1083,7 @@
         {
           "unit_id": "q30",
           "display_number": "30",
-          "narrative_context": "ִאיש ֶא ָחד ִמ ֶכם ִיְּר ָדף ָא ֶלף\"",
+          "narrative_context": "אִיש אֶ חָד מִ כֶם יִרְּ דָף אָ לֶף\"",
           "prompt": "מי מהבאים אמר לישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1119,7 +1119,7 @@
         {
           "unit_id": "q31",
           "display_number": "31",
-          "narrative_context": "ִל ְּב ֹר ַח [...] ִמִל ְּפ ֵני ה''. 36. שם גר אדם ש' ִכ ְּשמֹו ֶכן הוא'. 37. שם נאספו חיילי מנהיג לקרב, ושם נהרגו אחים של מנהיג אחר. 38. מקום זה היה ' ִבְּק ֵצה ַה ִמְּד ָבר'. 7 חלק ג - שאלות בנושא 'ארץ' השאלות הבאות קשורות למילה 'ארץ'. ענו עליהן בדף התשובות. 39-40. שניים שקראו לשמים ולארץ להקשיב לדבריהם. 41-42. שניים שהשתמשו בביטוי \" ֶדֶרְך ָכל ָה ָאֶרץ\" לתאר את מותם הקרב. 43. חבל הארץ שבו היו הערים שכונו \" ֶאֶרץ ָכבול\". 44. על מי נאמר שבאו \" ֶאל ֶאֶרץ ַת ְּח ִתים ָחְּד ִשי\"? 45-47. שלוש מהארצות שעברו בהן שאול ונערו בחיפוש אחר האתונות. 48-49. מי אמר: \"ה' ֵי ַחתו ְּמִרי ָבו ָע ָלו ַב ָש ַמִים ַי ְּר ֵעם ה' ָיִדין ַא ְּפ ֵסי ָאֶרץ\"? ומי אמר: \"[...] ְּו ַקְּר ֵני ְּר ֵאם ַקְּר ָניו ָב ֶהם ַע ִמים ְּי ַנ ַגח ַי ְּח ָדו ַא ְּפ ֵסי ָאֶרץ\"? 50. על מה נאמר לעניין מקח וממכר ש' ַעל ְּש ֵדה ָה ָאֶרץ ֵי ָח ֵשב'? בהצלחה! 8",
+          "narrative_context": "לִ בְּ רֹ חַ [...] מִלִ פְּ נֵי ה''. 36. שם גר אדם ש' כִ שְּמוֹ כֶן הוא'. 37. שם נאספו חיילי מנהיג לקרב, ושם נהרגו אחים של מנהיג אחר. 38. מקום זה היה ' בִקְּ צֵה הַ מִדְּ בָר'. 7 חלק ג - שאלות בנושא 'ארץ' השאלות הבאות קשורות למילה 'ארץ'. ענו עליהן בדף התשובות. 39-40. שניים שקראו לשמים ולארץ להקשיב לדבריהם. 41-42. שניים שהשתמשו בביטוי \" דֶרֶךְ כָל הָ אָרֶץ\" לתאר את מותם הקרב. 43. חבל הארץ שבו היו הערים שכונו \" אֶרֶץ כָבול\". 44. על מי נאמר שבאו \" אֶל אֶרֶץ תַ חְּ תִים חָדְּ שִי\"? 45-47. שלוש מהארצות שעברו בהן שאול ונערו בחיפוש אחר האתונות. 48-49. מי אמר: \"ה' יֵ חַתו מְּרִי בָו עָ לָו בַ שָ מַיִם יַ רְּ עֵם ה' יָדִין אַ פְּ סֵי אָרֶץ\"? ומי אמר: \"[...] וְּ קַרְּ נֵי רְּ אֵם קַרְּ נָיו בָ הֶם עַ מִים יְּ נַ גַח יַ חְּ דָו אַ פְּ סֵי אָרֶץ\"? 50. על מה נאמר לעניין מקח וממכר ש' עַל שְּ דֵה הָ אָרֶץ יֵ חָ שֵב'? בהצלחה! 8",
           "prompt": "שם ישב יותם לאחר שנשא את דבריו על הר גריזים. 32. משם היה מלכה הראשון של אדום. 33. עיר כנענית שמלכה הוכה בבואו לעזרת עיר אחרת. 34. משם נשלחו מלאכים למלך אדום. 35. לעיר זו הגיע נביא בדרכו '?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1142,7 +1142,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/district_2018._mamad.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 option count 0; q31 no correct_option"
   }

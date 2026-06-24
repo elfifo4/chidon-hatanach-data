@@ -37,7 +37,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "וַיִּּ ַּקח {...} ּבֶּן ּכַ ְר ִּמי בֶּן זַבְ ִּדּי בֶּן זֶּ ַרח לְ ַמ ֵּּטה יְהוּ ָדה ִּמן הַ ֵּח ֶּרם וַיִּּ ַחר ַאף ה' ּבִּבְנֵּי יִּ ְ ש ָר ֵּאל\"",
+          "narrative_context": "ויִַּּ קַּח {...} בּןֶּ כַּ רְ מִּי בןֶּ זבְַ דִּיּ בןֶּ זֶּ רַח לְ מַ טֵּּה יהְוּ דָה מִּן הַ חֵּ רֶּם ויִַּּ חַר אַף ה' בּבִּנְיֵּ יִּ ְ ש רָ אֵּל\"",
           "prompt": "מי החוטא עליו נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -56,7 +56,7 @@
             },
             {
               "key": "ד",
-              "text": "כלב ּ בַה ' ַאל ִּּת ְמרֹדוּ וְ ַא ֶּּתם ְ"
+              "text": "כלב ּ בהַ ' אַל תִּּ מְרדֹוּ וְ אַ תֶּּם ְ"
             }
           ],
           "correct_option": null,
@@ -73,7 +73,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ַאך ַאל ִּּתי ְראוּ ֶּאת עַם הָ ָא ֶּרץ ּכִּי לַ ְח ֵּמנוּ הֵּם\"",
+          "narrative_context": "אַך אַל תִּּי רְאוּ אֶּת עםַ הָ אָ רֶּץ כּיִּ לַ חְ מֵּנוּ הםֵּ\"",
           "prompt": "מי צמד האנשים שניסו להרגיע את עם ישראל באמרם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -109,7 +109,7 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "לֹא יָ ַדעְ ִּּתי הֲ שֹ ֵּמר ָא ִּחי ָאנֹכִּי\". מיהו האדם",
+          "narrative_context": "לאֹ יָ דַעְ תִּּי הֲ שֹ מֵּר אָ חִּי אָנכֹיִּ\". מיהו האדם",
           "prompt": "ה' שאל אדם היכן אחיו, וכתשובה ענה האדם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -128,7 +128,7 @@
             },
             {
               "key": "ד",
-              "text": "קין 2 ִּק ְד ַמת ַא ּ שוּר\"? ְ"
+              "text": "קין 2 קִּ דְ מַת אַ ּ שורּ\"? ְ"
             }
           ],
           "correct_option": null,
@@ -145,26 +145,26 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "הוּא הַהֹלֵּך",
+          "narrative_context": "הואּ ההַלֹךֵּ",
           "prompt": "על איזה נהר נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ִּח ֶּדּ ֶּקל"
+              "text": "חִּ דֶּּ קֶּל"
             },
             {
               "key": "ב",
-              "text": "ְפ ָרת"
+              "text": "פְ רָת"
             },
             {
               "key": "ג",
-              "text": "ִּּפי ש ֹון"
+              "text": "פִּּי ש וֹן"
             },
             {
               "key": "ד",
-              "text": "גִּּיח ֹון"
+              "text": "גיִּּח וֹן"
             }
           ],
           "correct_option": null,
@@ -181,7 +181,7 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "נָבֹל ִּּת ּבֹל ְ ָ גַּם ַא ָּתה גַּם הָעָם הַּזֶּה ֲא ֶּ שר עִּ ָּמך ּכִּי כָבֵּד ִּמ ְּמך הַ ָדּבָר\". מי החבר המייעץ",
+          "narrative_context": "נבָלֹ תִּּ בּלֹ ְ ָ גםַּ אַ תָּה גםַּ העָםָ הזַּהֶּ אֲ ֶּ שר עִּ מָּך כּיִּ כבָדֵּ מִּ מְּך הַ דָבּרָ\". מי החבר המייעץ",
           "prompt": "מסופר על אדם שבחר לשפוט את העם לבדו. בתגובה, חברו אמר לו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -217,7 +217,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "הַ ְמ ַקנֵּּא ַא ָּתה לִּי\". מי הנער והאדון",
+          "narrative_context": "הַ מְ קַנאֵּּ אַ תָּה ליִּ\". מי הנער והאדון",
           "prompt": "נער אחד ביקש מאדונו לכלוא שני אנשים שהתנבאו. כתשובה, ענה לו אדונו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -272,7 +272,7 @@
             },
             {
               "key": "ד",
-              "text": "פרע ה 3 ָמד ֹון\"? ְ"
+              "text": "פרע ה 3 מָד וֹן\"? ְ"
             }
           ],
           "correct_option": null,
@@ -289,26 +289,26 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "ֶּמלֶּך",
+          "narrative_context": "מֶּלךֶּ",
           "prompt": "מהו שמו של?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "י ֹובָב"
+              "text": "י וֹבבָ"
             },
             {
               "key": "ב",
-              "text": "ְדּבִּיר"
+              "text": "דְבּיִּר"
             },
             {
               "key": "ג",
-              "text": "ֲאדֹנִּי צֶּ ֶּדק"
+              "text": "אֲדנֹיִּ צֶּ דֶּק"
             },
             {
               "key": "ד",
-              "text": "ה ֹוהָם וְהָלַכְ ָּת עִּ ָּמנוּ וְנִּלְ ַח ְמ ָּת ּבִּבְנֵּי עַ ּמ ֹון\"? ָ"
+              "text": "ה וֹהםָ והְלָכְַ תָּ עִּ מָּנוּ ונְלְִּ חַ מְ תָּ בּבִּנְיֵּ עַ מּ וֹן\"? ָ"
             }
           ],
           "correct_option": null,
@@ -325,7 +325,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "לָכֵּן עַ ָּתה ַ שבְנוּ ֵּאלֶּיך",
+          "narrative_context": "לכָןֵּ עַ תָּה ַ שבנְוּ אֵּליֶּך",
           "prompt": "למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -361,7 +361,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "ִּ ש ְטנָה\"",
+          "narrative_context": "ִּ ש טְנהָ\"",
           "prompt": "נתינת שמות במקרא הוא מעשה סמלי המזכיר אירוע שקרה. מה מהדברים הבאים נקרא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -398,7 +398,7 @@
           "unit_id": "q11",
           "display_number": "11",
           "narrative_context": null,
-          "prompt": "\"וַיֹּא ֶּמר הַנַּעַר ֶּאל ֲאדֹנָיו לְכָה נָּא וְנָסוּ ָרה ֶּאל עִּיר הַיְבוּ ִּסי הַּזֹאת וְנָלִּין ּבָ ּה \". מה גרם לנער לרצות ללון בעיר היבוסים?",
+          "prompt": "\"ויַאֹּ מֶּר הנַעַּרַ אֶּל אֲדנֹיָו לכְהָ נאָּ ונְסָוּ רָה אֶּל עיִּר היַבְוּ סִּי הזַּאֹת ונְלָיִּן בָּ הּ \". מה גרם לנער לרצות ללון בעיר היבוסים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -433,7 +433,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ַא ֶּדּ ֶּרת ִּ שנְעָר, ָמא ַתיִּם ְ ש ָקלִּים ּכֶּ ֶּסף וּלְ ש ֹון זָהָב",
+          "narrative_context": "אַ דֶּּ רֶּת ִּ שנעְרָ, מָא תַיםִּ ְ ש קָליִּם כֶּּ סֶּף ולְּ ש וֹן זהָבָ",
           "prompt": "מה הקשר בין הפריטים הבאים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -452,7 +452,7 @@
             },
             {
               "key": "ד",
-              "text": "אדם קיבל אותם בירושה ּכִּי הַ ָּמק ֹום ֲא ֶּ שר ַא ָּתה ע ֹו ֵּמד עָלָיו ַא ְד ַמת קֹ ֶּד ש ָ ֵּמעַל ַרגְלֶּיך ָ"
+              "text": "אדם קיבל אותם בירושה כּיִּ הַ מָּק וֹם אֲ ֶּ שר אַ תָּה ע וֹ מֵּד עלָיָו אַ דְ מַת קֹ דֶּ ש ָ מֵּעלַ רַגלְיֶּך ָ"
             }
           ],
           "correct_option": null,
@@ -469,7 +469,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "ַ של נְעָלֶּיך הוּא\"",
+          "narrative_context": "ַ של נעְלָיֶּך הואּ\"",
           "prompt": "למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -506,13 +506,13 @@
           "unit_id": "q14",
           "display_number": "14",
           "narrative_context": null,
-          "prompt": "\"וַיִּּ ְק ַרע ָמ ְר ֳּדּכַי ֶּאת ּבְגָ ָדיו וַיִּּלְ ּבַ ש ַ שק וָ ֵּא ֶּפר וַיֵּּצֵּא ּבְת ֹוך ְ הָעִּיר וַיִּּזְעַק זְעָ ָקה גְדֹלָה וּ ָמ ָרה\". מה הייתה סיבת אבל ו של מרדכי?",
+          "prompt": "\"ויִַּּ קְ רַע מָ רְ דֳּכּיַ אֶּת בּגְָ דָיו ויַלְִּּ בַּ ש ַ שק וָ אֵּ פֶּר ויַצֵּּאֵּ בּתְ וֹך ְ העָיִּר ויַזִּּעְקַ זעְָ קָה גדְלֹהָ וּ מָ רָה\". מה הייתה סיבת אבל ו של מרדכי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "המן עלה לגדוּלה"
+              "text": "המן עלה לגדולּה"
             },
             {
               "key": "ב",
@@ -542,7 +542,7 @@
           "unit_id": "q15",
           "display_number": "15",
           "narrative_context": null,
-          "prompt": "\"וַיָּ ִּחילוּ עַד ּב ֹו ש וְהִּנֵּּה ֵּאינֶּנּוּ פֹ ֵּת ַח ַדּלְת ֹות הָעֲלִּיָּה וַיִּּ ְקחוּ ֶּאת הַ ַּמ ְפ ֵּּת ַח וַיִּּ ְפ ָּתחוּ...\". מה מצאו העבדים בעליה?",
+          "prompt": "\"ויַָּ חִּילוּ עדַ בּ וֹ ש והְנִּהֵּּ אֵּיננֶּוּּ פֹ תֵּ חַ דַלּתְ וֹת העָלֲיִּהָּ ויִַּּ קְחוּ אֶּת הַ מַּ פְ תֵּּ חַ ויִַּּ פְ תָּחו.ּ..\". מה מצאו העבדים בעליה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -613,7 +613,7 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "ֶּ ש ֶּמ ש ּבְגִּבְע ֹון דּ ֹום וְיָ ֵּר ַח ּבְעֵּ ֶּמק ַאיָּל ֹון\"",
+          "narrative_context": "ֶּ ש מֶּ ש בּגְבִּעְ וֹן דּ וֹם ויְָ רֵּ חַ בּעְֵּ מֶּק אַילָּ וֹן\"",
           "prompt": "בדברי מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -649,7 +649,7 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "ּה של תיבת נוח",
+          "narrative_context": "הּ של תיבת נוח",
           "prompt": "מהו שם המקום בו הסתיים מסע?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -685,7 +685,7 @@
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "וַיַּצֵּּג א ֹות ֹו בְעִּיר ֹו {...} וַיִּּזְנוּ כָל יִּ ְ ש ָר ֵּאל ַא ֲח ָריו ָ שם\"",
+          "narrative_context": "ויַצַּגֵּּ א וֹת וֹ בעְיִּר וֹ {...} ויַזִּּנְוּ כלָ יִּ ְ ש רָ אֵּל אַ חֲ רָיו ָ שם\"",
           "prompt": "בימי איזה מנהיג מסופר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -721,7 +721,7 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "וְצָ ִּמת וְהָלַכְ ְּת ֶּאל הַ ּכֵּלִּים וְ ָ ש ִּתית ֵּמ ֲא ֶּ שר יִּ ְ ש ֲאבוּן הַנְּעָ ִּרים\"",
+          "narrative_context": "וצְָ מִּת והְלָכְַ תְּ אֶּל הַ כּלֵּיִּם וְ ָ ש תִּית מֵּ אֲ ֶּ שר יִּ ְ ש אֲבוןּ הנַעְָּ רִּים\"",
           "prompt": "מי עשה חסד גדול באומרו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -793,7 +793,7 @@
         {
           "unit_id": "q22",
           "display_number": "22",
-          "narrative_context": "ֶּא ָח י ו",
+          "narrative_context": "אֶּ חָ י ו",
           "prompt": "מיהו האח האבוד שחיפש את?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -829,7 +829,7 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "הַ ַּתנִּּינִּם הַגְּדֹלִּים\"",
+          "narrative_context": "הַ תַּניִּּנםִּ הגַדְּלֹיִּם\"",
           "prompt": "באיזה יום נבראו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -865,7 +865,7 @@
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "הַעֵּינֵּי הָ ֲאנָ ִּ שים הָהֵּם ְּתנַ ֵּּקר לֹא נַעֲלֶּה\"",
+          "narrative_context": "העַיֵּניֵּ הָ אֲנָ ִּ שים ההָםֵּ תְּנַ קֵּּר לאֹ נעַלֲהֶּ\"",
           "prompt": "מי זלזלו בנביא באומרם לו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -901,7 +901,7 @@
         {
           "unit_id": "q25",
           "display_number": "25",
-          "narrative_context": "ש\"נֶּהְ ַּפך ְ לָהֶּם ִּמיָּג ֹון לְ ִּ ש ְמ ָחה\"",
+          "narrative_context": "ש\"נהְֶּ פַּך ְ להָםֶּ מִּיגָּ וֹן לְ ִּ ש מְ חָה\"",
           "prompt": "על איזה חודש נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1009,7 +1009,7 @@
         {
           "unit_id": "q28",
           "display_number": "28",
-          "narrative_context": "ללַיִּ ש",
+          "narrative_context": "לליִַּ ש",
           "prompt": "כיצד שכנעו בני שבט דן את הכהן לבוא איתם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1028,7 +1028,7 @@
             },
             {
               "key": "ד",
-              "text": "אמרו לו שעדיף להיות כהן לשבט שלם מאשר לאיש אחד 8 ּכִּי ה' ִּדּ ּבֶּר ט ֹוב עַל יִּ ְ ש ָר ֵּאל\" ? ְ"
+              "text": "אמרו לו שעדיף להיות כהן לשבט שלם מאשר לאיש אחד 8 כּיִּ ה' דִּּ בּרֶּ ט וֹב עלַ יִּ ְ ש רָ אֵּל\" ? ְ"
             }
           ],
           "correct_option": null,
@@ -1045,7 +1045,7 @@
         {
           "unit_id": "q29",
           "display_number": "29",
-          "narrative_context": "לְכָה ִּא ָּתנוּ וְהֵּ ַטבְנוּ לָך",
+          "narrative_context": "לכְהָ אִּ תָּנוּ והְֵּ טַבנְוּ לךָ",
           "prompt": "ממי ביקש משה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1117,7 +1117,7 @@
         {
           "unit_id": "q31",
           "display_number": "31",
-          "narrative_context": "וְ ָאנֹכִּי וּבֵּי ִּתי נַעֲבֹד ֶּאת ה'\"",
+          "narrative_context": "וְ אָנכֹיִּ ובּיֵּ תִּי נעַבֲדֹ אֶּת ה'\"",
           "prompt": "מי העיד על עצמו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1225,7 +1225,7 @@
         {
           "unit_id": "q34",
           "display_number": "34",
-          "narrative_context": "ִּאי ש ַמצְלִּי ַח\"",
+          "narrative_context": "אִּי ש מַצלְיִּ חַ\"",
           "prompt": "על פי הכתוב, מי כונה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1262,7 +1262,7 @@
           "unit_id": "q35",
           "display_number": "35",
           "narrative_context": null,
-          "prompt": "\"וַיֹּא ֶּמר מֹ ֶּ שה ֶּאל הָעָם ַאל ִּּתי ָראוּ הִּ ְתיַצְּבוּ וּ ְראוּ ֶּאת יְ שוּעַת ה'\". מה הייתה ישועת ה'?",
+          "prompt": "\"ויַאֹּ מֶּר מֹ ֶּ שה אֶּל העָםָ אַל תִּּי רָאוּ הִּ תְיצַבְּוּ וּ רְאוּ אֶּת יְ שועּתַ ה'\". מה הייתה ישועת ה'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1316,7 +1316,7 @@
             },
             {
               "key": "ד",
-              "text": "ּכָלֵּב"
+              "text": "כּלָבֵּ"
             }
           ],
           "correct_option": null,
@@ -1369,7 +1369,7 @@
         {
           "unit_id": "q38",
           "display_number": "38",
-          "narrative_context": "לֹא ָקמוּ ִּאי ש ִּמ ַּת ְח ָּתיו ְ שלֹ ֶּ שת יָ ִּמים\"",
+          "narrative_context": "לאֹ קָמוּ אִּי ש מִּ תַּ חְ תָּיו ְ שלֹ ֶּ שת יָ מִּים\"",
           "prompt": "באיזו מכה ממכות מצרים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1448,19 +1448,19 @@
           "options": [
             {
               "key": "א",
-              "text": "י ִּריח ֹו"
+              "text": "י רִּיח וֹ"
             },
             {
               "key": "ב",
-              "text": "הָעַי"
+              "text": "העָיַ"
             },
             {
               "key": "ג",
-              "text": "גִּבְע ֹו ן"
+              "text": "גבִּעְ וֹ ן"
             },
             {
               "key": "ד",
-              "text": "יְרוּ ָ שלִַּם"
+              "text": "ירְוּ ָ שלםִַּ"
             }
           ],
           "correct_option": null,
@@ -1477,7 +1477,7 @@
         {
           "unit_id": "q41",
           "display_number": "41",
-          "narrative_context": "ּבְ ִּת ְמנַת ֶּס ַרח\"",
+          "narrative_context": "בְּ תִּ מְנתַ סֶּ רַח\"",
           "prompt": "מי נקבר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1550,7 +1550,7 @@
           "unit_id": "q43",
           "display_number": "43",
           "narrative_context": null,
-          "prompt": "ֵּמי איזה נהר \" ָקמוּ נֵּד ֶּא ָחד\" במקום לזרום?",
+          "prompt": "מֵּי איזה נהר \" קָמוּ נדֵּ אֶּ חָד\" במקום לזרום?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1621,7 +1621,7 @@
         {
           "unit_id": "q45",
           "display_number": "45",
-          "narrative_context": "חֹ ֶּת ֶּמת, ְּפ ִּתילִּים ו ַּמ ֶּּטה",
+          "narrative_context": "חֹ תֶּ מֶּת, פְּ תִּיליִּם ו מַּ טֶּּה",
           "prompt": "למי ניתנו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1729,7 +1729,7 @@
         {
           "unit_id": "q48",
           "display_number": "48",
-          "narrative_context": "ּכְ ַ ש ַּסע הַגְּ ִּדי\"",
+          "narrative_context": "כְּ ַ ש סַּע הגְַּ דִּי\"",
           "prompt": "איזו חיה שוסעה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1744,7 +1744,7 @@
             },
             {
               "key": "ג",
-              "text": "ַאיִּל"
+              "text": "אַילִּ"
             },
             {
               "key": "ד",
@@ -1765,7 +1765,7 @@
         {
           "unit_id": "q49",
           "display_number": "49",
-          "narrative_context": "ִּמי ה' ֲא ֶּ שר ֶּא ְ ש ַמע ּבְקֹל ֹו\"",
+          "narrative_context": "מִּי ה' אֲ ֶּ שר אֶּ ְ ש מַע בּקְלֹ וֹ\"",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1801,7 +1801,7 @@
         {
           "unit_id": "q50",
           "display_number": "50",
-          "narrative_context": "ּכִּי ֵּמרֹא ש צֻ ִּרים ֶּא ְר ֶּאנּוּ וּ ִּמגְּבָע ֹות ֲא שוּ ֶּרנּוּ הֶּן עָם לְבָ ָדד יִּ ְ ש ּכֹן וּבַגֹּויִּם לֹא יִּ ְת ַח ּ ָ שב\"",
+          "narrative_context": "כּיִּ מֵּראֹ ש צֻ רִּים אֶּ רְ אֶּנוּּ וּ מִּגבְּעָ וֹת אֲ שוּ רֶּנוּּ הןֶּ עםָ לבְָ דָד יִּ ְ ש כּןֹ ובּגַוֹּיםִּ לאֹ יִּ תְ חַ ּ ָ שב\"",
           "prompt": "מי קרא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1820,7 +1820,7 @@
             },
             {
               "key": "ד",
-              "text": "אברה ם בהצלחה ! 13 מדינת ישרא ל משרד החינוך מינהל חברה ונוער תשובון לחידון התנ\"ך לבתי הספר הממלכתיים – מועד א ' התשוב ה השאל ה המקו ר באו ת במילי ם 1 א עכן יהושע ז, 1 2 ג יהושע וכלב במדבר יד, 9 3 ד קין בראשית ד, 9 4 א ִח ֶּד ֶּקל בראשית ב, 14 5 ב יתרו שמות יח, 18 6 ב משה ויהושע במדבר יא, 29 7 ג יוסף בראשית לז, 8 8 א יוֹבָב יהושע יא, 1 9 א יפתח שופטים יא, 8 10 ב באר בראשית כו, 21 11 ג השמש החלה לשקוע שופטים יט, 11 12 א היו שלל ממלחמה יהושע ז, 21 13 א מש ה שמות ג, 5 14 ג יצאו אגרות המלך בהם נאמר להרוג את היהודים אסתר ד, 1 15 א את מלכם מת שופטים ג, 25 16 ד אטד שופטים ט, 15 17 ב יהושע יהושע י, 12 18 ג אררט בראשית ח, 4 19 א גדעון שופטים ח, 27 20 ג בועז רות ב, 9 21 ג בתו במדבר כז, 8 22 ד יוסף בראשית לז, 15-16 23 ג ביום החמיש י בראשית א, 21 24 א דתן ואבירם במדבר טז, 14 25 א אדר אסתר ט, 22 ב יד ימינו על ראש אפרים הצעיר, ויד שמאלו על ראש בראשית מח, 14 26 מנשה הבכור. 27 א צפרדע שמות ז, 28 ד אמרו לו שעדיף להיות כהן לשבט שלם מאשר לאיש שופטים יח, 19 28 אחד 29 ד חובב במדבר י, 29 30 ג לחם ויין בראשית יד, 18 31 ג יהושע יהושע כד, 15 32 א לוי במדבר יז, 23 33 ב יתד שופטים ד, 21 34 ב יוסף בראשית לט, 2 35 א קריעת ים סוף שמות יד, 13 36 ב יהושע במדבר כז, 22 37 ב יעקב בראשית כט, 20 38 ג מכת חושך שמות י, 22-23 39 ג מדין שופטים ו, 14 40 א י ִריח וֹ יהושע ו, 2 41 ב יהושע יהושע כד, 30 42 א יצחק בראשית כו, 7 43 א הירדן יהושע ג, 16 44 א הבטחה על אסון של יחזור בשנית בראשית ט, 13-15 45 ג תמר בראשית לח, 18 46 ב כלב בן יפונה יהושע יד, 13 47 ב בלל את שפת הבונים בראשית יא, 9 48 ד אריה שופטים יד, 5-6 49 ג פרעה שמות ה, 2 50 א בלעם במדבר כג, 9"
+              "text": "אברה ם בהצלחה ! 13 מדינת ישרא ל משרד החינוך מינהל חברה ונוער תשובון לחידון התנ\"ך לבתי הספר הממלכתיים – מועד א ' התשוב ה השאל ה המקו ר באו ת במילי ם 1 א עכן יהושע ז, 1 2 ג יהושע וכלב במדבר יד, 9 3 ד קין בראשית ד, 9 4 א חִ דֶּ קֶּל בראשית ב, 14 5 ב יתרו שמות יח, 18 6 ב משה ויהושע במדבר יא, 29 7 ג יוסף בראשית לז, 8 8 א יובֹבָ יהושע יא, 1 9 א יפתח שופטים יא, 8 10 ב באר בראשית כו, 21 11 ג השמש החלה לשקוע שופטים יט, 11 12 א היו שלל ממלחמה יהושע ז, 21 13 א מש ה שמות ג, 5 14 ג יצאו אגרות המלך בהם נאמר להרוג את היהודים אסתר ד, 1 15 א את מלכם מת שופטים ג, 25 16 ד אטד שופטים ט, 15 17 ב יהושע יהושע י, 12 18 ג אררט בראשית ח, 4 19 א גדעון שופטים ח, 27 20 ג בועז רות ב, 9 21 ג בתו במדבר כז, 8 22 ד יוסף בראשית לז, 15-16 23 ג ביום החמיש י בראשית א, 21 24 א דתן ואבירם במדבר טז, 14 25 א אדר אסתר ט, 22 ב יד ימינו על ראש אפרים הצעיר, ויד שמאלו על ראש בראשית מח, 14 26 מנשה הבכור. 27 א צפרדע שמות ז, 28 ד אמרו לו שעדיף להיות כהן לשבט שלם מאשר לאיש שופטים יח, 19 28 אחד 29 ד חובב במדבר י, 29 30 ג לחם ויין בראשית יד, 18 31 ג יהושע יהושע כד, 15 32 א לוי במדבר יז, 23 33 ב יתד שופטים ד, 21 34 ב יוסף בראשית לט, 2 35 א קריעת ים סוף שמות יד, 13 36 ב יהושע במדבר כז, 22 37 ב יעקב בראשית כט, 20 38 ג מכת חושך שמות י, 22-23 39 ג מדין שופטים ו, 14 40 א י רִיח וֹ יהושע ו, 2 41 ב יהושע יהושע כד, 30 42 א יצחק בראשית כו, 7 43 א הירדן יהושע ג, 16 44 א הבטחה על אסון של יחזור בשנית בראשית ט, 13-15 45 ג תמר בראשית לח, 18 46 ב כלב בן יפונה יהושע יד, 13 47 ב בלל את שפת הבונים בראשית יא, 9 48 ד אריה שופטים יד, 5-6 49 ג פרעה שמות ה, 2 50 א בלעם במדבר כג, 9"
             }
           ],
           "correct_option": null,
@@ -1841,7 +1841,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/noar/mamlachti_1_2021.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-24",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q37 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option; q41 no correct_option; q42 no correct_option; q43 no correct_option; q44 no correct_option; q45 no correct_option; q46 no correct_option; q47 no correct_option; q48 no correct_option; q50 no correct_option"
   }

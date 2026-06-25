@@ -37,8 +37,8 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "ְראוּ ֵהִביא ָלנוּ ִאישׁ ִעְבִרי ְלַצֶחק ָבּנוּ\". במה הואשם האיש העברי",
-          "prompt": "נאמר על איש עברי?",
+          "narrative_context": "רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ",
+          "prompt": "נאמר על איש עברי: . במה הואשם האיש העברי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -68,13 +68,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": null,
-          "prompt": "\"ַויֹּאֶמר ה' ]...[ ְקחוּ ָלֶכם ְמלֹא ָחְפֵניֶכם ִפּיַח ִכְּבָשׁן וְּזָרקוֹ מֶֹשׁה ַהָשַּׁמְיָמה\". איזו מכה באה על מצַר ים בעקבות המעשה הזה?",
+          "narrative_context": "וַיּאֹמֶר ה' ]...[ קְחוּ לָכֶם מְלאֹ חָפְנֵיכֶם פִּיחַ כִּבְשָׁן וּזְרָקוֹ משֶֹׁה הַשָּׁמַיְמָה",
+          "prompt": ". איזו מכה באה על מצרַ ים בעקבות המעשה הזה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -109,8 +109,8 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "ַכּצֹּאן ֲאֶשׁר ֵאין ָלֶהם רֶֹעה\". מיהם האנשים",
-          "prompt": "שני אנשים דימו את מצבו של עם ישראל לצאן ללא רועה?",
+          "narrative_context": "כַּצּאֹן אֲשֶׁר אֵין לָהֶם רעֶֹה",
+          "prompt": "שני אנשים דימו את מצבו של עם ישראל לצאן ללא רועה: . מיהם האנשים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -120,11 +120,11 @@
             },
             {
               "key": "ב",
-              "text": "משה ומיַכ י ְהוּ"
+              "text": "משה ומיכַ י הְוּ"
             },
             {
               "key": "ג",
-              "text": "דוד והוֵֹש ע"
+              "text": "דוד והוֹשֵ ע"
             },
             {
               "key": "ד",
@@ -140,13 +140,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ֵא ילו סמלים מהסמלים שלפניכם ישאלו בנים את אבותיהם בעתיד",
-          "prompt": "לפשרם של?",
+          "narrative_context": null,
+          "prompt": "לפשרם של אֵילו סמלים מהסמלים שלפניכם ישאלו בנים את אבותיהם בעתיד?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -176,13 +176,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ֲאֶשׁר ֵיֵצא ִלְפֵניֶהם ַוֲאֶשׁר ָיבֹא ִלְפֵניֶהם ַוֲא ֶשׁר יוִֹציֵאם ַוֲאֶשׁר ְיִביֵאם\". מנהיג בתקופה אחרת תואר בתכונות דומות. מיהו המנהיג",
-          "prompt": "משה מתאר כך את תכונות המנהיג הרצוי לעם?",
+          "narrative_context": "אֲשֶׁר יֵצֵא לִפְנֵיהֶם וַאֲשֶׁר יָבאֹ לִפְנֵיהֶם וַאֲ שֶׁר יוֹצִיאֵם וַאֲשֶׁר יְבִיאֵם",
+          "prompt": "משה מתאר כך את תכונות המנהיג הרצוי לעם: . מנהיג בתקופה אחרת תואר בתכונות דומות. מיהו המנהיג?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -212,13 +212,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "ֲאָנ ִשׁים ֵריִקים\". מיהם השופטים",
-          "prompt": "שני שופטים קיבצו אליהם?",
+          "narrative_context": "אֲנָ שִׁים רֵיקִים",
+          "prompt": "שני שופטים קיבצו אליהם . מיהם השופטים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -248,13 +248,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": ":",
-          "prompt": "\"ִכּי לֹא ְבכַֹח ִיְגַבּר ִאישׁ\". אלה הם דברי:",
+          "narrative_context": "כִּי לאֹ בְכחַֹ יִגְבַּר אִישׁ",
+          "prompt": ". אלה הם דברי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -284,13 +284,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q08",
           "display_number": "8",
           "narrative_context": null,
-          "prompt": "ֵא ילו שני מעשים מאלה המוזכרים כאן תוארו באמצעות המילה \"ְנָבָלה\"?",
+          "prompt": "אֵילו שני מעשים מאלה המוזכרים כאן תוארו באמצעות המילה \"נְבָלָה\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -304,11 +304,11 @@
             },
             {
               "key": "ג",
-              "text": "מעשה אבשלום במרד נגד אביו ומעשה אדֹניה אשר רצה למלוך"
+              "text": "מעשה אבשלום במרד נגד אביו ומעשה אדנֹיה אשר רצה למלוך"
             },
             {
               "key": "ד",
-              "text": "מעשה פּשחוּר נגד ירמיהו ומעשה אחיתופל במרד נגד דוד"
+              "text": "מעשה פּשחוּר נגד ירמיהו ומעשה אחיתופל במרד נגד דוד"
             }
           ],
           "correct_option": null,
@@ -325,8 +325,8 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "ִמְזֵבַּח ִמְזֵבַּח \". מה ניבא איש האלוהים על אודות המזבח",
-          "prompt": "איש האלוהים קרא?",
+          "narrative_context": "מִזְבֵּחַ מִזְבֵּחַ",
+          "prompt": "איש האלוהים קרא: . מה ניבא איש האלוהים על אודות המזבח?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -352,7 +352,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q10",
@@ -393,8 +393,8 @@
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "ָהֲעִנִיּים ְוָהֶאְביוִֹנים ְמַבְק ִשׁים ]...[\". מהו הדבר",
-          "prompt": "הנביא ישעיהו אומר שהעניים והאביונים מבקשים דבר שאין להם?",
+          "narrative_context": "הָעֲנִיִּים וְהָאֶבְיוֹנִים מְבַקְ שִׁים ]...[",
+          "prompt": "הנביא ישעיהו אומר שהעניים והאביונים מבקשים דבר שאין להם: . מהו הדבר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -424,13 +424,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ָזַכְרִתּי ָלְך ֶחֶסד ְנעוַּרִיְך אֲַהַבת ְכּלוּלָֹתִיְ ך\". על איזו תקופה מדבר הנביא",
-          "prompt": "הנביא ירמיהו מזכיר תקופה בעם ישראל?",
+          "narrative_context": "זָכַרְתִּי לָךְ חֶסֶד נְעוּרַיִךְ אַהֲבַת כְּלוּלתָֹיְִ ך",
+          "prompt": "הנביא ירמיהו מזכיר תקופה בעם ישראל: . על איזו תקופה מדבר הנביא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -460,13 +460,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "מוִֹתי ֵמַחָיּי\"",
-          "prompt": "מי אמר: \"טוֹב?",
+          "narrative_context": "טוֹב מוֹתִי מֵחַיָּי",
+          "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -496,13 +496,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ה\"ְתּעוָּדה\" לכך שהגואל מעביר את חובתו לגאול לאיש אחר",
-          "prompt": "מהי?",
+          "narrative_context": null,
+          "prompt": "מהי ה\"תְּעוּדָה\" לכך שהגואל מעביר את חובתו לגאול לאיש אחר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -532,7 +532,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q15",
@@ -573,8 +573,8 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "במוַֹע ל יד",
-          "prompt": "באיזה אירוע הגיב העם?",
+          "narrative_context": null,
+          "prompt": "באיזה אירוע הגיב העם במוֹעַ ל יד?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -604,13 +604,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": null,
-          "prompt": "בֵא ילו מהכתובים מכוּנה ירושלים בכינוי \"ִעיר ַהקֶֹּדשׁ\"?",
+          "narrative_context": "עִיר הַקּדֶֹשׁ",
+          "prompt": "באֵ ילו מהכתובים מכוּנה ירושלים בכינוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -645,8 +645,8 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": null,
-          "prompt": "\"ַוָיּקוּמוּ ָראֵשׁי ָהאָבוֹת ִליהוָּדה וִּבְנָיִמן ְוַהכֲֹּהִנים ְוַהְלִוִיּם ְלכֹל ֵהִעיר ָהֱאלִֹהים ֶאת רוּחוֹ ַלֲעלוֹת ִלְבנוֹת ֶאת ֵבּית ה' ֲאֶשׁר ִבּירוָּשָׁלִם\". בעקבות דבריו של איזה מלך התרחש האירוע הזה?",
+          "narrative_context": "וַיָּקוּמוּ רָאשֵׁי הָאָבוֹת לִיהוּדָה וּבִנְיָמִן וְהַכּהֲֹנִים וְהַלְוִיִּם לְכלֹ הֵעִיר הָאֱלהִֹים אֶת רוּחוֹ לַעֲלוֹת לִבְנוֹת אֶת בֵּית ה' אֲשֶׁר בִּירוּשָׁלָםִ",
+          "prompt": ". בעקבות דבריו של איזה מלך התרחש האירוע הזה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -681,8 +681,8 @@
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "ַהעוֹד ִלי ָבִנים ְבֵּמַעי ְוָהיוּ ָלֶכם ַלֲאָנ ִשׁים\". לאן מועדות פניה של האישה",
-          "prompt": "אישה אחת אמרה?",
+          "narrative_context": "הַעוֹד לִי בָנִים בְּמֵעַי וְהָיוּ לָכֶם לַאֲנָ שִׁים",
+          "prompt": "אישה אחת אמרה: . לאן מועדות פניה של האישה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -712,31 +712,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "ְ וֵאי ִמֶזּה ַעם אָָתּה\"",
+          "narrative_context": "וְאֵי מִזֶּה עַם אָתָּה",
           "prompt": "מה הייתה התשובה לשאלה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "אדומי אנֹכי"
+              "text": "אדומי אנכֹי"
             },
             {
               "key": "ב",
-              "text": "מואבי אנֹכי"
+              "text": "מואבי אנכֹי"
             },
             {
               "key": "ג",
-              "text": "עמלקי אנֹכי"
+              "text": "עמלקי אנכֹי"
             },
             {
               "key": "ד",
-              "text": "עברי אנֹכי החלק השני של הבחינה בחלק זה של הבחינה - שאלות 21-35 - נכללות שאלות פתוחות. ענו על השאלה המצורפת לכל פסוק. תשובה מלאה תזכה את העונה ב-2 נקודות."
+              "text": "עברי אנכֹי החלק השני של הבחינה בחלק זה של הבחינה - שאלות 21-35 - נכללות שאלות פתוחות. ענו על השאלה המצורפת לכל פסוק. תשובה מלאה תזכה את העונה ב-2 נקודות."
             }
           ],
           "correct_option": null,
@@ -748,14 +748,14 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "ְבָּרָמה ִנ ְשָׁמע ְנִהי ְבִּכי ַתְמרוִּרים\". מי הבוכה? ____________________ 22. בנבואתו של מי נאמר: \"וְּ נַ נִתּ יָך ְ לאוֹר גּוִֹים\"? 23. \"ֶאת ה' ָהיוּ ְיֵרִאים ְוֶאת ֱאלֵֹהיֶהם ָהיוּ עְֹבִדים\". על מי נאמרו הדברים האלה? ____________________ 24. דוד מאשים את יואב בן צרויה ברצח של שני אנשים: \"ַוַיַּהְרֵגם ַוָיֶּשׂם ְ דֵּמי ִמְלָחָמה ְבָּשׁלֹם ַוִיֵּתּן ְ דֵּמי ִמְלָחָמה ַבֲּחגָֹרתוֹ ֲאֶשׁר ְבָּמְתָניו וְּבַנֲעלוֹ ֲאֶשׁר ְבַּרְגָליו\". מיהם שני האנשים שדוד מזכיר? ________________________ 7 25. \"ַוִיַּחר אַף ָדִּוד ָבִּאישׁ ְמאֹד ַויֹּאֶמר ֶאל ָנָתן ַחי ה' ִכּי ֶבן ָמֶות ָה ִאישׁ ָהעֶֹשׂה זֹאת\". מיהו האיש שעשה זאת? ________________________ 26. \"ַוֵתֶּצר ְלָדִוד ְמאֹד ִכּי אְָמרוּ ָהָעם ְלָסְקלוֹ ִכּי ָמָרה ֶנֶפשׁ ָכּל ָהָעם ִאישׁ ַעל ָבָּנו ְוַעל ְבּנָֹת יו\". מה גרם לעם להרגיש כך? ________________________ 27. \"לוֵּלא ֲחַר ְשֶׁתּ ם ְבֶּעְגָלִתי לֹא ְמָצאֶתם ִחיָדִתי\". מה הייתה החידה? _________________________ 28. כלב בן יפונה מבקש מיהושע בן נון: \"ְוַעָתּה ְתָּנה ִלּי ֶאת ָהָהר ַהֶזּה ֲאֶשׁר ִדֶּבּר ה' ַבּיּוֹם ַההוּא\". איזה הר ביקש כלב בן יפונה? ________________________ 29. \"ַהאֵַחיֶכם ָיבֹאוּ ַלִמְּלָחָמה ְואֶַתּם ֵתּ ְשׁבוּ פֹה\"? את מי מאשים משה בניסיון להשתמט מהמלחמה? ________________________ 30. \"]...[ ְמֵחִני ָנא ִמִסְּפְרָך ֲאֶשׁר ָכָּתְבָתּ \". אלה הם דברי: ________________________ 31. \"]...[ ְבּסָֹדם אַל ָתּבֹא ַנְפ ִשׁי ִבְּק ָהָלם אַל ֵתַּחד ְכּבִֹדי\". דברים אלה נאמרו על: ________________________ 32. בביתו של מי היו \"ֶפֶּסל וַּמֵסָּכה\" שנועדו לעבוד את ה'? 33. \"ְוָגר ְזֵאב ִעם ֶכֶּבשׂ ְוָנֵמר ִעם ְגִּדי ִיְרָבּץ\". מי אמר את הדברים האלה? ________________________ 34. \"ַויֹּאֶמר ַהֶמֶּלְך ֶאל ִיְרְמָיהוּ שֵֹׁאל ֲאִני אְֹתָך ָדָּבר אַל ְתַּכֵחד ִמֶמִּנּי ָדָּבר\". מיהו המלך? ________________________ 35. נאמר על עזרא: \"ַוֵיֶּלְך ָשׁם ֶלֶחם לֹא אַָכל וַּמִים לֹא ָשָׁתה ִכּי ִמְתאֵַבּל ַעל ַמַעל ַהגּוָֹלה\". מהו \"ַמַעל ַהגּוָֹלה\"? ________________________ 8",
-          "prompt": "\"]...[ קוֹל?",
-          "question_type": "multiple_choice",
+          "narrative_context": "וַיַּהַרְגֵם וַיָּשֶׂם דְּמֵי מִלְחָמָה בְּשָׁלםֹ וַיִּתֵּן דְּמֵי מִלְחָמָה בַּחֲגרָֹתוֹ אֲשֶׁר בְּמָתְנָיו וּבְנַעֲלוֹ אֲשֶׁר בְּרַגְלָיו",
+          "prompt": "\"]...[ קוֹל בְּרָמָה נִשְׁמָע נְהִי בְּכִי תַמְרוּרִים\". מי הבוכה? ____________________ 22. בנבואתו של מי נאמר: \"וְּנַנתִּ יךָ לְאוֹר גּוֹיִם\"? 23. \"אֶת ה' הָיוּ יְרֵאִים וְאֶת אֱלהֵֹיהֶם הָיוּ עבְֹדִים\". על מי נאמרו הדברים האלה? ____________________ 24. דוד מאשים את יואב בן צרויה ברצח של שני אנשים: . מיהם שני האנשים שדוד מזכיר? ________________________ 7 25. \"וַיִּחַר אַף דָּוִד בָּאִישׁ מְאדֹ וַיּאֹמֶר אֶל נָתָן חַי ה' כִּי בֶן מָוֶת הָאִישׁ הָעשֶֹׂה זאֹת\". מיהו האיש שעשה זאת? ________________________ 26. \"וַתֵּצֶר לְדָוִד מְאדֹ כִּי אָמְרוּ הָעָם לְסָקְלוֹ כִּי מָרָה נֶפֶשׁ כָּל הָעָם אִישׁ עַל בָּנָו וְעַל בְּנתָֹ יו\". מה גרם לעם להרגיש כך? ________________________ 27. \"לוּלֵא חֲרַ שְׁתֶּ ם בְּעֶגְלָתִי לאֹ מְצָאתֶם חִידָתִי\". מה הייתה החידה? _________________________ 28. כלב בן יפונה מבקש מיהושע בן נון: \"וְעַתָּה תְּנָה לִּי אֶת הָהָר הַזֶּה אֲשֶׁר דִּבֶּר ה' בַּיּוֹם הַהוּא\". איזה הר ביקש כלב בן יפונה? ________________________ 29. \"הַאַחֵיכֶם יָבאֹוּ לַמִּלְחָמָה וְאַתֶּם תֵּשְׁבוּ פהֹ\"? את מי מאשים משה בניסיון להשתמט מהמלחמה? ________________________ 30. \"]...[ מְחֵנִי נָא מִסִּפְרְךָ אֲשֶׁר כָּתָבְתָּ \". אלה הם דברי: ________________________ 31. \"]...[ בְּסדָֹם אַל תָּבאֹ נַפְ שִׁי בִּקְ הָלָם אַל תֵּחַד כְּבדִֹי\". דברים אלה נאמרו על: ________________________ 32. בביתו של מי היו \"פֶּסֶל וּמַסֵּכָה\" שנועדו לעבוד את ה'? 33. \"וְגָר זְאֵב עִם כֶּבֶשׂ וְנָמֵר עִם גְּדִי יִרְבָּץ\". מי אמר את הדברים האלה? ________________________ 34. \"וַיּאֹמֶר הַמֶּלֶךְ אֶל יִרְמְיָהוּ שׁאֵֹל אֲנִי אתְֹךָ דָּבָר אַל תְּכַחֵד מִמֶּנִּי דָּבָר\". מיהו המלך? ________________________ 35. נאמר על עזרא: \"וַיֵּלֶךְ שָׁם לֶחֶם לאֹ אָכַל וּמַיִם לאֹ שָׁתָה כִּי מִתְאַבֵּל עַל מַעַל הַגּוֹלָה\". מהו \"מַעַל הַגּוֹלָה\"? ________________________ 8?",
+          "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [],
           "correct_option": null,
@@ -767,7 +767,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         }
       ]
     }
@@ -776,8 +776,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2012m2.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 option count 0; q21 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option"
   }
 }

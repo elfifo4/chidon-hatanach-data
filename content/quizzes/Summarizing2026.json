@@ -39,7 +39,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "ְּב ִמְּר ֶּכ ֶּבת ַה ִמ ְּש ֶּנה\"",
+          "narrative_context": "בְּמִרְּ כֶּבֶּת הַמִשְּנֶּה",
           "prompt": "מה לבש מי שרכב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -70,13 +70,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ֶּמְּר ָּכ ָּבה ַה ֵּׁש ִנית\" בחזון זכריה",
-          "prompt": "מה היה צבע הסוסים ב?",
+          "narrative_context": "מֶּרְּ כָּבָּה הַשֵּׁנִית",
+          "prompt": "מה היה צבע הסוסים ב בחזון זכריה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -106,12 +106,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "ְּר ֹתם ַה ֶּמְּר ָּכ ָּבה ָּלֶּר ֶּכש\"",
+          "narrative_context": "רְּתֹם הַמֶּרְּ כָּבָּה לָּרֶּ כֶּש",
           "prompt": "לאיזו עיר אומר הנביא מיכה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -142,12 +142,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ְּו ָּשם ל ֹו ְּב ֶּמְּר ַכ ְּבּת ֹו … ְּוָּרצּו ִל ְּפ ֵּׁני ֶּמְּר ַכ ְּבּת ֹו\"",
+          "narrative_context": "וְּשָּם ל וֹבְּמֶּרְּ כַבְּתּ וֹ... וְּרָּצוּ לִפְּנֵּׁי מֶּרְּ כַבְּתּ וֹ",
           "prompt": "לפי משפט המלך שפירט שמואל באזני העם - את מי ייקח המלך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -178,13 +178,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ֶּבן ֵּׁר ָּכב על המרכבה",
-          "prompt": "לאיזו עיר רכב?",
+          "narrative_context": "בֶּן רֵּׁכָּב",
+          "prompt": "לאיזו עיר רכב על המרכבה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -214,13 +214,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "ְּב ֵּׁני ֵּׁבית ָּהֵּׁר ָּכ ִבים\" בירושלים",
-          "prompt": "מדוע ישבו?",
+          "narrative_context": "בְּנֵּׁי בֵּׁית הָּרֵּׁ כָּבִים",
+          "prompt": "מדוע ישבו בירושלים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -250,12 +250,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "ִה ְּת ַא ֵּׁמץ ַל ֲעל ֹות ַב ֶּמְּר ָּכ ָּבה ָּלנּוס ְּי רּו ָּש ָּל ͏ִִם\"",
+          "narrative_context": "הִתְּאַמֵּׁץ לַעֲל וֹת בַמֶּרְּ כָּבָּה לָּנוּס יְּרוּ שָּלָּ͏םִִ",
           "prompt": "מי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -286,13 +286,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "ַגם ֹאת ֹו ַה ֻּכהּו ֶּאל ַה ֶּמְּר ָּכ ָּבה\". מיהו המצווה ואת מי ציווה להרוג",
-          "prompt": "במרדף בין שני רוכבים, ציווה הרודף את אנשיו להרוג את הנרדף?",
+          "narrative_context": "גַם אֹת וֹהַכֻּהוּ אֶּל הַמֶּרְּ כָּבָּה",
+          "prompt": "במרדף בין שני רוכבים, ציווה הרודף את אנשיו להרוג את הנרדף: . מיהו המצווה ואת מי ציווה להרוג?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -322,7 +322,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q09",
@@ -435,7 +435,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "ַו ֶּי ֱא ֹסף ְּשֹל ֹמה ֶּר ֶּכב ּו ָּפָּר ִשים ַוְּי ִהי ל ֹו … ֶּר ֶּכב\"",
+          "narrative_context": "וַיֶּאֱסֹף שְּלֹ מֹה רֶּכֶּב וּפָּרָּ שִים וַיְּ הִי ל וֹ... רֶּכֶּב",
           "prompt": "השלם את המספר החסר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -466,12 +466,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "ִכי ִתְּר ַכב ַעל סּו ֶּסיָך ַמְּר ְּכ ֹב ֶּתיָך ְּישּו ָּעה\"",
+          "narrative_context": "כִי תִרְּ כַב עַל סוּ סֶּיךָ מַרְּ כְּבֹתֶּיךָ יְּשוּ עָּה",
           "prompt": "מי הנביא שאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -502,31 +502,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ֹול ַמְּר ָּכב ֹות\"",
-          "prompt": "איזה קול מקביל בדברי הנביא ל\"ק?",
+          "narrative_context": "ק וֹל מַרְּ כָּב וֹת",
+          "prompt": "איזה קול מקביל בדברי הנביא ל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ּק ֹול ָּפָּרש ְּו ֹר ֵּׁמה ֶּק ֶּשת"
+              "text": "קּוֹל פָּרָּש וְּרֹמֵּׁה קֶּשֶּת"
             },
             {
               "key": "ב",
-              "text": "ק ֹול ֲה ֻּמ ָּלה ְּכק ֹול ַמ ֲח ֶּנה"
+              "text": "ק וֹל הֲמֻּלָּה כְּק וֹל מַחֲנֶּה"
             },
             {
               "key": "ג",
-              "text": "ק ֹול ש ֹוט ְּוק ֹול ַר ַעש א ֹו ָּפן"
+              "text": "ק וֹל ש וֹט וְּק וֹל רַעַש א וֹפָּן"
             },
             {
               "key": "ד",
-              "text": "ק ֹול ַל ַהב ֵּׁאש ֹא ְּכ ָּלה ָּקש"
+              "text": "ק וֹל לַהַב אֵּׁש אֹכְּלָּה קָּש"
             }
           ],
           "correct_option": null,
@@ -538,7 +538,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q15",
@@ -615,8 +615,8 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "ִגְּדע ֹו ִני\"? 5",
-          "prompt": "מאיזה שבט היה?",
+          "narrative_context": "גִדְּע וֹנִי",
+          "prompt": "מאיזה שבט היה ? 5?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -646,31 +646,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "ֹוי ַעז ָּפ ִנים\"",
-          "prompt": "בפרשת הקללות - מה אומרת התורה על \"ג?",
+          "narrative_context": "ג וֹי עַז פָּנִים",
+          "prompt": "בפרשת הקללות - מה אומרת התורה על?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ְּב ֶּדֶּרְך ֶּא ָּחד ֵּּׁת ֵּׁצא ֵּׁא ָּליו ּו ְּב ִש ְּב ָּע ה ְּדָּר ִכים ָּּתנּוס ְּל ָּפ ָּניו"
+              "text": "בְּדֶּרֶּךְ אֶּחָּד תֵּּׁצֵּׁא אֵּׁלָּיו וּבְּשִבְּעָּה דְּרָּ כִים תָּּנוּס לְּפָּנָּיו"
             },
             {
               "key": "ב",
-              "text": "הּוא ִי ְּה ֶּיה ְּל ֹראש ְּו ַא ָּּתה ִּת ְּה ֶּיה ְּל ָּז ָּנב"
+              "text": "הוּא יִהְּיֶּה לְּרֹאש וְּאַתָּּה תִּהְּיֶּה לְּזָּנָּב"
             },
             {
               "key": "ג",
-              "text": "ְּוָא ַכל ְּפִרי ְּב ֶּה ְּמ ְּּתָך ּו ְּפִרי ַאְּד ָּמ ְּתָך ַעד ִה ָּש ְּמ ָּדְך"
+              "text": "וְּאָ כַל פְּרִי בְּהֶּמְּתְּּךָ וּפְּרִי אַדְּ מָּתְּךָ עַד הִשָּמְּדָּךְ"
             },
             {
               "key": "ד",
-              "text": "ְּו ָּנ ַתן ֹעל ַבְּר ֶּזל ַעל ַצָּּואֶּרָך ַעד ִה ְּש ִמיד ֹו ֹא ָּתְך"
+              "text": "וְּנָּתַן עֹל בַרְּ זֶּל עַל צַוָּּארֶּךָ עַד הִשְּמִיד וֹאֹתָּךְ"
             }
           ],
           "correct_option": null,
@@ -682,12 +682,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "ֻּע ִז ָּיהּו",
+          "narrative_context": "עֻּזִיָּהוּ?",
           "prompt": "מי מהבאים לא ניבא בימי?",
           "question_type": "negative_exclusion",
           "answer_style": "single_correct",
@@ -718,12 +718,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "ֻּע ִז ָּיהּו",
+          "narrative_context": "עֻּזִיָּהוּ?",
           "prompt": "מי מהבאים לא מלך בימי?",
           "question_type": "negative_exclusion",
           "answer_style": "single_correct",
@@ -754,31 +754,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "ַגן ֻּע ָּזא",
+          "narrative_context": "גַן עֻּזָּא?",
           "prompt": "בנה של מי נקבר ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ְּירּו ָּשא ַבת ָּצד ֹוק"
+              "text": "יְּרוּ שָּא בַת צָּד וֹק"
             },
             {
               "key": "ב",
-              "text": "ְּנ ֻּח ְּש ָּּתא ַבת ֶּא ְּל ָּנ ָּתן"
+              "text": "נְּחֻּשְּתָּּא בַת אֶּלְּנָּתָּן"
             },
             {
               "key": "ג",
-              "text": "ְּמ ֻּש ֶּל ֶּמת ַבת ָּחרּוץ"
+              "text": "מְּשֻּלֶּמֶּת בַת חָּרוּץ"
             },
             {
               "key": "ד",
-              "text": "ְּיִדי ָּדה ַבת ֲע ָּד ָּיה"
+              "text": "יְּדִי דָּה בַת עֲדָּיָּה"
             }
           ],
           "correct_option": null,
@@ -790,12 +790,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q22",
           "display_number": "22",
-          "narrative_context": "ִמ ְּג ַדל ֹעז\"",
+          "narrative_context": "מִגְּדַל עֹז",
           "prompt": "מה נכון לומר על?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -826,13 +826,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "ִי ֹּתץ ְּב ַחְּרב ֹו ָּתיו\" מלך אויב",
-          "prompt": "את מגדלותיה של מי?",
+          "narrative_context": "יִתֹּץ בְּחַרְּב וֹתָּיו",
+          "prompt": "את מגדלותיה של מי מלך אויב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -862,31 +862,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "ַו ַי ֵּׁכהּו ֶּב ָּחֶּרב ַו ַי ְּש ֵּׁלְך ֶּאת ִנ ְּב ָּלת ֹו ֶּאל ִק ְּבֵּׁרי ְּב ֵּׁני ָּה ָּעם\"",
+          "narrative_context": "וַיַכֵּׁהוּ בֶּחָּרֶּב וַיַשְּלֵּׁךְ אֶּת נִבְּלָּת וֹאֶּל קִבְּרֵּׁי בְּנֵּׁי הָּעָּם",
           "prompt": "על מי מסופר שמת כך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ֶּא ְּל ָּנ ָּתן ֶּבן ַע ְּכב ֹור"
+              "text": "אֶּלְּנָּתָּן בֶּן עַכְּב וֹר"
             },
             {
               "key": "ב",
-              "text": "אּוִר ָּיהּו ֶּבן ְּש ַמ ְּע ָּיהּו"
+              "text": "אוּרִ יָּהוּ בֶּן שְּמַעְּיָּהוּ"
             },
             {
               "key": "ג",
-              "text": "ַפ ְּשחּור ֶּבן ִא ֵּׁמר"
+              "text": "פַשְּחוּר בֶּן אִמֵּׁר"
             },
             {
               "key": "ד",
-              "text": "ְּצ ַפ ְּנ ָּיה ֶּבן ַמ ֲע ֵּׁש ָּיה 7"
+              "text": "צְּפַנְּיָּה בֶּן מַעֲשֵּׁיָּה 7"
             }
           ],
           "correct_option": null,
@@ -898,12 +898,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q25",
           "display_number": "25",
-          "narrative_context": "ַאל ֵּׁיַרע ְּב ֵּׁעי ֶּניָך ֶּאת ַה ָּד ָּבר ַה ֶּזה ִכי ָּכֹזה ְּו ָּכ ֶּזה ֹּתא ַכל ֶּה ָּחֶּרב\"",
+          "narrative_context": "אַל יֵּׁרַע בְּעֵּׁי נֶּיךָ אֶּת הַדָּבָּר הַזֶּה כִי כָּזֹה וְּכָּזֶּה תֹּא כַל הֶּחָּרֶּב",
           "prompt": "מי אמר למי?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -934,31 +934,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q26",
           "display_number": "26",
-          "narrative_context": "ִמ ָּשם ֲא ַצֶּּוה ֶּאת ַה ֶּחֶּרב ַו ֲהָּר ָּג ַתם\" היא התגובה על איזה ניסיון הימלטות",
-          "prompt": "הנביא עמוס מפרט שורת מצבים בהם לא יוכלו העם להימלט מיד ה'.?",
+          "narrative_context": "מִשָּם אֲצַוֶּּה אֶּת הַחֶּרֶּב וַהֲרָּ גָּתַם",
+          "prompt": "הנביא עמוס מפרט שורת מצבים בהם לא יוכלו העם להימלט מיד ה'. היא התגובה על איזה ניסיון הימלטות?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ִאם ַי ְּח ְּּתרּו ִב ְּשא ֹול"
+              "text": "אִם יַחְּתְּּרוּ בִשְּא וֹל"
             },
             {
               "key": "ב",
-              "text": "ִאם ִי ָּס ְּתרּו ִמ ֶּנ ֶּגד ֵּׁעי ַני ְּב ַקְּר ַקע ַה ָּים"
+              "text": "אִם יִסָּתְּרוּ מִנֶּגֶּד עֵּׁי נַי בְּקַרְּ קַע הַיָּם"
             },
             {
               "key": "ג",
-              "text": "ִאם ֵּׁי ָּח ְּבאּו ְּב ֹראש ַה ַכְּר ֶּמל"
+              "text": "אִם יֵּׁחָּבְּאוּ בְּרֹאש הַכַרְּ מֶּל"
             },
             {
               "key": "ד",
-              "text": "ִאם ֵּׁי ְּלכּו ַב ְּש ִבי ִל ְּפ ֵּׁני ֹאְּי ֵּׁבי ֶּהם"
+              "text": "אִם יֵּׁלְּכוּ בַשְּבִי לִפְּנֵּׁי אֹיְּ בֵּׁי הֶּם"
             }
           ],
           "correct_option": null,
@@ -970,31 +970,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q27",
           "display_number": "27",
-          "narrative_context": "ְּו ִה ַפ ְּל ִּתיו ַב ֶּחֶּרב ְּבַאְּרצ ֹו\". איזו נבואה נוספת ניבא ישעיהו לארצו של אותו המלך",
-          "prompt": "על מלך מסוים ניבא ישעיהו?",
+          "narrative_context": "וְּהִפַלְּתִּיו בַחֶּרֶּב בְּאַרְּצ וֹ",
+          "prompt": "על מלך מסוים ניבא ישעיהו: . איזו נבואה נוספת ניבא ישעיהו לארצו של אותו המלך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ֲח ָּל ַלִיְך ֹלא ַח ְּל ֵּׁלי ֶּחֶּרב ְּוֹלא ֵּׁמ ֵּׁתי ִמ ְּל ָּח ָּמה"
+              "text": "חֲלָּלַיִךְ לֹא חַלְּלֵּׁי חֶּרֶּב וְּלֹא מֵּׁתֵּׁי מִלְּחָּמָּה"
             },
             {
               "key": "ב",
-              "text": "ְּו ָּנ ַפל … ְּב ֶּחֶּרב ֹלא ִאיש ְּו ֶּחֶּרב ֹלא ָא ָּדם ֹּתא ְּכ ֶּלנּו"
+              "text": "וְּנָּפַל ... בְּחֶּרֶּב לֹא אִיש וְּחֶּרֶּב לֹא אָדָּם תֹּא כְּלֶּנוּ"
             },
             {
               "key": "ג",
-              "text": "כׇּל ַה ִנ ְּמ ָּצא ִי ָּד ֵּׁקר ְּוכׇּל ַה ִנ ְּס ֶּפה ִיפ ֹול ֶּב ָּחֶּרב"
+              "text": "כלׇּ הַנִמְּצָּא יִדָּקֵּׁר וְּכלׇּ הַנִסְּפֶּה יִפ וֹל בֶּחָּרֶּב"
             },
             {
               "key": "ד",
-              "text": "ִכי ִרְּּו ָּתה ַב ָּש ַמִים ַחְּר ִבי ִה ֵּׁנה ַעל … ֵּּׁתֵּׁרד"
+              "text": "כִי רִוְּּ תָּה בַשָּמַיִם חַרְּ בִי הִנֵּׁה עַל ... תֵּּׁרֵּׁד"
             }
           ],
           "correct_option": null,
@@ -1006,7 +1006,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q28",
@@ -1047,7 +1047,7 @@
         {
           "unit_id": "q29",
           "display_number": "29",
-          "narrative_context": "ִי ָּש ַבע ִלי ַכי ֹום ַה ֶּמ ֶּלְך … ִאם ָּי ִמית ֶּאת ַע ְּבד ֹו ֶּב ָּחֶּרב\"",
+          "narrative_context": "יִשָּבַע לִי כַי וֹם הַמֶּלֶּךְ ... אִם יָּמִית אֶּת עַבְּד וֹבֶּחָּרֶּב",
           "prompt": "מי ביקש ממי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1078,12 +1078,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q30",
           "display_number": "30",
-          "narrative_context": "ִשימּו ִאיש ַחְּרב ֹו ַעל ְּיֵּׁרכ ֹו ִע ְּברּו ָּושּובּו ִמ ַש ַער ָּל ַש ַער ַב ַמ ֲח ֶּנה\"",
+          "narrative_context": "שִימוּ אִיש חַרְּב וֹעַל יְּרֵּׁכ וֹעִבְּרוּ וָּשוּבוּ מִשַעַר לָּשַעַר בַמַחֲנֶּה",
           "prompt": "מי ציווה את לוחמיו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1114,12 +1114,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q31",
           "display_number": "31",
-          "narrative_context": "ַו ֲא ִני ָּנ ַת ִּתי ְּלָך ְּש ֶּכם ַא ַחד ַעל ַא ֶּחיָך ֲא ֶּשר ָּל ַק ְּח ִּתי ִמ ַיד … ְּב ַחְּר ִבי ּו ְּב ַק ְּש ִּתי\"",
+          "narrative_context": "וַאֲנִי נָּתַתִּי לְּךָ שְּכֶּם אַחַד עַל אַחֶּיךָ אֲשֶּר לָּקַחְּתִּי מִיַד ... בְּחַרְּ בִי וּבְּקַשְּתִּי",
           "prompt": "השלם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1150,12 +1150,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q32",
           "display_number": "32",
-          "narrative_context": "ֹלא ִנ ְּש ַמר ַב ֶּחֶּרב\"",
+          "narrative_context": "לֹא נִשְּמַר בַחֶּרֶּב",
           "prompt": "מי נהרג כאשר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1186,13 +1186,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q33",
           "display_number": "33",
-          "narrative_context": "ּו ְּנ ַפ ְּל ֶּּתם ֶּב ָּחֶּרב ִכי ַעל ֵּׁכן ַש ְּב ֶּּתם ֵּׁמַא ֲחֵּׁרי ה' ְּוֹלא ִי ְּה ֶּיה ה' ִע ָּמ ֶּכם\". מי היה האויב",
-          "prompt": "לפני קרב אחד נאמר?",
+          "narrative_context": "וּנְּפַלְּתֶּּם בֶּחָּרֶּב כִי עַל כֵּׁן שַבְּתֶּּם מֵּׁאַ חֲרֵּׁי ה' וְּלֹא יִהְּיֶּה ה' עִמָּכֶּם",
+          "prompt": "לפני קרב אחד נאמר: . מי היה האויב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1222,31 +1222,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q34",
           "display_number": "34",
-          "narrative_context": "ָּי ֻּשבּו ְּב ֵּׁני ִי ְּשָּר ֵּׁאל ּו ִב ְּקשּו ֶּאת ה' ֱאֹל ֵּׁהי ֶּהם\"",
+          "narrative_context": "יָּשֻּבוּ בְּנֵּׁי יִשְּרָּ אֵּׁל וּבִקְּשוּ אֶּת ה' אֱלֹ הֵּׁי הֶּם",
           "prompt": "בדברי הושע - באיזה יום או ימים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ְּבַא ֲחִרית ַה ָּי ִמים"
+              "text": "בְּאַ חֲרִית הַיָּמִים"
             },
             {
               "key": "ב",
-              "text": "ִבי ֵּׁמי מ ֹו ֵּׁעד"
+              "text": "בִי מֵּׁי מ וֹעֵּׁד"
             },
             {
               "key": "ג",
-              "text": "ַבי ֹום ַה ְּש ִלי ִשי"
+              "text": "בַי וֹם הַשְּלִי שִי"
             },
             {
               "key": "ד",
-              "text": "ְּבי ֹום ּת ֹו ֵּׁכ ָּחה"
+              "text": "בְּי וֹם תּוֹכֵּׁחָּה"
             }
           ],
           "correct_option": null,
@@ -1258,12 +1258,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q35",
           "display_number": "35",
-          "narrative_context": "ְּבע ֹוד ְּש ָּנ ַתִים ָּי ִמים ֲא ִני ֵּׁמ ִשיב ֶּאל ַה ָּמק ֹום ַה ֶּזה ֶּאת ָּכל ְּכ ֵּׁלי ֵּׁבית ה'\"",
+          "narrative_context": "בְּע וֹד שְּנָּתַיִם יָּמִים אֲנִי מֵּׁשִיב אֶּל הַמָּק וֹם הַזֶּה אֶּת כָּל כְּלֵּׁי בֵּׁית ה'",
           "prompt": "בספר ירמיהו - בימי מי נאמרה הנבואה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1294,31 +1294,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q36",
           "display_number": "36",
-          "narrative_context": "ֶּב ֱא ָּמְּר ֶּכם ָּכל ֹע ֵּׁשה ָּרע ט ֹוב ְּב ֵּׁעי ֵּׁני ה'\" היא התשובה על איזו שאלה של העם",
-          "prompt": "במשא מלאכי -?",
+          "narrative_context": "בֶּאֱמָּרְּ כֶּם כָּל עֹשֵּׁה רָּע ט וֹב בְּעֵּׁי נֵּׁי ה'",
+          "prompt": "במשא מלאכי - היא התשובה על איזו שאלה של העם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ַמה ִנְּד ַבְּרנּו ָּע ֶּליָך"
+              "text": "מַה נִדְּ בַרְּנוּ עָּלֶּיךָ"
             },
             {
               "key": "ב",
-              "text": "ַב ֶּמה ָּבִזינּו ֶּאת ְּש ֶּמָך"
+              "text": "בַמֶּה בָּזִינוּ אֶּת שְּמֶּךָ"
             },
             {
               "key": "ג",
-              "text": "ַב ֶּמה ֵּׁגַא ְּלנּוָך"
+              "text": "בַמֶּה גֵּׁאַ לְּנוּךָ"
             },
             {
               "key": "ד",
-              "text": "ַב ָּמה ה ֹו ָּג ְּענּו 10"
+              "text": "בַמָּה ה וֹגָּעְּנוּ 10"
             }
           ],
           "correct_option": null,
@@ -1330,12 +1330,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q37",
           "display_number": "37",
-          "narrative_context": "ְּו ָּשב ֵּׁמ ֲחר ֹון ַאפ ֹו ְּוֹלא ֹנא ֵּׁב ד\"",
+          "narrative_context": "וְּשָּב מֵּׁחֲר וֹן אַפ וֹוְּלֹא נֹא בֵּׁד",
           "prompt": "בספר יונה - מי אמר/ו?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1366,12 +1366,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q38",
           "display_number": "38",
-          "narrative_context": "ֹלא ָּתשּוב ְּל ַק ְּחּת ֹו\"",
+          "narrative_context": "לֹא תָּשוּב לְּקַחְּתּ וֹ",
           "prompt": "בספר דברים - על מה אומרת התורה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1402,31 +1402,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q39",
           "display_number": "39",
-          "narrative_context": "ְּבי ֹום ֲה ִני ְּפ ֶּכם ֶּאת ָּה ֹע ֶּמר\"",
+          "narrative_context": "בְּי וֹם הֲנִי פְּכֶּם אֶּת הָּעֹמֶּר",
           "prompt": "ובספר ויקרא - איזה קרבן מצווה התורה להקריב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ַפר ֶּבן ָּב ָּקר ֶּא ָּחד"
+              "text": "פַר בֶּן בָּקָּר אֶּחָּד"
             },
             {
               "key": "ב",
-              "text": "ָּפִרים ְּבֵֵּֽׁני ָּב ָּקר ְּש ַנִים"
+              "text": "פָּרִים בְּנֵֵּֽׁי בָּקָּר שְּנַיִם"
             },
             {
               "key": "ג",
-              "text": "ֶּכ ֶּבש ָּּת ִמים ֶּבן ְּש ָּנת ֹו"
+              "text": "כֶּבֶּש תָּּמִים בֶּן שְּנָּת וֹ"
             },
             {
               "key": "ד",
-              "text": "ִש ְּב ַעת ְּכ ָּב ִשים ְּּת ִמי ִמם ְּב ֵּׁני ָּש ָּנה"
+              "text": "שִבְּעַת כְּבָּשִים תְּּמִי מִם בְּנֵּׁי שָּנָּה"
             }
           ],
           "correct_option": null,
@@ -1438,31 +1438,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q40",
           "display_number": "40",
-          "narrative_context": "ְּוַאל ַּת ֲע ֹמד ַעל ַה ֶּפֶּרק ְּל ַה ְּכִרית ֶּאת ְּפ ִלי ָּטיו ְּוַאל ַּת ְּס ֵּׁגר ְּשִרי ָּדיו ְּבי ֹום …",
+          "narrative_context": "וְּאַל תַּעֲמֹד עַל הַפֶּרֶּק לְּהַכְּרִית אֶּת פְּלִי טָּיו וְּאַל תַּסְּגֵּׁר שְּרִי דָּיו בְּי וֹם ...",
           "prompt": "השלם את דברי הנביא עובדיה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ֵּׁאיד ֹו"
+              "text": "אֵּׁיד וֹ"
             },
             {
               "key": "ב",
-              "text": "נׇּ ְּכר ֹו"
+              "text": "נׇּכְּר וֹ"
             },
             {
               "key": "ג",
-              "text": "אׇּ ְּב ָּדם"
+              "text": "אׇּבְּדָּם"
             },
             {
               "key": "ד",
-              "text": "ָּצָּרה 11"
+              "text": "צָּרָּה 11"
             }
           ],
           "correct_option": null,
@@ -1474,12 +1474,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q41",
           "display_number": "41",
-          "narrative_context": "ִמי ָּב ֶּכם ַה ִנ ְּשָאר ֲא ֶּשר ָּרָאה ֶּאת ַה ַבִית ַה ֶּזה ִב ְּכב ֹוד ֹו ָּהִראש ֹון\"",
+          "narrative_context": "מִי בָּכֶּם הַנִשְּאָר אֲשֶּר רָּאָה אֶּת הַבַיִת הַזֶּה בִכְּב וֹד וֹהָּרִאש וֹן",
           "prompt": "ובאיזה יום שאל הנביא חגי את העם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1498,7 +1498,7 @@
             },
             {
               "key": "ד",
-              "text": "ביום 24 לחודש התשיעי שאלות בסימן: ֶּהן ָּעם ְּכ ָּל ִביא ָּיקּום ְּו ַכ ֲאִרי ִי ְּת ַנ ָּשא"
+              "text": "ביום 24 לחודש התשיעי שאלות בסימן: הֶּן עָּם כְּלָּבִיא יָּקוּם וְּכַאֲרִי יִתְּנַשָּא"
             }
           ],
           "correct_option": null,
@@ -1510,7 +1510,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q42",
@@ -1522,19 +1522,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ִכי ֻּשְּד ָּדה ַא ַדְּר ָּּתם"
+              "text": "כִי שֻּדְּ דָּה אַדַרְּ תָּּם"
             },
             {
               "key": "ב",
-              "text": "ִכי ֻּש ַדד ְּגא ֹון ַה ַיְּר ֵּׁדן"
+              "text": "כִי שֻּדַד גְּא וֹן הַיַרְּ דֵּׁן"
             },
             {
               "key": "ג",
-              "text": "ִכי ָּיַרד ַי ַער ַה ָּב ִציר"
+              "text": "כִי יָּרַד יַעַר הַבָּצִיר"
             },
             {
               "key": "ד",
-              "text": "ִכי ָּנ ַפל ֶּאֶּרז ֲא ֶּשר ַאִדִרים ֻּש ָּדדּו"
+              "text": "כִי נָּפַל אֶּרֶּז אֲשֶּר אַדִרִים שֻּדָּדוּ"
             }
           ],
           "correct_option": null,
@@ -1551,7 +1551,7 @@
         {
           "unit_id": "q43",
           "display_number": "43",
-          "narrative_context": "ֲאָּרי ֹות ֹש ֲא ִגים\"",
+          "narrative_context": "אֲרָּי וֹת שֹאֲגִים",
           "prompt": "את מי מדמה הנביא צפניה ל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1582,7 +1582,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q44",
@@ -1623,7 +1623,7 @@
         {
           "unit_id": "q45",
           "display_number": "45",
-          "narrative_context": "ַא ֵּׁיה ְּמע ֹון ֲאָּרי ֹות ּו ִמְּר ֶּעה הּוא ַל ְּכ ִפִרים ֲא ֶּשר ָּה ַלְך ַאְּר ֵּׁיה ָּל ִביא ָּשם גּור ַאְּר ֵּׁיה ְּו ֵּׁאין ַמ ֲחִריד\"",
+          "narrative_context": "אַיֵּׁה מְּע וֹן אֲרָּי וֹת וּמִרְּ עֶּה הוּא לַכְּפִרִים אֲשֶּר הָּלַךְ אַרְּ יֵּׁה לָּבִיא שָּם גוּר אַרְּ יֵּׁה וְּאֵּׁין מַחֲרִיד",
           "prompt": "בנבואה על איזה עם נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1654,13 +1654,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q46",
           "display_number": "46",
-          "narrative_context": "ַכ ֲא ֶּשר ֶּי ְּה ֶּגה ָּהַאְּר ֵּׁיה ְּו ַה ְּכ ִפיר ַעל ַטְּרפ ֹו\" הוא דימוי הבא לתאר את:",
-          "prompt": "\" ַכ ֲא ֶּשר ֶּי ְּה ֶּגה ָּהַאְּר ֵּׁיה ְּו ַה ְּכ ִפיר ַעל ַטְּרפ ֹו\" הוא דימוי הבא לתאר את:",
+          "narrative_context": "כַאֲשֶּר יֶּהְּגֶּה הָּאַרְּ יֵּׁה וְּהַכְּפִיר עַל טַרְּפ וֹ",
+          "prompt": "הוא דימוי הבא לתאר את?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1690,31 +1690,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q47",
           "display_number": "47",
-          "narrative_context": "גּור ַאְּר ֵּׁיה\"",
+          "narrative_context": "גוּר אַרְּ יֵּׁה",
           "prompt": "שבטו של מי לא נקרא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ָּכ ֵּׁלב"
+              "text": "כָּלֵּׁב"
             },
             {
               "key": "ב",
-              "text": "סּו ִסי"
+              "text": "סוּ סִי"
             },
             {
               "key": "ג",
-              "text": "ַנ ְּחש ֹון"
+              "text": "נַחְּש וֹן"
             },
             {
               "key": "ד",
-              "text": "ְּג ַמ ִלי 13 שאלות פתוחות"
+              "text": "גְּמַלִי 13 שאלות פתוחות"
             }
           ],
           "correct_option": null,
@@ -1726,13 +1726,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q48",
           "display_number": "48",
-          "narrative_context": "ְּכ ָּל ִביא ָּש ֵּׁכן\"? _______________ 49. מיהו הנביא המשתמש בדימוי: \" ְּכַאְּר ֵּׁיה ַב ָּי ַער\"? _________________ 50. מיהו הנביא המשתמש בדימוי: \" ְּכַאְּר ֵּׁיה ְּב ַב ֲהמ ֹות ַי ַער\"? _____________ 51. מלבד שני נביאים אלה, ציין נביא נוסף שמזכיר בדבריו כי היער הוא מקום מושבו של האריה. ____________ 52. \" ְּכַאְּר ֵּׁיה ַמ ְּש ִחית\" הוא דימוי בפי הנביא למעשה מסוים של העם. איזה נביא נוסף התאונן על מעשה זה? ______________ 53. בדברי איזה נביא נזכרו \" ִש ֵּׁני ַאְּר ֵּׁיה\"? ________________ 54. ובדברי איזה נביא נזכרו \" ְּפ ֵּׁני ַאְּר ֵּׁיה\"? _________________ 55. באיזה הקשר נזכרים יחדו \" ֵּׁע ֶּגל\" ו\" ְּכ ִפיר\"? ________________ 56. ובאיזה הקשר נזכרות יחדו \" ַה ָּפָּרה\" ו\" ַה ְּכ ִפיָּרה\"? _______________ ציין באיזו עיר או באיזה מקום נאמר כל אחד מן הציטוטים הבאים * שים לב: השאלה היא על המיקום הגיאוגרפי בו נאמר הציטוט, ולא על הספר בתנ\"ך בו הוא מופיע 57. ִמ ְּנ ָּשִרים ַקלּו ֵּׁמ ֲאָּרי ֹות ָּג ֵּׁברּו ______________ 58. ַמה ָּמת ֹוק ִמְּד ַבש ּו ֶּמה ַעז ֵּׁמ ֲאִרי _____________ 59. ְּוהּוא ַגם ֶּבן ַחִיל ֲא ֶּשר ִלב ֹו ְּכ ֵּׁלב ָּהַאְּר ֵּׁיה ִה ֵּׁמס ִי ָּמס ________________ 60. ֶּהן ָּעם ְּכ ָּל ִביא ָּיקּום ְּו ַכ ֲאִרי ִי ְּת ַנ ָּשא ___________________ 14",
-          "prompt": "מה שם גיבור דוד שעל שבטו נאמר?",
+          "narrative_context": "כְּאַרְּ יֵּׁה בְּבַהֲמ וֹת יַעַר",
+          "prompt": "מה שם גיבור דוד שעל שבטו נאמר \" כְּלָּבִיא שָּכֵּׁן\"? _______________ 49. מיהו הנביא המשתמש בדימוי: \" כְּאַרְּ יֵּׁה בַיָּעַר\"? _________________ 50. מיהו הנביא המשתמש בדימוי: ? _____________ 51. מלבד שני נביאים אלה, ציין נביא נוסף שמזכיר בדבריו כי היער הוא מקום מושבו של האריה. ____________ 52. \" כְּאַרְּ יֵּׁה מַשְּחִית\" הוא דימוי בפי הנביא למעשה מסוים של העם. איזה נביא נוסף התאונן על מעשה זה? ______________ 53. בדברי איזה נביא נזכרו \" שִנֵּׁי אַרְּ יֵּׁה\"? ________________ 54. ובדברי איזה נביא נזכרו \" פְּנֵּׁי אַרְּ יֵּׁה\"? _________________ 55. באיזה הקשר נזכרים יחדו \" עֵּׁגֶּל\" ו\" כְּפִיר\"? ________________ 56. ובאיזה הקשר נזכרות יחדו \" הַפָּרָּה\" ו\" הַכְּפִירָּה\"? _______________ ציין באיזו עיר או באיזה מקום נאמר כל אחד מן הציטוטים הבאים * שים לב: השאלה היא על המיקום הגיאוגרפי בו נאמר הציטוט, ולא על הספר בתנ\"ך בו הוא מופיע 57. מִנְּשָּרִים קַלוּ מֵּׁאֲרָּי וֹת גָּבֵּׁרוּ ______________ 58. מַה מָּת וֹק מִדְּ בַש וּמֶּה עַז מֵּׁאֲרִי _____________ 59. וְּהוּא גַם בֶּן חַיִל אֲשֶּר לִב וֹכְּלֵּׁב הָּאַרְּ יֵּׁה הִמֵּׁס יִמָּס ________________ 60. הֶּן עָּם כְּלָּבִיא יָּקוּם וְּכַאֲרִי יִתְּנַשָּא ___________________ 14?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [],
@@ -1745,7 +1745,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         }
       ]
     }
@@ -1754,8 +1754,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/Summarizing2026.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option; q41 no correct_option; q42 no correct_option; q43 no correct_option; q44 no correct_option; q45 no correct_option; q46 no correct_option; q47 no correct_option; q48 option count 0; q48 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option; q41 no correct_option; q42 no correct_option; q43 no correct_option; q44 no correct_option; q45 no correct_option; q46 no correct_option; q47 no correct_option; q48 option count 0; q48 no correct_option"
   }
 }

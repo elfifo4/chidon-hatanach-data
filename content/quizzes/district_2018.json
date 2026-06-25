@@ -39,9 +39,9 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "נֵ צַח יִ שְׂרָ אֵל לאֹ יְׂ שַ קֵר\". מי אמר מילים אלה",
-          "prompt": "השנה אנו מציינים 100 שנים לפעילותה של רשת הריגול ניל\"י. שמה של רשת הריגול הוא ראשי התיבות של הפסוק?",
-          "question_type": "multiple_choice",
+          "narrative_context": "נֵצַח יִשְׂרָ אֵל לאֹ יְׂשַקֵר\".",
+          "prompt": "השנה אנו מציינים 100 שנים לפעילותה של רשת הריגול ניל\"י. שמה של רשת הריגול הוא ראשי התיבות של הפסוק: \" מי אמר מילים אלה?",
+          "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
             {
@@ -70,13 +70,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "עֹ רֹת גְׂ דָיֵי הָ עִזִים [...] עַל יָ דָיו וְׂ עַל חֶלְׂ קַת צַוָארָיו\", כדי לְׂ הִ דָמוֹת ל...",
-          "prompt": "אדם לבש את?",
+          "narrative_context": "עֹרֹת גְׂדָיֵי הָעִזִים [...] עַל יָדָיו וְׂעַל חֶלְׂ קַת צַוָארָיו",
+          "prompt": "אדם לבש את , כדי לְׂהִדָמוֹת ל...?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -106,13 +106,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "יָ מִים רַ בִים\", עושר או ניצחון על אויביו. מה ביקש אותו מלך",
-          "prompt": "ה' שיבח מלך מסוים על שלא ביקש לעצמו?",
+          "narrative_context": "יָמִים רַבִים",
+          "prompt": "ה' שיבח מלך מסוים על שלא ביקש לעצמו , עושר או ניצחון על אויביו. מה ביקש אותו מלך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -142,13 +142,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "כֹה אָ מַר ה' הֲרָ צַ חְׂ תָ וְׂ גַם יָרָ שְׂ תָ ?!\" – מה ירש האיש שכלפיו הופנו דברים אלה",
-          "prompt": "\" כֹה אָ מַר ה' הֲרָ צַ חְׂ תָ וְׂ גַם יָרָ שְׂ תָ ?!\" – מה ירש האיש שכלפיו הופנו דברים אלה?",
+          "narrative_context": "כֹה אָמַר ה' הֲרָ צַחְׂתָוְׂגַם יָרָ שְׂתָ?!",
+          "prompt": "– מה ירש האיש שכלפיו הופנו דברים אלה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -178,13 +178,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": ".",
-          "prompt": "פִ תֹם ורַ עַ מְׂ סֵס הם השמות של ...",
+          "narrative_context": "פִתֹם ורַ עַמְׂסֵס",
+          "prompt": "הם השמות של ...?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -214,13 +214,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "שֶ בַע פְׂ עָ מִים ריפאה אדם מצרעתו.",
-          "prompt": "מקום שטבילה בו?",
+          "narrative_context": "שֶבַע פְׂעָמִים",
+          "prompt": "מקום שטבילה בו ריפאה אדם מצרעתו.?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -250,13 +250,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "נָה \" פְׂלֹנִי אַלְׂ מֹנִי\"",
-          "prompt": "מי האיש שכו?",
+          "narrative_context": "פְׂלֹנִי אַלְׂ מֹנִי",
+          "prompt": "מי האיש שכו נָה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -286,13 +286,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "הַיּוֹם גַלּוֹ תִי אֶת חֶרְׂ פַת מִ צְׂרַיִם מֵ עֲ לֵי כֶם\" – איזה מקום בארץ נקרא על שם מאורע זה",
-          "prompt": "\" הַיּוֹם גַלּוֹ תִי אֶת חֶרְׂ פַת מִ צְׂרַיִם מֵ עֲ לֵי כֶם\" – איזה מקום בארץ נקרא על שם מאורע זה?",
+          "narrative_context": "הַיּוֹם גַלּוֹ תִי אֶת חֶרְׂ פַת מִצְׂרַיִם מֵעֲלֵי כֶם",
+          "prompt": "– איזה מקום בארץ נקרא על שם מאורע זה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -322,7 +322,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q09",
@@ -363,8 +363,8 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "וְׂ הָיָה בְׂ הָנִי חַ ה' אֱלֹ הֶיךָ לְׂךָ מִ כָל אֹיְׂ בֶיךָ מִ סָ בִיב [...] תִ מְׂ חֶה אֶת זֵ כֶר עֲ מָ לֵק מִ תַ חַת הַ שָ מָיִם לאֹ תִ שְׂ כָח:\" (דברים כה, 19). מי המלך שהוטל עליו לקיים צו זה",
-          "prompt": "התורה מצווה על בני ישראל?",
+          "narrative_context": "וְׂהָיָה בְׂהָנִי חַה' אֱלֹ הֶיךָ לְׂךָ מִכָל אֹיְׂ בֶיךָ מִסָבִיב [...] תִמְׂחֶה אֶת זֵכֶר עֲמָלֵק מִתַחַת הַשָמָיִם לאֹ תִשְׂכָח:",
+          "prompt": "התורה מצווה על בני ישראל: (דברים כה, 19). מי המלך שהוטל עליו לקיים צו זה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -394,7 +394,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q11",
@@ -507,8 +507,8 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": null,
-          "prompt": "\"וַיַּרְׂא דָוִד כִי עֲ בָ דָיו מִ תְׂ לַ חֲ שִים\" – מה הבין דוד לאחר שראה את עבדיו מתלחשים?",
+          "narrative_context": "וַיַּרְׂא דָוִד כִי עֲבָדָיו מִתְׂלַחֲשִים",
+          "prompt": "– מה הבין דוד לאחר שראה את עבדיו מתלחשים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -543,8 +543,8 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "מִי כָ מֹ כָה בָ אֵלִם ה' מִי כָ מֹ כָה נֶ אְׂ דָר בַ קֹ דֶש נוֹרָא תְׂ הִלֹּת עֹ שֵה פֶ לֶא\" – דברי שירה אלו נאמרו בעקבות...",
-          "prompt": "\" מִי כָ מֹ כָה בָ אֵלִם ה' מִי כָ מֹ כָה נֶ אְׂ דָר בַ קֹ דֶש נוֹרָא תְׂ הִלֹּת עֹ שֵה פֶ לֶא\" – דברי שירה אלו נאמרו בעקבות...",
+          "narrative_context": "מִי כָמֹכָה בָאֵלִם ה' מִי כָמֹכָה נֶאְׂדָר בַקֹדֶש נוֹרָא תְׂהִלֹּת עֹשֵה פֶלֶא",
+          "prompt": "– דברי שירה אלו נאמרו בעקבות...?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -574,7 +574,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q16",
@@ -626,15 +626,15 @@
             },
             {
               "key": "ב",
-              "text": "הלביש אותו בִ גְׂ דֵי שֵש"
+              "text": "הלביש אותו בִגְׂדֵי שֵש"
             },
             {
               "key": "ג",
-              "text": "נתן לו אֲ חֻּ זָה בְׂ אֶרֶץ מִ צְׂרַיִם"
+              "text": "נתן לו אֲחֻּזָה בְׂאֶרֶץ מִצְׂרַיִם"
             },
             {
               "key": "ד",
-              "text": "הרכיב אותו בְׂ מִרְׂ כֶ בֶת הַ מִ שְׂ נֶה"
+              "text": "הרכיב אותו בְׂמִרְׂ כֶבֶת הַמִשְׂנֶה"
             }
           ],
           "correct_option": null,
@@ -651,8 +651,8 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "כִי לַ נָ בִיא הַיּוֹם יִ קָרֵא לְׂ פָנִים הָ רֹ אֶה\" – בימיו של איזה נביא כו נָה הנביא ' הָ רֹ אֶה'",
-          "prompt": "\" כִי לַ נָ בִיא הַיּוֹם יִ קָרֵא לְׂ פָנִים הָ רֹ אֶה\" – בימיו של איזה נביא כו נָה הנביא ' הָ רֹ אֶה'?",
+          "narrative_context": "כִי לַנָבִיא הַיּוֹם יִקָרֵא לְׂפָנִים הָרֹאֶה",
+          "prompt": "– בימיו של איזה נביא כו נָה הנביא ' הָרֹאֶה'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -682,12 +682,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "כָל גִבוֹרֵי הַ חַיִל עֲ שֶרֶת אֲ לָ פִים גוֹ לֶה וְׂ כָל הֶ חָרָש וְׂ הַ מַ סְׂ גֵר\"",
+          "narrative_context": "כָל גִבוֹרֵי הַחַיִל עֲשֶרֶת אֲלָפִים גוֹ לֶה וְׂכָל הֶחָרָש וְׂהַמַסְׂגֵר",
           "prompt": "בימיו של איזה מלך מיהודה נלקחו לגלות?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -718,12 +718,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "לְׂ אַ הֲ בָה אֶת שנְֹׂ אֶיךָ וְׂלִ שְׂנאֹ אֶת אֹ הֲ בֶיךָ\"",
+          "narrative_context": "לְׂאַהֲבָה אֶת שנְֹׂ אֶיךָ וְׂלִ שְׂנאֹ אֶת אֹהֲבֶיךָ",
           "prompt": "מי הטיח בפני אדם דברים קשים על חוסר ההיגיון שבהתנהגותו, במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -754,13 +754,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "מֵ אֵ לֶּה נָ פְׂ צָה כָל הָ אָרֶץ\"",
-          "prompt": "על מי נאמר: \"ו?",
+          "narrative_context": "ו מֵאֵלֶּה נָפְׂצָה כָל הָאָרֶץ",
+          "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -790,7 +790,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q22",
@@ -802,19 +802,19 @@
           "options": [
             {
               "key": "א",
-              "text": "הַכוֹ כָ בִים מִ מְׂ סִלּוֹ תָם נִלְׂ חֲמו"
+              "text": "הַכוֹ כָבִים מִמְׂסִלּוֹ תָם נִלְׂ חֲמו"
             },
             {
               "key": "ב",
-              "text": "הָרִים נָזְׂלו מִ פְׂ נֵי ה'"
+              "text": "הָרִים נָזְׂלו מִפְׂנֵי ה'"
             },
             {
               "key": "ג",
-              "text": "קָ פְׂאו תְׂ הֹ מֹת בְׂ לֶב יָם"
+              "text": "קָפְׂאו תְׂהֹמֹת בְׂלֶב יָם"
             },
             {
               "key": "ד",
-              "text": "אֶרֶץ רָ עָ שָה גַם שָ מַיִם נָ טָפו"
+              "text": "אֶרֶץ רָעָשָה גַם שָמַיִם נָטָפו"
             }
           ],
           "correct_option": null,
@@ -903,8 +903,8 @@
         {
           "unit_id": "q25",
           "display_number": "25",
-          "narrative_context": "חַ קָדִים",
-          "prompt": "באיזה מהסיפורים הבאים מוזכרת רו?",
+          "narrative_context": null,
+          "prompt": "באיזה מהסיפורים הבאים מוזכרת רו חַקָדִים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -934,13 +934,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q26",
           "display_number": "26",
-          "narrative_context": "וַיָּ שֶם שַק עַל בְׂ שָרוֹ וַיָּצוֹם וַיִּ שְׂ כַב בַ שָק וַיְׂ הַ לֵּךְ אַט\", ולכן ה' אמר עליו: \"יַ עַן כִי נִ כְׂ נַע מִ פָ נַי לאֹ אָ בִיא הָרָ עָה בְׂיָ מָיו בִי מֵי בְׂנוֹ אָ בִיא הָרָ עָה עַל בֵיתוֹ\".",
-          "prompt": "מלך ישראל שקרע בגדיו,?",
+          "narrative_context": "יַעַן כִי נִכְׂנַע מִפָנַי לאֹ אָבִיא הָרָ עָה בְׂיָ מָיו בִי מֵי בְׂנוֹ אָבִיא הָרָ עָה עַל בֵיתוֹ",
+          "prompt": "מלך ישראל שקרע בגדיו, \"וַיָּ שֶם שַק עַל בְׂשָרוֹ וַיָּצוֹם וַיִּ שְׂכַב בַשָק וַיְׂ הַלֵּךְ אַט\", ולכן ה' אמר עליו: .?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -970,31 +970,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q27",
           "display_number": "27",
-          "narrative_context": "חֶרֶב וְׂ לָהּ שְׂ נֵי פֵיוֹת\" נתקעה בבטנו",
-          "prompt": "כיצד תואר האיש ש?",
+          "narrative_context": "חֶרֶב וְׂלָהּ שְׂנֵי פֵיוֹת",
+          "prompt": "כיצד תואר האיש ש נתקעה בבטנו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "אִיש בָרִיא מְׂ אֹד"
+              "text": "אִיש בָרִיא מְׂאֹד"
             },
             {
               "key": "ב",
-              "text": "גִבוֹר חַיִל מְׂ צֹרָע"
+              "text": "גִבוֹר חַיִל מְׂצֹרָע"
             },
             {
               "key": "ג",
-              "text": "אִיש מִלְׂ חָ מָה"
+              "text": "אִיש מִלְׂ חָמָה"
             },
             {
               "key": "ד",
-              "text": "גָ בְׂהוֹ שֵש אַמוֹת וָ זָרֶת 6"
+              "text": "גָבְׂהוֹ שֵש אַמוֹת וָזָרֶת 6"
             }
           ],
           "correct_option": null,
@@ -1006,7 +1006,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q28",
@@ -1047,8 +1047,8 @@
         {
           "unit_id": "q29",
           "display_number": "29",
-          "narrative_context": "הָ אָ דָם וְׂ הַ בְׂ הֵ מָה הַ בָ קָר וְׂ הַצאֹן אַל יִ טְׂ עֲמו מְׂאו מָה אַל יִרְׂעו ו מַיִם אַל יִ שְׂתו\". בעקבות איזו בשורה הטיל המלך צו זה",
-          "prompt": "מלך של עיר מסוימת הטיל צו על כל תושבי העיר ועל בעלי החיים שבה?",
+          "narrative_context": "הָאָדָם וְׂהַבְׂהֵמָה הַבָקָר וְׂהַצאֹן אַל יִטְׂעֲמו מְׂאו מָה אַל יִרְׂעו ו מַיִם אַל יִשְׂתו",
+          "prompt": "מלך של עיר מסוימת הטיל צו על כל תושבי העיר ועל בעלי החיים שבה: . בעקבות איזו בשורה הטיל המלך צו זה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1078,13 +1078,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q30",
           "display_number": "30",
-          "narrative_context": "הַ נֵ זֶר וה אֶ צְׂ עָ דָה של מלך מסוים, הביא אותם כראייה ל...",
-          "prompt": "נער שהביא איתו את?",
+          "narrative_context": "אֶצְׂעָדָה",
+          "prompt": "נער שהביא איתו את הַנֵזֶר וה של מלך מסוים, הביא אותם כראייה ל...?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1114,12 +1114,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q31",
           "display_number": "31",
-          "narrative_context": "דֶ בֶר בְׂיִ שְׂרָ אֵל מֵ הַ בֹ קֶר וְׂ עַד עֵת מוֹ עֵד\"",
+          "narrative_context": "דֶבֶר בְׂיִ שְׂרָ אֵל מֵהַבֹקֶר וְׂעַד עֵת מוֹ עֵד",
           "prompt": "איזה מעשה עשה מלך, שבעקבותיו הוא נענש ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1130,7 +1130,7 @@
             },
             {
               "key": "ב",
-              "text": "ציווה לִ מְׂ נות את העם"
+              "text": "ציווה לִמְׂנות את העם"
             },
             {
               "key": "ג",
@@ -1150,7 +1150,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q32",
@@ -1227,8 +1227,8 @@
         {
           "unit_id": "q34",
           "display_number": "34",
-          "narrative_context": "אֹ חֶ זֶת בַ עֲ קֵב עֵ שָו\". בסיפור אחר, במהלך לידת תאומים, הצליח הצעיר לפרוץ את דרכו קדימה ועקף את אחיו בלידה. מי האחים",
-          "prompt": "יעקב נקרא בשמו משום שבלידתו הייתה ידו?",
+          "narrative_context": "אֹחֶזֶת בַעֲקֵב עֵשָו",
+          "prompt": "יעקב נקרא בשמו משום שבלידתו הייתה ידו . בסיפור אחר, במהלך לידת תאומים, הצליח הצעיר לפרוץ את דרכו קדימה ועקף את אחיו בלידה. מי האחים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1258,7 +1258,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q35",
@@ -1299,8 +1299,8 @@
         {
           "unit_id": "q36",
           "display_number": "36",
-          "narrative_context": "עוֹ בֵד",
-          "prompt": "מי נתן לבנם של רות ובועז את שמו –?",
+          "narrative_context": null,
+          "prompt": "מי נתן לבנם של רות ובועז את שמו – עוֹ בֵד?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1330,7 +1330,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q37",
@@ -1371,8 +1371,8 @@
         {
           "unit_id": "q38",
           "display_number": "38",
-          "narrative_context": "אֲ בִי עֶ זֶר הייתה משפחה משבט...",
-          "prompt": "משפחת?",
+          "narrative_context": "אֲבִי עֶזֶר",
+          "prompt": "משפחת הייתה משפחה משבט...?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1402,13 +1402,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q39",
           "display_number": "39",
-          "narrative_context": "בְׂ נֵי רְׂ בִ עִים ישבו לו על כיסא ישראל",
-          "prompt": "למי הובטח שבעקבות מעשיו הטובים?",
+          "narrative_context": "בְׂנֵי רְׂבִעִים",
+          "prompt": "למי הובטח שבעקבות מעשיו הטובים ישבו לו על כיסא ישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1438,31 +1438,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q40",
           "display_number": "40",
-          "narrative_context": "אֶל בַ עְׂ שָא וְׂ אֶל בֵיתוֹ וְׂ עַל כָל הָרָ עָה אֲ שֶר עָ שָה בְׂ עֵי נֵי ה' לְׂ הַ כְׂ עִיסוֹ\"",
+          "narrative_context": "אֶל בַעְׂשָא וְׂאֶל בֵיתוֹ וְׂעַל כָל הָרָ עָה אֲשֶר עָשָה בְׂעֵי נֵי ה' לְׂהַכְׂעִיסוֹ",
           "prompt": "מיהו הנביא שבפיו היה דבר ה'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "אֲ חִיָּה הַ שִילֹנִי"
+              "text": "אֲחִיָּה הַשִילֹנִי"
             },
             {
               "key": "ב",
-              "text": "יֵהוא בֶן חֲ נָנִי"
+              "text": "יֵהוא בֶן חֲנָנִי"
             },
             {
               "key": "ג",
-              "text": "מִי כָיְׂהו בֶן יִ מְׂ לָה"
+              "text": "מִי כָיְׂהו בֶן יִמְׂלָה"
             },
             {
               "key": "ד",
-              "text": "צִדְׂקִיָּה בֶן כְׂ נַ עֲ נָה 8 המצאות ישראליות – גאווה ישראלית"
+              "text": "צִדְׂקִיָּה בֶן כְׂנַעֲנָה 8 המצאות ישראליות – גאווה ישראלית"
             }
           ],
           "correct_option": null,
@@ -1474,12 +1474,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q41",
           "display_number": "41",
-          "narrative_context": "הִ תְׂ אַ מֵץ לַ עֲלוֹת בַ מֶרְׂ כָ בָה לָנוס יְׂרו שָ לָםִ\"",
+          "narrative_context": "הִתְׂאַמֵץ לַעֲלוֹת בַמֶרְׂ כָבָה לָנוס יְׂרו שָלָםִ",
           "prompt": "טנק המרכבה הוא טנק שפותח בישראל, ונחשב לאחד הטנקים הטובים בעולם. מיהו מלך יהודה ש?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1510,23 +1510,23 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q42",
           "display_number": "42",
-          "narrative_context": "הִ שְׂ קָה אֶת כָל פְׂ נֵי הָ אֲ דָ מָה\" לפני בריאת האדם",
-          "prompt": "\"טפטפות\" הן המצאה ישראלית בדמות מערכת השקיה מתוחכמת, המטפטפת מים בכמויות מדודות כדי לחסוך במים. מה?",
+          "narrative_context": "הִשְׂקָה אֶת כָל פְׂנֵי הָאֲדָמָה",
+          "prompt": "\"טפטפות\" הן המצאה ישראלית בדמות מערכת השקיה מתוחכמת, המטפטפת מים בכמויות מדודות כדי לחסוך במים. מה לפני בריאת האדם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "לַ הַט הַ חֶרֶב הַ מִ תְׂ הַ פֶ כֶת"
+              "text": "לַהַט הַחֶרֶב הַמִתְׂהַפֶכֶת"
             },
             {
               "key": "ב",
-              "text": "בְׂ דֹ לַח"
+              "text": "בְׂדֹלַח"
             },
             {
               "key": "ג",
@@ -1534,7 +1534,7 @@
             },
             {
               "key": "ד",
-              "text": "הַ מַיִם אֲ שֶר מֵ עַל לָרָקִי עַ"
+              "text": "הַמַיִם אֲשֶר מֵעַל לָרָקִי עַ"
             }
           ],
           "correct_option": null,
@@ -1546,12 +1546,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q43",
           "display_number": "43",
-          "narrative_context": "וְׂהוֹרֵי תִי אֶ תְׂ כֶם בְׂ דֶרֶךְ הַטּוֹ בָה וְׂ הַיְׂ שָרָה\"",
+          "narrative_context": "וְׂהוֹרֵי תִי אֶתְׂכֶם בְׂדֶרֶךְ הַטּוֹ בָה וְׂהַיְׂ שָרָה",
           "prompt": "יישומון (אפליקציית) \"ezaW\" הוא פיתוח ישראלי המאפשר לנהגים למצוא את הדרך המהירה ביותר להגיע ליעדם. מיהו הנביא שאמר לעם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1582,13 +1582,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q44",
           "display_number": "44",
-          "narrative_context": "וַה' הִ שְׂלִיךְ עֲ לֵי הֶם אֲ בָנִים גְׂ דֹלוֹת מִן הַ שָ מַיִם [...] וַיָּ מֻּתו רַ בִים אֲ שֶר מֵתו בְׂ אַ בְׂ נֵי הַ בָרָד מֵ אֲ שֶר הָרְׂגו בְׂ נֵי יִ שְׂרָ אֵל בֶ חָרֶב\". נגד מי הייתה המלחמה",
-          "prompt": "כיפת ברזל היא מערכת הגנה ליירוט טילים באוויר שפותחה ומיוצרת בישראל. באחת ממלחמות ישראל באה תשועה מן השמיים?",
+          "narrative_context": "וַה' הִשְׂלִיךְ עֲלֵי הֶם אֲבָנִים גְׂדֹלוֹת מִן הַשָמַיִם [...] וַיָּ מֻּתו רַבִים אֲשֶר מֵתו בְׂאַבְׂנֵי הַבָרָד מֵאֲשֶר הָרְׂגו בְׂנֵי יִשְׂרָ אֵל בֶחָרֶב",
+          "prompt": "כיפת ברזל היא מערכת הגנה ליירוט טילים באוויר שפותחה ומיוצרת בישראל. באחת ממלחמות ישראל באה תשועה מן השמיים: . נגד מי הייתה המלחמה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1618,12 +1618,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q45",
           "display_number": "45",
-          "narrative_context": "וְׂ הִ כָה בַ כִיּוֹר אוֹ בַדוד אוֹ בַ קַ לַּ חַת אוֹ בַ פָרור כֹל אֲ שֶר יַ עֲ לֶה הַ מַזְׂ לֵג יִ קַח הַ כֹ הֵן בוֹ\"",
+          "narrative_context": "וְׂהִכָה בַכִיּוֹר אוֹ בַדוד אוֹ בַקַלַּחַת אוֹ בַפָרור כֹל אֲשֶר יַעֲלֶה הַמַזְׂ לֵג יִקַח הַכֹהֵן בוֹ",
           "prompt": "דוד שמש הוא מתקן ביתי שמשתמש באנרגיית השמש כדי לחמם מים, והוא פיתוח ישראלי. על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1654,12 +1654,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q46",
           "display_number": "46",
-          "narrative_context": "שְׂ נֵים עָ שָר נְׂ שִי אִם יוֹ לִיד ונְׂ תַ תִיו לְׂגוֹי גָדוֹל\"",
+          "narrative_context": "שְׂנֵים עָשָר נְׂשִי אִם יוֹ לִיד ונְׂ תַתִיו לְׂגוֹי גָדוֹל",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1690,13 +1690,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q47",
           "display_number": "47",
-          "narrative_context": "נְׂ שִיא בֵית אָב לַ שִ מְׂ עֹנִי\" ו\" בַת נְׂ שִיא מִדְׂיָן\" הוכו יחדיו, ולאחר שהוכו, נעצרה המגפה שפשטה בעם. מי הכה אותם",
-          "prompt": "אדם שהיה?",
+          "narrative_context": "נְׂשִיא בֵית אָב לַשִמְׂעֹנִי",
+          "prompt": "אדם שהיה ו\" בַת נְׂשִיא מִדְׂיָן\" הוכו יחדיו, ולאחר שהוכו, נעצרה המגפה שפשטה בעם. מי הכה אותם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1726,13 +1726,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q48",
           "display_number": "48",
-          "narrative_context": null,
-          "prompt": "\"וְׂלאֹ הִכום בְׂ נֵי יִ שְׂרָ אֵל כִי נִ שְׂ בְׂעו לָ הֶם נְׂ שִי אֵי הָ עֵ דָה בַה' אֱלֹ הֵי יִ שְׂרָ אֵל\" – למי נשבעו נשיאי העדה שלא יהרגו אותם?",
+          "narrative_context": "וְׂלאֹ הִכום בְׂנֵי יִשְׂרָ אֵל כִי נִשְׂבְׂעו לָהֶם נְׂשִי אֵי הָעֵדָה בַה' אֱלֹ הֵי יִשְׂרָ אֵל",
+          "prompt": "– למי נשבעו נשיאי העדה שלא יהרגו אותם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1767,8 +1767,8 @@
         {
           "unit_id": "q49",
           "display_number": "49",
-          "narrative_context": "וַיֹּ צֵא פֶרַח וַיָּ צֵץ צִיץ וַיִּ גְׂ מֹל שְׂ קֵדִים\"",
-          "prompt": "משה הביא לאוהל העדות 12 מטות של 12 נשיאי השבטים – נשיא מכל שבט. מי השבט שמטהו פרח בסופו של דבר,?",
+          "narrative_context": "וַיֹּ צֵא פֶרַח וַיָּ צֵץ צִיץ וַיִּ גְׂמֹל שְׂקֵדִים",
+          "prompt": "משה הביא לאוהל העדות 12 מטות של 12 נשיאי השבטים – נשיא מכל שבט. מי השבט שמטהו פרח בסופו של דבר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1798,12 +1798,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q50",
           "display_number": "50",
-          "narrative_context": "נְׂ שִיא אֱלֹ הִים אַ תָה בְׂתוֹ כֵנו\"",
+          "narrative_context": "נְׂשִיא אֱלֹ הִים אַתָה בְׂתוֹ כֵנו",
           "prompt": "מי נחשב לאדם מכובד בעיני אנשים שלא מעם ישראל, ונאמר לו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1834,7 +1834,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         }
       ]
     }
@@ -1843,8 +1843,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/district_2018.pdf",
-    "fetch_date": "2026-06-24",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q37 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option; q41 no correct_option; q42 no correct_option; q43 no correct_option; q44 no correct_option; q47 no correct_option; q48 no correct_option; q49 no correct_option; q50 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50; validation: q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q37 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option; q41 no correct_option; q42 no correct_option; q43 no correct_option; q44 no correct_option; q47 no correct_option; q48 no correct_option; q49 no correct_option; q50 no correct_option"
   }
 }

@@ -60,7 +60,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/noar/writing_adults_district_quiz2016.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1; validation: q01 option count 0; q01 no correct_option"
   }

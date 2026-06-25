@@ -109,8 +109,8 @@
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "רֹ ֶבה ק ָּׁשת",
-          "prompt": "מיהו הנער שניצל ממוות וד א י בזכות מלאך ה', וכשגדל היה?",
+          "narrative_context": null,
+          "prompt": "מיהו הנער שניצל ממוות וד א י בזכות מלאך ה', וכשגדל היה רֹבֶה ק שָּׁת?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -140,12 +140,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ֲח זק וֶ ֱא ָּׁמץ\"",
+          "narrative_context": "חֲזק וֶאֱמָּׁץ",
           "prompt": "מיהו המנהיג שקיבל משימה מאתגרת ומורכבת ובשל כך נאמר לו כמה פעמים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -176,7 +176,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
@@ -196,7 +196,7 @@
             },
             {
               "key": "ג",
-              "text": "ה ּכּו אותם"
+              "text": "ה כּוּ אותם"
             },
             {
               "key": "ד",
@@ -217,8 +217,8 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "ָא חיָך י ְׂש ָּׁר אל\". מיהם האחים, בני המשפחה, אשר בזכותם נקרא הקשר בין שתי האומות האלה קשר של \"אחים\"",
-          "prompt": "כאשר בני ישראל חונים בגבול אדום, משה שולח מלאכים למלך אדום כדי לקבל אישור לעבור בתחומי ארצו. משה מגדיר את ישראל ואדום כאחים?",
+          "narrative_context": "אָחיךָ י שְׂרָּׁאל",
+          "prompt": "כאשר בני ישראל חונים בגבול אדום, משה שולח מלאכים למלך אדום כדי לקבל אישור לעבור בתחומי ארצו. משה מגדיר את ישראל ואדום כאחים: . מיהם האחים, בני המשפחה, אשר בזכותם נקרא הקשר בין שתי האומות האלה קשר של \"אחים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -248,13 +248,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "שֹ קט ּובֹ ט ח [...] ָּׁד ָּׁבר אין ָּׁל ֶהם עם ָא ָּׁדם\". באיזה שבט מדּוּבר",
-          "prompt": "שבט משבטי ישראל, שהיה אמור להתיישב בשפלת החוף, ביקש לו נחלה חדשה ומצא אותה במקום שבו היה \" עם?",
+          "narrative_context": "עם שֹקט וּבֹ ט ח [...] דָּׁבָּׁר אין לָּׁהֶם עם אָדָּׁם",
+          "prompt": "שבט משבטי ישראל, שהיה אמור להתיישב בשפלת החוף, ביקש לו נחלה חדשה ומצא אותה במקום שבו היה . באיזה שבט מדוּבּר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -284,13 +284,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "מּות הגוף לאחר המוות מבטיחה חיי נצח. מסיבה זו נחנטו מלכים ואנשים מכובדים ועשירים. מי נחנט במצ ר ים ונקבר במערת המכפלה",
-          "prompt": "במצ ר ים העתיקה האמינו כי שמירה על ש ל?",
+          "narrative_context": null,
+          "prompt": "במצ ר ים העתיקה האמינו כי שמירה על ש ל מוּת הגוף לאחר המוות מבטיחה חיי נצח. מסיבה זו נחנטו מלכים ואנשים מכובדים ועשירים. מי נחנט במצ ר ים ונקבר במערת המכפלה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -320,13 +320,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "הַא חי ֶכם יָּׁבֹאּו ל מ ְׂל ָּׁח ָּׁמה וְׂ א ֶתם ת ְׂשבּו פֹה\". מי היו שני השבטים",
-          "prompt": "משה מאשים שני שבטים מישראל בניסיון השתמטות מהמלחמה בארץ כנען?",
+          "narrative_context": "האַ חי כֶם יבָּׁאֹוּ ל מ לְׂחָּׁמָּׁה וְׂא תֶם ת שְׂבוּ פהֹ",
+          "prompt": "משה מאשים שני שבטים מישראל בניסיון השתמטות מהמלחמה בארץ כנען: . מי היו שני השבטים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -344,7 +344,7 @@
             },
             {
               "key": "ד",
-              "text": "יששכר וזבולון 11. כלב בן יפונה מבקש ָּׁל רשת את ההר שיש בו ענקים וערים גדולות ובצורות. באיזה הר מדובר?"
+              "text": "יששכר וזבולון 11. כלב בן יפונה מבקש לָּׁרשת את ההר שיש בו ענקים וערים גדולות ובצורות. באיזה הר מדובר?"
             },
             {
               "key": "א",
@@ -376,7 +376,7 @@
             },
             {
               "key": "ד",
-              "text": "מסרבת כי יודעת ששבט נפתלי וזבולון לא יסכימו לקבל את הנהגתה 12. במגילת רות, הגואל לא רצה לגאול את הקרקע מכיוון שלא רצה \" ְׂל ָּׁה קים שם ה מת על נ ֲח ָּׁלתֹו\". כדי לסמל שהגואל ויתר על זכותו לגאולה - היה צריך..."
+              "text": "מסרבת כי יודעת ששבט נפתלי וזבולון לא יסכימו לקבל את הנהגתה 12. במגילת רות, הגואל לא רצה לגאול את הקרקע מכיוון שלא רצה \" לְׂהָּׁקים שם ה מת על נ חֲלָּׁתוֹ\". כדי לסמל שהגואל ויתר על זכותו לגאולה - היה צריך..."
             },
             {
               "key": "א",
@@ -408,7 +408,7 @@
             },
             {
               "key": "ד",
-              "text": "רבקה ועכסה 14. למי חיכתה האם שהשקיפה מבעד לחלון וי ּבבה, אך הוא לא בא?"
+              "text": "רבקה ועכסה 14. למי חיכתה האם שהשקיפה מבעד לחלון וי בּבה, אך הוא לא בא?"
             },
             {
               "key": "א",
@@ -440,7 +440,7 @@
             },
             {
               "key": "ד",
-              "text": "עושה שמים 16. במלחמת אברהם נגד חמשת המלכים מסופר: \"ו י ָּׁח לק ֲע לי ֶהם ליְׂ ָּׁלה הּוא ו ֲע ָּׁב ָּׁדיו ו י ּכם ו י ְׂר ְׂד פם עד חֹו ָּׁבה ֲא ֶשר מ ְׂשמֹאל ְׂל ד ָּׁמ ֶשק\" (בראשית יד, 54). מי, נוסף על אברהם, פיקד על פשיטה ל ילית, חילק את צבאו למחנות ונלחם עד להשגת ניצחון מוחץ?"
+              "text": "עושה שמים 16. במלחמת אברהם נגד חמשת המלכים מסופר: \"ו י חָּׁלק עֲלי הֶם ליְׂ לָּׁה הוּא ו עֲבָּׁדָּׁיו ו י כּם ו י רְׂדְׂפם עד חוֹ בָּׁה אֲשֶר מ שְׂמאֹל לְׂד מָּׁשֶק\" (בראשית יד, 54). מי, נוסף על אברהם, פיקד על פשיטה ל ילית, חילק את צבאו למחנות ונלחם עד להשגת ניצחון מוחץ?"
             },
             {
               "key": "א",
@@ -456,7 +456,7 @@
             },
             {
               "key": "ד",
-              "text": "יפתח 6 17. על אשת מנוח מסופר: \"ו י ָּׁרא מ ְׂל אְך ה' ֶאל ָּׁה א ָּׁשה ו יֹא ֶמר א ֶלי ָּׁה הנ ה נָּׁא א ְׂת ֲע ָּׁק ָּׁרה וְֹׂלא יָּׁ ל ְׂד ְׂת וְׂ ָּׁה רית וְׂיָּׁ ל ְׂד ְׂת ּבן [...] ּכי הנְָּׁך ָּׁה ָּׁרה וְׂיֹ ל ְׂד ְׂת ּבן [...]\" (שופטים יג, 3-4). איזו אישה קיבלה בשורה דומה ממלאך ה'?"
+              "text": "יפתח 6 17. על אשת מנוח מסופר: \"ו י רָּׁא מ לְׂאךְ ה' אֶל הָּׁא שָּׁה ו יאֹ מֶר א לֶי הָּׁהנ ה נאָּׁ א תְׂעֲקָּׁרָּׁה ולְֹׂא יָּׁל דְׂתְׂוְׂהָּׁרית ויְָּׁׂ ל דְׂתְׂבּן [...] כּי הנךְָּׁ הָּׁרָּׁה ויְֹׂ ל דְׂתְׂבּן [...]\" (שופטים יג, 3-4). איזו אישה קיבלה בשורה דומה ממלאך ה'?"
             },
             {
               "key": "א",
@@ -488,7 +488,7 @@
             },
             {
               "key": "ד",
-              "text": "יהושע 19. בשתי ערים דרש קהל גדול של אנשים למסור לידיו הת א וֹות את האורחים של בעלי הבית. ָּׁמ הן שתי הערים?"
+              "text": "יהושע 19. בשתי ערים דרש קהל גדול של אנשים למסור לידיו הת א ווֹת את האורחים של בעלי הבית. מָּׁהן שתי הערים?"
             },
             {
               "key": "א",
@@ -552,7 +552,7 @@
             },
             {
               "key": "ד",
-              "text": "בימי נשיאת האלּומים 23. פעמים רבות אנשים המבוקשים על ידי השלטונות, זקוקים לעזרה כדי להסתתר. איזו מהנשים הסתירה מבוקשים?"
+              "text": "בימי נשיאת האלוּמים 23. פעמים רבות אנשים המבוקשים על ידי השלטונות, זקוקים לעזרה כדי להסתתר. איזו מהנשים הסתירה מבוקשים?"
             },
             {
               "key": "א",
@@ -612,7 +612,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         }
       ]
     }
@@ -621,8 +621,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2013m.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 option count 68; q09 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 option count 68; q09 no correct_option"
   }
 }

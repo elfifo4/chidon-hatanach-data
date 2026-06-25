@@ -39,7 +39,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "וַתֵּלֶד עָדָה אֶת יָבָל הוּא הָיָה אֲבִי יֹשֵׁב אֹהֶל וּמִקְנֶה",
+          "narrative_context": "אֲבִי יֹשֵׁב אֹהֶל וּמִקְנֶה",
           "prompt": "מי היה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -95,7 +95,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "וַתַּעַן רָחֵל וְלֵאָה וַתֹּאמַרְנָה לוֹ הַעוֹד לָנוּ חֵלֶק וְנַחֲלָה בְּבֵית אָבִינוּ",
+          "narrative_context": "הַעוֹד לָנוּ חֵלֶק וְנַחֲלָה בְּבֵית אָבִינוּ",
           "prompt": "בנותיו של מי אמרו?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -299,7 +299,7 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "וְעַל צְבָא מַטֵּה בְּנֵי בִנְיָמִן אֲבִידָן בֶּן גִּדְעוֹנִי",
+          "narrative_context": "גִּדְעוֹנִי",
           "prompt": "מאיזה שבט היה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -355,7 +355,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "וּשְׁמוּאֵל טֶרֶם יָדַע אֶת יְהֹוָה וְטֶרֶם יִגָּלֶה אֵלָיו דְּבַר יְהֹוָה",
+          "narrative_context": "וּשְׁמוּאֵל טֶרֶם יָדַע אֶת ה' וְטֶרֶם יִגָּלֶה אֵלָיו דְּבַר ה'",
           "prompt": "בהיותו שוכב בהיכל ה', קורא ה' לשמואל ארבע פעמים. מתי מודיע הכתוב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -467,7 +467,7 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "מִי יוֹדֵעַ יָשׁוּב וְנִחַם הָאֱלֹהִים וְשָׁב מֵחֲרוֹן אַפּוֹ וְלֹא נֹאבֵד",
+          "narrative_context": "וְשָׁב מֵחֲרוֹן אַפּוֹ וְלֹא נֹאבֵד",
           "prompt": "בספר יונה - מי אמר/ו?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -579,7 +579,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "וְהַשְׁקוֹת בִּכְלֵי זָהָב וְכֵלִים מִכֵּלִים שׁוֹנִים וְיֵין מַלְכוּת רָב כְּיַד הַמֶּלֶךְ",
+          "narrative_context": "כְּיַד הַמֶּלֶךְ",
           "prompt": "מה מתואר במגילת אסתר בביטוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -635,7 +635,7 @@
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "שִׁשִּׁים הֵמָּה מְלָכוֹת וּשְׁמֹנִים פִּילַגְשִׁים וַעֲלָמוֹת אֵין מִסְפָּר",
+          "narrative_context": "אֵין מִסְפָּר",
           "prompt": "ועל מה נאמר במגילת שיר השירים?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -691,7 +691,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "וַיִּפְנוּ אַנְשֵׁי הָעַי אַחֲרֵיהֶם וַיִּרְאוּ וְהִנֵּה עָלָה עֲשַׁן הָעִיר הַשָּׁמַיְמָה וְלֹא הָיָה בָהֶם יָדַיִם לָנוּס הֵנָּה וָהֵנָּה וְהָעָם הַנָּס הַמִּדְבָּר נֶהְפַּךְ אֶל הָרוֹדֵף",
+          "narrative_context": "וְלֹא הָיָה בָהֶם יָדַיִם לָנוּס הֵנָּה וָהֵנָּה",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -803,26 +803,26 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "בְּיוֹמוֹ תִתֵּן שְׂכָרוֹ וְלֹא תָבוֹא עָלָיו הַשֶּׁמֶשׁ כִּי עָנִי הוּא וְאֵלָיו הוּא נֹשֵׂא אֶת נַפְשׁוֹ וְלֹא יִקְרָא עָלֶיךָ אֶל יְהֹוָה וְהָיָה בְךָ חֵטְא&nbsp;{ס}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "narrative_context": "כִּי עָנִי הוּא … וְלֹא יִקְרָא עָלֶיךָ אֶל ה' וְהָיָה בְךָ חֵטְא",
           "prompt": "על איזו מצווה עם העני מזהירה התורה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "לאֹ תִ הְיֶה לוֹ כְּ נֹ שֶׁה"
+              "text": "לאֹ תִהְיֶה לוֹ כְּנֹשֶׁה"
             },
             {
               "key": "ב",
-              "text": "לאֹ תִ שְׁ כַּב בַּ ﬠֲ בֹטוֹ"
+              "text": "לאֹ תִשְׁכַּב בַּעֲבֹטוֹ"
             },
             {
               "key": "ג",
-              "text": "הָ קֵם תָּ קִים ﬠִמּוֹ"
+              "text": "הָקֵם תָּקִים עִמּוֹ"
             },
             {
               "key": "ד",
-              "text": "בְּיוֹמוֹ תִ תֵּן שְׂ כָרוֹ"
+              "text": "בְּיוֹמוֹ תִתֵּן שְׂכָרוֹ"
             }
           ],
           "correct_option": "ד",
@@ -841,7 +841,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "בְּיוֹמוֹ תִ תֵּן שְׂ כָרוֹ",
+              "answer_text": "בְּיוֹמוֹ תִתֵּן שְׂכָרוֹ",
               "source_refs": [
                 {
                   "book": "דברים",
@@ -859,8 +859,8 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "וַיְהִי בַּיּוֹם הַשְּׁבִיעִי וַיָּמׇת הַיָּלֶד וַיִּרְאוּ עַבְדֵי דָוִד לְהַגִּיד לוֹ&thinsp; כִּי מֵת הַיֶּלֶד כִּי אָמְרוּ הִנֵּה בִהְיוֹת הַיֶּלֶד חַי דִּבַּרְנוּ אֵלָיו וְלֹא שָׁמַע בְּקוֹלֵנוּ וְאֵיךְ נֹאמַר אֵלָיו מֵת הַיֶּלֶד וְעָשָׂה רָעָה וַתְּכַל דָּוִד הַמֶּלֶךְ לָצֵאת אֶל אַבְשָׁלוֹם כִּי נִחַם עַל אַמְנוֹן כִּי מֵת&nbsp;{ס}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; וַיִּרְגַּז הַמֶּלֶךְ וַיַּעַל עַל עֲלִיַּת הַשַּׁעַר וַיֵּבְךְּ וְכֹה&thinsp; אָמַר בְּלֶכְתּוֹ בְּנִי אַבְשָׁלוֹם בְּנִי בְנִי אַבְשָׁלוֹם מִי יִתֵּן מוּתִי אֲנִי תַחְתֶּיךָ אַבְשָׁלוֹם בְּנִי בְנִי",
-          "prompt": "את בנה של מי לא?",
+          "narrative_context": null,
+          "prompt": "את בנה של מי לא שׁכל דוד?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -939,8 +939,8 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "וְאִם לֹא יַעַבְרוּ חֲלוּצִים אִתְּכֶם וְנֹאחֲזוּ בְתֹכְכֶם בְּאֶרֶץ כְּנָעַן",
-          "prompt": "\" אִם יַ ﬠַ בְרוּ בְ נֵי גָד וּ בְ נֵי רְאוּ בֵן אִ תְּ כֶם… וּ נְ תַ תֶּם לָ הֶם אֶת אֶ רֶץ הַ גִּ לְ ﬠָד לַ אֲ חֻ זָּה\" - מה הורה משה לעשות אם לא יעמדו בני ראובן ובני גד בתנאי שהתנה איתם?",
+          "narrative_context": "אִם יַעַבְרוּ בְנֵי גָד וּבְנֵי רְאוּ בֵן אִתְּכֶם... וּנְתַתֶּם לָהֶם אֶת אֶרֶץ הַגִּלְעָד לַאֲחֻזָּה",
+          "prompt": "- מה הורה משה לעשות אם לא יעמדו בני ראובן ובני גד בתנאי שהתנה איתם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -995,7 +995,7 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "וַיֹּאמֶר יַעֲקֹב אַל נָא אִם נָא מָצָאתִי חֵן בְּעֵינֶיךָ וְלָקַחְתָּ מִנְחָתִי מִיָּדִי כִּי עַל כֵּן רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים וַתִּרְצֵנִי",
+          "narrative_context": "רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים",
           "prompt": "מי אמר למי?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1051,8 +1051,8 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "וַיֹּאמֶר דָּוִד אֶל הַמַּלְאָךְ כֹּה תֹאמַר אֶל יוֹאָב אַל יֵרַע בְּעֵינֶיךָ אֶת הַדָּבָר הַזֶּה כִּי כָזֹה וְכָזֶה תֹּאכַל הֶחָרֶב הַחֲזֵק מִלְחַמְתְּךָ אֶל הָעִיר וְהׇרְסָהּ וְחַזְּקֵהוּ",
-          "prompt": "\" אַל יֵ רַע בְּ ﬠֵי נֶי� אֶת הַ דָּ בָר הַ זֶּה כִּי כָ זֹה וְ כָ זֶה תּאֹ כַל הֶ חָ רֶב\" - הם דברי מי למי?",
+          "narrative_context": "אַל יֵרַע בְּעֵינֶיךָ אֶת הַדָּבָר הַזֶּה כִּי כָזֹה וְכָזֶה תֹּאכַל הֶחָרֶב",
+          "prompt": "- הם דברי מי למי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1107,7 +1107,7 @@
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "וּנְתָנָם יְהֹוָה לִפְנֵיכֶם וַעֲשִׂיתֶם לָהֶם כְּכׇל הַמִּצְוָה אֲשֶׁר צִוִּיתִי אֶתְכֶם",
+          "narrative_context": "וּנְתָנָם ה' לִפְנֵיכֶם וַעֲשִׂיתֶם לָהֶם כְּכׇל הַמִּצְוָה אֲשֶׁר צִוִּיתִי אֶתְכֶם",
           "prompt": "מי אמר לעם והיכן?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1163,7 +1163,7 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "וַיִּקַּח צֶמֶד בָּקָר וַיְנַתְּחֵהוּ וַיְשַׁלַּח בְּכׇל גְּבוּל יִשְׂרָאֵל בְּיַד הַמַּלְאָכִים&thinsp;&thinsp;לֵאמֹר אֲשֶׁר אֵינֶנּוּ יֹצֵא אַחֲרֵי שָׁאוּל וְאַחַר שְׁמוּאֵל כֹּה יֵעָשֶׂה לִבְקָרוֹ וַיִּפֹּל פַּחַד יְהֹוָה עַל הָעָם וַיֵּצְאוּ כְּאִישׁ אֶחָד",
+          "narrative_context": "וַיִּקַּח צֶמֶד בָּקָר וַיְנַתְּחֵהוּ וַיְשַׁלַּח בְּכׇל גְּבוּל יִשְׂרָאֵל",
           "prompt": "לקראת המלחמה באיזה עם מסופר על מנהיג ישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1219,7 +1219,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "וַיֹּאמֶר יְהֹוָה אֶל מֹשֶׁה הֲיַד יְהֹוָה תִּקְצָר עַתָּה תִרְאֶה הֲיִקְרְךָ דְבָרִי אִם לֹא",
+          "narrative_context": "עַתָּה תִרְאֶה הֲיִקְרְךָ דְבָרִי אִם לֹא",
           "prompt": "על מה אמר ה' למשה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1331,7 +1331,7 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "וַיֹּאמֶר מֹשֶׁה בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ בְּבָנֵינוּ וּבִבְנוֹתֵנוּ בְּצֹאנֵנוּ וּבִבְקָרֵנוּ נֵלֵךְ כִּי חַג יְהֹוָה לָנוּ",
+          "narrative_context": "בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ בְּבָנֵינוּ וּבִבְנוֹתֵנוּ בְּצֹאנֵנוּ וּבִבְקָרֵנוּ נֵלֵךְ כִּי חַג ה' לָנוּ",
           "prompt": "לפני איזו מכה אמר משה לפרעה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1541,8 +1541,8 @@
         {
           "unit_id": "q27",
           "display_number": "27",
-          "narrative_context": "אֶֽ רֶץ זֵית שֶׁ מֶן וּדְ בָש\" - איזה מהמינים הללו מוזכר במגילת רות",
-          "prompt": "\" אֶֽ רֶץ זֵית שֶׁ מֶן וּדְ בָש\" - איזה מהמינים הללו מוזכר במגילת רות?",
+          "narrative_context": "אֶֽרֶץ זֵית שֶׁמֶן וּדְ בָש",
+          "prompt": "- איזה מהמינים הללו מוזכר במגילת רות?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1578,7 +1578,7 @@
           ],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q28",
@@ -1695,7 +1695,7 @@
         {
           "unit_id": "q30",
           "display_number": "30",
-          "narrative_context": "כִּי תִקְצֹר קְצִירְךָ בְשָׂדֶךָ וְשָׁכַחְתָּ עֹמֶר בַּשָּׂדֶה לֹא תָשׁוּב לְקַחְתּוֹ לַגֵּר לַיָּתוֹם וְלָאַלְמָנָה יִהְיֶה לְמַעַן יְבָרֶכְךָ יְהֹוָה אֱלֹהֶיךָ בְּכֹל מַעֲשֵׂה יָדֶיךָ&nbsp;{ס}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+          "narrative_context": "לֹא תָשׁוּב לְקַחְתּוֹ",
           "prompt": "בספר דברים - על מה אומרת התורה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1875,7 +1875,7 @@
         {
           "unit_id": "q33",
           "display_number": "33",
-          "narrative_context": "וַיֹּאמֶר אֵלֶיהָ אִם אָסוֹר יַאַסְרוּנִי בַּעֲבֹתִים חֲדָשִׁים אֲשֶׁר לֹא נַעֲשָׂה בָהֶם מְלָאכָה וְחָלִיתִי וְהָיִיתִי כְּאַחַד הָאָדָם",
+          "narrative_context": "אֲשֶׁר לֹא נַעֲשָׂה בָהֶם מְלָאכָה",
           "prompt": "מה היו הדברים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -2047,8 +2047,7 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/beitsifri_mmd2026.pdf",
-    "fetch_date": "2026-06-24",
-    "extraction_quality": "partial",
-    "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    "fetch_date": "2026-06-25",
+    "extraction_quality": "clean"
   }
 }

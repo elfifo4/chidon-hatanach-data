@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-24",
+  "generated_at": "2026-06-25",
   "quizzes": [
     {
       "id": "2008m",
@@ -1132,7 +1132,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/ARTZI_PUB_MMD.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -1495,7 +1495,7 @@
       "year_hebrew": "תש\"פ",
       "question_count": 1,
       "json_path": "quizzes/adults_2020.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": false
     },
     {
@@ -1550,7 +1550,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/adults_international_bible_quiz.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": false
     },
     {
@@ -1594,7 +1594,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/artzi-mm-booklet.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -1638,7 +1638,7 @@
       "year_hebrew": "תשפ\"ו",
       "question_count": 25,
       "json_path": "quizzes/beitsifri_mm2026.json",
-      "extraction_quality": "clean",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -1660,7 +1660,7 @@
       "year_hebrew": "תשפ\"ו",
       "question_count": 35,
       "json_path": "quizzes/beitsifri_mmd2026.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "clean",
       "has_answer_key": true
     },
     {
@@ -2287,7 +2287,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/regional_booklet_mamad.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": false
     },
     {

@@ -40,7 +40,7 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2014md2.pdf",
-    "fetch_date": "2026-06-23",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "no question units parsed; validation: no question units"
   }

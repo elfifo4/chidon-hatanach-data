@@ -39,8 +39,8 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "צָ פְ נַת פַ עְ נֵ חַ \" בזכות כישרון מיוחד שהוא ניחן בו. באיזה כישרון מדובר",
-          "prompt": "אדם מסוים קיבל את הכינוי?",
+          "narrative_context": "צָפְנַת פַעְנֵחַ",
+          "prompt": "אדם מסוים קיבל את הכינוי בזכות כישרון מיוחד שהוא ניחן בו. באיזה כישרון מדובר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -70,12 +70,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "מֵ הָ אֹ כֵל יָ צָא מַ אֲ כָל וּ מֵ עַז יָ צָא מָתוֹק\"",
+          "narrative_context": "מֵהָאֹכֵל יָצָא מַאֲכָל וּמֵעַז יָצָא מָתוֹק",
           "prompt": "מי חד לרעיו את החידה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -106,13 +106,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "אִישׁ כִי יָמוּת וּ בֵן אֵין לוֹ וְ הַ עֲ בַרְ תֶּם אֶּת נַ חֲ לָתוֹ לְ בִתוֹ\". מי הן הבנות שביקשו לממש את זכותן ולקבל את נחלת אביהן המת, \" כִי בְ חֶּ טְאוֹ מֵת וּ בָנִים לאֹ הָיוּ לוֹ\"",
-          "prompt": "לפי לשון החוק בספר במדבר?",
+          "narrative_context": "אִישׁ כִי יָמוּת וּבֵן אֵין לוֹ וְהַעֲבַרְ תֶּם אֶּת נַחֲלָתוֹ לְבִתוֹ",
+          "prompt": "לפי לשון החוק בספר במדבר: . מי הן הבנות שביקשו לממש את זכותן ולקבל את נחלת אביהן המת, \" כִי בְחֶּטְאוֹ מֵת וּבָנִים לאֹ הָיוּ לוֹ?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -142,13 +142,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "וַיֵי טֶּב אֱלֹ הִים לַ מְיַלְ דֹת\". מה היה המעשה שעשו המיילדות, אשר בעקבותיו היטיב להן אלוהים",
-          "prompt": "בתקופת השעבוד של בני ישראל במצרים, נאמר?",
+          "narrative_context": "וַיֵי טֶּב אֱלֹ הִים לַמְיַלְ דֹת",
+          "prompt": "בתקופת השעבוד של בני ישראל במצרים, נאמר: . מה היה המעשה שעשו המיילדות, אשר בעקבותיו היטיב להן אלוהים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -178,19 +178,19 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "כִי שָׁם בָ לַל ה' שְ פַת כָל הָ אָרֶּץ וּ מִ שָם הֱ פִי צָם ה' עַל פְ נֵי כָל הָ אָרֶּץ\"",
+          "narrative_context": "כִי שָׁם בָלַל ה' שְפַת כָל הָאָרֶּץ וּמִשָם הֱפִי צָם ה' עַל פְנֵי כָל הָאָרֶּץ",
           "prompt": "איזה מקום נקרא בשמו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "גִ ל גָ ל"
+              "text": "גִל גָל"
             },
             {
               "key": "ב",
@@ -214,12 +214,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "אִם תֵלְ כִי עִ מִי וְ הָ לָ כְ תִי וְ אִם לאֹ תֵלְ כִי עִ מִי לאֹ אֵ לֵךְ\"",
+          "narrative_context": "אִם תֵלְ כִי עִמִי וְהָלָכְתִי וְאִם לאֹ תֵלְ כִי עִמִי לאֹ אֵלֵךְ",
           "prompt": "מי התנה את השתתפותו במלחמה בהצטרפותה של אישה אליו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -250,13 +250,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": null,
-          "prompt": "\"וַיַרְא הָ עָם כִי בֹ שֵׁשׁ מֹ שֶּׁה לָרֶּ דֶּת מִן הָ הָר\" – מה עשו בני העם כשראו שמשה אינו יורד מהר סיני?",
+          "narrative_context": "וַיַרְא הָעָם כִי בֹשֵׁשׁ מֹשֶּׁה לָרֶּ דֶּת מִן הָהָר",
+          "prompt": "– מה עשו בני העם כשראו שמשה אינו יורד מהר סיני?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -291,7 +291,7 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "וַ תַ עַזְ בִי אָ בִיךְ וְ אִ מֵךְ וְ אֶּרֶּץ מוֹ לַדְ תֵךְ וַ תֵלְ כִי אֶּל עַם אֲ שֶּׁר לאֹ יָ דַ עַ ְ ת תְמוֹל שִׁלְשׁוֹם\"",
+          "narrative_context": "וַתַעַזְ בִי אָבִיךְ וְאִמֵךְ וְאֶּרֶּץ מוֹ לַדְ תֵךְ וַתֵלְ כִי אֶּל עַם אֲשֶּׁר לאֹ יָדַעַתְתְמוֹל שִׁלְשׁוֹם",
           "prompt": "מיהי האישה שזכתה להערכה רבה על שעזבה את מולדתה והצטרפה לעם אחר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -322,12 +322,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "לֶּךְ לְךָ מֵ אַרְ צְךָ וּ מִמוֹ לַדְ תְךָ וּ מִ בֵית אָ בִיךָ\"",
+          "narrative_context": "לֶּךְ לְךָ מֵאַרְ צְךָ וּמִמוֹ לַדְ תְךָ וּמִבֵית אָבִיךָ",
           "prompt": "מי נצטווה לעזוב את ביתו במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -358,14 +358,14 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "חַ ר שגילה את תרמיתם",
-          "prompt": "איזה תפקיד הטיל יהושע על הגבעונים, לא?",
-          "question_type": "multiple_choice",
+          "narrative_context": null,
+          "prompt": "איזה תפקיד הטיל יהושע על הגבעונים, לא חַר שגילה את תרמיתם?",
+          "question_type": "negative_exclusion",
           "answer_style": "single_correct",
           "options": [
             {
@@ -394,13 +394,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "תִ שְאוּ אֶּת עֲוֹ נֹ תֵי כֶּם אַרְ בָ עִים שָׁ נָה וִי דַ עְ תֶּם אֶּת תְנוּ אָ תִי\". בני ישראל הלכו 40 שנה במדבר, כעונש על מעשה שנמשך 40 יום. מהו המעשה",
-          "prompt": "\" תִ שְאוּ אֶּת עֲוֹ נֹ תֵי כֶּם אַרְ בָ עִים שָׁ נָה וִי דַ עְ תֶּם אֶּת תְנוּ אָ תִי\". בני ישראל הלכו 40 שנה במדבר, כעונש על מעשה שנמשך 40 יום. מהו המעשה?",
+          "narrative_context": "תִשְאוּ אֶּת עֲוֹ נֹתֵי כֶּם אַרְ בָעִים שָׁנָה וִי דַעְתֶּם אֶּת תְנוּ אָתִי",
+          "prompt": ". בני ישראל הלכו 40 שנה במדבר, כעונש על מעשה שנמשך 40 יום. מהו המעשה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -430,13 +430,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "וַיָרָץ לָ בָן אֶּל הָ אִישׁ הַחוּ צָה אֶּל הָ עָיִן\". בסיפור אחר מסופר שוב שלבן רץ לקראת אדם והזמין אותו לביתו. באיזה אדם מדובר במקרה הזה",
-          "prompt": "בביקורו של עבד אברהם בביתו של לבן בחרן, מסופר?",
+          "narrative_context": "וַיָרָץ לָבָן אֶּל הָאִישׁ הַחוּ צָה אֶּל הָעָיִן",
+          "prompt": "בביקורו של עבד אברהם בביתו של לבן בחרן, מסופר: . בסיפור אחר מסופר שוב שלבן רץ לקראת אדם והזמין אותו לביתו. באיזה אדם מדובר במקרה הזה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -466,13 +466,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "דָמוֹ בְראֹשׁוֹ\", משמעו: הוא אחראי למותו. בקשר למי נעשה השימוש בביטוי הזה",
-          "prompt": "הביטוי?",
+          "narrative_context": "דָמוֹ בְראֹשׁוֹ",
+          "prompt": "הביטוי , משמעו: הוא אחראי למותו. בקשר למי נעשה השימוש בביטוי הזה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -486,11 +486,11 @@
             },
             {
               "key": "ג",
-              "text": "מי שיי צֵ א מביתה של רחב בזמן כיבוש יריחו"
+              "text": "מי שיי צֵא מביתה של רחב בזמן כיבוש יריחו"
             },
             {
               "key": "ד",
-              "text": "מי שיי מָ צֵ א אצלו גביע הכסף של יוסף"
+              "text": "מי שיי מָצֵא אצלו גביע הכסף של יוסף"
             }
           ],
           "correct_option": null,
@@ -502,13 +502,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "וְ אֵ לֶּה תוֹ לְדוֹת פָרֶּץ [...] וְיִ שַׁי הוֹלִיד אֶּת דָוִד\". לאיזה שבט משבטי ישראל השתייכה השושלת הזאת",
-          "prompt": "בספר רות מתוארת שושלת היוחסין של דוד המלך?",
+          "narrative_context": "וְאֵלֶּה תוֹ לְדוֹת פָרֶּץ [...] וְיִ שַׁי הוֹלִיד אֶּת דָוִד",
+          "prompt": "בספר רות מתוארת שושלת היוחסין של דוד המלך: . לאיזה שבט משבטי ישראל השתייכה השושלת הזאת?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -538,19 +538,19 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "אֶּ סְ פָה לִי שִׁ בְ עִים אִישׁ מִזִקְ נֵי יִ שְרָ אֵל [...] וְ אָ צַלְ תִי מִן הָרוּ חַ אֲ שֶּׁר עָ לֶּיךָ וְ שַ מְ תִי עֲ לֵי הֶּם וְ נָ שְאוּ אִ תְךָ בְ מַ שָא הָ עָם\". בסיפור אחר, אדם מסוים הציע למשה הצעה אחרת כדי להקל מעומסו. מה הייתה ההצעה",
-          "prompt": "בסיפור אחד שבו היה ניסיון להקל מעומס עבודתו של משה, נאמר?",
+          "narrative_context": "אֶּסְפָה לִי שִׁבְעִים אִישׁ מִזִקְ נֵי יִשְרָ אֵל [...] וְאָצַלְ תִי מִן הָרוּ חַאֲשֶּׁר עָלֶּיךָ וְשַמְתִי עֲלֵי הֶּם וְנָשְאוּ אִתְךָ בְמַשָא הָעָם",
+          "prompt": "בסיפור אחד שבו היה ניסיון להקל מעומס עבודתו של משה, נאמר: . בסיפור אחר, אדם מסוים הציע למשה הצעה אחרת כדי להקל מעומסו. מה הייתה ההצעה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ל מַ נות מנהיג נוסף, שיתחלק עם משה בעבודה שווה בשווה"
+              "text": "ל מַנות מנהיג נוסף, שיתחלק עם משה בעבודה שווה בשווה"
             },
             {
               "key": "ב",
@@ -558,11 +558,11 @@
             },
             {
               "key": "ג",
-              "text": "ל מַ נות מנהיג צבאי שיוביל את העם במלחמותיו"
+              "text": "ל מַנות מנהיג צבאי שיוביל את העם במלחמותיו"
             },
             {
               "key": "ד",
-              "text": "ל מַ נות שרי אלפים, מאות, חמישים ועשרות שישפטו את העם"
+              "text": "ל מַנות שרי אלפים, מאות, חמישים ועשרות שישפטו את העם"
             }
           ],
           "correct_option": null,
@@ -574,7 +574,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q16",
@@ -615,7 +615,7 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "נָע וָ נָד תִ הְיֶּה בָ אָרֶּץ\"",
+          "narrative_context": "נָע וָנָד תִהְיֶּה בָאָרֶּץ",
           "prompt": "למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -646,12 +646,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "בִ שְׁ כֶּם בְ חֶּלְ קַת הַ שָ דֶּה אֲ שֶּׁר קָ נָה יַ עֲ קֹב\"",
+          "narrative_context": "בִשְׁכֶּם בְחֶּלְ קַת הַשָדֶּה אֲשֶּׁר קָנָה יַעֲקֹב",
           "prompt": "את עצמותיו של מי קברו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -682,13 +682,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "סֵ ירב ללון ב\" עִיר נָ כְרִי\", ובכל זאת התרחש אסון במשפחתו בעיר הישראלית שבה שהה",
-          "prompt": "מי?",
+          "narrative_context": "עִיר נָכְרִי",
+          "prompt": "מי סֵירב ללון ב , ובכל זאת התרחש אסון במשפחתו בעיר הישראלית שבה שהה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -718,13 +718,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "בֵ ירך יעקב במילים: \" שְׁ מֵ נָה לַ חְמוֹ וְהוּא יִ תֵן מַ עֲ דַ נֵי מֶּ לֶּךְ\"",
-          "prompt": "איזה שבט?",
+          "narrative_context": "שְׁמֵנָה לַחְמוֹ וְהוּא יִתֵן מַעֲדַנֵי מֶּלֶּךְ",
+          "prompt": "איזה שבט בֵירך יעקב במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -754,12 +754,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "וְ הֵן לאֹ יַ אֲ מִינוּ לִי וְלאֹ יִ שְׁ מְעוּ בְ קֹלִי\"",
+          "narrative_context": "וְהֵן לאֹ יַאֲמִינוּ לִי וְלאֹ יִשְׁמְעוּ בְקֹלִי",
           "prompt": "בדו-שיח שהתקיים בין משה לאלוהים כאשר ה' שלח את משה לשליחות במצרים, העלה משה כמה טענות ובעיות. מה הייתה תגובתו של ה' לטענה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -790,12 +790,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q22",
           "display_number": "22",
-          "narrative_context": "מַה טֹבוּ אֹ הָ לֶּיךָ יַ עֲ קֹב מִ שְׁ כְ נֹ תֶּיךָ יִ שְרָ אֵל\"",
+          "narrative_context": "מַה טֹבוּ אֹהָלֶּיךָ יַעֲקֹב מִשְׁכְנֹתֶּיךָ יִשְרָ אֵל",
           "prompt": "מי בירך את עם ישראל במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -826,13 +826,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "לְ הָקִים שֵׁם הַ מֵת עַל נַ חֲ לָתוֹ\", בטענה: \"לאֹ אוּ כַל לִ גְ אָל לִי פֶּן אַ שְׁ חִית אֶּת נַ חֲ לָ תִי\". על כן קנה אדם אחר את זכויות הגאולה לעצמו. באמצעות מה נעשה טקס העברת זכות הגאולה",
-          "prompt": "אדם מסוים לא הסכים?",
+          "narrative_context": "לאֹ אוּ כַל לִגְאָל לִי פֶּן אַשְׁחִית אֶּת נַחֲלָתִי",
+          "prompt": "אדם מסוים לא הסכים \" לְהָקִים שֵׁם הַמֵת עַל נַחֲלָתוֹ\", בטענה: . על כן קנה אדם אחר את זכויות הגאולה לעצמו. באמצעות מה נעשה טקס העברת זכות הגאולה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -862,12 +862,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "וַיֵ צְאוּ מֵ עָ לָיו כָל הָ עֹ מְדִים עָ לָיו\"",
+          "narrative_context": "וַיֵ צְאוּ מֵעָלָיו כָל הָעֹמְדִים עָלָיו",
           "prompt": "מיהו המלך הנוכרי שסופר עליו שכל משרתיו השאירוהו לבדו בחדרו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -898,7 +898,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q25",
@@ -943,8 +943,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2017m.pdf",
-    "fetch_date": "2026-06-24",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option"
   }
 }

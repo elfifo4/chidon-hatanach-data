@@ -39,8 +39,8 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "כִּי אֶל אַרְ צִּי וְ אֶל מוֹ לַדְ תִּי תֵּ לֵּךְ\". מי עוד העדיף את ארצו במילים \" כִּי אִּם אֶל אַרְ צִּי וְ אֶל מוֹ לַדְ תִּי אֵּ לֵּךְ\"",
-          "prompt": "אברהם מקפיד עם עבדו?",
+          "narrative_context": "כִּי אִּם אֶל אַרְ צִּי וְאֶל מוֹ לַדְ תִּי אֵּלֵּךְ",
+          "prompt": "אברהם מקפיד עם עבדו: \" כִּי אֶל אַרְ צִּי וְאֶל מוֹ לַדְ תִּי תֵּלֵּךְ\". מי עוד העדיף את ארצו במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -70,13 +70,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "בָּ דָּד יַנְ חֶנּוּ וְ אֵּין עִּמּוֹ אֵּל נֵּ כָּר\"",
-          "prompt": "היכן נאמר על ישראל: \"ה'?",
+          "narrative_context": "ה' בָּדָּד יַנְ חֶנּוּ וְאֵּין עִּמּוֹ אֵּל נֵּכָּר",
+          "prompt": "היכן נאמר על ישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -106,12 +106,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "רַ בֶה צְ בָּ אֲךָ וָּ צֵּ אָּה\"",
+          "narrative_context": "רַבֶה צְבָּאֲךָ וָּצֵּאָּה",
           "prompt": "מי קרא תיגר על יריב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -142,23 +142,23 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "סֻּ כֹּת. מה הייתה החניה הבאה שלהם",
-          "prompt": "במהלך מסעם ישבו ישראל במקום הנקרא?",
+          "narrative_context": null,
+          "prompt": "במהלך מסעם ישבו ישראל במקום הנקרא סֻּכֹּת. מה הייתה החניה הבאה שלהם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "אֵּ תָּם"
+              "text": "אֵּתָּם"
             },
             {
               "key": "ב",
-              "text": "בֵּין מִּ גְ דֹּל וּ בֵּין הַיָּם"
+              "text": "בֵּין מִּגְדֹּל וּבֵּין הַיָּם"
             },
             {
               "key": "ג",
@@ -178,12 +178,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "כִּי אַ תָּה ה' כַ אֲ שֶר חָּ פַ צְ תָּ עָּ שִּי תָּ\"",
+          "narrative_context": "כִּי אַתָּה ה' כַאֲשֶר חָּפַצְתָּעָּשִּי תָּ",
           "prompt": "מי קרא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -214,7 +214,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q06",
@@ -255,8 +255,8 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "מַס עֹּ בֵּד\" הוא מס שמעלה עַם משועבד ל עַם משעבד. על איזה משבטי ישראל נאמר \"וַיְ הִּי לְ מַס עֹּ בֵּד\"",
-          "prompt": "\" מַס עֹּ בֵּד\" הוא מס שמעלה עַם משועבד ל עַם משעבד. על איזה משבטי ישראל נאמר \"וַיְ הִּי לְ מַס עֹּ בֵּד\"?",
+          "narrative_context": "וַיְ הִּי לְמַס עֹּבֵּד",
+          "prompt": "\" מַס עֹּבֵּד\" הוא מס שמעלה עַם משועבד ל עַם משעבד. על איזה משבטי ישראל נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -286,7 +286,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q08",
@@ -327,8 +327,8 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "הָּרֶ כֶב וְ הַסוּ סִּים וְ עִּיר מִּ בְ צָּר וְ הַ נָּּ שֶק\" אך נכנעו ללא קרב",
-          "prompt": "למי היו?",
+          "narrative_context": "הָּרֶ כֶב וְהַסוּ סִּים וְעִּיר מִּבְצָּר וְהַנָּּשֶק",
+          "prompt": "למי היו אך נכנעו ללא קרב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -358,7 +358,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q10",
@@ -435,7 +435,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "בֵּית כֶ לֶא\"",
+          "narrative_context": "בֵּית כֶלֶא",
           "prompt": "בסוף ספר מלכים מסופר על הוצאת המלך יהויכין מבית הכלא על ידי אוויל מרודך. איזה מלך נוסף הושם ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -466,13 +466,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "מְּחוּ גָּה\" נזכרת ככלי המשמש את:",
-          "prompt": "ה?",
+          "narrative_context": "מְּחוּ גָּה",
+          "prompt": "ה נזכרת ככלי המשמש את?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -502,12 +502,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "בְ טֶרֶם יַ כִּיר אִּיש אֶת רֵּ עֵּהוּ”",
+          "narrative_context": "בְטֶרֶם יַכִּיר אִּיש אֶת רֵּעֵּהוּ”?",
           "prompt": "מה קרה לפנות בוקר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -538,13 +538,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "שֵּ ם או כינוי אחד, או ששמם שוּנה. למי מהאנשים לא מופיע בתנ\"ך שם נוסף",
-          "prompt": "לאנשים רבים בתנ\"ך היה יותר מ?",
+          "narrative_context": "ך היה יותר מ שֵּם או כינוי אחד, או ששמם שוּנה. למי מהאנשים לא מופיע בתנ",
+          "prompt": "לאנשים רבים בתנ ך שם נוסף?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -574,7 +574,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q16",
@@ -615,8 +615,8 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "כַ שֶה לַ טֶ בַח יוּ בָּל\". באיזה בעל חיים נוסף משתמש שם ישעיהו לדימוי כזה",
-          "prompt": "ישעיהו מתאר את עבד ה' הנושא עליו את עוון הפושעים, והוא משתמש בין השאר בביטוי?",
+          "narrative_context": "כַשֶה לַטֶבַח יוּ בָּל",
+          "prompt": "ישעיהו מתאר את עבד ה' הנושא עליו את עוון הפושעים, והוא משתמש בין השאר בביטוי: . באיזה בעל חיים נוסף משתמש שם ישעיהו לדימוי כזה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -646,12 +646,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "וּ מִּ בָּ נֶיךָ [...] יִּ קָּחוּ וְ הָּיוּ סָּרִּי סִּים בְ הֵּי כַל מֶ לֶךְ בָּ בֶל\"",
+          "narrative_context": "וּמִּבָּנֶיךָ [...] יִּקָּחוּ וְהָּיוּ סָּרִּי סִּים בְהֵּי כַל מֶלֶךְ בָּבֶל",
           "prompt": "למי נאמרה הנבואה?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -682,7 +682,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
@@ -694,19 +694,19 @@
           "options": [
             {
               "key": "א",
-              "text": "משפחת הַ אַרְִּ די"
+              "text": "משפחת הַאַרְִּ די"
             },
             {
               "key": "ב",
-              "text": "משפחת הַ זַ רְ חִּי"
+              "text": "משפחת הַזַרְחִּי"
             },
             {
               "key": "ג",
-              "text": "משפחת הַ ִּ ש מְ עִּי"
+              "text": "משפחת הַשִּמְעִּי"
             },
             {
               "key": "ד",
-              "text": "משפחת הַ מַ טְרִּי"
+              "text": "משפחת הַמַטְרִּי"
             }
           ],
           "correct_option": null,
@@ -723,8 +723,8 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "הִּנְנִּי מַ בְ עִּיר אַ חֲרֵּי בַ עְ שָּא וְ אַ חֲרֵּי בֵּיתוֹ\". מי השמיד למעשה את בית בעשא",
-          "prompt": "\" הִּנְנִּי מַ בְ עִּיר אַ חֲרֵּי בַ עְ שָּא וְ אַ חֲרֵּי בֵּיתוֹ\". מי השמיד למעשה את בית בעשא?",
+          "narrative_context": "הִּנְנִּי מַבְעִּיר אַחֲרֵּי בַעְשָּא וְאַחֲרֵּי בֵּיתוֹ",
+          "prompt": ". מי השמיד למעשה את בית בעשא?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -754,13 +754,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "שַר גְדוּד\" לפני שהיה למלך _______________ 22. אביו של זה \" אֲ שֶר מָּ צָּא אֶת הַיֵּ מִּם בַ מִּּדְ בָּר\" _______________ 23. מֶ לֶךְ יַרְמוּת _______________ 24. בנו של גְ מַרְיָּהוּ בֶן שָּ פָּן _______________ 25. אחיו של אִּי כָּבוֹד _______________ בהצלחה!",
-          "prompt": "היה?",
+          "narrative_context": "אֲשֶר מָּצָּא אֶת הַיֵּ מִּם בַמִּּדְ בָּר",
+          "prompt": "היה \" שַר גְדוּד\" לפני שהיה למלך _______________ 22. אביו של זה _______________ 23. מֶלֶךְ יַרְמוּת _______________ 24. בנו של גְמַרְיָּהוּ בֶן שָּפָּן _______________ 25. אחיו של אִּי כָּבוֹד _______________ בהצלחה!?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [],
@@ -773,7 +773,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         }
       ]
     }
@@ -782,8 +782,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2017md1.pdf",
-    "fetch_date": "2026-06-24",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q19 no correct_option; q20 no correct_option; q21 option count 0; q21 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q19 no correct_option; q20 no correct_option; q21 option count 0; q21 no correct_option"
   }
 }

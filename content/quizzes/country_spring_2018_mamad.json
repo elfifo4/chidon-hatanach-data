@@ -39,7 +39,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "אִישׁ מִלְ חָ מָה מִנְ עֻרָיו\"",
+          "narrative_context": "אִישׁ מִלְ חָמָה מִנְ עֻרָיו",
           "prompt": "את מי מתארים כ?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -70,7 +70,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
@@ -255,8 +255,8 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "בְסוּ סִים וּ בְ פָרָ שִׁים\" מופיע בספר:",
-          "prompt": "הביטוי?",
+          "narrative_context": "בְסוּ סִים וּבְפָרָ שִׁים",
+          "prompt": "הביטוי: מופיע בספר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -286,7 +286,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q08",
@@ -327,8 +327,8 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "בַּ מְ סִ לָה נַּ עֲ לֶה וְ אִם מֵי מֶיךָ נִ שְׁ תֶה אֲנִי וּ מִקְ נַּי וְ נָ תַּ תִי מִ כְרָם\" אמרו ישראל:",
-          "prompt": "\"[...]?",
+          "narrative_context": "[...] בַּמְסִלָה נַּעֲלֶה וְאִם מֵי מֶיךָ נִשְׁתֶה אֲנִי וּמִקְ נַּי וְנָתַּתִי מִכְרָם",
+          "prompt": "אמרו ישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -358,13 +358,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "הַּקְ הֵל (הקהלת העם לשמוע את התורה) נערכת בחג:",
-          "prompt": "מצוות?",
+          "narrative_context": null,
+          "prompt": "מצוות הַּקְ הֵל (הקהלת העם לשמוע את התורה) נערכת בחג:",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -394,7 +394,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q11",
@@ -442,19 +442,19 @@
           "options": [
             {
               "key": "א",
-              "text": "יִ סָ תְרוּ מִ נֶ גֶד עֵי נַּי בְ קַּרְ קַּע הַּיָם"
+              "text": "יִסָתְרוּ מִנֶגֶד עֵי נַּי בְקַּרְ קַּע הַּיָם"
             },
             {
               "key": "ב",
-              "text": "יֵ חָ בְאוּ בְראֹשׁ הַּ כַּרְ מֶל"
+              "text": "יֵחָבְאוּ בְראֹשׁ הַּכַּרְ מֶל"
             },
             {
               "key": "ג",
-              "text": "יַּ חְ תְרוּ בִ שְׁאוֹל"
+              "text": "יַּחְתְרוּ בִשְׁאוֹל"
             },
             {
               "key": "ד",
-              "text": "יַּ עֲלוּ הַּ שָ מַּיִם"
+              "text": "יַּעֲלוּ הַּשָמַּיִם"
             }
           ],
           "correct_option": null,
@@ -471,8 +471,8 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "הַּךְ נָא אֶת הַּגּוֹי הַּ זֶה בַּ סַּנְוֵרִים\". מיהו הגוי",
-          "prompt": "אלישע בתפילתו לה' מבקש?",
+          "narrative_context": "הַּךְ נָא אֶת הַּגּוֹי הַּזֶה בַּסַּנְוֵרִים",
+          "prompt": "אלישע בתפילתו לה' מבקש: . מיהו הגוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -502,13 +502,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "כִי אֶת כָל הָ אָרֶץ אֲ שֶׁר אַּ תָה רֹ אֶה לְךָ אֶ תְ נֶ נָה וּ לְ זַּרְ עֲךָ עַּד עוֹ לָם\" נתן ה' לאברהם:",
-          "prompt": "את ההבטחה?",
+          "narrative_context": "כִי אֶת כָל הָאָרֶץ אֲשֶׁר אַּתָה רֹאֶה לְךָ אֶתְנֶנָה וּלְזַּרְ עֲךָ עַּד עוֹ לָם",
+          "prompt": "את ההבטחה נתן ה' לאברהם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -538,7 +538,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q15",
@@ -579,8 +579,8 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "כֹה יַּ עֲ שֶה אֱלֹ הִים וְ כֹה יוֹ סִף כִי מוֹת תָמוּת ...\" אמר/ה:",
-          "prompt": "\" כֹה יַּ עֲ שֶה אֱלֹ הִים וְ כֹה יוֹ סִף כִי מוֹת תָמוּת ...\" אמר/ה:",
+          "narrative_context": "כֹה יַּעֲשֶה אֱלֹ הִים וְכֹה יוֹ סִף כִי מוֹת תָמוּת ...",
+          "prompt": "אמר/ה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -610,13 +610,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "כִי רַּ בִים בָנִים נָ תַּן לִי ה'\". מי לא היה נוכח במעמד שבו אמר זאת דוד",
-          "prompt": "דוד מעיד על עצמו?",
+          "narrative_context": "כִי רַּבִים בָנִים נָתַּן לִי ה'",
+          "prompt": "דוד מעיד על עצמו: . מי לא היה נוכח במעמד שבו אמר זאת דוד?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -646,13 +646,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": ":",
-          "prompt": "\"וַּיִ תְ מְהוּ הָ אֲ נָ שִׁים אִישׁ אֶל רֵ עֵהוּ\" נאמר על:",
+          "narrative_context": "וַּיִ תְמְהוּ הָאֲנָשִׁים אִישׁ אֶל רֵעֵהוּ",
+          "prompt": "נאמר על?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -682,7 +682,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
@@ -723,7 +723,7 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "עֹ שֶה חֶ סֶד לַּ אֲ לָ פִים וּ מְ שַּׁ לֵם עֲוֹן אָבוֹת אֶל חֵיק בְ נֵי הֶם אַּ חֲרֵי הֶם\"",
+          "narrative_context": "עֹשֶה חֶסֶד לַּאֲלָפִים וּמְשַּׁלֵם עֲוֹן אָבוֹת אֶל חֵיק בְנֵי הֶם אַּחֲרֵי הֶם",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -758,7 +758,7 @@
             },
             {
               "key": "ד",
-              "text": "________________________________________________________________ שאלות מס' 25-30: שישה אנשים שונים אמרו את הביטוי: \" אִם נָא מָ צָא תִי חֵן בְ עֵי נֶיךָ\". מי הם?"
+              "text": "________________________________________________________________ שאלות מס' 25-30: שישה אנשים שונים אמרו את הביטוי: \" אִם נָא מָצָא תִי חֵן בְעֵי נֶיךָ\". מי הם?"
             },
             {
               "key": "א",
@@ -770,7 +770,7 @@
             },
             {
               "key": "ג",
-              "text": "________________________ ו. ________________________ שאלות מס' 31-32: בשני מקומות נזכר שהנהר פרת הוא הנהר הגדול: \" הַּ נָ הָר הַּ גָּדוֹל נְ הַּר פְרָת\". היכן?"
+              "text": "________________________ ו. ________________________ שאלות מס' 31-32: בשני מקומות נזכר שהנהר פרת הוא הנהר הגדול: \" הַּנָהָר הַּגָּדוֹל נְהַּר פְרָת\". היכן?"
             },
             {
               "key": "א",
@@ -778,7 +778,7 @@
             },
             {
               "key": "ב",
-              "text": "____________________________________________________________ 33. חוץ מהנהר פרת - נהר נוסף נקרא הנהר הגדול. מיהו והיכן נזכר הדבר? שאלות מס' 34-37: המקום קֵ דָר נזכר בארבעה ספרים כשם אדם או כשם מקום. מהם הספרים?"
+              "text": "____________________________________________________________ 33. חוץ מהנהר פרת - נהר נוסף נקרא הנהר הגדול. מיהו והיכן נזכר הדבר? שאלות מס' 34-37: המקום קֵדָר נזכר בארבעה ספרים כשם אדם או כשם מקום. מהם הספרים?"
             },
             {
               "key": "א",
@@ -786,7 +786,7 @@
             },
             {
               "key": "ב",
-              "text": "________________________ ד. ________________________ 38. למי נאמר: \" כִי נִ שְׁ אַּרְנוּ מְ עַּט מֵ הַּרְ בֵה כַּ אֲ שֶׁר עֵי נֶיךָ רֹאוֹת אֹ תָנוּ\"? ____________________ שאלות על ארץ ארץ רחוקה 39. מי אמר: \"וְ הַּ נָ כְרִי אֲ שֶׁר יָבאֹ מֵ אֶרֶץ רְחוֹ קָה\"? _________________________________ 40. מי אמר: \"וְ גַּם אֶל הַּ נָ כְרִי [...] וּ בָא מֵ אֶרֶץ רְחוֹ קָה\"? _____________________________ 41. מי אמרו: \" מֵ אֶרֶץ רְחוֹ קָה בָאנוּ\"? _________________________________________ 42-44. אדם אחד נשאל שתי שאלות והשיב להן: \" מֵ אֶרֶץ רְחוֹ קָה בָאוּ\". מיהו המשיב? _______________________________________________________ מה היו שתי השאלות שנשאל?"
+              "text": "________________________ ד. ________________________ 38. למי נאמר: \" כִי נִשְׁאַּרְנוּ מְעַּט מֵהַּרְ בֵה כַּאֲשֶׁר עֵי נֶיךָ רֹאוֹת אֹתָנוּ\"? ____________________ שאלות על ארץ ארץ רחוקה 39. מי אמר: \"וְהַּנָכְרִי אֲשֶׁר יָבאֹ מֵאֶרֶץ רְחוֹ קָה\"? _________________________________ 40. מי אמר: \"וְגַּם אֶל הַּנָכְרִי [...] וּבָא מֵאֶרֶץ רְחוֹ קָה\"? _____________________________ 41. מי אמרו: \" מֵאֶרֶץ רְחוֹ קָה בָאנוּ\"? _________________________________________ 42-44. אדם אחד נשאל שתי שאלות והשיב להן: \" מֵאֶרֶץ רְחוֹ קָה בָאוּ\". מיהו המשיב? _______________________________________________________ מה היו שתי השאלות שנשאל?"
             },
             {
               "key": "א",
@@ -794,7 +794,7 @@
             },
             {
               "key": "ב",
-              "text": "____________________________________________________________ 45. מי מזכיר בדבריו את \" אֶרֶץ חֹ שֶׁךְ\"? ______________________________________ 46. מי אמר: \" לֵךְ וּ בָא תָ לְךָ אֶרֶץ יְהוּ דָה\"? ______________________________________ 47. מי בספרי כתובים מזכיר בדבריו את \" מַּ מְלְכוֹת הָ אָרֶץ\"? _________________________ 48. למי נאמר: \" הִ תְ בֹ נַּנְ תָ עַּד רַּ חֲ בֵי אָרֶץ הַּ גֵּד אִם יָ דַּ עְ תָ כֻ לָהּ\"? ________________________ 50-49. שני פסוקים מסתיימים במילים \" עֹ שֵה שָׁ מַּיִם וָ אָרֶץ\". הבא את תחילת הפסוק בכל פעם: \"___________ ___________ ___________ עֹ שֵה שָׁ מַּיִם וָ אָרֶץ\". \"___________ ___________ ___________ עֹ שֵה שָׁ מַּיִם וָ אָרֶץ\". בהצלחה!"
+              "text": "____________________________________________________________ 45. מי מזכיר בדבריו את \" אֶרֶץ חֹשֶׁךְ\"? ______________________________________ 46. מי אמר: \" לֵךְ וּבָא תָלְךָ אֶרֶץ יְהוּ דָה\"? ______________________________________ 47. מי בספרי כתובים מזכיר בדבריו את \" מַּמְלְכוֹת הָאָרֶץ\"? _________________________ 48. למי נאמר: \" הִתְבֹנַּנְ תָעַּד רַּחֲבֵי אָרֶץ הַּגֵּד אִם יָדַּעְתָכֻלָהּ\"? ________________________ 50-49. שני פסוקים מסתיימים במילים \" עֹשֵה שָׁמַּיִם וָאָרֶץ\". הבא את תחילת הפסוק בכל פעם: \"___________ ___________ ___________ עֹשֵה שָׁמַּיִם וָאָרֶץ\". \"___________ ___________ ___________ עֹשֵה שָׁמַּיִם וָאָרֶץ\". בהצלחה!"
             }
           ],
           "correct_option": null,
@@ -806,7 +806,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         }
       ]
     }
@@ -815,8 +815,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/country_spring_2018_mamad.pdf",
-    "fetch_date": "2026-06-24",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option"
   }
 }

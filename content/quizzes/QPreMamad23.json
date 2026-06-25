@@ -37,7 +37,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "רֵ חַיםִ\"",
+          "narrative_context": "רֵחַיםִ",
           "prompt": "באיזה מחומשי התורה לא מוזכרים ה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -68,13 +68,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "לַ אֲבנָיִם ג דָ וֹל\"",
-          "prompt": "היכן לא הוקם \"ג?",
+          "narrative_context": "ג לַאֲבנָיִם ג דָוֹל",
+          "prompt": "היכן לא הוקם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -104,7 +104,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q03",
@@ -145,7 +145,7 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "כלָ הַ כלֵיִם העֲָ שׂו יםִ לַ בעַלַ ולְָ אֲ ֵ ש רָה ו לכְלֹ צבְאָ הַ ָ ש מָיםִ\"",
+          "narrative_context": "כלָ הַכלֵיִם העֲָ שׂו יםִ לַבעַלַ ולְָ אֲשֵרָה ו לכְלֹ צבְאָ הַשָמָיםִ",
           "prompt": "מי הורה להוציא מחוץ לירושלים את?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -176,13 +176,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": null,
-          "prompt": "\"ויַ ִ קְחו אִי ש מַ חְ תָת וֹ ויַ ִ תְנו עלֲיֵהםֶ אֵ ש ויַ ָ שִׂימו עלֲיֵהםֶ קְטֹ רֶת ויַ עַַ מְדו פֶ תַח אהֹלֶ מ וֹעדֵ ו מֹ ֶ שה וְ אַהרֲןֹ\" - ממה היו עשויות המחתות?",
+          "narrative_context": "ויַ קְִחו אִי ש מַחְתָת וֹויַ תְִנו עלֲיֵהםֶ אֵש ויַ שִָׂימו עלֲיֵהםֶ קְטֹ רֶת ויַ עַַמְדו פֶתַח אהֹלֶ מ וֹעדֵ ו מֹשֶה וְאַהרֲןֹ",
+          "prompt": "- ממה היו עשויות המחתות?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -200,7 +200,7 @@
             },
             {
               "key": "ד",
-              "text": "זהב וְ דִב ַ רְ תִי עלַ הנַ בְיִ אִים"
+              "text": "זהב וְדִב רְַתִי עלַ הנַ בְיִ אִים"
             }
           ],
           "correct_option": null,
@@ -217,7 +217,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "להֲַ קַת הנַ בְיִ אִים\"",
+          "narrative_context": "להֲַ קַת הנַ בְיִ אִים",
           "prompt": "היכן הופיעה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -248,7 +248,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
@@ -272,7 +272,7 @@
             },
             {
               "key": "ד",
-              "text": "חַ ְ שמנֹהָ 4"
+              "text": "חַשְמנֹהָ 4"
             }
           ],
           "correct_option": null,
@@ -308,7 +308,7 @@
             },
             {
               "key": "ד",
-              "text": "והְַ דָ ברָ הַ זהֶ לאֹ או כלַ לעֲַ שׂ וֹת וְ אָּנכֹיִ חָּזוןֹ הִ רְב יֵּ תִי"
+              "text": "והְַ דָברָ הַזהֶ לאֹ או כלַ לעֲַ שׂוֹת וְאָּנכֹיִ חָּזוןֹ הִרְב יֵּתִי"
             }
           ],
           "correct_option": null,
@@ -325,7 +325,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "מָה אַ תָה רֹ אֶה\"",
+          "narrative_context": "מָה אַתָה רֹאֶה",
           "prompt": "מי לא נשאל?",
           "question_type": "negative_exclusion",
           "answer_style": "single_correct",
@@ -356,7 +356,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q10",
@@ -368,19 +368,19 @@
           "options": [
             {
               "key": "א",
-              "text": "האָֹ מְ רִים תֶ חֱנףָ וְ תַ חַז בצְיִ וֹן עיֵניֵנו"
+              "text": "האָֹ מְרִים תֶחֱנףָ וְתַחַז בצְיִ וֹן עיֵניֵנו"
             },
             {
               "key": "ב",
-              "text": "האָֹ מְ רִים הלֲ וֹא בְ חָזְ קֵנו לָ קַ חְנו לנָו קַ רְניָםִ"
+              "text": "האָֹ מְרִים הלֲ וֹא בְחָזְ קֵנו לָקַחְנו לנָו קַרְניָםִ"
             },
             {
               "key": "ג",
-              "text": "האָֹ מְ רִים לאֹ בְ קָר וֹב בנְ וֹת בָ תִים"
+              "text": "האָֹ מְרִים לאֹ בְקָר וֹב בנְ וֹת בָתִים"
             },
             {
               "key": "ד",
-              "text": "האָֹ מְ רִים יְ מַהרֵ יָ חִי ָ שה מַעֲ שֵׂהו לְ מַעןַ נִ רְ אֶה"
+              "text": "האָֹ מְרִים יְמַהרֵ יָחִי שָה מַעֲ שֵׂהו לְמַעןַ נִרְאֶה"
             }
           ],
           "correct_option": null,
@@ -416,7 +416,7 @@
             },
             {
               "key": "ד",
-              "text": "אזניים 5 ו ביְדַ הנַ בְיִ אִים אֲ דַ מֶׁה"
+              "text": "אזניים 5 ו ביְדַ הנַ בְיִ אִים אֲדַמֶׁה"
             }
           ],
           "correct_option": null,
@@ -440,19 +440,19 @@
           "options": [
             {
               "key": "א",
-              "text": "כַ אֲ ֶ שר יְ פָ רֵ שׂ הַ ש ֹ חֶׁה לִ שְׂח וֹת"
+              "text": "כַאֲשֶר יְפָרֵשׂהַש חֶֹׁה לִשְׂח וֹת"
             },
             {
               "key": "ב",
-              "text": "כַ אֲ ֶ שר ינָו ס אִי ש מִ פְניֵ הָ אֲ רִי"
+              "text": "כַאֲשֶר ינָו ס אִי ש מִפְניֵ הָאֲרִי"
             },
             {
               "key": "ג",
-              "text": "כַ אֲ ֶ שר יעְַ טֶה הרָּעֹהֶׁ אֶת בגִדְ וֹ"
+              "text": "כַאֲשֶר יעְַ טֶה הרָּעֹהֶׁ אֶת בגִדְ וֹ"
             },
             {
               "key": "ד",
-              "text": "כַ אֲ ֶ שר יַ חֲלםֹ הָּ רָּעבֵּ והְנִ הֵ א וֹכלֵ"
+              "text": "כַאֲשֶר יַחֲלםֹ הָּרָּעבֵּ והְנִ הֵא וֹכלֵ"
             }
           ],
           "correct_option": null,
@@ -505,7 +505,7 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "ונְָ תַ תִי פָניַ בָ אִי ש ההַו א והֲַ שִׂמֹ תִיהו לאְ וֹת ולְִ מְ ָ שליִם והְכְִ רַ תִיו ְ מִ ת וֹך עַ מִי\"",
+          "narrative_context": "ונְָ תַתִי פָניַ בָאִי ש ההַו א והֲַ שִׂמֹ תִיהו לאְ וֹת ולְִ מְשָליִם והְכְִ רַתִיו מְִת וֹך עַמִי",
           "prompt": "על מי אמר יחזקאל?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -536,31 +536,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "ָ",
-          "prompt": "\"הַ מַעֲ שֵׂר והְַ תְרו מָה\" היא תשובתו של מלאכי לאיזו שאלה של העם? ָ",
+          "narrative_context": "הַמַעֲ שֵׂר והְַ תְרו מָה",
+          "prompt": "היא תשובתו של מלאכי לאיזו שאלה של העם? ָ?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "בַ מֶה בזָיִנו אֶת ְ ש מֶך"
+              "text": "בַמֶה בזָיִנו אֶת שְמֶך"
             },
             {
               "key": "ב",
-              "text": "בַ מָה ה וֹגעָנְ ו"
+              "text": "בַמָה ה וֹגעָנְ ו"
             },
             {
               "key": "ג",
-              "text": "בַ מֶה נָ שו ב ָ"
+              "text": "בַמֶה נָשו ב ָ"
             },
             {
               "key": "ד",
-              "text": "בַ מֶה קְבעַנֲו ך 6 חַיִ ים תוכֹחְותֹ מו סָּר ְ וְ דֶׁ רֶׁך"
+              "text": "בַמֶה קְבעַנֲו ך 6 חַיִ ים תוכֹחְותֹ מו סָּר וְְדֶׁרֶׁך"
             }
           ],
           "correct_option": null,
@@ -572,19 +572,19 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "נגֶעַ וְ קָל וֹן יִ מְצאָ וְ חֶ רְ פָת וֹ לאֹ תִ מָ חֶה\"",
+          "narrative_context": "נגֶעַ וְקָל וֹן יִמְצאָ וְחֶרְפָת וֹלאֹ תִמָחֶה",
           "prompt": "על איזה דיבר עבר האיש עליו אמר שלמה במשלי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "לאֹ תִ רְצחָ"
+              "text": "לאֹ תִרְצחָ"
             },
             {
               "key": "ב",
@@ -596,7 +596,7 @@
             },
             {
               "key": "ד",
-              "text": "לאֹ תַ חְמדֹ"
+              "text": "לאֹ תַחְמדֹ"
             }
           ],
           "correct_option": null,
@@ -608,12 +608,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "להְ וֹ סִיף עלַ אַ ְ ש מַת יִ שְׂ רָ אֵל\"",
+          "narrative_context": "להְ וֹסִיף עלַ אַשְמַת יִשְׂרָאֵל",
           "prompt": "בהוקעת איזה חטא אמר אדם שיש בו משום?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -632,7 +632,7 @@
             },
             {
               "key": "ד",
-              "text": "עזריה על הקטרת עוזיהו \"? ָ רָעהָ מִ ביֵ תֶך ָ"
+              "text": "עזריה על הקטרת עוזיהו \"? רָָעהָ מִביֵ תֶך ָ"
             }
           ],
           "correct_option": null,
@@ -644,12 +644,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "הנִנְיִ מֵ קִים עלָיֶך",
+          "narrative_context": "הנִנְיִ מֵקִים עלָיֶך",
           "prompt": "למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -680,12 +680,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "הכֵיִן דְ רָכיָו לִ פְניֵ ה' אֱלהֹיָ ו\"",
+          "narrative_context": "הכֵיִן דְרָכיָו לִפְניֵ ה' אֱלהֹיָ ו",
           "prompt": "מיהו המלך אשר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -704,7 +704,7 @@
             },
             {
               "key": "ד",
-              "text": "יותם 7 הצַ יִלנֵו נאָ היַ וֹם הַ זהֶ\" – מפני מי? ְ אַך ָ"
+              "text": "יותם 7 הצַ יִלנֵו נאָ היַ וֹם הַזהֶ\" – מפני מי? אְַך ָ"
             }
           ],
           "correct_option": null,
@@ -716,13 +716,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "ך",
-          "prompt": "\"עֲ שֵׂה אַ תָה לנָו ככְלָ הַ ט וֹב בעְיֵניֶך",
+          "narrative_context": "עֲשֵׂה אַתָה לנָו ככְלָ הַ",
+          "prompt": "ט וֹב בעְיֵניֶך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -752,7 +752,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q21",
@@ -800,15 +800,15 @@
           "options": [
             {
               "key": "א",
-              "text": "כיִ מִ כלָ צָ רָה הצִ יִלנָיִ ו באְיֹבְיַ רָ אֲ תָה עיֵניִ"
+              "text": "כיִ מִכלָ צָרָה הצִ יִלנָיִ ו באְיֹבְיַ רָאֲתָה עיֵניִ"
             },
             {
               "key": "ב",
-              "text": "כיִ הצִ לְַ תָ נַ פְ ִ שי מִ מָותֶ הלֲאֹ רַגלְיַ מִ דֶ חִי"
+              "text": "כיִ הצִ לְַתָנַפְשִי מִמָותֶ הלֲאֹ רַגלְיַ מִדֶחִי"
             },
             {
               "key": "ג",
-              "text": "כיִ היָיִ תָ מִ שְׂג בָ ליִ ו מָנ וֹס ביְ וֹם צרַ ליִ אֶ חְ סֶ ה ָ חָ סָיהָ נַ פְ ִ שי ו בצְלֵ כנְָ פֶיך ָ"
+              "text": "כיִ היָיִ תָמִשְׂג בָליִ ו מָנ וֹס ביְ וֹם צרַ ליִ אֶחְסֶה חָָסָיהָ נַפְשִי ו בצְלֵ כנְָ פֶיך ָ"
             },
             {
               "key": "ד",
@@ -836,19 +836,19 @@
           "options": [
             {
               "key": "א",
-              "text": "כַ רְ מֵי חֶ מֶד נְ טַעְ תֶם ולְאֹ תִ ְ ש תו אֶת ייֵנםָ"
+              "text": "כַרְמֵי חֶמֶד נְטַעְ תֶם ולְאֹ תִשְתו אֶת ייֵנםָ"
             },
             {
               "key": "ב",
-              "text": "ונְָ טְעו כְ רָ מִים ולְאֹ יִ ְ ש תו אֶת ייֵנםָ"
+              "text": "ונְָ טְעו כְרָמִים ולְאֹ יִשְתו אֶת ייֵנםָ"
             },
             {
               "key": "ג",
-              "text": "בַ ִ שיר לאֹ יִ ְ ש תו ייָןִ יֵ מַר ֵ שכרָ לְ שֹ תָיו"
+              "text": "בַשִיר לאֹ יִשְתו ייָןִ יֵמַר שֵכרָ לְשֹתָיו"
             },
             {
               "key": "ד",
-              "text": "אַ תָה תִ דְרךֹ ְ זיַתִ ולְאֹ תָסו ך ְ ֶ ש מֶן וְ תִיר וֹ ש ולְאֹ תִ ְ ש תֶה י יָןִ אִם תו כלַ לִ סְ פרֹ אֹ תָּם"
+              "text": "אַתָה תִדְרךֹ זְיַתִ ולְאֹ תָסו ך שְֶמֶן וְתִיר וֹש ולְאֹ תִשְתֶה י יָןִ אִם תו כלַ לִסְפרֹ אֹתָּם"
             }
           ],
           "correct_option": null,
@@ -901,7 +901,7 @@
         {
           "unit_id": "q25",
           "display_number": "25",
-          "narrative_context": "ְ שמנֹיִם אִי ש \"",
+          "narrative_context": "שְמנֹיִם אִי ש",
           "prompt": "מה מסופר על?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -932,7 +932,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q26",
@@ -992,7 +992,7 @@
             },
             {
               "key": "ד",
-              "text": "000,100 וְ אֶׁת ְ שמוֹ לאֹ הגִ יִד ליִ"
+              "text": "000,100 וְאֶׁת שְמוֹ לאֹ הגִ יִד ליִ"
             }
           ],
           "correct_option": null,
@@ -1016,19 +1016,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ד וֹד ָ שאו ל"
+              "text": "ד וֹד שָאו ל"
             },
             {
               "key": "ב",
-              "text": "חָ תָן לְ סַנבְלַ טַ"
+              "text": "חָתָן לְסַנבְלַ טַ"
             },
             {
               "key": "ג",
-              "text": "אֲח וֹת תַ חְ פְניֵס"
+              "text": "אֲח וֹת תַחְפְניֵס"
             },
             {
               "key": "ד",
-              "text": "אֵ ֶ שת פִינְ חָס"
+              "text": "אֵשֶת פִינְ חָס"
             }
           ],
           "correct_option": null,
@@ -1088,19 +1088,19 @@
           "options": [
             {
               "key": "א",
-              "text": "אַ תֶם יְ דַעְ תֶם אֶת הָּ אִי ש וְ אֶת שִׂיח וֹ"
+              "text": "אַתֶם יְדַעְ תֶם אֶת הָּאִי ש וְאֶת שִׂיח וֹ"
             },
             {
               "key": "ב",
-              "text": "וְ אֶת הָּ אִי ש וְ אֶת כלָ מִ ְ ש פַ חְ ת וֹ ִ של חֵו"
+              "text": "וְאֶת הָּאִי ש וְאֶת כלָ מִשְפַחְת וֹשִל חֵו"
             },
             {
               "key": "ג",
-              "text": "הָ ֵ שב אֶת הָּ אִ י ש ויְָ שבֹ אֶל מְק וֹמ וֹ ָ"
+              "text": "הָשֵב אֶת הָּאִי ש ויְָ שבֹ אֶל מְק וֹמ וָֹ"
             },
             {
               "key": "ד",
-              "text": "ה וֹצאֵ אֶת הָּ אִי ש אֲ ֶ שר באָ אֶל ביֵ תְך 10 חלק ב': שאלות פתוחות לפניך 20 שאלות פתוחות , ענה עליהן בקצר ה ָּ הִ כבָּדֵּ וְ ֵּ שב ב בְיֵּ תֶׁך"
+              "text": "ה וֹצאֵ אֶת הָּאִי ש אֲשֶר באָ אֶל ביֵ תְך 10 חלק ב': שאלות פתוחות לפניך 20 שאלות פתוחות , ענה עליהן בקצר ה הִָּכבָּדֵּ וְשֵּב ב בְיֵּ תֶׁך"
             }
           ],
           "correct_option": null,
@@ -1117,9 +1117,9 @@
         {
           "unit_id": "q31",
           "display_number": "31",
-          "narrative_context": "כלָו בַ ביָתִ\"? 32. ומי ישב \"נכֹחַ פֶ תַח הַ ביָתִ\"? \"? ָ 33. מי הוזהר: \"צָ רִים אֶת העָיִר עלָיֶך 34. ומי הוזהרו: \"לאֹ תֵצאְו פֶן תָ מֻת ו \"? אֵּי זהֶׁ מְקמֹוֹ 35. \" וְ ָּ שם נִ קְ רָא אִי ש בלְיִ עַלַ ו ְ שמ וֹ ֶ שבעַ בןֶ בכְִ רִי אִי ש יְ מִיניִ\" – היכן? 36. \"ויַ ִ סַע מִ ָּ שם אַבְ רָהםָ אַ רְצהָ הנַ גֶבֶ ויַ ֵ ֶ שב ביֵן קָ דֵ ש ו ביֵן שו ר ויַ גָרָ בגְִ רָר\" – מהיכן? 11 37. \"ויַ ִ ְ שלחַ אֹ תָם מֹ ֶ שה מִ מִ דְ ברַ פָא רָן\" – מאיזה אתר במדבר פארן שלח משה את המרגלים? פָּקדֹ יִ פְקדֹ אֱלהֹיִם אֶׁ תְכםֶׁ מי אמר: 38. \" כיִ הנִ הֵ ה' יצֹאֵ מִ מְק וֹמ וֹ לִ פְקדֹ עֲ וֹן יֹ ֵ שב הָ אָ רֶץ עלָיָ ו\" 39. \"והְיָו בנָיָו כְ קֶ דֶם ועֲַ דָת וֹ לְ פָניַ תִ כ וֹן ו פָ קַ דְ תִי עלַ כלָ לֹ חֲציָ ו\" 40. \"עלַ כןֵ אֶ פְקדֹ עלֲיֵכםֶ אֵת כלָ עֲ וֹנֹ תֵיכםֶ\" ה' היַ וֹם הַ זהֶ \" ָ 41. \"עלַ כןֵ הַ דָ ברָ הַ זהֶ עָ שָׂה לךְ 42. \" כיִ חֲ טָא תֶם להַ' ולְאֹ ְ ש מַעְ תֶם בקְ וֹל וֹ והְיָהָ לכָםֶ הַ דָ ברָ הַ זהֶ\" 43. \"הנִ הֵ חֲ טָא תֶם להַ' ו דְעו חַ טַא תְכםֶ אֲ ֶ שר תִ מְצאָ אֶ תְכםֶ\" ______________________________ ______ 12 44. \" כְ טֻ מְ אָ תָם ו כְ פִ ְ שעיֵהםֶ עָ שִׂי תִי אֹ תָם וָ אַ סְ תִר פָניַ מֵהםֶ\" 45. \" כיִ יִ פְ קְ דֵם ה' אֱלהֹיֵהםֶ וְ ָ שב ְ שביִ תָם\" ו מִן אֱ דַיןִ ועְדַ כעְןַ מִ תְב נְאֵּ ולְאָּ ְ ש לםִ השלם את הפסוקים הבאים: 46. \" כבָ וֹד _________________________________________________________ קָל וֹן\" 47-48. \" כָ אֶבןֶ מִַים ____________ ___________ ו פְניֶ תה וֹם _________________________\" 49-50. \"נֵ רְ דְ וכְַ רְ כםֹ קָנהֶ וְ קִנ מָ וֹן עםִ כלָ _______________________ מרֹ וַ אֲהלָ וֹת עםִ כלָ ______________________\" בהצלחה! 13",
-          "prompt": "את מי?",
-          "question_type": "multiple_choice",
+          "narrative_context": "נֵרְדְוכְַ רְכםֹ קָנהֶ וְקִנ מָוֹן עםִ כלָ _______________________ מרֹ וַאֲהלָ וֹת עםִ כלָ ______________________",
+          "prompt": "את מי \" כלָו בַביָתִ\"? 32. ומי ישב \"נכֹחַ פֶתַח הַביָתִ\"? \"? ָ 33. מי הוזהר: \"צָרִים אֶת העָיִר עלָיֶך 34. ומי הוזהרו: \"לאֹ תֵצאְו פֶן תָמֻת ו \"? אֵּי זהֶׁ מְקמֹוֹ 35. \" וְשָּם נִקְרָא אִי ש בלְיִ עַלַ ו שְמ וֹשֶבעַ בןֶ בכְִ רִי אִי ש יְמִיניִ\" – היכן? 36. \"ויַ סִַע מִשָּם אַבְ רָהםָ אַרְצהָ הנַ גֶבֶ ויַ שֵֶב ביֵן קָדֵש ו ביֵן שו ר ויַ גָרָ בגְִ רָר\" – מהיכן? 11 37. \"ויַ שְִלחַ אֹתָם מֹשֶה מִמִדְברַ פָא רָן\" – מאיזה אתר במדבר פארן שלח משה את המרגלים? פָּקדֹ יִפְקדֹ אֱלהֹיִם אֶׁתְכםֶׁ מי אמר: 38. \" כיִ הנִ הֵה' יצֹאֵ מִמְק וֹמ וֹלִפְקדֹ עֲוֹן יֹשֵב הָאָרֶץ עלָיָ ו\" 39. \"והְיָו בנָיָו כְקֶדֶם ועֲַ דָת וֹלְפָניַ תִכ וֹן ו פָקַדְתִי עלַ כלָ לֹחֲציָ ו\" 40. \"עלַ כןֵ אֶפְקדֹ עלֲיֵכםֶ אֵת כלָ עֲוֹנֹ תֵיכםֶ\" ה' היַ וֹם הַזהֶ \" ָ 41. \"עלַ כןֵ הַדָברָ הַזהֶ עָשָׂה לךְ 42. \" כיִ חֲטָא תֶם להַ' ולְאֹ שְמַעְ תֶם בקְ וֹל וֹוהְיָהָ לכָםֶ הַדָברָ הַזהֶ\" 43. \"הנִ הֵחֲטָא תֶם להַ' ו דְעו חַטַא תְכםֶ אֲשֶר תִמְצאָ אֶתְכםֶ\" ______________________________ ______ 12 44. \" כְטֻמְאָתָם ו כְפִשְעיֵהםֶ עָשִׂי תִי אֹתָם וָאַסְתִר פָניַ מֵהםֶ\" 45. \" כיִ יִפְקְדֵם ה' אֱלהֹיֵהםֶ וְשָב שְביִ תָם\" ו מִן אֱדַיןִ ועְדַ כעְןַ מִתְב נְאֵּ ולְאָּ שְלםִ השלם את הפסוקים הבאים: 46. \" כבָ וֹד _________________________________________________________ קָל וֹן\" 47-48. \" כָאֶבןֶ מִַים ____________ ___________ ו פְניֶ תה וֹם _________________________\" 49-50. בהצלחה! 13?",
+          "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [],
           "correct_option": null,
@@ -1131,7 +1131,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         }
       ]
     }
@@ -1140,8 +1140,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/QPreMamad23.pdf",
-    "fetch_date": "2026-06-24",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q10 no correct_option; q12 no correct_option; q13 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 option count 0; q31 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q10 no correct_option; q12 no correct_option; q13 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option"
   }
 }

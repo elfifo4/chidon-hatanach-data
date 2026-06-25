@@ -73,7 +73,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ויְִ דְגוּּ לרָבֹ בְּ קֶ רֶב הָ אָ רֶץ\"",
+          "narrative_context": "ויְִ דְגוּּ לרָבֹ בְּקֶרֶב הָאָרֶץ",
           "prompt": "מי בורכו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -104,7 +104,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q03",
@@ -152,19 +152,19 @@
           "options": [
             {
               "key": "א",
-              "text": "ויִַּ קְ רָא מַלְ אַך ְ ה' אֶל אַבְ רָהםָ ֵׁ שניִת מִן הַ ּ ָ ש מָיםִ"
+              "text": "ויִַּ קְרָא מַלְ אַך הְ'אֶל אַבְ רָהםָ שֵׁניִת מִן הַשָּמָיםִ"
             },
             {
               "key": "ב",
-              "text": "ויַלֵּׁךֶ ְ אַבְ רָהםָ ויִַּ קַּח אֶת הָ אַילִ ויַעַּלֲהֵׁוּ לעְלֹהָ תַּ חַת בּנְ וֹ"
+              "text": "ויַלֵּׁךֶ אְַבְ רָהםָ ויִַּ קַּח אֶת הָאַילִ ויַעַּלֲהֵׁוּ לעְלֹהָ תַּחַת בּנְ וֹ"
             },
             {
               "key": "ג",
-              "text": "ויַָּ ֶ שם אתֹ וֹ עלַ הַ מִּזְ בֵּׁ חַ מִ מַּעלַ לעָצֵׁיִם"
+              "text": "ויַָּ שֶם אתֹ וֹעלַ הַמִּזְ בֵּׁחַמִמַּעלַ לעָצֵׁיִם"
             },
             {
               "key": "ד",
-              "text": "ויִַּ קְ רָא אַבְ רָהםָ ֵׁ שם הַ מָּק וֹם ההַואּ ה' יִ רְ אֶה 2"
+              "text": "ויִַּ קְרָא אַבְ רָהםָ שֵׁם הַמָּק וֹם ההַואּ ה' יִרְאֶה 2"
             }
           ],
           "correct_option": null,
@@ -188,19 +188,19 @@
           "options": [
             {
               "key": "א",
-              "text": "בּסְֹ דָם אַל יבָאֹ כּבְֹ דִי בִּ קְהלָםָ אַל תֵּׁ חַד נַ פְ ִ שי"
+              "text": "בּסְֹ דָם אַל יבָאֹ כּבְֹ דִי בִּקְהלָםָ אַל תֵּׁחַד נַפְשִי"
             },
             {
               "key": "ב",
-              "text": "בּסְֹ דָם אַל תָּבאֹ נַ פְ ִ שי בִּ קְהלָםָ אַל תֵּׁ חַד כּבְֹ דִי"
+              "text": "בּסְֹ דָם אַל תָּבאֹ נַפְשִי בִּקְהלָםָ אַל תֵּׁחַד כּבְֹ דִי"
             },
             {
               "key": "ג",
-              "text": "בּסְֹ דָם אַל תֵּׁ חַד כּבְֹ דִי בִּ קְהלָםָ אַל תָּבאֹ נַ פְ ִ שי"
+              "text": "בּסְֹ דָם אַל תֵּׁחַד כּבְֹ דִי בִּקְהלָםָ אַל תָּבאֹ נַפְשִי"
             },
             {
               "key": "ד",
-              "text": "בּסְֹ דָם אַל תֵּׁ חַד נַ פְ ִ שי בִּ קְהלָםָ אַל יבָאֹ כּבְֹ דִי שמות ובמדב ר"
+              "text": "בּסְֹ דָם אַל תֵּׁחַד נַפְשִי בִּקְהלָםָ אַל יבָאֹ כּבְֹ דִי שמות ובמדב ר"
             }
           ],
           "correct_option": null,
@@ -217,8 +217,8 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": ":",
-          "prompt": "\"וְ אַ תֶּם לאֹ תֵׁצאְוּ אִי ש מִ פֶּ תַח בּיֵׁת וֹ עדַ בֹּ קֶר\" - כך הורה משה לעם בלילה שקדם ל:",
+          "narrative_context": "וְאַתֶּם לאֹ תֵׁצאְוּ אִי ש מִפֶּתַח בּיֵׁת וֹעדַ בֹּקֶר",
+          "prompt": "- כך הורה משה לעם בלילה שקדם ל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -248,12 +248,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "וַ תִּבְ אַ ש הָ אָ רֶץ\"",
+          "narrative_context": "וַתִּבְ אַש הָאָרֶץ",
           "prompt": "בהקשר לאיזו מכה נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -284,12 +284,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "הָ רְגנֵׁיִ נאָ הרָגֹ אִם מָצאָ תִי חֵׁן בּעְיֵׁניֶך וְ אַל אֶ רְ אֶה בְּ רָעָ תִי\"",
+          "narrative_context": "הָרְגנֵׁיִ נאָ הרָגֹ אִם מָצאָ תִי חֵׁן בּעְיֵׁניֶך וְאַל אֶרְאֶה בְּרָעָ תִי",
           "prompt": "בעקבות איזה חטא של העם אמר משה לה'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -320,13 +320,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": null,
-          "prompt": "\"וַ אֲנָ ִ שים מִ בּנְיֵׁ יִ ְ ש רָ אֵׁל חֲ מִ ּ ִ שים וּ מָא תָים\" - כיצד מתו?",
+          "narrative_context": "וַאֲנָ שִים מִבּנְיֵׁ יִשְרָאֵׁל חֲמִשִּים וּמָא תָים",
+          "prompt": "- כיצד מתו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -361,8 +361,8 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "אֶצעְָ דָה וצְָ מִיד טַ בּעַתַ עגָיִל וכְוּ מָז\" - מה עשה איתם משה",
-          "prompt": "\" אֶצעְָ דָה וצְָ מִיד טַ בּעַתַ עגָיִל וכְוּ מָז\" - מה עשה איתם משה?",
+          "narrative_context": "אֶצעְָ דָה וצְָ מִיד טַבּעַתַ עגָיִל וכְוּ מָז",
+          "prompt": "- מה עשה איתם משה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -392,7 +392,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q11",
@@ -541,7 +541,7 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "יָ רְדוּ מְחֹ קְ קִים\"",
+          "narrative_context": "יָרְדוּ מְחֹ קְקִים",
           "prompt": "מאיזה שבט?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -572,7 +572,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q16",
@@ -649,14 +649,14 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "ְ",
-          "prompt": "כיצד תיארו המלחים את הים?",
+          "narrative_context": null,
+          "prompt": "כיצד תיארו המלחים את הים? ְ",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "ה וֹלךֵׁ וְ חָזקֵׁ ְ"
+              "text": "ה וֹלךֵׁ וְחָזקֵׁ ְ"
             },
             {
               "key": "ב",
@@ -680,7 +680,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
@@ -721,8 +721,8 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": null,
-          "prompt": "\"ויַאֹּ מְרוּ נעֲַ רֵׁי הַ מֶּלךֶ ְ אֵׁליָו הנִהֵּׁ הָ מָן עֹ מֵׁד בֶּ חָצרֵׁ\" - איזו חצר?",
+          "narrative_context": "ויַאֹּ מְרוּ נעֲַ רֵׁי הַמֶּלךֶ אְֵׁליָו הנִהֵּׁ הָמָן עֹמֵׁד בֶּחָצרֵׁ",
+          "prompt": "- איזו חצר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -829,7 +829,7 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "ליִנוּ פהֹ הלַיַּלְהָ\"",
+          "narrative_context": "ליִנוּ פהֹ הלַיַּלְהָ",
           "prompt": "למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -860,12 +860,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "וְ אַ תָּה לאֹ ה וֹ דַעְ תַּניִ אֵׁת אֲ ֶ שר תִּ ְ שלחַ עִ מִּי\"",
+          "narrative_context": "וְאַתָּה לאֹ ה וֹדַעְ תַּניִ אֵׁת אֲשֶר תִּשְלחַ עִמִּי",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -896,7 +896,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q25",
@@ -937,8 +937,8 @@
         {
           "unit_id": "q26",
           "display_number": "26",
-          "narrative_context": "מַה זּאֹת עָ ִ שי תָ לנָּו\"ּ",
-          "prompt": "מי לא נשאל?",
+          "narrative_context": "מַה זּאֹת עָשִי תָלנָּו",
+          "prompt": "מי לא נשאל ּ?",
           "question_type": "negative_exclusion",
           "answer_style": "single_correct",
           "options": [
@@ -968,7 +968,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q27",
@@ -1121,8 +1121,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/Q_mamad_tashpad.pdf",
-    "fetch_date": "2026-06-24",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option"
   }
 }

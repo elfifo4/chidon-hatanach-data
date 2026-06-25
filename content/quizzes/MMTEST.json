@@ -37,7 +37,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "מִי ל ה ' אֵליָ\"",
+          "narrative_context": "מִי ל ה ' אֵליָ",
           "prompt": "מי קרא בשער המחנה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -68,12 +68,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "ביִ מֵי ְׁ שפטֹ ה שֹ פְׁ טִים\"",
+          "narrative_context": "ביִ מֵי שְׁפטֹ ה שֹפְׁטִים",
           "prompt": "באיזה ספר מסופר על רעב שאירע?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -104,7 +104,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q03",
@@ -145,7 +145,7 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "ְׁ שלףֹ ח רְׁ בךְׁ ָ ו מ וֹ תְׁ תֵניִ פֶּן יאֹ מְׁרו ליִ אִ ָ שה הֲ רָגָ תְׁה ו \"",
+          "narrative_context": "שְׁלףֹ ח רְׁבךְׁ וָמ וֹתְׁתֵניִ פֶּן יאֹ מְׁרו ליִ אִשָה הֲרָגָ תְׁה ו",
           "prompt": "מי ביקש מנערו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -176,13 +176,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "ָ רֵא אֶּת דְׁ ב ר ה' מֵע בְׁ דֵי פ רְׁעהֹ הנֵיִס אֶּת עבֲָ דָיו וְׁ אֶּת מִ קְׁנהֵו אֶּל ה בָ תִים: ו אֲ ֶּ שר לאֹ ָ שם לִ ב וֹ אֶּל דְׁ ב ר ה' ו י עזֲבֹ אֶּת עבֲָ דָיו וְׁ אֶּת מִ קְׁנהֵו ב ָ ש דֶּה\"",
-          "prompt": "לפני איזו ממכות מצרים נאמר: \"ה י?",
+          "narrative_context": "ה י רֵָא אֶּת דְׁב ר ה' מֵע בְׁדֵי פ רְׁעהֹ הנֵיִס אֶּת עבֲָ דָיו וְׁאֶּת מִקְׁנהֵו אֶּל ה בָתִים: ו אֲשֶּר לאֹ שָם לִב וֹאֶּל דְׁב ר ה' ו י עזֲבֹ אֶּת עבֲָ דָיו וְׁאֶּת מִקְׁנהֵו ב שָדֶּה",
+          "prompt": "לפני איזו ממכות מצרים נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -212,13 +212,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "לְׁיִליֵ כֶּ סֶּף ועְׁ מו דֵי ֵ ש ש \"",
-          "prompt": "ברכוש ו של מי היו: \"ג?",
+          "narrative_context": "ג לְׁיִליֵ כֶּסֶּף ועְׁ מו דֵי שֵש",
+          "prompt": "ברכוש ו של מי היו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -248,7 +248,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
@@ -289,8 +289,8 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "ב\"הרֹ ההָרָ\"",
-          "prompt": "מי מת?",
+          "narrative_context": "הרֹ ההָרָ",
+          "prompt": "מי מת ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -320,13 +320,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "ְׁ שליִכו אתֹ וֹ אֶּל ה ב וֹר ה זהֶּ אֲ ֶּ שר ב מִ דְׁ ברָ ויְׁדָ אל תִ ְׁ שלחְׁו ב וֹ \"",
-          "prompt": "מי מאחי יוסף הוא הוגה הרעיון: \"ה?",
+          "narrative_context": "ה שְׁליִכו אתֹ וֹאֶּל ה ב וֹר ה זהֶּ אֲשֶּר ב מִדְׁברָ ויְׁדָ אל תִשְׁלחְׁו ב וֹ",
+          "prompt": "מי מאחי יוסף הוא הוגה הרעיון?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -356,7 +356,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q10",
@@ -380,7 +380,7 @@
             },
             {
               "key": "ד",
-              "text": "זלפה וְׁ אֵי מִ זהֶּ ע ם אָ תָה\"? ָ ו מֵ איןִ תָב וֹא מָה א רְׁצךֶּ ָ"
+              "text": "זלפה וְׁאֵי מִזהֶּ ע ם אָתָה\"? וָמֵאיןִ תָב וֹא מָה א רְׁצךֶּ ָ"
             }
           ],
           "correct_option": null,
@@ -428,7 +428,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q12",
@@ -469,7 +469,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "אֲדנֹיִ מֹ ֶּ שה כלְָׁ אֵם\"",
+          "narrative_context": "אֲדנֹיִ מֹשֶּה כלְָׁ אֵם",
           "prompt": "בעקבות מה ביקש יהושע ממשה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -500,7 +500,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q14",
@@ -577,7 +577,7 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "עבִרְׁו לְׁ פָנ י וְׁ רֶּו ח תָ ִ שימו ביֵן עֵ דֶּר ו ביֵן עֵ דֶּר\"",
+          "narrative_context": "עבִרְׁו לְׁפָנ י וְׁרֶּו ח תָשִימו ביֵן עֵדֶּר ו ביֵן עֵדֶּר",
           "prompt": "מי אמר לעבדיו?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -596,7 +596,7 @@
             },
             {
               "key": "ד",
-              "text": "בלק אֲ ֶּ שר ָ"
+              "text": "בלק אֲשֶּר ָ"
             }
           ],
           "correct_option": null,
@@ -608,13 +608,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "הִ תְׁנהָ באמרו: \"וְׁ אִם איןִ מְׁ חֵניִ נאָ מִ סִ פְׁ רְׁך כָ תָבְׁ ָ ת\"",
-          "prompt": "איזו מבקשותיו של משה מה'?",
+          "narrative_context": "וְׁאִם איןִ מְׁחֵניִ נאָ מִסִפְׁרְׁך כָתָבְׁ תָ",
+          "prompt": "איזו מבקשותיו של משה מה' הִתְׁנהָ באמרו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -644,12 +644,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "מִי ָ מִים יָ מִי מָה תֵל כנְׁהָ בנְׁ וֹת יִ ְׁ ש רָ אֵל לְׁ תנ וֹת ל {ְׁ...} א רְׁ ב ע ת יָ מִים ב ָ שנהָ\"",
+          "narrative_context": "מִי מִָים יָמִי מָה תֵל כנְׁהָ בנְׁ וֹת יִשְׁרָאֵל לְׁתנ וֹת ל {ְׁ...} א רְׁב ע ת יָמִים ב שָנהָ",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -680,12 +680,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "להְׁ ְׁ ש מִיד אֶּת כלָ ה י הְׁו דִים אֲ ֶּ שר בכְׁלָ מלכְׁו ת אֲ ח ְׁ שורֵ וֹ ש ע ם מָ רְׁ דֳּ כיָ\"",
+          "narrative_context": "להְׁ שְׁמִיד אֶּת כלָ ה י הְׁו דִים אֲשֶּר בכְׁלָ מלכְׁו ת אֲח שְׁורֵ וֹש ע ם מָרְׁדֳּכיָ",
           "prompt": "מה הביא את המן לבקש?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -716,7 +716,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q20",
@@ -757,8 +757,8 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "מ\"חבֹבָ בןֶּ רְׁעו אֵל ה מִ דְׁינָיִ\"",
-          "prompt": "מה ביקש משה?",
+          "narrative_context": "חבֹבָ בןֶּ רְׁעו אֵל ה מִדְׁינָיִ",
+          "prompt": "מה ביקש משה מ?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -788,7 +788,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q22",
@@ -865,8 +865,8 @@
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "יהְׁיִ ב חֲציִ ה ל ילְׁהָ ו י ֶּ חֱ רד הָ אִי ש ו י לִ ָ פֵת והְׁנִ הֵ אִ ָ שה שכֹבֶּתֶּ מ רְׁג לְֹׁ תָי ו\" - מי הייתה האישה",
-          "prompt": "\"ו?",
+          "narrative_context": "ו יהְׁיִ ב חֲציִ ה ל ילְׁהָ ו י חֱֶּרד הָאִי ש ו י לִפֵָת והְׁנִ הֵאִשָה שכֹבֶּתֶּ מ רְׁג לְֹׁתָי ו",
+          "prompt": "- מי הייתה האישה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -896,7 +896,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q25",
@@ -937,8 +937,8 @@
         {
           "unit_id": "q26",
           "display_number": "26",
-          "narrative_context": "אֻ מְׁנםָ אֵלדֵ ו אֲניִ זָ קנְׁ תִי\"",
-          "prompt": "מי התפלאה בליבה: \"ה אף?",
+          "narrative_context": "ה אף אֻמְׁנםָ אֵלדֵ ו אֲניִ זָקנְׁ תִי",
+          "prompt": "מי התפלאה בליבה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -968,13 +968,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q27",
           "display_number": "27",
-          "narrative_context": "כהֹ י עֲ ֶּ שה ה' ליִ וכְׁהֹ יֹ סִיף כיִ ה מָותֶּ י פְׁ רִיד ביֵניִ ו ביֵנךֵ",
-          "prompt": "מי אמר/ה למי?",
+          "narrative_context": "ליִ וכְׁהֹ יֹסִיף כיִ",
+          "prompt": "מי אמר/ה למי: \" כהֹ י עֲשֶּה ה' ה מָותֶּ י פְׁרִיד ביֵניִ ו ביֵנךֵ?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -1004,7 +1004,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q28",
@@ -1045,7 +1045,7 @@
         {
           "unit_id": "q29",
           "display_number": "29",
-          "narrative_context": "אָ חִיו ה קָטןֹ יגְִׁ ד ל מִ מֶּנ ו וזְׁ רְׁע וֹ יהִיְׁהֶּ מְׁלאֹ ה ג וֹיםִ\"",
+          "narrative_context": "אָחִיו ה קָטןֹ יגְִׁ ד ל מִמֶּנ ו וזְׁ רְׁע וֹיהִיְׁהֶּ מְׁלאֹ ה ג וֹיםִ",
           "prompt": "מיהו האח הגדול שעליו נאמר כי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1076,7 +1076,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q30",
@@ -1117,7 +1117,7 @@
         {
           "unit_id": "q31",
           "display_number": "31",
-          "narrative_context": "הלֲ וֹא אִם תֵי טִיב ְׁ ש אֵת וְׁ אִם לאֹ תֵי טִיב ל פֶּ תח ח טָאת רבֹץֵ וְׁ אֵליֶּך ָ תְׁ שו קָת וֹ וְׁ א תָה תִ מְׁ ָ של ב וֹ\"",
+          "narrative_context": "הלֲ וֹא אִם תֵי טִיב שְׁאֵת וְׁאִם לאֹ תֵי טִיב ל פֶּתח ח טָאת רבֹץֵ וְׁאֵליֶּך תְָׁשו קָת וֹוְׁא תָה תִמְׁשָל ב וֹ",
           "prompt": "למי אמר ה'?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1148,7 +1148,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q32",
@@ -1225,8 +1225,8 @@
         {
           "unit_id": "q34",
           "display_number": "34",
-          "narrative_context": "אִי ש מִלְׁ חָ מָה ה' ְׁ שמ וֹ\"",
-          "prompt": "בעקבות איזה נס נאמר: \" ה'?",
+          "narrative_context": "ה' אִי ש מִלְׁ חָמָה ה' שְׁמ וֹ",
+          "prompt": "בעקבות איזה נס נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1256,7 +1256,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q35",
@@ -1301,8 +1301,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/MMTEST.pdf",
-    "fetch_date": "2026-06-24",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q17 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q17 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option"
   }
 }

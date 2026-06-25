@@ -39,8 +39,8 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "חָגוּר אֵפוֹד בָד\". על איזה אדם נוסף נאמרו הדברים האלה",
-          "prompt": "כששמואל היה נער, נאמר עליו שהיה?",
+          "narrative_context": "חָגוּר אֵפוֹד בָד",
+          "prompt": "כששמואל היה נער, נאמר עליו שהיה . על איזה אדם נוסף נאמרו הדברים האלה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -70,13 +70,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "מִ תְ נַ בְ אִים בַ מַ חֲ נֶה\"? הוא הציע ...",
-          "prompt": "מה הציע יהושע בן נון לעשות לאלדד ולמידד, שהיו?",
+          "narrative_context": "מִתְנַבְאִים בַמַחֲנֶה",
+          "prompt": "מה הציע יהושע בן נון לעשות לאלדד ולמידד, שהיו ? הוא הציע ...?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -106,12 +106,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q03",
           "display_number": "3",
-          "narrative_context": "אִישׁ מְנוּ חָה\"",
+          "narrative_context": "אִישׁ מְנוּ חָה",
           "prompt": "למי ניתן הכינוי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -142,12 +142,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "שְרָיָה, שֶׁ בְ נָה, אֱלִי שָׁ מָע, עֶזְרָא",
+          "narrative_context": "שְרָיָה, שֶׁבְנָה, אֱלִי שָׁמָע, עֶזְרָא?",
           "prompt": "מהו התפקיד המשותף לאנשים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -178,7 +178,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q05",
@@ -219,7 +219,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "כִי גָדוֹל הַיּוֹם הַהוּא מֵ אַיִן כָ מֹהוּ וְ עֵת צָרָה הִיא לְיַ עֲ קֹב וּ מִ מֶ נָה יִוָּ שֵׁ עַ\"",
+          "narrative_context": "כִי גָדוֹל הַיּוֹם הַהוּא מֵאַיִן כָמֹהוּ וְעֵת צָרָה הִיא לְיַ עֲקֹב וּמִמֶנָה יִוָּ שֵׁעַ",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -250,13 +250,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "אֲ נָ שִׁים רֵיקִים\" – אבימלך ויפתח. גם בתקופת המלוכה, נאמר על מלך כי השיג את מלוכתו בעזרת \" אֲ נָ שִׁים רֵקִים בְ נֵי בְלִיַּ עַל\". מיהו המלך",
-          "prompt": "מסופר על שני שופטים כי התקבצו אליהם?",
+          "narrative_context": "אֲנָשִׁים רֵקִים בְנֵי בְלִיַּ עַל",
+          "prompt": "מסופר על שני שופטים כי התקבצו אליהם \" אֲנָשִׁים רֵיקִים\" – אבימלך ויפתח. גם בתקופת המלוכה, נאמר על מלך כי השיג את מלוכתו בעזרת . מיהו המלך?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -286,31 +286,31 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "כִי אָ נֹ כִי ה' אֱלֹ הֶיךָ אֵל קַ נָא פֹ קֵד עֲוֹן אָ בֹת עַל בָנִים עַל שִׁ לֵ שִׁים וְ עַל רִ בֵ עִים לְשנְֹ אָי\"? הדברים נאמרו בקשר לדיבר:",
-          "prompt": "בקשר לאיזה דיבר נאמר?",
+          "narrative_context": "כִי אָנֹכִי ה' אֱלֹ הֶיךָ אֵל קַנָא פֹקֵד עֲוֹן אָבֹת עַל בָנִים עַל שִׁלֵשִׁים וְעַל רִבֵעִים לְשנְֹ אָי",
+          "prompt": "בקשר לאיזה דיבר נאמר: ? הדברים נאמרו בקשר לדיבר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "לאֹ תַ עֲ שֶה לְךָ פֶ סֶל וְ כָל תְמוּ נָה"
+              "text": "לאֹ תַעֲשֶה לְךָ פֶסֶל וְכָל תְמוּ נָה"
             },
             {
               "key": "ב",
-              "text": "לאֹ תִ שָא אֶת שֵׁם ה' אֱלֹ הֶיךָ לַ שָוְא"
+              "text": "לאֹ תִשָא אֶת שֵׁם ה' אֱלֹ הֶיךָ לַשָוְא"
             },
             {
               "key": "ג",
-              "text": "כַ בֵד אֶת אָ בִיךָ וְ אֶת אִ מֶךָ"
+              "text": "כַבֵד אֶת אָבִיךָ וְאֶת אִמֶךָ"
             },
             {
               "key": "ד",
-              "text": "לאֹ תַ עֲ נֶה בְרֵ עֲךָ עֵד שָׁ קֶר"
+              "text": "לאֹ תַעֲנֶה בְרֵ עֲךָ עֵד שָׁקֶר"
             }
           ],
           "correct_option": null,
@@ -322,13 +322,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": ".",
-          "prompt": "\"וַיְ הִי כְ שָׁ מְ עָם אֶת כָל הַדְ בָרִים פָ חֲדוּ אִישׁ אֶל רֵ עֵהוּ\" – מה שמעו האנשים האלה, שגרם להם לפחוד? הם שמעו ...",
+          "narrative_context": "וַיְ הִי כְשָׁמְעָם אֶת כָל הַדְ בָרִים פָחֲדוּ אִישׁ אֶל רֵעֵהוּ",
+          "prompt": "– מה שמעו האנשים האלה, שגרם להם לפחוד? הם שמעו ...?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -358,13 +358,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": null,
-          "prompt": "\"וַיֵּ צֵא עוֹג מֶ לֶךְ הַ בָ שָׁן לִקְרָא תָם הוּא וְ כָל עַמוֹ לַ מִלְ חָ מָה\" – באיזה מקום נלחם עוג מלך הבשן בבני ישראל?",
+          "narrative_context": "וַיֵּ צֵא עוֹג מֶלֶךְ הַבָשָׁן לִקְרָא תָם הוּא וְכָל עַמוֹ לַמִלְ חָמָה",
+          "prompt": "– באיזה מקום נלחם עוג מלך הבשן בבני ישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -374,11 +374,11 @@
             },
             {
               "key": "ב",
-              "text": "ב שְ דֵה צֹ פִים"
+              "text": "ב שְדֵה צֹפִים"
             },
             {
               "key": "ג",
-              "text": "ב נַ חֲלִי אֵל"
+              "text": "ב נַחֲלִי אֵל"
             },
             {
               "key": "ד",
@@ -399,8 +399,8 @@
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "וּ בְ כָל זֶה לאֹ הָיִי תִי בִירוּ שָׁ לָםִ כִי בִ שְׁ נַת שְׁלֹ שִׁים וּ שְׁ תַיִם לְ אַרְ תַ חְ שַׁ סְ תְא [...] בָא תִי אֶל הַ מֶ לֶךְ\". מה קרה בזמן שנחמיה לא היה בירושלים",
-          "prompt": "נחמיה נעדר מירושלים לתקופה מסוימת?",
+          "narrative_context": "וּבְכָל זֶה לאֹ הָיִי תִי בִירוּ שָׁלָםִ כִי בִשְׁנַת שְׁלֹ שִׁים וּשְׁתַיִם לְאַרְ תַחְשַׁסְתְא [...] בָא תִי אֶל הַמֶלֶךְ",
+          "prompt": "נחמיה נעדר מירושלים לתקופה מסוימת: . מה קרה בזמן שנחמיה לא היה בירושלים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -430,7 +430,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q12",
@@ -471,7 +471,7 @@
         {
           "unit_id": "q13",
           "display_number": "13",
-          "narrative_context": "אוֹי נָא לִי כִי יָ סַף ה' יָגוֹן עַל מַ כְ אֹ בִי יָ גַ עְ תִי בְ אַנְ חָ תִי וּ מְנוּ חָה לאֹ מָ צָא תִי\"",
+          "narrative_context": "אוֹי נָא לִי כִי יָסַף ה' יָגוֹן עַל מַכְאֹבִי יָגַעְתִי בְאַנְ חָתִי וּמְנוּ חָה לאֹ מָצָא תִי",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -502,12 +502,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "וְיָ שַׁ בְנוּ אִ תְ כֶם וְ הָיִינוּ לְ עַם אֶ חָד\"",
+          "narrative_context": "וְיָ שַׁבְנוּ אִתְכֶם וְהָיִינוּ לְעַם אֶחָד",
           "prompt": "מי הביעו רצון להתאחד עם קבוצת אנשים נוספת במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -538,13 +538,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": null,
-          "prompt": "\"וַיֵּ לֶךְ מֶ לֶךְ יִ שְרָ אֵל עַל בֵיתוֹ סַר וְ זָ עֵף וַיָּבאֹ שֹׁ מְרוֹ נָה\" – בעקבות איזה מקרה חזר מלך ישראל לביתו כשהוא \" סַר וְ זָ עֵף\"?",
+          "narrative_context": "וַיֵּ לֶךְ מֶלֶךְ יִשְרָ אֵל עַל בֵיתוֹ סַר וְזָעֵף וַיָּבאֹ שֹׁמְרוֹ נָה",
+          "prompt": "– בעקבות איזה מקרה חזר מלך ישראל לביתו כשהוא \" סַר וְזָעֵף?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -579,8 +579,8 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "עַ ם היכה המלך חזקיהו \" מִ מִ גְ דַל נוֹ צְרִים עַד עִיר מִ בְ צָר\"",
-          "prompt": "איזה?",
+          "narrative_context": "מִמִגְדַל נוֹ צְרִים עַד עִיר מִבְצָר",
+          "prompt": "איזה עַם היכה המלך חזקיהו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -610,19 +610,19 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "מָרֵ שָׁה מוזכרת פעמים אחדות בספר דברי הימים. באיזה הקשר היא לא נזכרה",
-          "prompt": "העיר?",
+          "narrative_context": null,
+          "prompt": "העיר מָרֵ שָׁה מוזכרת פעמים אחדות בספר דברי הימים. באיזה הקשר היא לא נזכרה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
             {
               "key": "א",
-              "text": "כאחת מ עָרֵי הַ מְצוּרוֹת שבנה רחבעם"
+              "text": "כאחת מ עָרֵי הַמְצוּרוֹת שבנה רחבעם"
             },
             {
               "key": "ב",
@@ -634,7 +634,7 @@
             },
             {
               "key": "ד",
-              "text": "כעיר מוצאו של אֱלִי עֶ זֶר בֶן דֹ דָוָהוּ"
+              "text": "כעיר מוצאו של אֱלִי עֶזֶר בֶן דֹדָוָהוּ"
             }
           ],
           "correct_option": null,
@@ -646,13 +646,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "כַ כָתוּב בְ סֵ פֶר תוֹרַת מֹ שֶׁה [...] לאֹ יוּ מְתוּ אָבוֹת עַל בָנִים וּ בָנִים לאֹ יוּ מְתוּ עַל אָבוֹת כִי אִם אִישׁ בְ חֶ טְאוֹ יוּ מָת.\". מיהו המלך המדובר",
-          "prompt": "אחד ממלכי יהודה נמנע מלעשות מעשה מסוים, וההסבר שניתן לכך הוא?",
+          "narrative_context": "כַכָתוּב בְסֵפֶר תוֹרַת מֹשֶׁה [...] לאֹ יוּ מְתוּ אָבוֹת עַל בָנִים וּבָנִים לאֹ יוּ מְתוּ עַל אָבוֹת כִי אִם אִישׁ בְחֶטְאוֹ יוּ מָת.",
+          "prompt": "אחד ממלכי יהודה נמנע מלעשות מעשה מסוים, וההסבר שניתן לכך הוא: . מיהו המלך המדובר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -682,12 +682,12 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "אֶ הְיֶה כַ טַל לְיִ שְרָ אֵל יִ פְרַח כַשוֹ שַׁ נָה וְיַךְ שָׁרָ שָׁיו כַלְ בָנוֹן\"",
+          "narrative_context": "אֶהְיֶה כַטַל לְיִ שְרָ אֵל יִפְרַח כַשוֹ שַׁנָה וְיַךְ שָׁרָ שָׁיו כַלְ בָנוֹן",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -718,13 +718,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "כִ סְ לֵו? (המילה כִ סְ לֵו כתובה במפורש.) על האירוע שבו:",
-          "prompt": "במקומות ספורים בתנ\"ך, שמות החודשים זהים לשמות שאנו משתמשים בהם כיום. על איזה אירוע נאמר שהתרחש בחודש?",
+          "narrative_context": "כִסְלֵו?",
+          "prompt": "במקומות ספורים בתנ\"ך, שמות החודשים זהים לשמות שאנו משתמשים בהם כיום. על איזה אירוע נאמר שהתרחש בחודש (המילה כִסְלֵו כתובה במפורש.) על האירוע שבו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -742,7 +742,7 @@
             },
             {
               "key": "ד",
-              "text": "עזרא קרא את ספר התורה באוזני העם חלק ב: שאלות על הרים וגבעות בתנ\"ך לפניכם 10 שאלות פתוחות. כל תשובה מלאה ומדויקת ת זַ כה אתכם בנקודה אחת. סך הכול אפשר לצבור בחלק הזה עד 10 נקודות."
+              "text": "עזרא קרא את ספר התורה באוזני העם חלק ב: שאלות על הרים וגבעות בתנ\"ך לפניכם 10 שאלות פתוחות. כל תשובה מלאה ומדויקת ת זַכה אתכם בנקודה אחת. סך הכול אפשר לצבור בחלק הזה עד 10 נקודות."
             }
           ],
           "correct_option": null,
@@ -754,13 +754,13 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         },
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "וְ שָׁ קַל בַ פֶ לֶס הָרִים וּ גְ בָעוֹת בְמאֹ זְ נָיִם\"? תשובה: ________________________________________________________ 22. מי אמר: \" לְקִ צְ בֵי הָרִים יָרַדְ תִי הָ אָרֶץ בְרִ חֶי הָ בַ עֲדִי לְעוֹ לָם וַ תַ עַל מִ שַ חַת חַיַּי ה' אֱלֹ הָי\"? תשובה: ________________________________________________________ 23. \"וְיַ עֲ בִירוּ קוֹל בְ כָל עָרֵי הֶם וּ בִירוּ שָׁ לַםִ לֵא מֹר צְאוּ הָ הָר וְ הָ בִיאוּ [...]\" – מה נצטוו האנשים להביא מההר? תשובה: ________________________________________________________ 24. על מי נאמר: \"וַיַּ עֲ בֹר [...] הָ עֵ בֶר וַיַּ עֲ מֹד עַל ראֹשׁ הָ הָר מֵרָ חֹק רַב הַ מָקוֹם בֵי נֵי הֶם\"? תשובה: ________________________________________________________ 25. על איזה בעל חיים נאמר: \"הוּא רֵא שִׁית דַרְ כֵי אֵל הָ עֹשוֹ יַ גֵשׁ חַרְבוֹ: כִי בוּל הָרִים יִ שְאוּ לוֹ וְ כָל חַיַּת הַ שָ דֶה יְ שַ חֲקוּ שָׁם\"? תשובה: ________________________________________________________ 26. על איזה הר יעמדו השבטים שִׁ מְעוֹן וְ לֵוִי וִיהוּ דָה וְיִ שָש כָר וְיוֹ סֵף וּ בִנְיָ מִן כדי \" לְ בָרֵךְ אֶת הָ עָם\"? תשובה: ________________________________________________________ 27. מי המלך שעבדיו הציעו לו להילחם בישראל בַמישׁוֹר משום ש\" אֱלֹ הֵי הָרִים אֱלֹ הֵי הֶם\"? תשובה: ________________________________________________________ 28. מי ביקש: \"וְ עַ תָה תְ נָה לִי אֶת הָ הָר הַ זֶה אֲ שֶׁר דִ בֶר ה' בַיּוֹם הַהוּא\"? תשובה: ________________________________________________________ 29. מי אמר: \" הֶ הָרִים וְ הַ גְ בָעוֹת יִ פְ צְחוּ לִ פְ נֵי כֶם רִ נָה וְ כָל עֲ צֵי הַ שָ דֶה יִ מְ חֲאוּ כָף\"? תשובה: ________________________________________________________ 30. למי נאמר: \" אֵת צֵל הֶ הָרִים אַ תָה רֹ אֶה כָ אֲ נָ שִׁים\"? תשובה: ________________________________________________________ בהצלחה!",
-          "prompt": "מי אמר?",
+          "narrative_context": "הוּא רֵא שִׁית דַרְ כֵי אֵל הָעֹשוֹ יַגֵשׁ חַרְבוֹ: כִי בוּל הָרִים יִשְאוּ לוֹ וְכָל חַיַּת הַשָדֶה יְשַחֲקוּ שָׁם",
+          "prompt": "מי אמר: \"וְשָׁקַל בַפֶלֶס הָרִים וּגְבָעוֹת בְמאֹ זְנָיִם\"? תשובה: ________________________________________________________ 22. מי אמר: \" לְקִ צְבֵי הָרִים יָרַדְ תִי הָאָרֶץ בְרִ חֶי הָבַעֲדִי לְעוֹ לָם וַתַעַל מִשַחַת חַיַּי ה' אֱלֹ הָי\"? תשובה: ________________________________________________________ 23. \"וְיַ עֲבִירוּ קוֹל בְכָל עָרֵי הֶם וּבִירוּ שָׁלַםִ לֵא מֹר צְאוּ הָהָר וְהָבִיאוּ [...]\" – מה נצטוו האנשים להביא מההר? תשובה: ________________________________________________________ 24. על מי נאמר: \"וַיַּ עֲבֹר [...] הָעֵבֶר וַיַּ עֲמֹד עַל ראֹשׁ הָהָר מֵרָ חֹק רַב הַמָקוֹם בֵי נֵי הֶם\"? תשובה: ________________________________________________________ 25. על איזה בעל חיים נאמר: ? תשובה: ________________________________________________________ 26. על איזה הר יעמדו השבטים שִׁמְעוֹן וְלֵוִי וִיהוּ דָה וְיִ שָש כָר וְיוֹ סֵף וּבִנְיָ מִן כדי \" לְבָרֵךְ אֶת הָעָם\"? תשובה: ________________________________________________________ 27. מי המלך שעבדיו הציעו לו להילחם בישראל בַמישׁוֹר משום ש\" אֱלֹ הֵי הָרִים אֱלֹ הֵי הֶם\"? תשובה: ________________________________________________________ 28. מי ביקש: \"וְעַתָה תְנָה לִי אֶת הָהָר הַזֶה אֲשֶׁר דִבֶר ה' בַיּוֹם הַהוּא\"? תשובה: ________________________________________________________ 29. מי אמר: \" הֶהָרִים וְהַגְבָעוֹת יִפְצְחוּ לִפְנֵי כֶם רִנָה וְכָל עֲצֵי הַשָדֶה יִמְחֲאוּ כָף\"? תשובה: ________________________________________________________ 30. למי נאמר: \" אֵת צֵל הֶהָרִים אַתָה רֹאֶה כָאֲנָשִׁים\"? תשובה: ________________________________________________________ בהצלחה!?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [],
@@ -773,7 +773,7 @@
           "acceptable_answers": [],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": "verse text corrupted in source PDF; could not enrich from Sefaria"
+          "format_confidence_note": null
         }
       ]
     }
@@ -782,8 +782,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2017m2.pdf",
-    "fetch_date": "2026-06-24",
+    "fetch_date": "2026-06-25",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q20 no correct_option"
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q20 no correct_option"
   }
 }

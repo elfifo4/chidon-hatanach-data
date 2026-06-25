@@ -114,3 +114,33 @@ def test_sefaria_recovers_user_examples(refs, expected):
     if verse is None:
         pytest.skip("Sefaria unreachable (offline)")
     assert _fold(expected) in _fold(verse), f"{expected!r} not in {verse!r}"
+
+
+# --------------------------------------------------------------------------- #
+# Faithful quote alignment -- only the quoted words, ellipsis preserved.
+# --------------------------------------------------------------------------- #
+def test_alignment_preserves_ellipsis_and_excludes_elided_words():
+    """Deut 24:15 quoted partially with an ellipsis (the user's report)."""
+    exam = '"כִּי ﬠָ נִי הוּא… וְלֽאֹ יִקְרָא ﬠָ לֶי׽ אֶל ה\' וְהָיָה בְ�חֵטְא"'
+    refs = [{"book": "דברים", "chapter": "כד", "verse": "טו"}]
+    out = extract.align_quote_to_sefaria(exam, refs)
+    if out is None:
+        pytest.skip("Sefaria unreachable (offline)")
+    assert "…" in out                              # ellipsis preserved
+    assert "בְּיוֹמוֹ" not in out and "שְׂכָרוֹ" not in out  # elided words NOT added
+    assert "נֹשֵׂא" not in out and "נַפְשׁוֹ" not in out      # middle (elided) words NOT added
+    assert "עָנִי" in out and "חֵטְא" in out         # quoted words present
+    assert "ה'" in out                              # divine-name abbreviation preserved
+
+
+def test_split_narrative_ignores_incidental_niqqud():
+    """A lone vocalized word in the question is not pulled out as a verse."""
+    narr, prompt = extract.split_narrative("את בנה של מי לא שׁכל דוד?")
+    assert narr is None
+    assert "שׁכל דוד" in prompt or "שכל דוד" in prompt
+
+
+def test_split_narrative_extracts_quoted_verse():
+    narr, prompt = extract.split_narrative('על מי נאמר: "וַיֵּשְׁתְּ מִן הַיַּיִן וַיִּשְׁכָּר"?')
+    assert narr is not None and "וַיֵּשְׁתְּ" in narr
+    assert prompt.endswith("?") and "וַיֵּשְׁתְּ" not in prompt

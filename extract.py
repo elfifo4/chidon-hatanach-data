@@ -17,6 +17,7 @@ See docs/json_extraction_prompt.md and docs/bible_contest_taxonomy.md for contex
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import sys
@@ -196,7 +197,7 @@ def repair_hebrew_pdf_text(text: str | None) -> str | None:
     """
     if not text:
         return text
-    s = unicodedata.normalize("NFC", text)
+    s = unicodedata.normalize("NFKC", text)  # NFKC folds presentation forms (ﬠ->ע)
     prev = None
     while prev != s:  # repeat for chained detached clusters
         prev = s
@@ -370,8 +371,11 @@ def _clean_verse(he) -> str:
     if isinstance(he, list):
         he = " ".join(x if isinstance(x, str) else " ".join(x) for x in he)
     he = _TAGS.sub("", he or "")
-    he = _CANTILLATION.sub("", he)  # drop cantillation/te'amim, keep niqqud
-    he = he.replace("־", " ")  # maqaf -> space, matching the pilot convention
+    he = html.unescape(he)               # &nbsp; &thinsp; etc.
+    he = re.sub(r"[{(\[][סספ]?[}\)\]]", "", he)  # {ס}/{פ}/() section markers
+    he = he.replace(" ", " ").replace(" ", " ").replace(" ", " ")
+    he = _CANTILLATION.sub("", he)       # drop cantillation/te'amim, keep niqqud
+    he = he.replace("־", " ")            # maqaf -> space, matching the pilot convention
     return re.sub(r"\s+", " ", he).strip()
 
 
@@ -413,6 +417,118 @@ def fetch_verse_text(refs: list[dict]) -> str | None:
     return " ".join(parts) if parts else None
 
 
+# --- Faithful alignment: clean the quoted words only, never add elided words --- #
+_ELLIPSIS_RE = re.compile(r"\s*(?:…|\.\s*\.\s*\.+|\.{2,})\s*")
+_HEB_LETTER_RE = re.compile(r"[א-ת]")
+_FINAL_FORMS = str.maketrans("ךםןףץ", "כמנפצ")
+
+
+def _is_divine_abbrev(word: str) -> bool:
+    return unicodedata.normalize("NFKC", word).strip("\"“”.,()[]") in {"ה'", "ה׳", "ה’", "יי"}
+
+
+def _consonants(word: str, fold_finals: bool = True) -> str:
+    w = unicodedata.normalize("NFKC", word)            # fold presentation forms (ﬠ->ע)
+    w = "".join(c for c in w if "א" <= c <= "ת")        # keep Hebrew letters only
+    return w.translate(_FINAL_FORMS) if fold_finals else w
+
+
+def _segment_stream(seg: str) -> str:
+    """Consonant skeleton of an exam quote segment (divine name -> יהוה)."""
+    out = []
+    for w in seg.split():
+        if _is_divine_abbrev(w):
+            out.append("יהוה")
+        elif _HEB_LETTER_RE.search(w):
+            out.append(_consonants(w))
+    return "".join(out)
+
+
+def _greedy_from(needle: str, hay: str, start: int) -> tuple[int, int] | None:
+    """Subsequence match of `needle` in `hay` beginning exactly at `start`."""
+    if start >= len(hay) or hay[start] != needle[0]:
+        return None
+    i = start
+    for ch in needle:
+        pos = hay.find(ch, i)
+        if pos == -1:
+            return None
+        i = pos + 1
+    return (start, i)
+
+
+def _best_span(needle: str, hay: str, cursor: int) -> tuple[int, int] | None:
+    """Find the *tightest* subsequence match of `needle` in `hay` (the quote sits
+    near-contiguously in the verse), preferring matches at/after `cursor`. This
+    avoids matching scattered characters earlier in the verse.
+    """
+    best = None
+    max_span = len(needle) * 2 + 6
+    for p in range(len(hay)):
+        if hay[p] != needle[0]:
+            continue
+        span = _greedy_from(needle, hay, p)
+        if span is None:
+            continue
+        length = span[1] - span[0]
+        if length > max_span:
+            continue
+        key = (0 if p >= cursor else 1, length, p)  # after cursor, then tightest, then earliest
+        if best is None or key < best[0]:
+            best = (key, span)
+    return best[1] if best else None
+
+
+def align_quote_to_sefaria(exam_quote: str | None, refs: list[dict]) -> str | None:
+    """Return clean vocalized text containing ONLY the words actually quoted in
+    the exam (ellipsis preserved), sourced from Sefaria, or None if it can't be
+    matched confidently. Never adds elided words.
+    """
+    if not exam_quote:
+        return None
+    sef = fetch_verse_text(refs)
+    if not sef:
+        return None
+    sef_words = sef.split()
+    stream_chars, pos2word = [], []
+    for wi, w in enumerate(sef_words):
+        for c in _consonants(w):
+            stream_chars.append(c)
+            pos2word.append(wi)
+    sef_stream = "".join(stream_chars)
+    if not sef_stream:
+        return None
+
+    out_segments = []
+    cursor = 0
+    for seg in _ELLIPSIS_RE.split(exam_quote):
+        ex_stream = _segment_stream(seg)
+        if len(ex_stream) < 4:          # too short to align reliably
+            continue
+        span = _best_span(ex_stream, sef_stream, cursor)
+        if span is None:
+            return None
+        s, e = span
+        w0, w1 = pos2word[s], pos2word[e - 1]
+        # faithfulness guard: don't pull in un-quoted words the exam skipped
+        # without an ellipsis (allow a small slack for words merged by lost chars)
+        exam_word_count = sum(1 for w in seg.split() if _HEB_LETTER_RE.search(w))
+        if (w1 - w0 + 1) > exam_word_count + 2:
+            return None
+        seg_has_divine = any(_is_divine_abbrev(w) for w in seg.split())
+        words = []
+        for w in sef_words[w0:w1 + 1]:
+            if seg_has_divine and _consonants(w) == "יהוה":
+                words.append("ה'")     # preserve the exam's abbreviation of the Name
+            else:
+                words.append(w)
+        out_segments.append(" ".join(words))
+        cursor = e
+    if not out_segments:
+        return None
+    return " … ".join(out_segments)
+
+
 # --------------------------------------------------------------------------- #
 # Question-type classification (heuristic)
 # --------------------------------------------------------------------------- #
@@ -434,27 +550,64 @@ def strip_niqqud(s: str) -> str:
     return NIQQUD.sub("", s)
 
 
+def _is_vocalized_word(w: str) -> bool:
+    return bool(NIQQUD.search(w) or REPLACEMENT_CHAR in w)
+
+
+def _clean_question_text(q: str) -> str:
+    q = re.sub(r"\s{2,}", " ", q.strip())
+    q = re.sub(r'[\s:"“”׳״,\-]*\?+\s*$', "", q)   # drop a trailing '?' and any junk before it
+    q = re.sub(r'[\s:"“”׳״,\-]+$', "", q).strip()  # drop trailing colon/quote/punct
+    if q:
+        q += "?"
+    return q
+
+
 def split_narrative(prompt: str) -> tuple[str | None, str]:
-    """If the prompt embeds a vocalized verse, lift it into narrative_context.
+    """Lift an embedded *verse quote* out of the prompt into narrative_context.
 
-    The verse is detected by the presence of niqqud (vowel marks) or the
-    replacement char `�` -- regular question text carries neither. Returns
-    (narrative_context, cleaned_question_prompt).
-
-    NOTE: vocalized verse text in these PDFs is corrupted at the font level
-    (final letters + niqqud become `�`), so narrative_context is best-effort.
+    A verse is recognised conservatively, to avoid pulling out an incidental
+    vocalized word that is really part of the question:
+      1. a quotation-mark-delimited span containing >=2 vocalized words, else
+      2. a run of >=3 consecutive vocalized words.
+    The quoted text (including any ellipsis) is preserved verbatim; clean,
+    quote-faithful verse text is produced later by Sefaria alignment.
+    Returns (narrative_context_or_None, cleaned_question_prompt).
     """
-    m = NIQQUD.search(prompt) or re.search(REPLACEMENT_CHAR, prompt)
-    if not m:
-        return None, prompt.strip()
-    ws = prompt.rfind(" ", 0, m.start())
-    question = prompt[:ws] if ws > 0 else ""
-    verse = prompt[ws:].strip()
-    question = re.sub(r'[\s:"“”׳״]+$', "", question).strip()
-    verse = verse.strip().strip('"“”').rstrip("?").strip()
-    if question and not question.endswith("?"):
-        question += "?"
-    return (verse or None), (question or prompt.strip())
+    # 1) quotation-delimited vocalized span (prefer the longest)
+    best = None
+    for qm in re.finditer(r'"([^"]+)"', prompt):
+        span = qm.group(1)
+        if sum(_is_vocalized_word(w) for w in span.split()) >= 2:
+            if best is None or len(span) > len(best.group(1)):
+                best = qm
+    if best:
+        verse = best.group(1).strip().strip("“”").strip()
+        question = _clean_question_text(prompt[:best.start()] + " " + prompt[best.end():])
+        return (verse or None), (question or prompt.strip())
+
+    # 2) a run of >=3 consecutive vocalized words
+    words = prompt.split()
+    voc = [_is_vocalized_word(w) for w in words]
+    best_run = (0, 0)
+    i = 0
+    while i < len(words):
+        if voc[i]:
+            j = i
+            while j < len(words) and voc[j]:
+                j += 1
+            if (j - i) > (best_run[1] - best_run[0]):
+                best_run = (i, j)
+            i = j
+        else:
+            i += 1
+    a, b = best_run
+    if b - a >= 3:
+        verse = " ".join(words[a:b]).strip('"“”').strip()
+        question = _clean_question_text(" ".join(words[:a] + words[b:]))
+        return (verse or None), (question or prompt.strip())
+
+    return None, prompt.strip()
 
 
 # --------------------------------------------------------------------------- #
@@ -702,7 +855,9 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
             "format_confidence_note": None,
         })
 
-    # Replace corrupted vocalized verses with clean text from Sefaria.
+    # Clean the *quoted* verse words via Sefaria alignment -- faithful to the
+    # exam (ellipsis preserved, no elided words added). Falls back to the
+    # repaired exam text when alignment is not confident; never the full verse.
     enrich_failed = False
     if enrich:
         for u in units:
@@ -710,12 +865,12 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
                 continue
             whole = [{"book": s["book"], "chapter": s["chapter"], "verse": s["verse"]}
                      for s in u["primary_sources"] if s["scope"] == "whole_unit"]
-            verse = fetch_verse_text(whole) if whole else None
-            if verse:
-                u["narrative_context"] = verse
-            else:
+            aligned = align_quote_to_sefaria(u["narrative_context"], whole) if whole else None
+            if aligned:
+                u["narrative_context"] = aligned
+            elif REPLACEMENT_CHAR in u["narrative_context"] or _SPACE_THEN_MARK.search(u["narrative_context"]):
                 enrich_failed = True
-                u["format_confidence_note"] = "verse text corrupted in source PDF; could not enrich from Sefaria"
+                u["format_confidence_note"] = "verse shown as extracted from the exam; Sefaria alignment unavailable"
         _save_verse_cache()
 
     year = meta.get("year_civil")

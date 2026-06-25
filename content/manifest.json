@@ -918,7 +918,7 @@
     {
       "id": "2018_school_quiz",
       "track": null,
-      "stage": null,
+      "stage": "school",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
       "question_count": 25,
@@ -928,8 +928,8 @@
     },
     {
       "id": "2018_school_quiz_mamad",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "school",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
       "question_count": 25,
@@ -940,7 +940,7 @@
     {
       "id": "2018_spring_district",
       "track": null,
-      "stage": null,
+      "stage": "district",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
       "question_count": 0,
@@ -950,8 +950,8 @@
     },
     {
       "id": "2018_spring_district_mamad",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "district",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
       "question_count": 0,
@@ -1027,7 +1027,7 @@
     },
     {
       "id": "ARTZI-MM-2-WRITTEN",
-      "track": null,
+      "track": "mamlachti",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1038,7 +1038,7 @@
     },
     {
       "id": "ARTZI-MMD-1-WRITTEN",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1049,7 +1049,7 @@
     },
     {
       "id": "ARTZI-MMD-2-WRITTEN",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1071,7 +1071,7 @@
     },
     {
       "id": "ARTZI_MMD_A",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1082,7 +1082,7 @@
     },
     {
       "id": "ARTZI_MMD_Q",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1093,7 +1093,7 @@
     },
     {
       "id": "ARTZI_MM_A",
-      "track": null,
+      "track": "mamlachti",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "ARTZI_MM_Q",
-      "track": null,
+      "track": "mamlachti",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1126,7 +1126,7 @@
     },
     {
       "id": "ARTZI_PUB_MMD",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1159,7 +1159,7 @@
     },
     {
       "id": "ARTZI_WRITTEN_MMD1",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1170,7 +1170,7 @@
     },
     {
       "id": "ARTZI_WRITTEN_MMD2",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1181,8 +1181,8 @@
     },
     {
       "id": "ARZI-MMLCHTI-1-WRITTEN",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 0,
@@ -1192,7 +1192,7 @@
     },
     {
       "id": "A_mamad_tashpad",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": null,
       "year_civil": null,
       "year_hebrew": null,
@@ -1203,7 +1203,7 @@
     },
     {
       "id": "A_mamlachti_tashpad",
-      "track": null,
+      "track": "mamlachti",
       "stage": null,
       "year_civil": null,
       "year_hebrew": null,
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "MMD-MEHUZI-PUBLIC-BOOKLET",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": null,
       "year_civil": null,
       "year_hebrew": null,
@@ -1346,7 +1346,7 @@
     },
     {
       "id": "OLAMI_PUB_MMD",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "world",
       "year_civil": null,
       "year_hebrew": null,
@@ -1368,10 +1368,10 @@
     },
     {
       "id": "PreMm25",
-      "track": null,
-      "stage": null,
-      "year_civil": null,
-      "year_hebrew": null,
+      "track": "mamlachti",
+      "stage": "national",
+      "year_civil": 2025,
+      "year_hebrew": "תשפ\"ה",
       "question_count": 41,
       "json_path": "quizzes/PreMm25.json",
       "extraction_quality": "partial",
@@ -1423,7 +1423,7 @@
     },
     {
       "id": "Q_mamad_tashpad",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": null,
       "year_civil": null,
       "year_hebrew": null,
@@ -1434,7 +1434,7 @@
     },
     {
       "id": "Q_mamlachti_tashpad",
-      "track": null,
+      "track": "mamlachti",
       "stage": null,
       "year_civil": null,
       "year_hebrew": null,
@@ -1489,8 +1489,8 @@
     },
     {
       "id": "adults_2020",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "national",
       "year_civil": 2020,
       "year_hebrew": "תש\"פ",
       "question_count": 1,
@@ -1512,7 +1512,7 @@
     {
       "id": "adults_district_quiz1",
       "track": null,
-      "stage": null,
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 0,
@@ -1523,7 +1523,7 @@
     {
       "id": "adults_district_quiz22",
       "track": null,
-      "stage": null,
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 0,
@@ -1533,8 +1533,8 @@
     },
     {
       "id": "adults_district_quiz33",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 1,
@@ -1544,8 +1544,8 @@
     },
     {
       "id": "adults_international_bible_quiz",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "world",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 1,
@@ -1566,8 +1566,8 @@
     },
     {
       "id": "adults_quiz_2022",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "world",
       "year_civil": 2022,
       "year_hebrew": "תשפ\"ב",
       "question_count": 1,
@@ -1588,7 +1588,7 @@
     },
     {
       "id": "artzi-mm-booklet",
-      "track": null,
+      "track": "mamlachti",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1599,7 +1599,7 @@
     },
     {
       "id": "artzi-mmd-booklet",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
@@ -1610,7 +1610,7 @@
     },
     {
       "id": "artziktav2016",
-      "track": null,
+      "track": "mamlachti",
       "stage": "national",
       "year_civil": 2016,
       "year_hebrew": "תשע\"ו",
@@ -1687,7 +1687,7 @@
     },
     {
       "id": "country_spring_2018_mamad",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": null,
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
@@ -1698,8 +1698,8 @@
     },
     {
       "id": "district-public-mamlachti",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 2,
@@ -1709,8 +1709,8 @@
     },
     {
       "id": "district-writing-mamad",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 41,
@@ -1720,8 +1720,8 @@
     },
     {
       "id": "district-writing-mamlachti",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 41,
@@ -1731,8 +1731,8 @@
     },
     {
       "id": "district-writing-public-mamad",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 2,
@@ -1742,8 +1742,8 @@
     },
     {
       "id": "district_2018._mamad",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "district",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
       "question_count": 31,
@@ -1754,7 +1754,7 @@
     {
       "id": "district_2018",
       "track": null,
-      "stage": null,
+      "stage": "district",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
       "question_count": 50,
@@ -1962,8 +1962,8 @@
     },
     {
       "id": "internataionaladultswritten2020",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "world",
       "year_civil": 2020,
       "year_hebrew": "תש\"פ",
       "question_count": 1,
@@ -1974,7 +1974,7 @@
     {
       "id": "internationaladults2020",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2020,
       "year_hebrew": "תש\"פ",
       "question_count": 0,
@@ -1984,7 +1984,7 @@
     },
     {
       "id": "mamad_1_2021",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": null,
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
@@ -1995,7 +1995,7 @@
     },
     {
       "id": "mamlachti_1_2021",
-      "track": null,
+      "track": "mamlachti",
       "stage": null,
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
@@ -2017,7 +2017,7 @@
     },
     {
       "id": "mechozi_mamad_2021",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": null,
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
@@ -2028,7 +2028,7 @@
     },
     {
       "id": "mechozi_mamad_pumbi_2021",
-      "track": null,
+      "track": "mamlachti_dati",
       "stage": null,
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
@@ -2039,7 +2039,7 @@
     },
     {
       "id": "mechozi_mamlachti_2021",
-      "track": null,
+      "track": "mamlachti",
       "stage": null,
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
@@ -2050,7 +2050,7 @@
     },
     {
       "id": "mechozi_mamlachti_pumbi_2021",
-      "track": null,
+      "track": "mamlachti",
       "stage": null,
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
@@ -2094,7 +2094,7 @@
     },
     {
       "id": "mehozipumbi2016",
-      "track": null,
+      "track": "mamlachti",
       "stage": "district",
       "year_civil": 2016,
       "year_hebrew": "תשע\"ו",
@@ -2150,7 +2150,7 @@
     {
       "id": "national-public2020",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2020,
       "year_hebrew": "תש\"פ",
       "question_count": 1,
@@ -2160,8 +2160,8 @@
     },
     {
       "id": "national-writing-mamad",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 31,
@@ -2171,8 +2171,8 @@
     },
     {
       "id": "national-writing-mamlachti",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "national",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 12,
@@ -2183,7 +2183,7 @@
     {
       "id": "national_quiz_2021",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
       "question_count": 3,
@@ -2193,8 +2193,8 @@
     },
     {
       "id": "national_written_test_mamad_2021",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "national",
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
       "question_count": 31,
@@ -2204,8 +2204,8 @@
     },
     {
       "id": "national_written_test_mamlachti_2021",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "national",
       "year_civil": 2021,
       "year_hebrew": "תשפ\"א",
       "question_count": 31,
@@ -2237,8 +2237,8 @@
     },
     {
       "id": "pre_adults_district_quiz",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 10,
@@ -2281,8 +2281,8 @@
     },
     {
       "id": "regional_booklet_mamad",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 1,
@@ -2292,8 +2292,8 @@
     },
     {
       "id": "regional_booklet_mamlachti",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 1,
@@ -2303,8 +2303,8 @@
     },
     {
       "id": "regional_written_mamad",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti_dati",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 36,
@@ -2314,8 +2314,8 @@
     },
     {
       "id": "regional_written_mamlachti",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 50,
@@ -2326,7 +2326,7 @@
     {
       "id": "schoola",
       "track": null,
-      "stage": null,
+      "stage": "school",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 35,
@@ -2337,7 +2337,7 @@
     {
       "id": "schoolb",
       "track": null,
-      "stage": null,
+      "stage": "school",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 35,
@@ -2348,7 +2348,7 @@
     {
       "id": "schoolchemeda",
       "track": null,
-      "stage": null,
+      "stage": "school",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 35,
@@ -2359,7 +2359,7 @@
     {
       "id": "schoolchemedb",
       "track": null,
-      "stage": null,
+      "stage": "school",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 35,
@@ -2403,7 +2403,7 @@
     {
       "id": "worldwidebible",
       "track": null,
-      "stage": null,
+      "stage": "world",
       "year_civil": null,
       "year_hebrew": null,
       "question_count": 31,
@@ -2414,7 +2414,7 @@
     {
       "id": "writing_adults_district_quiz2016",
       "track": null,
-      "stage": null,
+      "stage": "district",
       "year_civil": 2016,
       "year_hebrew": "תשע\"ו",
       "question_count": 1,
@@ -2469,7 +2469,7 @@
     {
       "id": "writtendistrictdati2022",
       "track": null,
-      "stage": null,
+      "stage": "district",
       "year_civil": 2022,
       "year_hebrew": "תשפ\"ב",
       "question_count": 0,
@@ -2480,7 +2480,7 @@
     {
       "id": "writtendistrictmmlacti2022",
       "track": null,
-      "stage": null,
+      "stage": "district",
       "year_civil": 2022,
       "year_hebrew": "תשפ\"ב",
       "question_count": 0,

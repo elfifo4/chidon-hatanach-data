@@ -140,6 +140,28 @@ def test_split_narrative_ignores_incidental_niqqud():
     assert "שׁכל דוד" in prompt or "שכל דוד" in prompt
 
 
+@pytest.mark.parametrize("base, track, stage", [
+    ("beitsifri_mm2026", "mamlachti", "school"),
+    ("beitsifri_mmd2026", "mamlachti_dati", "school"),
+    ("ARTZI_PUB_MMD", "mamlachti_dati", "national"),    # mmd -> dati, not mamlachti
+    ("artzi-mm-booklet", "mamlachti", "national"),       # -mm- on hyphen boundary
+    ("regional_booklet_mamad", "mamlachti_dati", "district"),  # mamad -> dati
+    ("adults_district_quiz33", "mamlachti", "district"),  # English "district"
+    ("adults_international_bible_quiz", "mamlachti", "world"),  # "internat" -> world
+    ("ARZI-MMLCHTI-1-WRITTEN", "mamlachti", "national"),  # transliteration + typo
+])
+def test_decode_filename_classification(base, track, stage):
+    m = extract.decode_filename(base)
+    assert m["track"] == track, m
+    assert m["stage"] == stage, m
+
+
+def test_dati_detected_before_mamlachti():
+    """A mamlachti_dati marker must never be read as plain mamlachti."""
+    for base in ("beitsifri_mmd2025", "ARTZI_PUB_MMD", "regional_booklet_mamad", "x_dati_2020"):
+        assert extract.decode_filename(base)["track"] == "mamlachti_dati", base
+
+
 def test_split_narrative_extracts_quoted_verse():
     narr, prompt = extract.split_narrative('על מי נאמר: "וַיֵּשְׁתְּ מִן הַיַּיִן וַיִּשְׁכָּר"?')
     assert narr is not None and "וַיֵּשְׁתְּ" in narr

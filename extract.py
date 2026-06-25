@@ -55,12 +55,36 @@ HEBREW_YEARS = {
     2010: 'תש"ע',  2009: 'תשס"ט', 2008: 'תשס"ח',
 }
 
-# Source filename base -> metadata. Decoded, never hard-coded per-file.
-STAGE_CODES = {
-    "beitsifri": "school", "mahoz": "district", "mehozi": "district",
-    "artzi": "national", "olami": "world",
+# Stage tokens (substring, lowercased) -> stage. Hebrew transliterations plus
+# English synonyms, since filenames are inconsistent.
+STAGE_TOKENS = [
+    ("beitsifri", "school"), ("school", "school"),
+    ("mehozi", "district"), ("mehoz", "district"), ("mahoz", "district"),
+    ("district", "district"), ("regional", "district"),
+    ("artzi", "national"), ("arzi", "national"), ("national", "national"),
+    ("olami", "world"), ("olam", "world"), ("world", "world"), ("internat", "world"),
+]
+# Track markers, matched on word boundaries (_ - / start / end / digit). The
+# *dati* markers MUST be tested before "mm", because "mmd"/"mamad" contain "mm"
+# and a mamlachti_dati file would otherwise be misread as mamlachti.
+TRACK_DATI_TOKENS = ["mamlachti_dati", "mamlachtidati", "mmldati", "mmd", "mamad", "dati", "md"]
+TRACK_MAM_TOKENS = ["mamlachti", "mamlchti", "mmlchti", "mlchti", "mm"]
+
+# Explicit per-id overrides for filenames that cannot be decoded reliably
+# (no stream marker, or stage encoded only in adult/preliminary naming). These
+# take priority over token decoding. Track defaults to mamlachti for adult
+# (general) contests, which are not split by religious stream.
+ID_OVERRIDES = {
+    "artziktav2016":                  {"track": "mamlachti", "stage": "national"},
+    "mehozipumbi2016":                {"track": "mamlachti", "stage": "district", "age_group": "adult"},
+    "PreMm25":                        {"track": "mamlachti", "stage": "national", "year_civil": 2025},
+    "pre_adults_district_quiz":       {"track": "mamlachti", "stage": "district", "age_group": "adult"},
+    "adults_district_quiz33":         {"track": "mamlachti", "stage": "district", "age_group": "adult"},
+    "adults_international_bible_quiz": {"track": "mamlachti", "stage": "world", "age_group": "adult"},
+    "internataionaladultswritten2020": {"track": "mamlachti", "stage": "world", "year_civil": 2020, "age_group": "adult"},
+    "adults_2020":                    {"track": "mamlachti", "stage": "national", "year_civil": 2020, "age_group": "adult"},
+    "adults_quiz_2022":               {"track": "mamlachti", "stage": "world", "year_civil": 2022, "age_group": "adult"},
 }
-TRACK_CODES = {"mm": "mamlachti", "md": "mamlachti_dati"}
 
 # Confirmed unreadable in prior research (image-based PDFs). Marked immediately.
 KNOWN_UNREADABLE = {"OLAMI_PUB_MMD", "ARTZI_PUB_MM"}
@@ -274,33 +298,47 @@ def hebrew_char_count(text: str) -> int:
 # --------------------------------------------------------------------------- #
 # Filename / metadata decoding
 # --------------------------------------------------------------------------- #
+def _match_track_token(low: str, tok: str) -> bool:
+    """Match a track marker on a word boundary (_ - / start / end / digit)."""
+    return re.search(rf"(?:^|[_\-]){re.escape(tok)}(?:$|[_\-]|\d)", low) is not None
+
+
 def decode_filename(base: str) -> dict:
     """Best-effort decode of metadata from a source filename base.
 
     Modern series follow {stage}_{track}{year}; many older files do not, so
-    every field is optional and unknowns are left as None.
+    every field is optional and unknowns are left as None. Explicit per-id
+    overrides (ID_OVERRIDES) win over token decoding.
     """
     low = base.lower()
     meta = {"stage": None, "track": None, "year_civil": None, "age_group": None}
 
-    for code, stage in STAGE_CODES.items():
-        if code in low:
+    for tok, stage in STAGE_TOKENS:
+        if tok in low:
             meta["stage"] = stage
             break
-    for code, track in TRACK_CODES.items():
-        if re.search(rf"_{code}\d|_{code}$|{code}\d{{4}}", low):
-            meta["track"] = track
+
+    # dati markers first, so "mmd"/"mamad" are not read as plain "mm"
+    for tok in TRACK_DATI_TOKENS:
+        if _match_track_token(low, tok):
+            meta["track"] = "mamlachti_dati"
             break
+    if meta["track"] is None:
+        for tok in TRACK_MAM_TOKENS:
+            if _match_track_token(low, tok):
+                meta["track"] = "mamlachti"
+                break
 
     year = re.search(r"(20\d{2})", base)
     if year:
         meta["year_civil"] = int(year.group(1))
 
-    # Age group heuristic from filename / source archive.
     if any(k in low for k in ("adult", "adults", "mehozipumbi", "writing_adults")):
         meta["age_group"] = "adult"
     elif meta["stage"]:
         meta["age_group"] = "youth"
+
+    meta.update(ID_OVERRIDES.get(base, {}))  # explicit overrides win
     return meta
 
 
@@ -1160,6 +1198,36 @@ def write_json(path: Path, obj: dict) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def reclassify_existing() -> int:
+    """Backfill metadata.track/stage/year on existing quiz JSONs using the
+    (improved) decode_filename + overrides, without re-extracting text. Returns
+    the number of files updated. Run regenerate_manifest() afterwards.
+    """
+    updated = 0
+    for jp in sorted(QUIZ_DIR.glob("*.json")):
+        if jp.name == "manifest.json":
+            continue
+        q = json.loads(jp.read_text(encoding="utf-8"))
+        base = q.get("questionnaire_id") or jp.stem
+        meta = decode_filename(base)
+        md = q.setdefault("metadata", {})
+        changed = False
+        if meta["track"] and md.get("track") != meta["track"]:
+            md["track"] = meta["track"]
+            changed = True
+        if meta["stage"] and md.get("stage") != meta["stage"]:
+            md["stage"] = meta["stage"]
+            changed = True
+        if meta["year_civil"] and not md.get("contest_year_civil"):
+            md["contest_year_civil"] = meta["year_civil"]
+            md["contest_year_hebrew"] = HEBREW_YEARS.get(meta["year_civil"])
+            changed = True
+        if changed:
+            write_json(jp, q)
+            updated += 1
+    return updated
+
+
 # --------------------------------------------------------------------------- #
 # Manifest
 # --------------------------------------------------------------------------- #
@@ -1210,12 +1278,20 @@ def main() -> int:
     ap.add_argument("--file", metavar="ID", help="process a single file by base id")
     ap.add_argument("--force", action="store_true", help="re-extract even if JSON exists")
     ap.add_argument("--manifest-only", action="store_true", help="regenerate manifest only")
+    ap.add_argument("--reclassify", action="store_true",
+                    help="backfill track/stage/year on existing quiz JSONs, then regenerate manifest")
     ap.add_argument("--dry-run", action="store_true", help="list what would be processed")
     args = ap.parse_args()
 
     QUIZ_DIR.mkdir(parents=True, exist_ok=True)
     LOG_DIR.mkdir(exist_ok=True)
     _load_verse_cache()  # reuse Sefaria lookups across runs
+
+    if args.reclassify:
+        n = reclassify_existing()
+        m = regenerate_manifest()
+        print(f"reclassified {n} quiz JSONs; manifest regenerated ({len(m['quizzes'])} quizzes)")
+        return 0
 
     if args.manifest_only:
         m = regenerate_manifest()

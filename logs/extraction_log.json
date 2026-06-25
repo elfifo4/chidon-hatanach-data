@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-06-25T07:34:24",
+  "run_at": "2026-06-25T08:27:29",
   "total_files": 227,
   "processed": 226,
   "skipped_existing": 0,
@@ -11,7 +11,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 1.51,
+      "duration_seconds": 0.85,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -19,7 +19,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 4.38,
+      "duration_seconds": 4.12,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -27,7 +27,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 25,
-      "duration_seconds": 0.27,
+      "duration_seconds": 0.43,
       "suspicious_hebrew": 1,
       "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -36,7 +36,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 41,
-      "duration_seconds": 0.59,
+      "duration_seconds": 1.03,
       "extraction_notes": "missing answers for: 37, 38, 39, 40, 41"
     },
     {
@@ -44,7 +44,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 20.16,
+      "duration_seconds": 12.18,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -52,7 +52,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.65,
+      "duration_seconds": 0.77,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -60,7 +60,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.46,
+      "duration_seconds": 0.32,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -68,7 +68,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 4.12,
+      "duration_seconds": 2.31,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -76,14 +76,14 @@
       "status": "success",
       "extraction_quality": "clean",
       "question_count": 35,
-      "duration_seconds": 0.57
+      "duration_seconds": 0.53
     },
     {
       "id": "mehozi-mmd2026",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 51,
-      "duration_seconds": 24.75,
+      "duration_seconds": 1.13,
       "extraction_notes": "missing answers for: 51"
     },
     {
@@ -91,7 +91,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 11.73,
+      "duration_seconds": 4.02,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -99,14 +99,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 489.58
+      "duration_seconds": 501.78
     },
     {
       "id": "fullmd2026",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 26.99,
+      "duration_seconds": 7.95,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -114,7 +114,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.82,
+      "duration_seconds": 0.7,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -122,7 +122,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.61,
+      "duration_seconds": 0.34,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -130,7 +130,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 31.2,
+      "duration_seconds": 10.39,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -145,7 +145,7 @@
       "status": "success",
       "extraction_quality": "clean",
       "question_count": 35,
-      "duration_seconds": 8.79,
+      "duration_seconds": 0.92,
       "suspicious_hebrew": 5
     },
     {
@@ -153,7 +153,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 41,
-      "duration_seconds": 22.97,
+      "duration_seconds": 1.32,
       "suspicious_hebrew": 14,
       "extraction_notes": "missing answers for: 41"
     },
@@ -162,7 +162,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 14.86,
+      "duration_seconds": 4.95,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1, 2"
     },
@@ -171,7 +171,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.81,
+      "duration_seconds": 0.86,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -179,7 +179,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.5,
+      "duration_seconds": 0.46,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -194,7 +194,7 @@
       "status": "success",
       "extraction_quality": "clean",
       "question_count": 35,
-      "duration_seconds": 10.04,
+      "duration_seconds": 0.72,
       "suspicious_hebrew": 7
     },
     {
@@ -202,14 +202,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 1.43
+      "duration_seconds": 225.62
     },
     {
       "id": "fullmmd2025",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 3,
-      "duration_seconds": 39.6,
+      "duration_seconds": 14.86,
       "suspicious_hebrew": 2,
       "extraction_notes": "missing answers for: 1, 2, 3; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -218,7 +218,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.88,
+      "duration_seconds": 0.96,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -226,7 +226,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.57,
+      "duration_seconds": 0.51,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -234,7 +234,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 15.04,
+      "duration_seconds": 9.21,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1"
     },
@@ -243,7 +243,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 4,
-      "duration_seconds": 8.42,
+      "duration_seconds": 4.27,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1, 2, 3, 4"
     },
@@ -252,7 +252,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 41,
-      "duration_seconds": 0.83,
+      "duration_seconds": 0.86,
       "suspicious_hebrew": 2,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41"
     },
@@ -261,7 +261,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 30,
-      "duration_seconds": 0.66,
+      "duration_seconds": 0.63,
       "suspicious_hebrew": 4,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30"
     },
@@ -270,7 +270,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.32,
+      "duration_seconds": 0.39,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -278,62 +278,11 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 41,
-      "duration_seconds": 0.87,
+      "duration_seconds": 0.72,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41"
     },
     {
       "id": "fullmm2024",
-      "status": "success",
-      "extraction_quality": "manual_review_needed",
-      "question_count": 2,
-      "duration_seconds": 4.97,
-      "suspicious_hebrew": 2,
-      "extraction_notes": "missing answers for: 1, 2; some narrative verse text could not be enriched from Sefaria; best-effort retained"
-    },
-    {
-      "id": "ARTZI_MM_Q",
-      "status": "success",
-      "extraction_quality": "manual_review_needed",
-      "question_count": 31,
-      "duration_seconds": 0.74,
-      "suspicious_hebrew": 6,
-      "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; some narrative verse text could not be enriched from Sefaria; best-effort retained"
-    },
-    {
-      "id": "ARTZI_MM_A",
-      "status": "success",
-      "extraction_quality": "unreadable",
-      "question_count": 0,
-      "duration_seconds": 1.09
-    },
-    {
-      "id": "Q_mamad_tashpad",
-      "status": "success",
-      "extraction_quality": "manual_review_needed",
-      "question_count": 30,
-      "duration_seconds": 0.77,
-      "suspicious_hebrew": 6,
-      "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30"
-    },
-    {
-      "id": "A_mamad_tashpad",
-      "status": "success",
-      "extraction_quality": "manual_review_needed",
-      "question_count": 0,
-      "duration_seconds": 0.31,
-      "extraction_notes": "no question units parsed"
-    },
-    {
-      "id": "testmehuzimmd2024",
-      "status": "success",
-      "extraction_quality": "manual_review_needed",
-      "question_count": 39,
-      "duration_seconds": 0.79,
-      "suspicious_hebrew": 2,
-      "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39"
-    },
-    {
-      "id": "fullmmd2024",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
@@ -342,11 +291,62 @@
       "extraction_notes": "missing answers for: 1, 2; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
     {
+      "id": "ARTZI_MM_Q",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.91,
+      "suspicious_hebrew": 6,
+      "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "ARTZI_MM_A",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.44
+    },
+    {
+      "id": "Q_mamad_tashpad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 30,
+      "duration_seconds": 0.41,
+      "suspicious_hebrew": 6,
+      "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30"
+    },
+    {
+      "id": "A_mamad_tashpad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.4,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "testmehuzimmd2024",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 39,
+      "duration_seconds": 0.94,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39"
+    },
+    {
+      "id": "fullmmd2024",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 2.59,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "missing answers for: 1, 2; some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
       "id": "ARTZI_MMD_Q",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.79,
+      "duration_seconds": 0.83,
       "suspicious_hebrew": 7,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
@@ -355,14 +355,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.4
+      "duration_seconds": 0.42
     },
     {
       "id": "ARTZI2024_FULL",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 3.5,
+      "duration_seconds": 2.64,
       "suspicious_hebrew": 28,
       "extraction_notes": "missing answers for: 1, 2; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -371,7 +371,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 1.94,
+      "duration_seconds": 1.89,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1, 2"
     },
@@ -380,7 +380,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 35,
-      "duration_seconds": 0.51,
+      "duration_seconds": 0.49,
       "suspicious_hebrew": 3,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35"
     },
@@ -406,7 +406,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.39,
+      "duration_seconds": 0.41,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -414,7 +414,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 1.18,
+      "duration_seconds": 1.14,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -422,7 +422,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.84,
+      "duration_seconds": 0.79,
       "suspicious_hebrew": 3,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
@@ -431,7 +431,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.47,
+      "duration_seconds": 0.34,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -439,7 +439,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 35,
-      "duration_seconds": 0.58,
+      "duration_seconds": 0.49,
       "suspicious_hebrew": 5,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -448,7 +448,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.44,
+      "duration_seconds": 0.41,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -456,7 +456,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 35,
-      "duration_seconds": 0.64,
+      "duration_seconds": 0.67,
       "suspicious_hebrew": 5,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -465,7 +465,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.31,
+      "duration_seconds": 0.44,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -473,7 +473,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 38,
-      "duration_seconds": 0.96,
+      "duration_seconds": 0.67,
       "suspicious_hebrew": 7,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38"
     },
@@ -482,7 +482,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.85,
+      "duration_seconds": 0.39,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -490,7 +490,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 1.24,
+      "duration_seconds": 1.06,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -498,7 +498,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.79,
+      "duration_seconds": 0.7,
       "suspicious_hebrew": 6,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
@@ -507,7 +507,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.49,
+      "duration_seconds": 0.41,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -515,7 +515,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.18,
+      "duration_seconds": 2.24,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -523,7 +523,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.7,
+      "duration_seconds": 0.69,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -539,7 +539,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 1.03,
+      "duration_seconds": 1.02,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -547,7 +547,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.0,
+      "duration_seconds": 1.95,
       "suspicious_hebrew": 6,
       "extraction_notes": "missing answers for: 1, 2"
     },
@@ -564,7 +564,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.64,
+      "duration_seconds": 0.72,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -572,7 +572,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.52,
+      "duration_seconds": 0.7,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -580,7 +580,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.86,
+      "duration_seconds": 0.81,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -588,7 +588,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 26,
-      "duration_seconds": 0.53,
+      "duration_seconds": 0.52,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26"
     },
     {
@@ -596,7 +596,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 1.06,
+      "duration_seconds": 0.73,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
     {
@@ -604,7 +604,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 3,
-      "duration_seconds": 5.08,
+      "duration_seconds": 4.6,
       "suspicious_hebrew": 2,
       "extraction_notes": "missing answers for: 1, 2, 3"
     },
@@ -613,7 +613,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 50,
-      "duration_seconds": 0.86,
+      "duration_seconds": 0.92,
       "suspicious_hebrew": 7,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -622,7 +622,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 41,
-      "duration_seconds": 8.4,
+      "duration_seconds": 1.21,
       "suspicious_hebrew": 3,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -631,7 +631,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.5,
+      "duration_seconds": 2.61,
       "suspicious_hebrew": 7,
       "extraction_notes": "missing answers for: 1, 2"
     },
@@ -640,7 +640,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 6.35,
+      "duration_seconds": 1.16,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
@@ -649,7 +649,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 3,
-      "duration_seconds": 3.1,
+      "duration_seconds": 2.93,
       "suspicious_hebrew": 4,
       "extraction_notes": "missing answers for: 1, 2, 3"
     },
@@ -658,7 +658,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 50,
-      "duration_seconds": 1.1,
+      "duration_seconds": 0.91,
       "suspicious_hebrew": 8,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -667,7 +667,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 41,
-      "duration_seconds": 3.65,
+      "duration_seconds": 0.98,
       "suspicious_hebrew": 3,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41"
     },
@@ -676,7 +676,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.56,
+      "duration_seconds": 2.6,
       "suspicious_hebrew": 9,
       "extraction_notes": "missing answers for: 1, 2; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -685,7 +685,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 23.95,
+      "duration_seconds": 0.81,
       "suspicious_hebrew": 2,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
@@ -694,7 +694,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 35,
-      "duration_seconds": 0.7,
+      "duration_seconds": 0.53,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35"
     },
     {
@@ -702,7 +702,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 35,
-      "duration_seconds": 0.52,
+      "duration_seconds": 0.69,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35"
     },
     {
@@ -710,7 +710,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 1.39,
+      "duration_seconds": 1.47,
       "suspicious_hebrew": 5,
       "extraction_notes": "missing answers for: 1, 2"
     },
@@ -719,7 +719,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 41,
-      "duration_seconds": 0.68,
+      "duration_seconds": 0.71,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41"
     },
     {
@@ -727,7 +727,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 12,
-      "duration_seconds": 0.74,
+      "duration_seconds": 0.79,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12"
     },
     {
@@ -735,7 +735,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 1,
-      "duration_seconds": 2.44,
+      "duration_seconds": 2.5,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1"
     },
@@ -744,7 +744,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 1.0,
+      "duration_seconds": 0.89,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
     {
@@ -760,7 +760,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 35,
-      "duration_seconds": 0.72,
+      "duration_seconds": 0.7,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35"
     },
     {
@@ -768,7 +768,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 1.43,
+      "duration_seconds": 1.46,
       "suspicious_hebrew": 3,
       "extraction_notes": "missing answers for: 1, 2"
     },
@@ -785,7 +785,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.69,
+      "duration_seconds": 0.78,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
     {
@@ -793,7 +793,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 1,
-      "duration_seconds": 2.81,
+      "duration_seconds": 2.84,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -801,7 +801,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 50,
-      "duration_seconds": 1.16,
+      "duration_seconds": 1.11,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50"
     },
@@ -810,7 +810,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 26,
-      "duration_seconds": 0.82,
+      "duration_seconds": 0.81,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26"
     },
     {
@@ -818,7 +818,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 1.28,
+      "duration_seconds": 1.37,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -826,7 +826,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.97,
+      "duration_seconds": 0.82,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
     {
@@ -842,7 +842,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 36,
-      "duration_seconds": 0.9,
+      "duration_seconds": 0.88,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36"
     },
     {
@@ -850,7 +850,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.75,
+      "duration_seconds": 0.9,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
     {
@@ -858,7 +858,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.46,
+      "duration_seconds": 0.67,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -866,14 +866,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.75
+      "duration_seconds": 0.57
     },
     {
       "id": "2018_school_quiz",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.65,
+      "duration_seconds": 0.56,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -881,14 +881,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 3.1
+      "duration_seconds": 2.94
     },
     {
       "id": "district_2018",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 50,
-      "duration_seconds": 1.02,
+      "duration_seconds": 0.82,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50"
     },
     {
@@ -896,7 +896,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.73,
+      "duration_seconds": 0.55,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -904,7 +904,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 3.03,
+      "duration_seconds": 2.87,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -912,7 +912,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.61,
+      "duration_seconds": 0.63,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -920,14 +920,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.61
+      "duration_seconds": 0.62
     },
     {
       "id": "2018_school_quiz_mamad",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.63,
+      "duration_seconds": 0.64,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -935,7 +935,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.72,
+      "duration_seconds": 0.71,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
     {
@@ -943,14 +943,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 2.78
+      "duration_seconds": 2.67
     },
     {
       "id": "country_spring_2018_mamad",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 20,
-      "duration_seconds": 0.68,
+      "duration_seconds": 0.59,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20"
     },
     {
@@ -958,7 +958,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.56,
+      "duration_seconds": 0.69,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -966,14 +966,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 2.53
+      "duration_seconds": 1.82
     },
     {
       "id": "2017m2",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 21,
-      "duration_seconds": 0.85,
+      "duration_seconds": 0.82,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21"
     },
     {
@@ -981,7 +981,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.29,
+      "duration_seconds": 2.0,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -989,7 +989,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.56,
+      "duration_seconds": 0.57,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -997,7 +997,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 21,
-      "duration_seconds": 0.51,
+      "duration_seconds": 0.69,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21"
     },
     {
@@ -1005,7 +1005,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 10,
-      "duration_seconds": 0.63,
+      "duration_seconds": 0.51,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
     },
     {
@@ -1013,7 +1013,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.1,
+      "duration_seconds": 2.04,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1021,7 +1021,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.45,
+      "duration_seconds": 0.63,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -1029,14 +1029,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 1.84
+      "duration_seconds": 1.73
     },
     {
       "id": "2016m2",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 21,
-      "duration_seconds": 0.52,
+      "duration_seconds": 0.49,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21"
     },
     {
@@ -1044,7 +1044,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.29,
+      "duration_seconds": 2.42,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1052,7 +1052,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 25,
-      "duration_seconds": 0.68,
+      "duration_seconds": 0.49,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25"
     },
     {
@@ -1060,7 +1060,7 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 2.17
+      "duration_seconds": 2.03
     },
     {
       "id": "2016md2",
@@ -1075,7 +1075,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.53,
+      "duration_seconds": 2.59,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1083,7 +1083,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 4,
-      "duration_seconds": 0.56,
+      "duration_seconds": 0.71,
       "extraction_notes": "missing answers for: 1, 2, 3, 4"
     },
     {
@@ -1091,7 +1091,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 4,
-      "duration_seconds": 2.85,
+      "duration_seconds": 2.73,
       "extraction_notes": "missing answers for: 1, 2, 3, 4"
     },
     {
@@ -1115,7 +1115,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 4,
-      "duration_seconds": 0.54,
+      "duration_seconds": 0.76,
       "extraction_notes": "missing answers for: 1, 2, 3, 4"
     },
     {
@@ -1123,14 +1123,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 2.43
+      "duration_seconds": 2.59
     },
     {
       "id": "2015md2",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.66,
+      "duration_seconds": 0.55,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1138,7 +1138,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.84,
+      "duration_seconds": 2.73,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1146,7 +1146,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 4,
-      "duration_seconds": 0.47,
+      "duration_seconds": 0.65,
       "extraction_notes": "missing answers for: 1, 2, 3, 4"
     },
     {
@@ -1154,14 +1154,14 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 1,
-      "duration_seconds": 12.62
+      "duration_seconds": 2.89
     },
     {
       "id": "2014m2",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 1.06,
+      "duration_seconds": 1.2,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1177,7 +1177,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.75,
+      "duration_seconds": 0.57,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1185,14 +1185,14 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 4,
-      "duration_seconds": 3.32
+      "duration_seconds": 2.54
     },
     {
       "id": "2014md2",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 1.17,
+      "duration_seconds": 1.59,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1200,7 +1200,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.46,
+      "duration_seconds": 2.49,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1208,7 +1208,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 9,
-      "duration_seconds": 0.62,
+      "duration_seconds": 0.8,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9"
     },
     {
@@ -1216,7 +1216,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 9,
-      "duration_seconds": 3.18,
+      "duration_seconds": 2.44,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9"
     },
     {
@@ -1224,14 +1224,14 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.32
+      "duration_seconds": 0.21
     },
     {
       "id": "2013m3",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 6,
-      "duration_seconds": 4.07,
+      "duration_seconds": 2.31,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6"
     },
     {
@@ -1239,7 +1239,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 9,
-      "duration_seconds": 0.75,
+      "duration_seconds": 0.44,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9"
     },
     {
@@ -1247,21 +1247,21 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 1.89
+      "duration_seconds": 1.68
     },
     {
       "id": "2013md2",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.23
+      "duration_seconds": 0.18
     },
     {
       "id": "2013md3",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 6,
-      "duration_seconds": 2.46,
+      "duration_seconds": 2.35,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6"
     },
     {
@@ -1269,7 +1269,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.53,
+      "duration_seconds": 0.54,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1277,7 +1277,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 1.97,
+      "duration_seconds": 2.04,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1285,7 +1285,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 21,
-      "duration_seconds": 0.75,
+      "duration_seconds": 0.72,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21"
     },
     {
@@ -1300,7 +1300,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.04,
+      "duration_seconds": 2.07,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1308,7 +1308,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.44,
+      "duration_seconds": 0.46,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1316,7 +1316,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.06,
+      "duration_seconds": 2.11,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1324,7 +1324,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.54,
+      "duration_seconds": 0.53,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1339,7 +1339,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 2.24,
+      "duration_seconds": 2.44,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1347,7 +1347,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.68,
+      "duration_seconds": 0.45,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1355,7 +1355,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 9,
-      "duration_seconds": 4.81,
+      "duration_seconds": 2.02,
       "extraction_notes": "missing answers for: 1, 2, 3, 6, 7, 8, 9"
     },
     {
@@ -1363,7 +1363,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 3,
-      "duration_seconds": 0.49,
+      "duration_seconds": 0.42,
       "extraction_notes": "missing answers for: 1, 2, 3"
     },
     {
@@ -1371,7 +1371,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.46,
+      "duration_seconds": 0.43,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1379,7 +1379,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 1,
-      "duration_seconds": 1.47,
+      "duration_seconds": 1.42,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -1387,7 +1387,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.53,
+      "duration_seconds": 0.43,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1395,7 +1395,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 3.0,
+      "duration_seconds": 2.47,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1, 2"
     },
@@ -1404,42 +1404,42 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.25
+      "duration_seconds": 0.22
     },
     {
       "id": "2010m1",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.55
+      "duration_seconds": 0.48
     },
     {
       "id": "2010m2",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.27
+      "duration_seconds": 0.29
     },
     {
       "id": "2010m3",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.28
+      "duration_seconds": 0.19
     },
     {
       "id": "2010m4",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.55
+      "duration_seconds": 0.29
     },
     {
       "id": "2010md",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.23
+      "duration_seconds": 0.18
     },
     {
       "id": "2010md1",
@@ -1453,56 +1453,56 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.23
+      "duration_seconds": 0.21
     },
     {
       "id": "2010md3",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.39
+      "duration_seconds": 0.24
     },
     {
       "id": "2010md4",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.41
+      "duration_seconds": 0.32
     },
     {
       "id": "2009m",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.19
+      "duration_seconds": 0.36
     },
     {
       "id": "2009m1",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.3
+      "duration_seconds": 0.26
     },
     {
       "id": "2009m2",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.66
+      "duration_seconds": 0.4
     },
     {
       "id": "2009m3",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.21
+      "duration_seconds": 0.2
     },
     {
       "id": "2009md",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.18
+      "duration_seconds": 0.24
     },
     {
       "id": "2009md1",
@@ -1516,77 +1516,77 @@
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.65
+      "duration_seconds": 0.54
     },
     {
       "id": "2009md3",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.23
+      "duration_seconds": 0.22
     },
     {
       "id": "2008m",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.37
+      "duration_seconds": 0.21
     },
     {
       "id": "2008m1",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.87
+      "duration_seconds": 0.54
     },
     {
       "id": "2008m2",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 1.27
+      "duration_seconds": 0.71
     },
     {
       "id": "2008m3",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.4
+      "duration_seconds": 0.44
     },
     {
       "id": "2008md",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.23
+      "duration_seconds": 0.18
     },
     {
       "id": "2008md1",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.48
+      "duration_seconds": 0.58
     },
     {
       "id": "2008md2",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.51
+      "duration_seconds": 0.61
     },
     {
       "id": "2008md3",
       "status": "success",
       "extraction_quality": "unreadable",
       "question_count": 0,
-      "duration_seconds": 0.48
+      "duration_seconds": 0.53
     },
     {
       "id": "Summarizing2026",
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 48,
-      "duration_seconds": 0.86,
+      "duration_seconds": 0.78,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48"
     },
     {
@@ -1602,7 +1602,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.77,
+      "duration_seconds": 0.57,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
     {
@@ -1610,7 +1610,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 2.63,
+      "duration_seconds": 2.27,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1618,7 +1618,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.47,
+      "duration_seconds": 0.55,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1626,7 +1626,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.64,
+      "duration_seconds": 0.58,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1634,7 +1634,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 2.13,
+      "duration_seconds": 1.9,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -1642,7 +1642,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 1,
-      "duration_seconds": 0.82,
+      "duration_seconds": 0.78,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -1650,7 +1650,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 1.1,
+      "duration_seconds": 1.04,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1658,7 +1658,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 1.71,
+      "duration_seconds": 1.78,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -1666,7 +1666,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 10,
-      "duration_seconds": 0.63,
+      "duration_seconds": 0.58,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
     },
     {
@@ -1674,7 +1674,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 1.21,
+      "duration_seconds": 1.02,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1682,7 +1682,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 1.06,
+      "duration_seconds": 0.9,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1690,7 +1690,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.84,
+      "duration_seconds": 0.61,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1698,7 +1698,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 13,
-      "duration_seconds": 0.61,
+      "duration_seconds": 0.65,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13"
     },
     {
@@ -1706,7 +1706,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 17,
-      "duration_seconds": 0.68,
+      "duration_seconds": 0.56,
       "suspicious_hebrew": 4,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17; some narrative verse text could not be enriched from Sefaria; best-effort retained"
     },
@@ -1715,7 +1715,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 2,
-      "duration_seconds": 1.6,
+      "duration_seconds": 1.61,
       "extraction_notes": "missing answers for: 1, 2"
     },
     {
@@ -1723,7 +1723,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 1.78,
+      "duration_seconds": 1.8,
       "suspicious_hebrew": 1,
       "extraction_notes": "missing answers for: 1"
     },
@@ -1732,7 +1732,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 31,
-      "duration_seconds": 0.77,
+      "duration_seconds": 0.89,
       "suspicious_hebrew": 10,
       "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
     },
@@ -1741,7 +1741,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 0.93,
+      "duration_seconds": 0.9,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1749,7 +1749,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 0.69,
+      "duration_seconds": 0.49,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -1765,7 +1765,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 25.07,
+      "duration_seconds": 25.22,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -1773,7 +1773,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 1.53,
+      "duration_seconds": 1.21,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1781,7 +1781,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 1.56,
+      "duration_seconds": 1.46,
       "extraction_notes": "missing answers for: 1"
     },
     {
@@ -1789,7 +1789,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 0,
-      "duration_seconds": 3.47,
+      "duration_seconds": 3.27,
       "extraction_notes": "no question units parsed"
     },
     {
@@ -1797,7 +1797,7 @@
       "status": "success",
       "extraction_quality": "manual_review_needed",
       "question_count": 3,
-      "duration_seconds": 4.32,
+      "duration_seconds": 4.22,
       "extraction_notes": "missing answers for: 1, 2, 3"
     },
     {
@@ -1805,7 +1805,7 @@
       "status": "fetch_failed",
       "extraction_quality": null,
       "question_count": 0,
-      "duration_seconds": 9.33,
+      "duration_seconds": 9.32,
       "extraction_notes": "404 Client Error: Not Found for url: https://meyda.education.gov.il/files/internationaladults2015.pdf"
     },
     {
@@ -1813,7 +1813,7 @@
       "status": "success",
       "extraction_quality": "partial",
       "question_count": 1,
-      "duration_seconds": 0.71,
+      "duration_seconds": 0.78,
       "extraction_notes": "missing answers for: 1"
     }
   ]

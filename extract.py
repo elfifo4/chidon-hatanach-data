@@ -198,6 +198,7 @@ def repair_hebrew_pdf_text(text: str | None) -> str | None:
     if not text:
         return text
     s = unicodedata.normalize("NFKC", text)  # NFKC folds presentation forms (ﬠ->ע)
+    s = re.sub(r"[{(\[][ספ][}\)\]]", "", s)  # {ס}/{פ} paragraph markers from source text
     prev = None
     while prev != s:  # repeat for chained detached clusters
         prev = s

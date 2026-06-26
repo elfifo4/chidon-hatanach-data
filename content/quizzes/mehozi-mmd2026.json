@@ -2997,7 +2997,7 @@
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/mehozi-mmd2026.pdf",
     "fetch_date": "2026-06-25",
-    "extraction_quality": "manual_review_needed",
+    "extraction_quality": "partial",
     "extraction_notes": "missing answers for: 51; validation: q51 option count 0; q51 no correct_option"
   }
 }

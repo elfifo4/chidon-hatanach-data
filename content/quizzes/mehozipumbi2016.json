@@ -63,7 +63,7 @@
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/noar/mehozipumbi2016.pdf",
     "fetch_date": "2026-06-25",
-    "extraction_quality": "partial",
+    "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1"
   }
 }

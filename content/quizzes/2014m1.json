@@ -506,7 +506,7 @@
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2014m1.pdf",
     "fetch_date": "2026-06-25",
-    "extraction_quality": "manual_review_needed",
+    "extraction_quality": "clean",
     "extraction_notes": "validation: q01 option count 100"
   }
 }

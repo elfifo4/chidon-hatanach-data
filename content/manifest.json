@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-25",
+  "generated_at": "2026-06-26",
   "quizzes": [
     {
       "id": "2008m",
@@ -307,7 +307,7 @@
       "year_hebrew": "תשע\"א",
       "question_count": 9,
       "json_path": "quizzes/2011m1.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -582,7 +582,7 @@
       "year_hebrew": "תשע\"ד",
       "question_count": 1,
       "json_path": "quizzes/2014m1.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "clean",
       "has_answer_key": true
     },
     {
@@ -626,7 +626,7 @@
       "year_hebrew": "תשע\"ד",
       "question_count": 4,
       "json_path": "quizzes/2014md1.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "clean",
       "has_answer_key": true
     },
     {
@@ -1132,7 +1132,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/ARTZI_PUB_MMD.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": true
     },
     {
@@ -1495,7 +1495,7 @@
       "year_hebrew": "תש\"פ",
       "question_count": 1,
       "json_path": "quizzes/adults_2020.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -1539,7 +1539,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/adults_district_quiz33.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -1550,7 +1550,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/adults_international_bible_quiz.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -1572,7 +1572,7 @@
       "year_hebrew": "תשפ\"ב",
       "question_count": 1,
       "json_path": "quizzes/adults_quiz_2022.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -1594,7 +1594,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/artzi-mm-booklet.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": true
     },
     {
@@ -1616,7 +1616,7 @@
       "year_hebrew": "תשע\"ו",
       "question_count": 1,
       "json_path": "quizzes/artziktav2016.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -1638,7 +1638,7 @@
       "year_hebrew": "תשפ\"ו",
       "question_count": 25,
       "json_path": "quizzes/beitsifri_mm2026.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "clean",
       "has_answer_key": true
     },
     {
@@ -1968,7 +1968,7 @@
       "year_hebrew": "תש\"פ",
       "question_count": 1,
       "json_path": "quizzes/internataionaladultswritten2020.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -2067,7 +2067,7 @@
       "year_hebrew": "תשפ\"ו",
       "question_count": 41,
       "json_path": "quizzes/mehozi-mm2026.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -2078,7 +2078,7 @@
       "year_hebrew": "תשפ\"ו",
       "question_count": 51,
       "json_path": "quizzes/mehozi-mmd2026.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -2100,7 +2100,7 @@
       "year_hebrew": "תשע\"ו",
       "question_count": 1,
       "json_path": "quizzes/mehozipumbi2016.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -2243,7 +2243,7 @@
       "year_hebrew": null,
       "question_count": 10,
       "json_path": "quizzes/pre_adults_district_quiz.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -2287,7 +2287,7 @@
       "year_hebrew": null,
       "question_count": 1,
       "json_path": "quizzes/regional_booklet_mamad.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {

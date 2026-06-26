@@ -510,7 +510,7 @@
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/internataionaladultswritten2020.pdf",
     "fetch_date": "2026-06-25",
-    "extraction_quality": "partial",
+    "extraction_quality": "manual_review_needed",
     "extraction_notes": "missing answers for: 1"
   }
 }

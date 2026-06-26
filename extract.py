@@ -958,15 +958,22 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
     }
 
     # Determine extraction quality.
-    quality = "clean"
-    missing_answers = [u["display_number"] for u in units if u["correct_option"] is None]
+    keyed = [u for u in units if u.get("correct_option")]
+    missing_answers = [u["display_number"] for u in units if u.get("correct_option") is None]
     garbled = any(REPLACEMENT_CHAR in (u.get("narrative_context") or "") for u in units)
     if not units:
         quality = "manual_review_needed"
         notes_bits.append("no question units parsed")
+    elif not keyed:
+        # Questions parsed but no answer key at all (the answers are likely in a
+        # separate תשובון file that isn't merged yet) -> hide until a key exists.
+        quality = "manual_review_needed"
+        notes_bits.append("no answer key found (questions only)")
     elif missing_answers:
         quality = "partial"
         notes_bits.append(f"missing answers for: {', '.join(missing_answers)}")
+    else:
+        quality = "clean"
     if garbled or enrich_failed:
         if quality == "clean":
             quality = "partial"
@@ -1035,11 +1042,9 @@ def validate(q: dict) -> list[str]:
         for f in ("unit_id", "prompt", "question_type"):
             if not u.get(f):
                 fails.append(f"{u.get('unit_id')} missing {f}")
-        if u.get("question_type") == "multiple_choice":
-            if not (3 <= len(u.get("options", [])) <= 4):
-                fails.append(f"{u['unit_id']} option count {len(u.get('options', []))}")
-            if not u.get("correct_option"):
-                fails.append(f"{u['unit_id']} no correct_option")
+    # Note: missing answer keys and odd option counts are NOT hard failures — they are
+    # reflected in extraction_quality (manual_review_needed / partial) instead of forcing
+    # a whole readable quiz into review and hiding it from the app.
     if not q.get("import_provenance", {}).get("fetch_date"):
         fails.append("no fetch_date")
     return fails
@@ -1222,6 +1227,22 @@ def reclassify_existing() -> int:
             md["contest_year_civil"] = meta["year_civil"]
             md["contest_year_hebrew"] = HEBREW_YEARS.get(meta["year_civil"])
             changed = True
+
+        # Recompute extraction_quality from the already-parsed content (no re-download),
+        # matching build_questionnaire: hide quizzes with no answer key at all.
+        prov = q.setdefault("import_provenance", {})
+        if prov.get("extraction_quality") != "unreadable":
+            units = [u for s in q.get("sections", []) for u in s.get("question_units", [])]
+            keyed = [u for u in units if u.get("correct_option")]
+            new_quality = (
+                "manual_review_needed" if not keyed
+                else "clean" if len(keyed) == len(units)
+                else "partial"
+            )
+            if prov.get("extraction_quality") != new_quality:
+                prov["extraction_quality"] = new_quality
+                changed = True
+
         if changed:
             write_json(jp, q)
             updated += 1

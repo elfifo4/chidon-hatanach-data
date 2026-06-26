@@ -906,7 +906,7 @@
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2011m1.pdf",
     "fetch_date": "2026-06-25",
-    "extraction_quality": "manual_review_needed",
+    "extraction_quality": "partial",
     "extraction_notes": "missing answers for: 1, 2, 3, 6, 7, 8, 9; validation: q01 option count 5; q01 no correct_option; q02 no correct_option; q03 no correct_option; q06 no correct_option; q09 option count 120; q09 no correct_option"
   }
 }

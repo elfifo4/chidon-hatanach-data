@@ -820,9 +820,27 @@ def parse_metadata_page(text: str) -> dict:
 # --------------------------------------------------------------------------- #
 # Build questionnaire object
 # --------------------------------------------------------------------------- #
+def _inline_clean_quote(text: str, whole_refs: list[dict]) -> tuple[str, bool]:
+    """Clean the quoted verse *in place* inside `text` (keeping the surrounding
+    quotation marks and its position), using Sefaria alignment. Returns
+    (new_text, cleaned)."""
+    best = None
+    for m in re.finditer(r'"([^"]+)"', text):
+        inner = m.group(1)
+        if NIQQUD.search(inner) or REPLACEMENT_CHAR in inner:
+            if best is None or len(inner) > len(best.group(1)):
+                best = m
+    if best is None:
+        return text, False
+    aligned = align_quote_to_sefaria(best.group(1), whole_refs)
+    if not aligned:
+        return text, False
+    return text[:best.start(1)] + aligned + text[best.end(1):], True
+
+
 def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict,
                         answers: dict[int, dict] | None = None,
-                        enrich: bool = True) -> tuple[dict, str, str | None]:
+                        enrich: bool = True, inline_quotes: bool = False) -> tuple[dict, str, str | None]:
     """Returns (questionnaire_dict, extraction_quality, notes).
 
     `answers` is the parsed answer key (from extract_answer_tables); if None,
@@ -850,9 +868,15 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
     units = []
     for ru in raw_units:
         n = ru["number"]
-        narrative, prompt = split_narrative(ru["prompt"])
-        prompt = repair_hebrew_pdf_text(prompt)
-        narrative = repair_hebrew_pdf_text(narrative)
+        if inline_quotes:
+            # Keep the quoted verse inline in the prompt (with its quotes and
+            # original position); no separate narrative_context.
+            narrative = None
+            prompt = repair_hebrew_pdf_text(ru["prompt"])
+        else:
+            narrative, prompt = split_narrative(ru["prompt"])
+            prompt = repair_hebrew_pdf_text(prompt)
+            narrative = repair_hebrew_pdf_text(narrative)
         for o in ru["options"]:
             o["text"] = repair_hebrew_pdf_text(o["text"])
         qtype = classify_question(prompt, ru["options"])
@@ -900,10 +924,17 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
     enrich_failed = False
     if enrich:
         for u in units:
-            if not u["narrative_context"]:
-                continue
             whole = [{"book": s["book"], "chapter": s["chapter"], "verse": s["verse"]}
                      for s in u["primary_sources"] if s["scope"] == "whole_unit"]
+            if inline_quotes:
+                if whole:
+                    u["prompt"], _ok = _inline_clean_quote(u["prompt"], whole)
+                if REPLACEMENT_CHAR in u["prompt"] or _SPACE_THEN_MARK.search(u["prompt"]):
+                    enrich_failed = True
+                    u["format_confidence_note"] = "quoted verse shown as extracted; Sefaria alignment unavailable"
+                continue
+            if not u["narrative_context"]:
+                continue
             aligned = align_quote_to_sefaria(u["narrative_context"], whole) if whole else None
             if aligned:
                 u["narrative_context"] = aligned

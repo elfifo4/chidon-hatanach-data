@@ -59,7 +59,10 @@ def _baseline_extract(pdf_path: Path, quiz_id: str, source_url: str) -> dict:
     pages = extract.extract_pdf_pages(pdf_path)
     answers = extract.extract_answer_tables(pdf_path)
     meta = extract.decode_filename(quiz_id)
-    quiz, _quality, _notes = extract.build_questionnaire(quiz_id, source_url, pages, meta, answers)
+    # Pilot keeps the quoted verse inline in the prompt (with quotes, in its
+    # original position) instead of splitting it into narrative_context.
+    quiz, _quality, _notes = extract.build_questionnaire(
+        quiz_id, source_url, pages, meta, answers, inline_quotes=True)
     return quiz
 
 

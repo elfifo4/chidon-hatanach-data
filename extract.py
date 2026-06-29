@@ -131,6 +131,24 @@ def gematria(s: str) -> int:
     return sum(_GEMATRIA.get(c, 0) for c in (s or ""))
 
 
+_GEM_ONES = ["", "א", "ב", "ג", "ד", "ה", "ו", "ז", "ח", "ט"]
+_GEM_TENS = ["", "י", "כ", "ל", "מ", "נ", "ס", "ע", "פ", "צ"]
+_GEM_HUNDREDS = ["", "ק", "ר", "ש", "ת"]
+
+
+def int_to_gematria(n: int) -> str:
+    """Small int -> Hebrew numeral (verse/chapter range). Handles 15/16 specially."""
+    if n <= 0:
+        return ""
+    s = _GEM_HUNDREDS[n // 100] if n // 100 <= 4 else ""
+    rem = n % 100
+    if rem in (15, 16):
+        s += "טו" if rem == 15 else "טז"
+    else:
+        s += _GEM_TENS[rem // 10] + _GEM_ONES[rem % 10]
+    return s
+
+
 # --------------------------------------------------------------------------- #
 # Text extraction (handles Hebrew RTL de-reversal)
 # --------------------------------------------------------------------------- #
@@ -834,8 +852,24 @@ def _inline_clean_quote(text: str, whole_refs: list[dict]) -> tuple[str, bool]:
         return text, False
     aligned = align_quote_to_sefaria(best.group(1), whole_refs)
     if not aligned:
+        # The answer-key ref points to where the answer is, which may differ from
+        # the quoted lead-in verse. Retry against a small window around each ref.
+        aligned = align_quote_to_sefaria(best.group(1), _widen_refs(whole_refs))
+    if not aligned:
         return text, False
     return text[:best.start(1)] + aligned + text[best.end(1):], True
+
+
+def _widen_refs(refs: list[dict], before: int = 2, after: int = 1) -> list[dict]:
+    out = []
+    for r in refs:
+        v = gematria(r.get("verse") or "")
+        if not v:
+            out.append(r)
+            continue
+        lo, hi = max(1, v - before), v + after
+        out.append({**r, "verse": f"{int_to_gematria(lo)}-{int_to_gematria(hi)}"})
+    return out
 
 
 def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict,

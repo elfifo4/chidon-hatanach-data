@@ -133,6 +133,16 @@ def test_alignment_preserves_ellipsis_and_excludes_elided_words():
     assert "ה'" in out                              # divine-name abbreviation preserved
 
 
+@pytest.mark.parametrize("n, heb", [(15, "טו"), (16, "טז"), (29, "כט"), (30, "ל"), (31, "לא"), (5, "ה")])
+def test_int_to_gematria(n, heb):
+    assert extract.int_to_gematria(n) == heb
+
+
+def test_widen_refs_builds_verse_window():
+    out = extract._widen_refs([{"book": "במדבר", "chapter": "לב", "verse": "ל"}], before=2, after=1)
+    assert out[0]["verse"] == "כח-לא"  # 30 -> 28..31
+
+
 def test_split_narrative_ignores_incidental_niqqud():
     """A lone vocalized word in the question is not pulled out as a verse."""
     narr, prompt = extract.split_narrative("את בנה של מי לא שׁכל דוד?")

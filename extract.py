@@ -1302,7 +1302,27 @@ def main() -> int:
     ap.add_argument("--reclassify", action="store_true",
                     help="backfill track/stage/year on existing quiz JSONs, then regenerate manifest")
     ap.add_argument("--dry-run", action="store_true", help="list what would be processed")
+    # Single-PDF pilot (no archive crawl) -- see pdf_vision.run_pilot
+    ap.add_argument("--url", metavar="PDF_URL", help="pilot: download and process ONE pdf")
+    ap.add_argument("--vision", action="store_true", help="pilot: enable vision-assisted enhancement")
+    ap.add_argument("--keep-debug-images", action="store_true", help="pilot: keep rendered page images")
+    ap.add_argument("--expected", metavar="GOLDEN_JSON", help="pilot: evaluate output against a golden json")
+    ap.add_argument("--output", metavar="PATH", help="pilot: where to write the final json")
+    ap.add_argument("--report", metavar="PATH", help="pilot: where to write the report json")
     args = ap.parse_args()
+
+    # Pilot mode: --url, or --file pointing at a local PDF/existing path. Legacy
+    # --file <archive-id> behaviour is preserved (falls through below).
+    pilot_file = bool(args.file) and (
+        args.file.lower().endswith((".pdf", ".docx", ".doc")) or Path(args.file).exists()
+    )
+    if args.url or pilot_file:
+        import pdf_vision
+        return pdf_vision.run_pilot(
+            url=args.url, file=(args.file if pilot_file else None),
+            output=args.output, report=args.report, expected=args.expected,
+            vision=args.vision, keep_debug_images=args.keep_debug_images, force=args.force,
+        )
 
     QUIZ_DIR.mkdir(parents=True, exist_ok=True)
     LOG_DIR.mkdir(exist_ok=True)

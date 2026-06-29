@@ -155,6 +155,18 @@ Each quiz file conforms to the schema below (version `1.0`).
 
 > For `negative_exclusion` questions, sources attach to the *wrong* answer options (`"answer_option:א"`, …), not to the correct answer.
 
+**Inline emphasis:** text string fields (`prompt`, `options[].text`, `narrative_context`) MAY contain the inline HTML tags `<b>`, `<u>`, `<i>` to preserve visual emphasis from the source (e.g. `"את בנה של מי <u>לא</u> שכל דוד?"`). No other tags; tags are always balanced. This is the only schema extension and is optional.
+
+### Single-PDF vision pilot (`feature/pdf-vision-pilot`)
+
+A focused pilot processes **one** questionnaire (no archive crawl): it reuses the text baseline above and, with `--vision`, renders pages locally and asks an isolated OpenAI client (`OPENAI_API_KEY`) to recover formatting/emphasis the PDF text layer misses. Outputs go to `output/` (gitignored), with a validation/eval report. Example:
+
+```
+python extract.py --url https://meyda.education.gov.il/files/bible-contest/beitsifri_mmd2026.pdf \
+  --output output/beitsifri_mmd2026.json --report output/beitsifri_mmd2026.report.json \
+  --expected content/quizzes/beitsifri_mmd2026.json [--vision --keep-debug-images]
+```
+
 **import_provenance**
 
 ```json

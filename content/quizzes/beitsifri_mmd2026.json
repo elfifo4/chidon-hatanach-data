@@ -170,7 +170,7 @@
             },
             {
               "key": "ד",
-              "text": "000,1 2"
+              "text": "000,1"
             }
           ],
           "correct_option": "ד",
@@ -210,7 +210,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "000,1 2",
+              "answer_text": "000,1",
               "source_refs": [
                 {
                   "book": "שופטים",
@@ -426,7 +426,7 @@
             },
             {
               "key": "ג",
-              "text": "שר הטבחים 3"
+              "text": "שר הטבחים"
             },
             {
               "key": "ד",
@@ -650,7 +650,7 @@
             },
             {
               "key": "ג",
-              "text": "צמחים 4"
+              "text": "צמחים"
             },
             {
               "key": "ד",
@@ -870,7 +870,7 @@
             },
             {
               "key": "ב",
-              "text": "אביגיל 5"
+              "text": "אביגיל"
             },
             {
               "key": "ג",
@@ -911,7 +911,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "אביגיל 5",
+              "answer_text": "אביגיל",
               "source_refs": [
                 {
                   "book": "שמואל ב",
@@ -1070,7 +1070,7 @@
             },
             {
               "key": "ד",
-              "text": "דוד ליואב 6"
+              "text": "דוד ליואב"
             }
           ],
           "correct_option": "ד",
@@ -1089,7 +1089,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "דוד ליואב 6",
+              "answer_text": "דוד ליואב",
               "source_refs": [
                 {
                   "book": "שמואל ב",
@@ -1277,7 +1277,7 @@
           "display_number": "22",
           "narrative_context": null,
           "prompt": "כמה שנים עברו מאז שחברון הובטחה לכלב עד היום שבא לבקש אותה מיהושע?",
-          "question_type": "multiple_choice",
+          "question_type": "numeric",
           "answer_style": "single_correct",
           "options": [
             {
@@ -1286,7 +1286,7 @@
             },
             {
               "key": "ב",
-              "text": "45 7"
+              "text": "45"
             },
             {
               "key": "ג",
@@ -1313,7 +1313,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "45 7",
+              "answer_text": "45",
               "source_refs": [
                 {
                   "book": "יהושע",
@@ -1462,7 +1462,7 @@
             },
             {
               "key": "ד",
-              "text": "כמה מיושבי יביש גלעד הרגו שבטי ישראל 8"
+              "text": "כמה מיושבי יביש גלעד הרגו שבטי ישראל"
             }
           ],
           "correct_option": "א",
@@ -1658,7 +1658,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחד מהם 9"
+              "text": "אף אחד מהם"
             }
           ],
           "correct_option": "ב",
@@ -1894,7 +1894,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחד מהם 10"
+              "text": "אף אחד מהם"
             }
           ],
           "correct_option": "ב",
@@ -2006,7 +2006,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחד מהם 11"
+              "text": "אף אחד מהם"
             }
           ],
           "correct_option": "ב",

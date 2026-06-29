@@ -145,16 +145,19 @@ def _apply_to_field(text: str, detected: list[dict]) -> tuple[str, int]:
 
 
 def apply_emphasis(quiz: dict, detected: list[dict]) -> int:
-    """Wrap emphasized words in prompt/narrative/option text. Returns count."""
+    """Wrap emphasized words in the question text. Returns count.
+
+    Applied to `prompt` and `narrative_context` only -- NOT to answer options.
+    In these questionnaires an emphasized (usually underlined) option marks the
+    *correct answer* in a solution version; rendering it would leak the answer.
+    Genuine content emphasis (e.g. the bold "לא" in a "מי לא…" question) lives in
+    the prompt and is preserved.
+    """
     total = 0
     for section in quiz.get("sections", []) or []:
         for unit in section.get("question_units", []) or []:
             for field in ("prompt", "narrative_context"):
                 if unit.get(field):
                     unit[field], c = _apply_to_field(unit[field], detected)
-                    total += c
-            for o in unit.get("options") or []:
-                if o.get("text"):
-                    o["text"], c = _apply_to_field(o["text"], detected)
                     total += c
     return total

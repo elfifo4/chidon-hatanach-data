@@ -1435,7 +1435,15 @@ def main() -> int:
     ap.add_argument("--expected", metavar="GOLDEN_JSON", help="pilot: evaluate output against a golden json")
     ap.add_argument("--output", metavar="PATH", help="pilot: where to write the final json")
     ap.add_argument("--report", metavar="PATH", help="pilot: where to write the report json")
+    ap.add_argument("--batch", metavar="IDS",
+                    help="pilot: process a curated comma-separated list of ids (no archive crawl)")
     args = ap.parse_args()
+
+    if args.batch:
+        import pdf_vision
+        ids = [s.strip() for s in args.batch.split(",") if s.strip()]
+        return pdf_vision.run_batch(ids, vision=args.vision,
+                                    keep_debug_images=args.keep_debug_images, force=args.force)
 
     # Pilot mode: --url, or --file pointing at a local PDF/existing path. Legacy
     # --file <archive-id> behaviour is preserved (falls through below).

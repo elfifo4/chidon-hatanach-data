@@ -178,7 +178,8 @@ def build_report(quiz: dict, errors: list[str], warnings: list[dict],
 # Orchestration
 # --------------------------------------------------------------------------- #
 def run_pilot(*, url=None, file=None, output=None, report=None, expected=None,
-              vision=False, keep_debug_images=False, force=False) -> int:
+              vision=False, keep_debug_images=False, force=False,
+              expected_count=EXPECTED_QUESTION_COUNT) -> int:
     images: list[Path] = []
     work_dir: Path | None = None
     try:
@@ -199,7 +200,7 @@ def run_pilot(*, url=None, file=None, output=None, report=None, expected=None,
         print(f"  emphasis: wrapped {emphasized} word(s) with <b>/<u>")
 
         _sanitize_quiz_html(quiz)
-        errors = pilot_validate.validate_quiz(quiz, expected_count=EXPECTED_QUESTION_COUNT)
+        errors = pilot_validate.validate_quiz(quiz, expected_count=expected_count)
 
         out_path = Path(output) if output else OUTPUT_ROOT / f"{quiz_id}.json"
         extract.write_json(out_path, quiz)
@@ -242,3 +243,36 @@ def run_pilot(*, url=None, file=None, output=None, report=None, expected=None,
             print("  rendered images deleted (use --keep-debug-images to keep)")
         elif images:
             print(f"  rendered images kept in {work_dir}")
+
+
+def run_batch(ids, *, vision=False, keep_debug_images=False, force=False) -> int:
+    """Process a curated list of questionnaire ids (no archive crawl) to test how
+    the pipeline generalises. Writes per-file output/report and a batch summary
+    table. Question count is not gated (files differ in length)."""
+    import json
+
+    discovered = {e["base"]: e for e in extract.discover_files()}
+    rows: list[dict] = []
+    for qid in ids:
+        entry = discovered.get(qid)
+        url = entry["url"] if entry else (extract.FILE_BASE + qid + ".pdf")
+        rep_path = OUTPUT_ROOT / f"{qid}.report.json"
+        print(f"=== {qid} ===")
+        run_pilot(url=url, output=str(OUTPUT_ROOT / f"{qid}.json"), report=str(rep_path),
+                  expected_count=None, vision=vision, keep_debug_images=keep_debug_images, force=force)
+        try:
+            rows.append(json.loads(rep_path.read_text(encoding="utf-8")))
+        except Exception:  # noqa: BLE001
+            rows.append({"questionnaire_id": qid, "error": "no report produced"})
+
+    extract.write_json(OUTPUT_ROOT / "batch_summary.json", {"count": len(rows), "results": rows})
+    print("\n=== BATCH SUMMARY ===")
+    print(f"{'id':30} {'q':>3} {'4ans':>4} {'corr':>4} {'src':>4} {'html':>4} {'susp':>4} {'furn':>4}")
+    for r in rows:
+        print(f"{(r.get('questionnaire_id') or '?'):30} "
+              f"{r.get('questions_detected', 0):>3} {r.get('with_four_answers', 0):>4} "
+              f"{r.get('with_correct_answer', 0):>4} {r.get('with_source', 0):>4} "
+              f"{r.get('with_html_formatting', 0):>4} {r.get('suspected_rtl_or_corruption', 0):>4} "
+              f"{r.get('page_furniture_contamination', 0):>4}")
+    print(f"\nbatch summary -> {OUTPUT_ROOT / 'batch_summary.json'}")
+    return 0

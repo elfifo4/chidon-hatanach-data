@@ -113,6 +113,20 @@ def test_apply_emphasis_bold_and_underline():
     assert html_format.validate_html(prompt)[0]
 
 
+def test_emphasis_never_applied_to_options_answer_leak_guard():
+    quiz = _mini_quiz()
+    quiz["sections"][0]["question_units"][0]["prompt"] = "מי לא שכל?"
+    detected = [
+        {"line": "מי לא שכל?", "spans": [{"text": "לא", "bold": True, "underline": True}]},
+        # an underlined option == the correct answer in a solution version: must be ignored
+        {"line": "אביגיל", "spans": [{"text": "אביגיל", "bold": False, "underline": True}]},
+    ]
+    pdf_emphasis.apply_emphasis(quiz, detected)
+    u = quiz["sections"][0]["question_units"][0]
+    assert "<u>" in u["prompt"]                                  # question emphasis kept
+    assert all("<" not in o["text"] for o in u["options"])       # answer never emphasized
+
+
 def test_apply_emphasis_does_not_touch_unrelated_question():
     quiz = _mini_quiz()
     quiz["sections"][0]["question_units"][0]["prompt"] = "מתי לא ירד גשם?"

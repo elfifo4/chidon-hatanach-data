@@ -131,6 +131,24 @@ def gematria(s: str) -> int:
     return sum(_GEMATRIA.get(c, 0) for c in (s or ""))
 
 
+_GEM_ONES = ["", "א", "ב", "ג", "ד", "ה", "ו", "ז", "ח", "ט"]
+_GEM_TENS = ["", "י", "כ", "ל", "מ", "נ", "ס", "ע", "פ", "צ"]
+_GEM_HUNDREDS = ["", "ק", "ר", "ש", "ת"]
+
+
+def int_to_gematria(n: int) -> str:
+    """Small int -> Hebrew numeral (verse/chapter range). Handles 15/16 specially."""
+    if n <= 0:
+        return ""
+    s = _GEM_HUNDREDS[n // 100] if n // 100 <= 4 else ""
+    rem = n % 100
+    if rem in (15, 16):
+        s += "טו" if rem == 15 else "טז"
+    else:
+        s += _GEM_TENS[rem // 10] + _GEM_ONES[rem % 10]
+    return s
+
+
 # --------------------------------------------------------------------------- #
 # Text extraction (handles Hebrew RTL de-reversal)
 # --------------------------------------------------------------------------- #
@@ -249,14 +267,49 @@ def audit_hebrew(obj, path: str = "") -> list[tuple[str, str]]:
     return found
 
 
+_BARE_INT = re.compile(r"^\d{1,3}$")
+
+
+def _strip_page_numbers(page):
+    """Return a page view with footer/header page numbers removed.
+
+    A page number is a bare integer (1-3 digits) sitting in the top header band
+    (top < 7% of height) or bottom footer band (bottom > 92%). Only those words'
+    chars are dropped, so body text is never clipped. This stops the centered
+    footer number from leaking into the last answer on a page.
+    """
+    try:
+        h = page.height
+        boxes = [
+            (w["x0"], w["top"], w["x1"], w["bottom"])
+            for w in page.extract_words()
+            if _BARE_INT.match(w["text"]) and (w["bottom"] > h * 0.92 or w["top"] < h * 0.07)
+        ]
+    except Exception:  # noqa: BLE001
+        return page
+    if not boxes:
+        return page
+
+    def keep(obj):
+        cx = (obj["x0"] + obj["x1"]) / 2
+        cy = (obj["top"] + obj["bottom"]) / 2
+        return not any(x0 <= cx <= x1 and t <= cy <= b for (x0, t, x1, b) in boxes)
+
+    return page.filter(keep)
+
+
 def extract_pdf_pages(path: Path) -> list[str]:
-    """Return one logical-order text string per page using pdfplumber."""
+    """Return one logical-order text string per page using pdfplumber.
+
+    Footer/header page numbers are stripped first so they never contaminate
+    question/option/answer-key text.
+    """
     import pdfplumber
 
     pages = []
     with pdfplumber.open(str(path)) as pdf:
         for pg in pdf.pages:
-            raw = pg.extract_text() or ""
+            raw = _strip_page_numbers(pg).extract_text() or ""
             lines = [_delogicalize(ln) for ln in raw.splitlines()]
             pages.append("\n".join(lines))
     return pages
@@ -674,6 +727,10 @@ def parse_questions(question_lines: list[str]) -> list[dict]:
             expecting += 1
         elif om and cur is not None:
             cur["options"].append({"key": om.group(1), "text": om.group(2).strip()})
+        elif _BARE_INT.match(ln):
+            # standalone page number that slipped past geometric stripping --
+            # never merge it into an answer/prompt. (Numeric options are "א. 3".)
+            continue
         elif cur is not None:
             if cur["options"]:
                 cur["options"][-1]["text"] += " " + ln
@@ -820,9 +877,43 @@ def parse_metadata_page(text: str) -> dict:
 # --------------------------------------------------------------------------- #
 # Build questionnaire object
 # --------------------------------------------------------------------------- #
+def _inline_clean_quote(text: str, whole_refs: list[dict]) -> tuple[str, bool]:
+    """Clean the quoted verse *in place* inside `text` (keeping the surrounding
+    quotation marks and its position), using Sefaria alignment. Returns
+    (new_text, cleaned)."""
+    best = None
+    for m in re.finditer(r'"([^"]+)"', text):
+        inner = m.group(1)
+        if NIQQUD.search(inner) or REPLACEMENT_CHAR in inner:
+            if best is None or len(inner) > len(best.group(1)):
+                best = m
+    if best is None:
+        return text, False
+    aligned = align_quote_to_sefaria(best.group(1), whole_refs)
+    if not aligned:
+        # The answer-key ref points to where the answer is, which may differ from
+        # the quoted lead-in verse. Retry against a small window around each ref.
+        aligned = align_quote_to_sefaria(best.group(1), _widen_refs(whole_refs))
+    if not aligned:
+        return text, False
+    return text[:best.start(1)] + aligned + text[best.end(1):], True
+
+
+def _widen_refs(refs: list[dict], before: int = 2, after: int = 1) -> list[dict]:
+    out = []
+    for r in refs:
+        v = gematria(r.get("verse") or "")
+        if not v:
+            out.append(r)
+            continue
+        lo, hi = max(1, v - before), v + after
+        out.append({**r, "verse": f"{int_to_gematria(lo)}-{int_to_gematria(hi)}"})
+    return out
+
+
 def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict,
                         answers: dict[int, dict] | None = None,
-                        enrich: bool = True) -> tuple[dict, str, str | None]:
+                        enrich: bool = True, inline_quotes: bool = False) -> tuple[dict, str, str | None]:
     """Returns (questionnaire_dict, extraction_quality, notes).
 
     `answers` is the parsed answer key (from extract_answer_tables); if None,
@@ -850,9 +941,15 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
     units = []
     for ru in raw_units:
         n = ru["number"]
-        narrative, prompt = split_narrative(ru["prompt"])
-        prompt = repair_hebrew_pdf_text(prompt)
-        narrative = repair_hebrew_pdf_text(narrative)
+        if inline_quotes:
+            # Keep the quoted verse inline in the prompt (with its quotes and
+            # original position); no separate narrative_context.
+            narrative = None
+            prompt = repair_hebrew_pdf_text(ru["prompt"])
+        else:
+            narrative, prompt = split_narrative(ru["prompt"])
+            prompt = repair_hebrew_pdf_text(prompt)
+            narrative = repair_hebrew_pdf_text(narrative)
         for o in ru["options"]:
             o["text"] = repair_hebrew_pdf_text(o["text"])
         qtype = classify_question(prompt, ru["options"])
@@ -900,10 +997,17 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
     enrich_failed = False
     if enrich:
         for u in units:
-            if not u["narrative_context"]:
-                continue
             whole = [{"book": s["book"], "chapter": s["chapter"], "verse": s["verse"]}
                      for s in u["primary_sources"] if s["scope"] == "whole_unit"]
+            if inline_quotes:
+                if whole:
+                    u["prompt"], _ok = _inline_clean_quote(u["prompt"], whole)
+                if REPLACEMENT_CHAR in u["prompt"] or _SPACE_THEN_MARK.search(u["prompt"]):
+                    enrich_failed = True
+                    u["format_confidence_note"] = "quoted verse shown as extracted; Sefaria alignment unavailable"
+                continue
+            if not u["narrative_context"]:
+                continue
             aligned = align_quote_to_sefaria(u["narrative_context"], whole) if whole else None
             if aligned:
                 u["narrative_context"] = aligned
@@ -1302,7 +1406,27 @@ def main() -> int:
     ap.add_argument("--reclassify", action="store_true",
                     help="backfill track/stage/year on existing quiz JSONs, then regenerate manifest")
     ap.add_argument("--dry-run", action="store_true", help="list what would be processed")
+    # Single-PDF pilot (no archive crawl) -- see pdf_vision.run_pilot
+    ap.add_argument("--url", metavar="PDF_URL", help="pilot: download and process ONE pdf")
+    ap.add_argument("--vision", action="store_true", help="pilot: enable vision-assisted enhancement")
+    ap.add_argument("--keep-debug-images", action="store_true", help="pilot: keep rendered page images")
+    ap.add_argument("--expected", metavar="GOLDEN_JSON", help="pilot: evaluate output against a golden json")
+    ap.add_argument("--output", metavar="PATH", help="pilot: where to write the final json")
+    ap.add_argument("--report", metavar="PATH", help="pilot: where to write the report json")
     args = ap.parse_args()
+
+    # Pilot mode: --url, or --file pointing at a local PDF/existing path. Legacy
+    # --file <archive-id> behaviour is preserved (falls through below).
+    pilot_file = bool(args.file) and (
+        args.file.lower().endswith((".pdf", ".docx", ".doc")) or Path(args.file).exists()
+    )
+    if args.url or pilot_file:
+        import pdf_vision
+        return pdf_vision.run_pilot(
+            url=args.url, file=(args.file if pilot_file else None),
+            output=args.output, report=args.report, expected=args.expected,
+            vision=args.vision, keep_debug_images=args.keep_debug_images, force=args.force,
+        )
 
     QUIZ_DIR.mkdir(parents=True, exist_ok=True)
     LOG_DIR.mkdir(exist_ok=True)

@@ -5,3 +5,7 @@ __pycache__/
 
 # Pipeline working dir (downloaded PDFs/DOCs are not stored in the repo)
 .tmp/
+
+# PDF vision pilot: rendered page images / downloaded PDFs and pilot outputs
+tmp/
+output/

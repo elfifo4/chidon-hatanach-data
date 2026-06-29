@@ -5,3 +5,4 @@ mammoth>=1.7
 requests>=2.31
 beautifulsoup4>=4.12
 python-bidi>=0.4
+openai>=1.0          # optional: only needed for the --vision pilot layer

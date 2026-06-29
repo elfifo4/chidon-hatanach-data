@@ -39,8 +39,8 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "אֲבִי יֹשֵׁב אֹהֶל וּמִקְנֶה",
-          "prompt": "מי היה?",
+          "narrative_context": null,
+          "prompt": "מי היה \"אֲבִי יֹשֵׁב אֹהֶל וּמִקְנֶה\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -95,8 +95,8 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "הַעוֹד לָנוּ חֵלֶק וְנַחֲלָה בְּבֵית אָבִינוּ",
-          "prompt": "בנותיו של מי אמרו?",
+          "narrative_context": null,
+          "prompt": "בנותיו של מי אמרו: \"הַעוֹד לָנוּ חֵלֶק וְנַחֲלָה בְּבֵית אָבִינוּ\"?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -152,7 +152,7 @@
           "unit_id": "q03",
           "display_number": "3",
           "narrative_context": null,
-          "prompt": "עם כמה אנשים לא יצא גדעון לפעולה לילית?",
+          "prompt": "עם כמה אנשים <b><u>לא</u></b> יצא גדעון לפעולה לילית?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -170,7 +170,7 @@
             },
             {
               "key": "ד",
-              "text": "000,1 2"
+              "text": "000,1"
             }
           ],
           "correct_option": "ד",
@@ -210,7 +210,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "000,1 2",
+              "answer_text": "000,1",
               "source_refs": [
                 {
                   "book": "שופטים",
@@ -299,8 +299,8 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "גִּדְעוֹנִי",
-          "prompt": "מאיזה שבט היה?",
+          "narrative_context": null,
+          "prompt": "מאיזה שבט היה \"גִּדְעוֹנִי\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -355,8 +355,8 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "וּשְׁמוּאֵל טֶרֶם יָדַע אֶת ה' וְטֶרֶם יִגָּלֶה אֵלָיו דְּבַר ה'",
-          "prompt": "בהיותו שוכב בהיכל ה', קורא ה' לשמואל ארבע פעמים. מתי מודיע הכתוב?",
+          "narrative_context": null,
+          "prompt": "בהיותו שוכב בהיכל ה', קורא ה' לשמואל ארבע פעמים. מתי מודיע הכתוב: \"וּשְׁמוּאֵל טֶרֶם יָדַע אֶת ה' וְטֶרֶם יִגָּלֶה אֵלָיו דְּבַר ה'\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -411,8 +411,8 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "כִּי גֻנֹּב גֻּנַּבְתִּי מֵאֶרֶץ הָעִבְרִים וְגַם פֹּה לֹא עָשִׂיתִי מְאוּמָה כִּי שָׂמוּ אֹתִי בַּבּוֹר",
-          "prompt": "למי אמר יוסף?",
+          "narrative_context": null,
+          "prompt": "למי אמר יוסף: \"כִּי גֻנֹּב גֻּנַּבְתִּי מֵאֶרֶץ הָעִבְרִים וְגַם פֹּה לֹא עָשִׂיתִי מְאוּמָה כִּי שָׂמוּ אֹתִי בַּבּוֹר\"?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -426,7 +426,7 @@
             },
             {
               "key": "ג",
-              "text": "שר הטבחים 3"
+              "text": "שר הטבחים"
             },
             {
               "key": "ד",
@@ -467,8 +467,8 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "וְשָׁב מֵחֲרוֹן אַפּוֹ וְלֹא נֹאבֵד",
-          "prompt": "בספר יונה - מי אמר/ו?",
+          "narrative_context": null,
+          "prompt": "בספר יונה - מי אמר/ו: \"וְשָׁב מֵחֲרוֹן אַפּוֹ וְלֹא נֹאבֵד\"?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -579,8 +579,8 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "כְּיַד הַמֶּלֶךְ",
-          "prompt": "מה מתואר במגילת אסתר בביטוי?",
+          "narrative_context": null,
+          "prompt": "מה מתואר במגילת אסתר בביטוי \"כְּיַד הַמֶּלֶךְ\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -635,8 +635,8 @@
         {
           "unit_id": "q11",
           "display_number": "11",
-          "narrative_context": "אֵין מִסְפָּר",
-          "prompt": "ועל מה נאמר במגילת שיר השירים?",
+          "narrative_context": null,
+          "prompt": "ועל מה נאמר במגילת שיר השירים \"אֵין מִסְפָּר\"?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -650,7 +650,7 @@
             },
             {
               "key": "ג",
-              "text": "צמחים 4"
+              "text": "צמחים"
             },
             {
               "key": "ד",
@@ -691,8 +691,8 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "וְלֹא הָיָה בָהֶם יָדַיִם לָנוּס הֵנָּה וָהֵנָּה",
-          "prompt": "על מי נאמר?",
+          "narrative_context": null,
+          "prompt": "על מי נאמר: \"וְלֹא הָיָה בָהֶם יָדַיִם לָנוּס הֵנָּה וָהֵנָּה\"?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -803,8 +803,8 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "כִּי עָנִי הוּא … וְלֹא יִקְרָא עָלֶיךָ אֶל ה' וְהָיָה בְךָ חֵטְא",
-          "prompt": "על איזו מצווה עם העני מזהירה התורה?",
+          "narrative_context": null,
+          "prompt": "על איזו מצווה עם העני מזהירה התורה: \"כִּי עָנִי הוּא … וְלֹא יִקְרָא עָלֶיךָ אֶל ה' וְהָיָה בְךָ חֵטְא\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -860,7 +860,7 @@
           "unit_id": "q15",
           "display_number": "15",
           "narrative_context": null,
-          "prompt": "את בנה של מי לא שׁכל דוד?",
+          "prompt": "את בנה של מי <b><u>לא</u></b> שׁכל דוד?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -870,7 +870,7 @@
             },
             {
               "key": "ב",
-              "text": "אביגיל 5"
+              "text": "אביגיל"
             },
             {
               "key": "ג",
@@ -911,7 +911,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "אביגיל 5",
+              "answer_text": "אביגיל",
               "source_refs": [
                 {
                   "book": "שמואל ב",
@@ -939,8 +939,8 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "אִם יַעַבְרוּ בְנֵי גָד וּבְנֵי רְאוּ בֵן אִתְּכֶם... וּנְתַתֶּם לָהֶם אֶת אֶרֶץ הַגִּלְעָד לַאֲחֻזָּה",
-          "prompt": "- מה הורה משה לעשות אם לא יעמדו בני ראובן ובני גד בתנאי שהתנה איתם?",
+          "narrative_context": null,
+          "prompt": "\"אִם יַעַבְרוּ בְנֵי גָד וּבְנֵי רְאוּבֵן אִתְּכֶם … וּנְתַתֶּם לָהֶם אֶת אֶרֶץ הַגִּלְעָד לַאֲחֻזָּה\" - מה הורה משה לעשות אם לא יעמדו בני ראובן ובני גד בתנאי שהתנה איתם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -995,8 +995,8 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים",
-          "prompt": "מי אמר למי?",
+          "narrative_context": null,
+          "prompt": "מי אמר למי: \"רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים\"?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -1051,8 +1051,8 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "אַל יֵרַע בְּעֵינֶיךָ אֶת הַדָּבָר הַזֶּה כִּי כָזֹה וְכָזֶה תֹּאכַל הֶחָרֶב",
-          "prompt": "- הם דברי מי למי?",
+          "narrative_context": null,
+          "prompt": "\"אַל יֵרַע בְּעֵינֶיךָ אֶת הַדָּבָר הַזֶּה כִּי כָזֹה וְכָזֶה תֹּאכַל הֶחָרֶב\" - הם דברי מי למי?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1070,7 +1070,7 @@
             },
             {
               "key": "ד",
-              "text": "דוד ליואב 6"
+              "text": "דוד ליואב"
             }
           ],
           "correct_option": "ד",
@@ -1089,7 +1089,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "דוד ליואב 6",
+              "answer_text": "דוד ליואב",
               "source_refs": [
                 {
                   "book": "שמואל ב",
@@ -1107,8 +1107,8 @@
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "וּנְתָנָם ה' לִפְנֵיכֶם וַעֲשִׂיתֶם לָהֶם כְּכׇל הַמִּצְוָה אֲשֶׁר צִוִּיתִי אֶתְכֶם",
-          "prompt": "מי אמר לעם והיכן?",
+          "narrative_context": null,
+          "prompt": "מי אמר לעם והיכן: \"וּנְתָנָם ה' לִפְנֵיכֶם וַעֲשִׂיתֶם לָהֶם כְּכׇל הַמִּצְוָה אֲשֶׁר צִוִּיתִי אֶתְכֶם\"?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [
@@ -1163,8 +1163,8 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "וַיִּקַּח צֶמֶד בָּקָר וַיְנַתְּחֵהוּ וַיְשַׁלַּח בְּכׇל גְּבוּל יִשְׂרָאֵל",
-          "prompt": "לקראת המלחמה באיזה עם מסופר על מנהיג ישראל?",
+          "narrative_context": null,
+          "prompt": "לקראת המלחמה באיזה עם מסופר על מנהיג ישראל: \"וַיִּקַּח צֶמֶד בָּקָר וַיְנַתְּחֵהוּ וַיְשַׁלַּח בְּכׇל גְּבוּל יִשְׂרָאֵל\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1219,8 +1219,8 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "עַתָּה תִרְאֶה הֲיִקְרְךָ דְבָרִי אִם לֹא",
-          "prompt": "על מה אמר ה' למשה?",
+          "narrative_context": null,
+          "prompt": "על מה אמר ה' למשה: \"עַתָּה תִרְאֶה הֲיִקְרְךָ דְבָרִי אִם לֹא\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1277,7 +1277,7 @@
           "display_number": "22",
           "narrative_context": null,
           "prompt": "כמה שנים עברו מאז שחברון הובטחה לכלב עד היום שבא לבקש אותה מיהושע?",
-          "question_type": "multiple_choice",
+          "question_type": "numeric",
           "answer_style": "single_correct",
           "options": [
             {
@@ -1286,7 +1286,7 @@
             },
             {
               "key": "ב",
-              "text": "45 7"
+              "text": "45"
             },
             {
               "key": "ג",
@@ -1313,7 +1313,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "45 7",
+              "answer_text": "45",
               "source_refs": [
                 {
                   "book": "יהושע",
@@ -1331,8 +1331,8 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ בְּבָנֵינוּ וּבִבְנוֹתֵנוּ בְּצֹאנֵנוּ וּבִבְקָרֵנוּ נֵלֵךְ כִּי חַג ה' לָנוּ",
-          "prompt": "לפני איזו מכה אמר משה לפרעה?",
+          "narrative_context": null,
+          "prompt": "לפני איזו מכה אמר משה לפרעה: \"בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ בְּבָנֵינוּ וּבִבְנוֹתֵנוּ בְּצֹאנֵנוּ וּבִבְקָרֵנוּ נֵלֵךְ כִּי חַג ה' לָנוּ\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1462,7 +1462,7 @@
             },
             {
               "key": "ד",
-              "text": "כמה מיושבי יביש גלעד הרגו שבטי ישראל 8"
+              "text": "כמה מיושבי יביש גלעד הרגו שבטי ישראל"
             }
           ],
           "correct_option": "א",
@@ -1541,8 +1541,8 @@
         {
           "unit_id": "q27",
           "display_number": "27",
-          "narrative_context": "אֶֽרֶץ זֵית שֶׁמֶן וּדְ בָש",
-          "prompt": "- איזה מהמינים הללו מוזכר במגילת רות?",
+          "narrative_context": null,
+          "prompt": "\" אֶֽרֶץ זֵית שֶׁמֶן וּדְ בָש\" - איזה מהמינים הללו מוזכר במגילת רות?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1658,7 +1658,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחד מהם 9"
+              "text": "אף אחד מהם"
             }
           ],
           "correct_option": "ב",
@@ -1695,8 +1695,8 @@
         {
           "unit_id": "q30",
           "display_number": "30",
-          "narrative_context": "לֹא תָשׁוּב לְקַחְתּוֹ",
-          "prompt": "בספר דברים - על מה אומרת התורה?",
+          "narrative_context": null,
+          "prompt": "בספר דברים - על מה אומרת התורה: \"לֹא תָשׁוּב לְקַחְתּוֹ\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1875,8 +1875,8 @@
         {
           "unit_id": "q33",
           "display_number": "33",
-          "narrative_context": "אֲשֶׁר לֹא נַעֲשָׂה בָהֶם מְלָאכָה",
-          "prompt": "מה היו הדברים?",
+          "narrative_context": null,
+          "prompt": "מה היו הדברים \"אֲשֶׁר לֹא נַעֲשָׂה בָהֶם מְלָאכָה\"?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1894,7 +1894,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחד מהם 10"
+              "text": "אף אחד מהם"
             }
           ],
           "correct_option": "ב",
@@ -2006,7 +2006,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחד מהם 11"
+              "text": "אף אחד מהם"
             }
           ],
           "correct_option": "ב",
@@ -2047,7 +2047,7 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/beitsifri_mmd2026.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-06-29",
     "extraction_quality": "clean"
   }
 }

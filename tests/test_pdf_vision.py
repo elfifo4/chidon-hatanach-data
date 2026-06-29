@@ -12,10 +12,12 @@ import pytest
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+import extract              # noqa: E402
 import html_format          # noqa: E402
 import pdf_emphasis         # noqa: E402
 import pilot_validate       # noqa: E402
 import pdf_vision           # noqa: E402
+import tanach_corpus        # noqa: E402
 import vision_client        # noqa: E402
 
 GOLDEN = ROOT / "content" / "quizzes" / "beitsifri_mmd2026.json"
@@ -130,6 +132,27 @@ def test_furniture_contamination_flags_trailing_integer():
 
 def test_furniture_contamination_clean_by_default():
     assert pilot_validate.furniture_contamination(_mini_quiz()) == []
+
+
+def test_corpus_available_false_for_bad_path():
+    assert tanach_corpus.available("/no/such/corpus.jsonl") is False
+
+
+@pytest.mark.skipif(not tanach_corpus.available(), reason="Tanach corpus not present")
+def test_corpus_resolves_verse_from_corrupted_quote():
+    res = tanach_corpus.resolve_quote(" אֶֽרֶץ זֵית שֶׁמֶן וּדְ בָש")  # spurious space inside ודבש
+    assert res is not None
+    text, ref = res
+    assert (ref["book"], ref["chapter"], ref["verse"]) == ("דברים", 8, 8)
+    assert "וּדְבָשׁ" in text
+
+
+@pytest.mark.skipif(not tanach_corpus.available(), reason="Tanach corpus not present")
+def test_inline_clean_fixes_intra_word_space_without_ref():
+    prompt = '" אֶֽרֶץ זֵית שֶׁמֶן וּדְ בָש" - איזה מהמינים הללו מוזכר במגילת רות?'
+    out, ok = extract._inline_clean_quote(prompt, [])  # no answer-key ref
+    assert ok
+    assert "וּדְבָשׁ" in out and "וּדְ בָש" not in out
 
 
 def test_vision_unavailable_without_key(monkeypatch):

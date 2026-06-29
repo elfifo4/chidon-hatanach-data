@@ -27,6 +27,8 @@ import unicodedata
 import urllib.parse
 from pathlib import Path
 
+import tanach_corpus
+
 # --------------------------------------------------------------------------- #
 # Constants
 # --------------------------------------------------------------------------- #
@@ -573,14 +575,23 @@ def _best_span(needle: str, hay: str, cursor: int) -> tuple[int, int] | None:
 
 def align_quote_to_sefaria(exam_quote: str | None, refs: list[dict]) -> str | None:
     """Return clean vocalized text containing ONLY the words actually quoted in
-    the exam (ellipsis preserved), sourced from Sefaria, or None if it can't be
-    matched confidently. Never adds elided words.
-    """
+    the exam (ellipsis preserved), sourced from Sefaria, or None. Never adds
+    elided words."""
     if not exam_quote:
         return None
     sef = fetch_verse_text(refs)
     if not sef:
         return None
+    return _align_quote_to_clean(exam_quote, sef)
+
+
+def _align_quote_to_clean(exam_quote: str | None, source_text: str | None) -> str | None:
+    """Extract only the quoted words (ellipsis preserved) from a known-clean
+    vocalized `source_text`, by consonant-subsequence alignment per segment.
+    Works whether `source_text` came from Sefaria or the local Tanach corpus."""
+    if not exam_quote or not source_text:
+        return None
+    sef = source_text
     sef_words = sef.split()
     stream_chars, pos2word = [], []
     for wi, w in enumerate(sef_words):
@@ -879,8 +890,14 @@ def parse_metadata_page(text: str) -> dict:
 # --------------------------------------------------------------------------- #
 def _inline_clean_quote(text: str, whole_refs: list[dict]) -> tuple[str, bool]:
     """Clean the quoted verse *in place* inside `text` (keeping the surrounding
-    quotation marks and its position), using Sefaria alignment. Returns
-    (new_text, cleaned)."""
+    quotation marks and its position). Returns (new_text, cleaned).
+
+    Resolution order:
+      1. Local Tanach corpus -- identifies the verse from the quote text itself
+         (no ref needed; bullet-proof against missing/wrong answer-key refs and
+         intra-word spaces).
+      2. Sefaria by the answer-key ref (+ a small verse window) as a fallback.
+    """
     best = None
     for m in re.finditer(r'"([^"]+)"', text):
         inner = m.group(1)
@@ -889,11 +906,15 @@ def _inline_clean_quote(text: str, whole_refs: list[dict]) -> tuple[str, bool]:
                 best = m
     if best is None:
         return text, False
-    aligned = align_quote_to_sefaria(best.group(1), whole_refs)
-    if not aligned:
-        # The answer-key ref points to where the answer is, which may differ from
-        # the quoted lead-in verse. Retry against a small window around each ref.
-        aligned = align_quote_to_sefaria(best.group(1), _widen_refs(whole_refs))
+    inner = best.group(1)
+
+    aligned = None
+    resolved = tanach_corpus.resolve_quote(inner)
+    if resolved:
+        aligned = _align_quote_to_clean(inner, resolved[0])
+    if not aligned and whole_refs:
+        aligned = (align_quote_to_sefaria(inner, whole_refs)
+                   or align_quote_to_sefaria(inner, _widen_refs(whole_refs)))
     if not aligned:
         return text, False
     return text[:best.start(1)] + aligned + text[best.end(1):], True
@@ -1000,11 +1021,12 @@ def build_questionnaire(base: str, source_url: str, pages: list[str], meta: dict
             whole = [{"book": s["book"], "chapter": s["chapter"], "verse": s["verse"]}
                      for s in u["primary_sources"] if s["scope"] == "whole_unit"]
             if inline_quotes:
-                if whole:
-                    u["prompt"], _ok = _inline_clean_quote(u["prompt"], whole)
+                # Always attempt cleaning: the corpus resolves the verse from the
+                # quote text itself, so a missing answer-key ref is fine.
+                u["prompt"], _ok = _inline_clean_quote(u["prompt"], whole)
                 if REPLACEMENT_CHAR in u["prompt"] or _SPACE_THEN_MARK.search(u["prompt"]):
                     enrich_failed = True
-                    u["format_confidence_note"] = "quoted verse shown as extracted; Sefaria alignment unavailable"
+                    u["format_confidence_note"] = "quoted verse shown as extracted; clean source unavailable"
                 continue
             if not u["narrative_context"]:
                 continue

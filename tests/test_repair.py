@@ -138,6 +138,19 @@ def test_int_to_gematria(n, heb):
     assert extract.int_to_gematria(n) == heb
 
 
+def test_parse_questions_drops_stray_page_number():
+    lines = ["1. מי היה?", "א. אברהם", "ב. יצחק", "5", "ג. יעקב", "ד. יוסף"]
+    units = extract.parse_questions(lines)
+    assert len(units) == 1
+    assert [o["text"] for o in units[0]["options"]] == ["אברהם", "יצחק", "יעקב", "יוסף"]
+
+
+def test_parse_questions_keeps_numeric_options():
+    lines = ["1. כמה פעמים?", "א. 1", "ב. 2", "ג. 3", "ד. 4"]
+    units = extract.parse_questions(lines)
+    assert [o["text"] for o in units[0]["options"]] == ["1", "2", "3", "4"]
+
+
 def test_widen_refs_builds_verse_window():
     out = extract._widen_refs([{"book": "במדבר", "chapter": "לב", "verse": "ל"}], before=2, after=1)
     assert out[0]["verse"] == "כח-לא"  # 30 -> 28..31

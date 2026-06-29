@@ -121,6 +121,17 @@ def test_apply_emphasis_does_not_touch_unrelated_question():
     assert n == 0  # low overlap -> not applied to the unrelated prompt
 
 
+def test_furniture_contamination_flags_trailing_integer():
+    quiz = _mini_quiz()
+    quiz["sections"][0]["question_units"][0]["options"][1]["text"] = "אביגיל 5"
+    hits = pilot_validate.furniture_contamination(quiz)
+    assert len(hits) == 1 and hits[0]["field"] == "option:ב"
+
+
+def test_furniture_contamination_clean_by_default():
+    assert pilot_validate.furniture_contamination(_mini_quiz()) == []
+
+
 def test_vision_unavailable_without_key(monkeypatch):
     monkeypatch.delenv("OPENAI_API_KEY", raising=False)
     with pytest.raises(vision_client.VisionUnavailable):

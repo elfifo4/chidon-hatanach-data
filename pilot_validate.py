@@ -11,6 +11,9 @@ import re
 OPTION_KEYS = ("א", "ב", "ג", "ד")
 REPLACEMENT_CHAR = "�"
 _SPACE_THEN_MARK = re.compile(r"\s[֑-ׇ]")  # detached niqqud == suspected RTL/corruption
+# A stray standalone integer right after Hebrew text == leaked page furniture
+# (e.g. "אביגיל 5"). Numeric options are "3"/"12" alone, so they don't match.
+_TRAILING_FURNITURE = re.compile(r"[א-ת]\s+\d{1,3}\s*$")
 
 
 def iter_units(quiz: dict):
@@ -88,9 +91,23 @@ def validate_quiz(quiz: dict, expected_count: int | None = 35) -> list[str]:
     return errors
 
 
+def furniture_contamination(quiz: dict) -> list[dict]:
+    """Prompt/option fields ending with a stray integer after Hebrew (likely a
+    leaked page number). Empty list == clean."""
+    hits: list[dict] = []
+    for unit in iter_units(quiz):
+        fields = [("prompt", unit.get("prompt"))]
+        fields += [(f"option:{o.get('key')}", o.get("text")) for o in unit.get("options") or []]
+        for label, text in fields:
+            if text and _TRAILING_FURNITURE.search(text.strip()):
+                hits.append({"unit_id": unit.get("unit_id"), "field": label, "text": text})
+    return hits
+
+
 def stats(quiz: dict) -> dict:
     """Aggregate counts used by the pilot report."""
     units = list(iter_units(quiz))
+    contamination = furniture_contamination(quiz)
     return {
         "questions_detected": len(units),
         "with_four_answers": sum(1 for u in units if has_four_answers(u)),
@@ -98,4 +115,6 @@ def stats(quiz: dict) -> dict:
         "with_source": sum(1 for u in units if has_source(u)),
         "suspected_rtl_or_corruption": sum(1 for u in units if is_suspicious(u)),
         "suspicious_unit_ids": [u.get("unit_id") for u in units if is_suspicious(u)],
+        "page_furniture_contamination": len(contamination),
+        "page_furniture_fields": contamination,
     }

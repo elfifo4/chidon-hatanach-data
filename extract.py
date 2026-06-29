@@ -267,14 +267,49 @@ def audit_hebrew(obj, path: str = "") -> list[tuple[str, str]]:
     return found
 
 
+_BARE_INT = re.compile(r"^\d{1,3}$")
+
+
+def _strip_page_numbers(page):
+    """Return a page view with footer/header page numbers removed.
+
+    A page number is a bare integer (1-3 digits) sitting in the top header band
+    (top < 7% of height) or bottom footer band (bottom > 92%). Only those words'
+    chars are dropped, so body text is never clipped. This stops the centered
+    footer number from leaking into the last answer on a page.
+    """
+    try:
+        h = page.height
+        boxes = [
+            (w["x0"], w["top"], w["x1"], w["bottom"])
+            for w in page.extract_words()
+            if _BARE_INT.match(w["text"]) and (w["bottom"] > h * 0.92 or w["top"] < h * 0.07)
+        ]
+    except Exception:  # noqa: BLE001
+        return page
+    if not boxes:
+        return page
+
+    def keep(obj):
+        cx = (obj["x0"] + obj["x1"]) / 2
+        cy = (obj["top"] + obj["bottom"]) / 2
+        return not any(x0 <= cx <= x1 and t <= cy <= b for (x0, t, x1, b) in boxes)
+
+    return page.filter(keep)
+
+
 def extract_pdf_pages(path: Path) -> list[str]:
-    """Return one logical-order text string per page using pdfplumber."""
+    """Return one logical-order text string per page using pdfplumber.
+
+    Footer/header page numbers are stripped first so they never contaminate
+    question/option/answer-key text.
+    """
     import pdfplumber
 
     pages = []
     with pdfplumber.open(str(path)) as pdf:
         for pg in pdf.pages:
-            raw = pg.extract_text() or ""
+            raw = _strip_page_numbers(pg).extract_text() or ""
             lines = [_delogicalize(ln) for ln in raw.splitlines()]
             pages.append("\n".join(lines))
     return pages
@@ -692,6 +727,10 @@ def parse_questions(question_lines: list[str]) -> list[dict]:
             expecting += 1
         elif om and cur is not None:
             cur["options"].append({"key": om.group(1), "text": om.group(2).strip()})
+        elif _BARE_INT.match(ln):
+            # standalone page number that slipped past geometric stripping --
+            # never merge it into an answer/prompt. (Numeric options are "א. 3".)
+            continue
         elif cur is not None:
             if cur["options"]:
                 cur["options"][-1]["text"] += " " + ln

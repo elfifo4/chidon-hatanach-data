@@ -18,10 +18,10 @@ import re
 import unicodedata
 from pathlib import Path
 
-DEFAULT_CORPUS = os.environ.get(
-    "TANACH_CORPUS",
-    "/Users/eladfinish/Projects/Bible-RAG/data/processed/all_verses.jsonl",
-)
+# Vendored, repo-committed corpus so the pipeline runs offline anywhere.
+# Override with TANACH_CORPUS to point at a fuller source if desired.
+_REPO_CORPUS = Path(__file__).resolve().parent / "data" / "tanach_verses.jsonl"
+DEFAULT_CORPUS = os.environ.get("TANACH_CORPUS") or str(_REPO_CORPUS)
 
 _FINALS = str.maketrans("ךםןףץ", "כמנפצ")
 _SOF_MARKS = re.compile(r"[׃׀׆׳״]")
@@ -59,8 +59,9 @@ def _load(path: str):
             if not line:
                 continue
             v = json.loads(line)
-            niqqud = _clean_niqqud(v.get("text_with_niqqud") or "")
-            sk = _skeleton(v.get("text_plain") or niqqud)
+            # vendored corpus uses `niqqud`; a fuller source may use `text_with_niqqud`
+            niqqud = _clean_niqqud(v.get("niqqud") or v.get("text_with_niqqud") or "")
+            sk = _skeleton(niqqud)  # niqqud-stripped == text_plain skeleton
             idx = len(verses)
             verses.append({
                 "book": v.get("book"), "chapter": v.get("chapter"),

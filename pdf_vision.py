@@ -13,6 +13,7 @@ from pathlib import Path
 
 import extract
 import html_format
+import pdf_emphasis
 import pilot_validate
 
 TMP_ROOT = extract.ROOT / "tmp" / "pdf_vision"
@@ -188,6 +189,11 @@ def run_pilot(*, url=None, file=None, output=None, report=None, expected=None,
             images = render_pages(pdf_path, work_dir)
             print(f"  rendered {len(images)} page image(s)")
             warnings = _apply_vision(quiz, images)
+
+        # Deterministic emphasis from the PDF (bold font + underline rect),
+        # applied last so it annotates the final text. Works without --vision.
+        emphasized = pdf_emphasis.apply_emphasis(quiz, pdf_emphasis.detect_emphasis(pdf_path))
+        print(f"  emphasis: wrapped {emphasized} word(s) with <b>/<u>")
 
         _sanitize_quiz_html(quiz)
         errors = pilot_validate.validate_quiz(quiz, expected_count=EXPECTED_QUESTION_COUNT)

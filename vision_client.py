@@ -22,10 +22,9 @@ _SPACE_THEN_MARK = re.compile(r"\s[֑-ׇ]")
 _PROMPT = (
     "You are transcribing a Hebrew Bible-contest questionnaire from page images. "
     "For each numbered question return faithful text in correct right-to-left reading "
-    "order, preserving niqqud exactly as printed. Mark words that are visually "
-    "emphasized (bold or underlined) using ONLY inline <b>...</b> or <u>...</u> tags; "
-    "do not add any other tags. Do NOT add words that are not printed. Return strict "
-    'JSON: {"questions":[{"display_number":"1","prompt":"...","options":'
+    "order, preserving niqqud exactly as printed. Do NOT add any HTML tags or markup, "
+    "and do NOT add words that are not printed (visual emphasis is handled separately). "
+    'Return strict JSON: {"questions":[{"display_number":"1","prompt":"...","options":'
     '[{"key":"א","text":"..."},{"key":"ב","text":"..."},{"key":"ג","text":"..."},'
     '{"key":"ד","text":"..."}]}]}'
 )

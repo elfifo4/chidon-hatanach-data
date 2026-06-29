@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 import html_format          # noqa: E402
+import pdf_emphasis         # noqa: E402
 import pilot_validate       # noqa: E402
 import pdf_vision           # noqa: E402
 import vision_client        # noqa: E402
@@ -96,6 +97,28 @@ def test_merge_rejects_unclean_and_shape_mismatch():
     assert [o["text"] for o in u["options"]] == ["אחינעם", "אביגיל", "מעכה", "חגית"]
     assert any("unclean" in w["warning"] for w in warnings)
     assert any("shape mismatch" in w["warning"] for w in warnings)
+
+
+def test_apply_emphasis_bold_and_underline():
+    quiz = _mini_quiz()
+    quiz["sections"][0]["question_units"][0]["prompt"] = "מי לא שכל?"
+    detected = [{"line": "מי לא שכל?",
+                 "spans": [{"text": "לא", "bold": True, "underline": True}]}]
+    n = pdf_emphasis.apply_emphasis(quiz, detected)
+    assert n == 1
+    prompt = quiz["sections"][0]["question_units"][0]["prompt"]
+    assert prompt == "מי <b><u>לא</u></b> שכל?"
+    assert html_format.validate_html(prompt)[0]
+
+
+def test_apply_emphasis_does_not_touch_unrelated_question():
+    quiz = _mini_quiz()
+    quiz["sections"][0]["question_units"][0]["prompt"] = "מתי לא ירד גשם?"
+    # emphasis belongs to a totally different line/question
+    detected = [{"line": "את בנה של מי לא שכל דוד?",
+                 "spans": [{"text": "לא", "bold": True, "underline": False}]}]
+    n = pdf_emphasis.apply_emphasis(quiz, detected)
+    assert n == 0  # low overlap -> not applied to the unrelated prompt
 
 
 def test_vision_unavailable_without_key(monkeypatch):

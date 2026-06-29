@@ -55,14 +55,56 @@ def _resolve_input(url: str | None, file: str | None, force: bool) -> tuple[Path
 # --------------------------------------------------------------------------- #
 # Baseline (reuse existing pipeline)
 # --------------------------------------------------------------------------- #
-def _baseline_extract(pdf_path: Path, quiz_id: str, source_url: str) -> dict:
+def _question_count(pages: list[str]) -> int:
+    ak_start = extract.find_answer_key_start(pages)
+    q_pages = pages[1:ak_start] if ak_start else pages[1:]
+    q_lines = [ln for pg in q_pages for ln in pg.splitlines()]
+    return len(extract.parse_questions(q_lines))
+
+
+def _separate_answer_key(quiz_id: str, qcount: int, work_dir: Path) -> tuple[dict | None, str | None]:
+    """Find & parse a separate answer-key file. Tries ranked candidates and
+    accepts the first whose answered-row count matches the question count.
+    Returns (answers, note)."""
+    rejected = []
+    for entry in extract.find_answer_files(quiz_id, extract.discover_files()):
+        if not entry["filename"].lower().endswith(".pdf"):
+            continue
+        apdf = work_dir / entry["filename"]
+        try:
+            if not apdf.exists():
+                apdf.write_bytes(extract.http_get(entry["url"], binary=True))
+            answers = extract.extract_answer_tables(apdf)
+        except Exception:  # noqa: BLE001
+            continue
+        n = sum(1 for v in answers.values() if v.get("correct_option"))
+        if not n:
+            continue
+        if abs(n - qcount) > max(2, round(0.15 * qcount)):  # count guard
+            rejected.append(f"{entry['base']}({n}≠{qcount})")
+            continue
+        return answers, f"{entry['base']} ({n} answers)"
+    return None, ("rejected " + ", ".join(rejected)) if rejected else None
+
+
+def _baseline_extract(pdf_path: Path, quiz_id: str, source_url: str, work_dir: Path) -> dict:
     pages = extract.extract_pdf_pages(pdf_path)
     answers = extract.extract_answer_tables(pdf_path)
     meta = extract.decode_filename(quiz_id)
+
+    separate_note = None
+    if not any(v.get("correct_option") for v in answers.values()):
+        ext_answers, separate_note = _separate_answer_key(quiz_id, _question_count(pages), work_dir)
+        if ext_answers:
+            answers = ext_answers
+
     # Pilot keeps the quoted verse inline in the prompt (with quotes, in its
     # original position) instead of splitting it into narrative_context.
     quiz, _quality, _notes = extract.build_questionnaire(
         quiz_id, source_url, pages, meta, answers, inline_quotes=True)
+    if separate_note and any(v.get("correct_option") for v in answers.values()):
+        quiz["answer_key_location"] = "separate_file"
+        quiz["answer_key_source"] = separate_note
     return quiz
 
 
@@ -186,7 +228,7 @@ def run_pilot(*, url=None, file=None, output=None, report=None, expected=None,
         pdf_path, quiz_id, source_url, work_dir = _resolve_input(url, file, force)
         print(f"  pilot: {quiz_id}")
 
-        quiz = _baseline_extract(pdf_path, quiz_id, source_url)
+        quiz = _baseline_extract(pdf_path, quiz_id, source_url, work_dir)
 
         warnings: list[dict] = []
         if vision:

@@ -400,11 +400,46 @@ def decode_filename(base: str) -> dict:
 # --------------------------------------------------------------------------- #
 # Source reference parsing
 # --------------------------------------------------------------------------- #
+BOOK_ABBREV = {
+    "שמא": "שמואל א", "שמב": "שמואל ב", "מלא": "מלכים א", "מלב": "מלכים ב",
+    "דהא": "דברי הימים א", "דהב": "דברי הימים ב", "דבה": "דברי הימים א",
+}
+_ABBREV_RE = re.compile(r"^([א-ת]+)[\"'׳״]([א-ת])")
+
+
+def _match_book(seg: str) -> tuple[str | None, str]:
+    """Return (book, remainder) -- full name or a gershayim abbreviation (שמ\"א)."""
+    for b in BIBLE_BOOKS:
+        if seg.startswith(b):
+            return b, seg[len(b):].strip()
+    m = _ABBREV_RE.match(seg)
+    if m and (m.group(1) + m.group(2)) in BOOK_ABBREV:
+        return BOOK_ABBREV[m.group(1) + m.group(2)], seg[m.end():].strip()
+    return None, seg
+
+
+def _looks_like_source(text: str) -> bool:
+    return any(b in text for b in BIBLE_BOOKS) or bool(_ABBREV_RE.match(text.strip()))
+
+
+def _normalize_verse(v: str) -> str:
+    """Normalise a verse token to Hebrew letters. Digits become gematria and
+    numeric ranges are sorted ascending (RTL extraction reverses them, e.g.
+    '16-15' -> 'טו-טז'); Hebrew verses are kept (gershayim stripped)."""
+    parts = [p.strip("\"'׳״ ") for p in re.split(r"\s*[-–]\s*", v.strip()) if p.strip("\"'׳״ ")]
+    if not parts:
+        return ""
+    if all(p.isdigit() for p in parts):
+        return "-".join(int_to_gematria(i) for i in sorted(int(p) for p in parts))
+    return "-".join(parts)
+
+
 def parse_source_refs(text: str) -> list[dict]:
     """Parse a Hebrew source string like 'שמות יד, כא; טו, כה; במדבר כ, יא'.
 
     Returns list of {book, chapter, verse}. A '; chap, verse' segment without a
-    book name reuses the previous book.
+    book name reuses the previous book. Verses may be Hebrew letters or Arabic
+    digits (separate answer files use digits); both normalise to Hebrew letters.
     """
     refs: list[dict] = []
     current_book = None
@@ -412,23 +447,18 @@ def parse_source_refs(text: str) -> list[dict]:
         seg = seg.strip().strip(".")
         if not seg:
             continue
-        book = None
-        for b in BIBLE_BOOKS:
-            if seg.startswith(b):
-                book = b
-                seg = seg[len(b):].strip()
-                break
+        book, seg = _match_book(seg)
         if book:
             current_book = book
         if current_book is None:
             continue
-        # remaining seg: "chapter, verse"  (verse may be a range 'כה-כו')
-        m = re.match(r"^([א-ת]+)\s*,\s*([א-ת\-]+)", seg)
+        # remaining seg: "chapter, verse" (verse: Hebrew/digits, maybe a range)
+        m = re.match(r"^([א-ת\"'׳״]+)\s*,\s*([0-9א-ת\"'׳״]+(?:\s*[-–]\s*[0-9א-ת\"'׳״]+)?)", seg)
         if m:
-            refs.append({"book": current_book, "chapter": m.group(1), "verse": m.group(2)})
+            chapter = m.group(1).strip("\"'׳״")
+            refs.append({"book": current_book, "chapter": chapter, "verse": _normalize_verse(m.group(2))})
         elif seg and re.match(r"^[א-ת]", seg):
-            # chapter only
-            refs.append({"book": current_book, "chapter": seg.split()[0], "verse": None})
+            refs.append({"book": current_book, "chapter": seg.split()[0].strip("\"'׳״,"), "verse": None})
     return refs
 
 
@@ -795,51 +825,78 @@ def parse_answer_key(answer_lines: list[str]) -> dict[int, dict]:
     return answers
 
 
-def extract_answer_tables(path: Path) -> dict[int, dict]:
-    """Parse the answer-key table into {qnum: {correct_option, refs}} using
-    pdfplumber's table extraction -- far more robust than linearized text.
+_OPTION_LETTERS = ("א", "ב", "ג", "ד", "ה")
 
-    Columns are RTL ([מקור | תשובה | שאלה] = source | answer | question#).
-    Multi-line cells come out in reversed physical order, so we reverse lines
-    within each cell to restore reading order.
+
+def _rejoin_cell(cell: str, sep: str) -> str:
+    """Multi-line table cells come out in reversed physical order; restore it."""
+    lines = [ln for ln in cell.splitlines() if ln.strip()]
+    return sep.join(reversed(lines))
+
+
+def extract_answer_tables(path: Path) -> dict[int, dict]:
+    """Parse an answer-key table into {qnum: {correct_option, refs}}.
+
+    Layout-flexible (works for the in-document key and separate answer files):
+    columns are detected by *content*, not header order --
+      * question number = a pure-integer cell (prefer the `שאלה` column if a
+        header names it),
+      * correct option = a standalone `א–ה` cell (the "באות" column) or a
+        `"ג. …"` prefix inside the answer cell,
+      * source = a cell containing a known Bible book name.
     """
     import pdfplumber
 
     answers: dict[int, dict] = {}
-    col = {"source": 0, "answer": 1, "qnum": 2}
+    qnum_col: int | None = None
     with pdfplumber.open(str(path)) as pdf:
         for pg in pdf.pages:
             for tbl in pg.extract_tables() or []:
                 for row in tbl:
                     cells = [_delogicalize(c) if c else "" for c in row]
-                    if len(cells) < 3:
+                    if len(cells) < 2:
                         continue
                     joined = " ".join(cells)
-                    if "מקור" in joined and "שאלה" in joined:  # header row
+                    if "שאלה" in joined and any(h in joined for h in ("מקור", "תשובה", "באות", "במילים")):
                         for i, c in enumerate(cells):
-                            if "מקור" in c:
-                                col["source"] = i
-                            elif "שאלה" in c:
-                                col["qnum"] = i
-                            elif "תשובה" in c:
-                                col["answer"] = i
+                            if "שאלה" in c:
+                                qnum_col = i
                         continue
-                    qcell = cells[col["qnum"]].strip()
-                    if not re.fullmatch(r"\d+", qcell):
+
+                    # question number
+                    qnum = None
+                    if qnum_col is not None and qnum_col < len(cells) and re.fullmatch(r"\d{1,3}", cells[qnum_col].strip()):
+                        qnum = int(cells[qnum_col].strip())
+                    else:
+                        for c in reversed(cells):  # qnum column is rightmost (RTL)
+                            if re.fullmatch(r"\d{1,3}", c.strip()):
+                                qnum = int(c.strip())
+                                break
+                    if not qnum:
                         continue
-                    qnum = int(qcell)
 
-                    def rejoin(cell, sep):
-                        lines = [ln for ln in cell.splitlines() if ln.strip()]
-                        return sep.join(reversed(lines))
+                    # correct option: standalone letter cell, else "ג." prefix
+                    opt = None
+                    for c in cells:
+                        if c.strip().strip(".'\"׳״ ") in _OPTION_LETTERS:
+                            opt = c.strip().strip(".'\"׳״ ")
+                            break
+                    if opt is None:
+                        for c in cells:
+                            mo = re.search(r"([א-ה])[.׳]", _rejoin_cell(c, " "))
+                            if mo:
+                                opt = mo.group(1)
+                                break
 
-                    a_join = rejoin(cells[col["answer"]], " ")
-                    s_join = rejoin(cells[col["source"]], " ; ")
-                    mo = re.search(r"([א-ה])\.", a_join)
-                    answers[qnum] = {
-                        "correct_option": mo.group(1) if mo else None,
-                        "refs": parse_source_refs(s_join),
-                    }
+                    # source: cell containing a Bible book name or abbreviation
+                    src = ""
+                    for c in cells:
+                        rj = _rejoin_cell(c, " ; ")
+                        if _looks_like_source(rj):
+                            src = rj
+                            break
+
+                    answers[qnum] = {"correct_option": opt, "refs": parse_source_refs(src)}
     return answers
 
 
@@ -1194,8 +1251,14 @@ def http_get(url: str, binary: bool = False, retries: int = 3):
     raise last
 
 
+_DISCOVER_CACHE: list[dict] | None = None
+
+
 def discover_files() -> list[dict]:
-    """Scrape archive pages for questionnaire file links."""
+    """Scrape archive pages for questionnaire file links (memoised per run)."""
+    global _DISCOVER_CACHE
+    if _DISCOVER_CACHE is not None:
+        return _DISCOVER_CACHE
     from bs4 import BeautifulSoup
 
     seen: dict[str, dict] = {}
@@ -1222,7 +1285,67 @@ def discover_files() -> list[dict]:
             if base not in seen:
                 seen[base] = {"base": base, "filename": fname, "url": url,
                               "age_group": age_group, "is_answer_key": is_answer}
-    return list(seen.values())
+    _DISCOVER_CACHE = list(seen.values())
+    return _DISCOVER_CACHE
+
+
+_ANS_MARKERS = re.compile(r"answers?|tshuvon|teshuvon|written_test_ans|_ans\b|\bans\b|^an[_-]", re.I)
+
+
+def _id_core(s: str) -> str:
+    """Lowercased id with answer markers and separators removed, for pairing."""
+    return re.sub(r"[^a-z0-9א-ת]", "", _ANS_MARKERS.sub("", s.lower()))
+
+
+def _lcs_len(a: str, b: str) -> int:
+    """Length of the longest common substring (small strings)."""
+    if not a or not b:
+        return 0
+    prev = [0] * (len(b) + 1)
+    best = 0
+    for i in range(1, len(a) + 1):
+        cur = [0] * (len(b) + 1)
+        for j in range(1, len(b) + 1):
+            if a[i - 1] == b[j - 1]:
+                cur[j] = prev[j - 1] + 1
+                best = max(best, cur[j])
+        prev = cur
+    return best
+
+
+def _is_dati(s: str) -> bool:
+    """Robustly detect the mamlachti_dati stream from an id (typo-tolerant)."""
+    s = s.lower()
+    return bool(re.search(r"mamad|dati|mmd|(?:^|[_-])md(?:$|[_-]|\d)", s)) or 'ממד' in s
+
+
+def find_answer_files(question_id: str, entries: list[dict]) -> list[dict]:
+    """Candidate separate answer-key files for a question id, ranked best-first.
+
+    Matches by longest common substring of the (marker-stripped) ids, filtered by
+    year and stream (dati vs mamlachti) consistency. The CALLER tries them in order
+    and confirms each by row count == question count (guards against a wrong match;
+    lets a correct lower-ranked candidate win if the top one mismatches).
+    """
+    qcore = _id_core(question_id)
+    qmeta = decode_filename(question_id)
+    q_dati = _is_dati(question_id)
+    scored: list[tuple[int, dict]] = []
+    for e in entries:
+        if not e.get("is_answer_key"):
+            continue
+        if _is_dati(e["base"]) != q_dati:        # never cross the dati/mamlachti streams
+            continue
+        ay = decode_filename(e["base"]).get("year_civil")
+        if qmeta.get("year_civil") and ay and qmeta["year_civil"] != ay:
+            continue
+        acore = _id_core(e["base"])
+        score = _lcs_len(qcore, acore)
+        if score < 4 or score < 0.4 * min(len(qcore), len(acore)):
+            continue
+        scored.append((score, e))
+    scored.sort(key=lambda x: -x[0])
+    return [e for _, e in scored]
 
 
 def build_file_entry(base: str) -> dict:

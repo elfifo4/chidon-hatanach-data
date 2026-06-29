@@ -138,6 +138,37 @@ def test_int_to_gematria(n, heb):
     assert extract.int_to_gematria(n) == heb
 
 
+@pytest.mark.parametrize("seg, book, chapter, verse", [
+    ("יהושע ה, 3", "יהושע", "ה", "ג"),              # digit verse -> gematria
+    ("שופטים ז, 16-15", "שופטים", "ז", "טו-טז"),     # reversed digit range -> ascending
+    ('שמ"א ח, 14', "שמואל א", "ח", "יד"),            # abbreviation + digit verse
+    ("בראשית א, כז", "בראשית", "א", "כז"),           # plain Hebrew (unchanged)
+])
+def test_parse_source_refs_digit_and_abbrev(seg, book, chapter, verse):
+    r = extract.parse_source_refs(seg)
+    assert r and r[0]["book"] == book and r[0]["chapter"] == chapter and r[0]["verse"] == verse
+
+
+def test_is_dati_detection():
+    assert extract._is_dati("district-writing-mamad")
+    assert not extract._is_dati("district-writing-mamlachti")
+    assert extract._is_dati("beitsifri_mmd2026") and not extract._is_dati("beitsifri_mm2026")
+
+
+def test_find_answer_files_never_crosses_streams():
+    entries = [
+        {"base": "answers-district-mamad", "is_answer_key": True},
+        {"base": "answers-district-mamlachti", "is_answer_key": True},
+        {"base": "answers-writing-mamalchti", "is_answer_key": True},
+        {"base": "schoola", "is_answer_key": False},
+    ]
+    dati = [e["base"] for e in extract.find_answer_files("district-writing-mamad", entries)]
+    assert "answers-district-mamad" in dati
+    assert "answers-district-mamlachti" not in dati          # mamlachti excluded for a dati question
+    mam = [e["base"] for e in extract.find_answer_files("district-writing-mamlachti", entries)]
+    assert all("mamad" not in b for b in mam)                # dati answer excluded for a mamlachti question
+
+
 def test_parse_questions_drops_stray_page_number():
     lines = ["1. מי היה?", "א. אברהם", "ב. יצחק", "5", "ג. יעקב", "ד. יוסף"]
     units = extract.parse_questions(lines)

@@ -1449,7 +1449,7 @@ def process_file(entry: dict, force: bool) -> dict:
             print(f"   ! suspicious Hebrew at {jpath}: {snip!r}")
 
     write_json(out_path, q)
-    count = len(q["sections"][0]["question_units"]) if q["sections"] else 0
+    count = sum(len(s["question_units"]) for s in q["sections"])
     result.update(status="success", extraction_quality=quality, question_count=count,
                   duration_seconds=round(time.time() - start, 2))
     if notes:

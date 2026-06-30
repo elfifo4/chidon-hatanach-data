@@ -73,6 +73,33 @@ def _load(path: str):
     return _INDEX
 
 
+def _locate(segment: str, glob: str) -> tuple[int, int] | None:
+    """Find ``segment`` in the corpus skeleton. Returns (pos, length) or None.
+
+    Tries the full segment skeleton first; on failure falls back to the longest
+    contiguous word-window that *is* present. The fallback bridges abbreviations
+    the corpus spells out -- chiefly the divine name (exam: "ה'" -> skeleton "ה";
+    corpus: "יהוה") -- which otherwise break the single contiguous match.
+    """
+    full = _skeleton(segment)
+    if len(full) >= 6:
+        pos = glob.find(full)
+        if pos >= 0:
+            return pos, len(full)
+    words = segment.split()
+    skels = [_skeleton(w) for w in words]
+    n = len(words)
+    for win_len in range(n, 0, -1):
+        for start in range(0, n - win_len + 1):
+            sk = "".join(skels[start:start + win_len])
+            if len(sk) < 12:           # demand a solid anchor for the fallback
+                continue
+            pos = glob.find(sk)
+            if pos >= 0:
+                return pos, len(sk)
+    return None
+
+
 def resolve_quote(quote: str | None, path: str = DEFAULT_CORPUS) -> tuple[str, dict] | None:
     """Locate the verse(s) the quote came from.
 
@@ -86,14 +113,17 @@ def resolve_quote(quote: str | None, path: str = DEFAULT_CORPUS) -> tuple[str, d
     verses, glob, pos2verse = _load(path)
     if not glob:
         return None
-    segments = [s for s in _ELLIPSIS.split(quote) if s.strip()]
-    anchor = max((_skeleton(s) for s in segments), key=len, default="")
-    if len(anchor) < 6:        # too short to resolve unambiguously
+    segments = sorted((s for s in _ELLIPSIS.split(quote) if s.strip()),
+                      key=lambda s: len(_skeleton(s)), reverse=True)
+    located = None
+    for seg in segments:
+        located = _locate(seg, glob)
+        if located:
+            break
+    if not located:
         return None
-    pos = glob.find(anchor)
-    if pos < 0:
-        return None
-    v0, v1 = pos2verse[pos], pos2verse[pos + len(anchor) - 1]
+    pos, alen = located
+    v0, v1 = pos2verse[pos], pos2verse[pos + alen - 1]
     if v1 - v0 > 3:            # implausibly long span -> not trustworthy
         return None
     lo, hi = max(0, v0 - 1), min(len(verses) - 1, v1 + 1)

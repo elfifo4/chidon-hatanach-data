@@ -178,7 +178,7 @@
             },
             {
               "key": "ד",
-              "text": "יוסף 2"
+              "text": "יוסף"
             }
           ],
           "correct_option": "ג",
@@ -398,7 +398,7 @@
             },
             {
               "key": "ג",
-              "text": "אלדד ומידד 3"
+              "text": "אלדד ומידד"
             },
             {
               "key": "ד",
@@ -421,7 +421,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "אלדד ומידד 3",
+              "answer_text": "אלדד ומידד",
               "source_refs": [
                 {
                   "book": "במדבר",
@@ -618,7 +618,7 @@
             },
             {
               "key": "ב",
-              "text": "בית אל 4"
+              "text": "בית אל"
             },
             {
               "key": "ג",
@@ -794,7 +794,7 @@
             },
             {
               "key": "ד",
-              "text": "את אחשורוש 5"
+              "text": "את אחשורוש"
             }
           ],
           "correct_option": "ד",
@@ -813,7 +813,7 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "את אחשורוש 5",
+              "answer_text": "את אחשורוש",
               "source_refs": [
                 {
                   "book": "אסתר",
@@ -1018,7 +1018,7 @@
             },
             {
               "key": "ד",
-              "text": "חרמון 6"
+              "text": "חרמון"
             }
           ],
           "correct_option": "א",
@@ -1242,7 +1242,7 @@
             },
             {
               "key": "ד",
-              "text": "מגילת רות 7"
+              "text": "מגילת רות"
             }
           ],
           "correct_option": "ב",
@@ -1410,7 +1410,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחת מהן 8"
+              "text": "אף אחת מהן"
             }
           ],
           "correct_option": "א",
@@ -1451,8 +1451,8 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/beitsifri_mm2026.pdf",
-    "fetch_date": "2026-06-25",
-    "extraction_quality": "clean",
+    "fetch_date": "2026-06-30",
+    "extraction_quality": "partial",
     "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
   }
 }

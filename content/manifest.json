@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-26",
+  "generated_at": "2026-06-30",
   "quizzes": [
     {
       "id": "2008m",
@@ -866,10 +866,10 @@
       "stage": null,
       "year_civil": 2017,
       "year_hebrew": "תשע\"ז",
-      "question_count": 2,
+      "question_count": 40,
       "json_path": "quizzes/2017m3.json",
-      "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "extraction_quality": "clean",
+      "has_answer_key": true
     },
     {
       "id": "2017md",
@@ -1638,7 +1638,7 @@
       "year_hebrew": "תשפ\"ו",
       "question_count": 25,
       "json_path": "quizzes/beitsifri_mm2026.json",
-      "extraction_quality": "clean",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {

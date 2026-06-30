@@ -592,11 +592,17 @@ def build_public_questionnaire(base: str, source_url: str, pages: list[str],
 
     year = meta.get("year_civil")
     is_tiered = any(s.get("live_stage_rules") for s in sections)
+    # The public booklets are national-stage and usually carry both tracks inside
+    # (separate sections). The app browser keys on a single track/stage per quiz,
+    # so surface the quiz under its primary (first) track and the national stage.
+    first_track = next((s["track"] for s in sections if s.get("track")), None)
+    track = meta.get("track") or (first_track.replace("-", "_") if first_track else None)
+    stage = meta.get("stage") or "national"
     metadata = {
         "contest_year_civil": year,
         "contest_year_hebrew": HEBREW_YEARS.get(year),
-        "track": meta.get("track"),
-        "stage": meta.get("stage"),
+        "track": track,
+        "stage": stage,
         "sitting": None,
         "age_group": meta.get("age_group"),
         "annual_theme": None,

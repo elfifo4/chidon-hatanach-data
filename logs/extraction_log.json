@@ -1,19 +1,18 @@
 {
-  "run_at": "2026-06-30T11:41:51",
+  "run_at": "2026-06-30T14:25:30",
   "total_files": 1,
   "processed": 1,
   "skipped_existing": 0,
   "failed": 0,
-  "suspicious_hebrew_total": 1,
+  "suspicious_hebrew_total": 0,
   "results": [
     {
-      "id": "beitsifri_mm2026",
+      "id": "2017m3",
       "status": "success",
-      "extraction_quality": "partial",
-      "question_count": 25,
-      "duration_seconds": 1.95,
-      "suspicious_hebrew": 1,
-      "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
+      "extraction_quality": "clean",
+      "question_count": 40,
+      "duration_seconds": 3.17,
+      "extraction_notes": "public/oral format: 6 sections, 40 units, 3 stages"
     }
   ]
 }

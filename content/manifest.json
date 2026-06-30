@@ -862,8 +862,8 @@
     },
     {
       "id": "2017m3",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "national",
       "year_civil": 2017,
       "year_hebrew": "תשע\"ז",
       "question_count": 40,

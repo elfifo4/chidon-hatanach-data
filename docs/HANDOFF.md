@@ -109,3 +109,42 @@ Two sides of the work:
 Constraints/guidance: keep MC behavior intact; reuse the corpus + niqqud + page-furniture machinery;
 faithful to the exam; plan before building (likely format-by-format, starting with the most common /
 highest-value public format).
+
+### Progress — public parser, format #1 (`2017m3`) DONE
+- **New module `public_parser.py`.** Parses the youth national public booklet grammar (Format 3):
+  three stages as `sections[]` split by track (ממלכתי / ממלכתי-דתי):
+  - `שלב א` "בעקבות קטעי שירה" → `stage_subtype:"live-rounds"`, units `question_type:"composite"`
+    with `subquestions[]` (א/ב), each `acceptable_answers[]` (incl. `תתקבל גם` alternates),
+    `requires_free_text_judging:true`, `narrative_context` = framing + corpus-cleaned quote.
+  - `שלב ב` "תשבצים" → `mini_crossword`, subquestions = clues with `label "N (מאונך/מאוזן)"`,
+    `answer_length` ("5", "3,5"), single answer + source ref.
+  - `שלב ג` "ראש בראש" → `head-to-head`, units = `צמד N: <theme>` containers, subquestions = the
+    paired short questions (answer + `יתקבל גם` alternates + source).
+  - `live_stage_rules` (points_per_correct / decay_per_hint / time_limit_seconds) best-effort from תקנון.
+  - Entry points: `looks_public(pages)` (conservative detector), `parse_public_sections(pages)`,
+    `build_public_questionnaire(base, url, pages, meta)` (full envelope, mirrors `build_questionnaire`).
+- **Dispatch (auto-detect):** `process_file` routes a PDF to the public parser iff
+  `public_parser.looks_public(pages)`; everything else stays on the MC path. Verified `looks_public`
+  is **False** on the MC quizzes (beitsifri_*, MMTEST) and **True** on `2017m3`.
+- **Corpus matcher hardened (helps MC too):** `tanach_corpus.resolve_quote` now has a longest-word-window
+  fallback (`_locate`) so quotes containing the divine name `ה'` (corpus spells `יהוה`) still resolve
+  **offline** — previously these only cleaned when Sefaria was reachable/cached. Span guard unchanged.
+- **`validate()`** relaxed: a unit may carry its question in `subquestions`/`narrative_context` instead
+  of a top-level `prompt` (MC units still require prompt via that same OR).
+- **Result:** `2017m3` → 6 sections / 40 units / 3 stages, quality `clean`, validates, 0 suspicious Hebrew.
+  Output written to `output/2017m3.json` (content/ left untouched on purpose).
+- **Tests:** `tests/test_public_parser.py` (11 tests, synthetic fixtures, no network). Suite now **76 passing**.
+
+### Public parser — remaining formats (next sessions, same pattern: grammar variant + fixture)
+`looks_public` is intentionally scoped to the `2017m3` stage vocabulary, so other public files still fall
+through to the MC path (no worse than today) until their grammar is added:
+- `mehozipumbi2018` / `adults_*` — Format 9 א/ב/ג with a **different source on part ג** (multi-source/sub-q).
+- `2013m3` — Format 11 common-word-puzzle ("המילה המשותפת") + embedded true/false.
+- `2011m4` — Format 10 association progressive-hint ("מה הקשר") + length-constrained crossword.
+- `champ_champ_2019` / `adults_quiz_2025` — Format 4/6 "צמד" pairs, "שאלת ראש הממשלה", numeric/date types.
+
+### ⚠️ App side — CONSUMING WORK REQUIRED (BibleContestAndroidApp, branch `chidonim`)
+The quiz screen renders **only `multiple_choice`**. The new public JSON needs UI for:
+composite/subquestions (reveal model answer), open answer, true/false, verse completion, mini-crossword,
+and section/stage grouping with `live_stage_rules`. **No schema change needed** — the fields already exist.
+Also: these public quizzes won't appear in the app until `content/` is regenerated (separate open item #1).

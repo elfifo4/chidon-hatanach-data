@@ -1222,9 +1222,13 @@ def validate(q: dict) -> list[str]:
     if quality != "unreadable" and not units:
         fails.append("no question units")
     for u in units:
-        for f in ("unit_id", "prompt", "question_type"):
+        for f in ("unit_id", "question_type"):
             if not u.get(f):
                 fails.append(f"{u.get('unit_id')} missing {f}")
+        # A unit must carry its question somewhere: a top-level prompt (MC) or a
+        # set of sub-questions / narrative lead-in (public composite/crossword).
+        if not u.get("prompt") and not u.get("subquestions") and not u.get("narrative_context"):
+            fails.append(f"{u.get('unit_id')} missing prompt")
     # Note: missing answer keys and odd option counts are NOT hard failures — they are
     # reflected in extraction_quality (manual_review_needed / partial) instead of forcing
     # a whole readable quiz into review and hiding it from the app.
@@ -1423,7 +1427,13 @@ def process_file(entry: dict, force: bool) -> dict:
                       duration_seconds=round(time.time() - start, 2))
         return result
 
-    q, quality, notes = build_questionnaire(base, url, pages, meta, answers)
+    # Public/oral booklets (staged, inline-answer, no MC grid) take a separate
+    # parser; the MC path is untouched for everything else.
+    import public_parser
+    if ext == "pdf" and public_parser.looks_public(pages):
+        q, quality, notes = public_parser.build_public_questionnaire(base, url, pages, meta)
+    else:
+        q, quality, notes = build_questionnaire(base, url, pages, meta, answers)
     fails = validate(q)
     if fails:
         q["import_provenance"]["extraction_quality"] = "manual_review_needed"

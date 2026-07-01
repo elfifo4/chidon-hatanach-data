@@ -39,7 +39,7 @@
         {
           "unit_id": "q01",
           "display_number": "1",
-          "narrative_context": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַיְהִי כֵן",
+          "narrative_context": "ויַאֹּּ מֶר אֱלהֹּיִם יִקָּּווּ הַמַּיםִ מִתַּחַת הַשָּּמַיםִ אֶל מָּק וֹּם אֶחָּד וְתֵרָּאֶה היַַּ בָּּשָּה ויַהְיִ כןֵ",
           "prompt": "-באיזה יום לבריאה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -66,8 +66,8 @@
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "א,",
-              "verse": null,
+              "chapter": "א",
+              "verse": "ט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -81,8 +81,8 @@
               "source_refs": [
                 {
                   "book": "בראשית",
-                  "chapter": "א,",
-                  "verse": null
+                  "chapter": "א",
+                  "verse": "ט"
                 }
               ],
               "is_primary": true
@@ -95,7 +95,7 @@
         {
           "unit_id": "q02",
           "display_number": "2",
-          "narrative_context": "וַיַּעַשׂ לוֹ … חֶרֶב וְלָהּ שְׁנֵי פֵיוֹת גֹּמֶד אׇרְכָּהּ וַיַּחְגֹּר אוֹתָהּ מִתַּחַת לְמַדָּיו עַל יֶרֶךְ יְמִינוֹ",
+          "narrative_context": "ויַעַַּ שׂלוֹּ ... חֶרֶב ולְָּ הּשְניֵ פֵי וֹּת גֹּּמֶד אָּרְכָּּהּויַַּ חְגרֹּּ א וֹּתָּהּמְִתַּחַת לְמַדָּיּו עלַ יֶרֶך יְמִינ וֹּ",
           "prompt": "על איזה שופט נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -122,8 +122,8 @@
           "primary_sources": [
             {
               "book": "שופטים",
-              "chapter": "ג,",
-              "verse": null,
+              "chapter": "ג",
+              "verse": "טז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -137,8 +137,8 @@
               "source_refs": [
                 {
                   "book": "שופטים",
-                  "chapter": "ג,",
-                  "verse": null
+                  "chapter": "ג",
+                  "verse": "טז"
                 }
               ],
               "is_primary": true
@@ -178,8 +178,8 @@
           "primary_sources": [
             {
               "book": "שמות",
-              "chapter": "י,",
-              "verse": null,
+              "chapter": "י",
+              "verse": "ד",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -193,8 +193,8 @@
               "source_refs": [
                 {
                   "book": "שמות",
-                  "chapter": "י,",
-                  "verse": null
+                  "chapter": "י",
+                  "verse": "ד"
                 }
               ],
               "is_primary": true
@@ -207,7 +207,7 @@
         {
           "unit_id": "q04",
           "display_number": "4",
-          "narrative_context": "אֲחִימַן שֵׁשַׁי וְתַלְמַי יְלִידֵי הָעֲנָק",
+          "narrative_context": "אֲחִי מָּן שֵשַי וְתַלְ מַי ילְיִ דֵי העָּנֲקָּ",
           "prompt": "באיזה חומש מוזכרים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -234,8 +234,8 @@
           "primary_sources": [
             {
               "book": "במדבר",
-              "chapter": "יג,",
-              "verse": null,
+              "chapter": "יג",
+              "verse": "כב",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -249,8 +249,8 @@
               "source_refs": [
                 {
                   "book": "במדבר",
-                  "chapter": "יג,",
-                  "verse": null
+                  "chapter": "יג",
+                  "verse": "כב"
                 }
               ],
               "is_primary": true
@@ -274,7 +274,7 @@
             },
             {
               "key": "ב",
-              "text": "אלישע 2"
+              "text": "אלישע"
             },
             {
               "key": "ג",
@@ -290,8 +290,8 @@
           "primary_sources": [
             {
               "book": "שמואל א",
-              "chapter": "ג,",
-              "verse": null,
+              "chapter": "ג",
+              "verse": "ט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -305,8 +305,8 @@
               "source_refs": [
                 {
                   "book": "שמואל א",
-                  "chapter": "ג,",
-                  "verse": null
+                  "chapter": "ג",
+                  "verse": "ט"
                 }
               ],
               "is_primary": true
@@ -319,7 +319,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "הָיְתָה עִיר גְּדוֹלָה לֵאלֹהִים מַהֲלַךְ שְׁלֹשֶׁת יָמִים",
+          "narrative_context": "היְָּ תָּה עיִר גדְּ וֹּלהָּ לאֵלהֹּיִם מַהלֲךַ שְְלֹּ שֶת יָּמִים",
           "prompt": "איזו עיר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -346,8 +346,8 @@
           "primary_sources": [
             {
               "book": "יונה",
-              "chapter": "ג,",
-              "verse": null,
+              "chapter": "ג",
+              "verse": "ג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -361,8 +361,8 @@
               "source_refs": [
                 {
                   "book": "יונה",
-                  "chapter": "ג,",
-                  "verse": null
+                  "chapter": "ג",
+                  "verse": "ג"
                 }
               ],
               "is_primary": true
@@ -375,7 +375,7 @@
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "שְׁמָעוּנִי וּפִגְעוּ לִי בְּעֶפְרוֹן בֶּן צֹחַר",
+          "narrative_context": "מעֶ פְר וֹּן בּןֶ צֹּחַר?",
           "prompt": "מה קנה אברהם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -402,8 +402,8 @@
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "כג,",
-              "verse": null,
+              "chapter": "כג",
+              "verse": "ט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -417,8 +417,8 @@
               "source_refs": [
                 {
                   "book": "בראשית",
-                  "chapter": "כג,",
-                  "verse": null
+                  "chapter": "כג",
+                  "verse": "ט"
                 }
               ],
               "is_primary": true
@@ -431,7 +431,7 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "וְהִנֵּה … בָּא מִבֵּית לֶחֶם וַיֹּאמֶר לַקּוֹצְרִים ה' עִמָּכֶם וַיֹּאמְרוּ לוֹ יְבָרֶכְךָ ה'",
+          "narrative_context": "והְנִהֵּ ... בּאָּ מִבּיֵת לֶחֶם ויַאֹּּ מֶר לַקּוֹּצְ רִים ה' עִמָּּכםֶ ויַאֹּּ מְרוּ ל וֹּיבְָּ רֶכךְ הָּ'",
           "prompt": "על מי מסופר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -458,8 +458,8 @@
           "primary_sources": [
             {
               "book": "רות",
-              "chapter": "ב,",
-              "verse": null,
+              "chapter": "ב",
+              "verse": "ד",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -473,8 +473,8 @@
               "source_refs": [
                 {
                   "book": "רות",
-                  "chapter": "ב,",
-                  "verse": null
+                  "chapter": "ב",
+                  "verse": "ד"
                 }
               ],
               "is_primary": true
@@ -487,7 +487,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "וַיִּתָּלוּ שְׁנֵיהֶם עַל עֵץ",
+          "narrative_context": "ויִַּ תָּּלוּ שְניֵהםֶ עלַ עץֵ",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -514,8 +514,8 @@
           "primary_sources": [
             {
               "book": "אסתר",
-              "chapter": "ב,",
-              "verse": null,
+              "chapter": "ב",
+              "verse": "כג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -529,8 +529,8 @@
               "source_refs": [
                 {
                   "book": "אסתר",
-                  "chapter": "ב,",
-                  "verse": null
+                  "chapter": "ב",
+                  "verse": "כג"
                 }
               ],
               "is_primary": true
@@ -543,7 +543,7 @@
         {
           "unit_id": "q10",
           "display_number": "10",
-          "narrative_context": "ה' מֵמִית וּמְחַיֶּה מוֹרִיד שְׁאוֹל וַיָּעַל",
+          "narrative_context": "ה' מֵמִית וּמְחַיהֶּ מ וֹּרִיד שְא וֹּל ויַעָּּלַ",
           "prompt": "מי אמר/ה?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -562,7 +562,7 @@
             },
             {
               "key": "ד",
-              "text": "חנה בתפילתה 3"
+              "text": "חנה בתפילתה"
             }
           ],
           "correct_option": "ד",
@@ -570,8 +570,8 @@
           "primary_sources": [
             {
               "book": "שמואל א",
-              "chapter": "ב,",
-              "verse": null,
+              "chapter": "ב",
+              "verse": "ו",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -581,12 +581,12 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "חנה בתפילתה 3",
+              "answer_text": "חנה בתפילתה",
               "source_refs": [
                 {
                   "book": "שמואל א",
-                  "chapter": "ב,",
-                  "verse": null
+                  "chapter": "ב",
+                  "verse": "ו"
                 }
               ],
               "is_primary": true
@@ -626,8 +626,8 @@
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "י,",
-              "verse": null,
+              "chapter": "י",
+              "verse": "יא",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -641,8 +641,8 @@
               "source_refs": [
                 {
                   "book": "יהושע",
-                  "chapter": "י,",
-                  "verse": null
+                  "chapter": "י",
+                  "verse": "יא"
                 }
               ],
               "is_primary": true
@@ -655,7 +655,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "הֲלוֹא אִם תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשׇׁל בּוֹ",
+          "narrative_context": "הלֲ וֹּא אִם תֵּי טִיב שְׂאֵת וְאִם לאֹּ תֵי טִיב לַפֶּתַח חַטָּּאת רבֹּץֵ וְאֵליֶך תְָּּשוּ קָּת וֹּוְאַתָּּה תִּמְשָּל בּוֹּ",
           "prompt": "למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -682,8 +682,8 @@
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "ד,",
-              "verse": null,
+              "chapter": "ד",
+              "verse": "ז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -697,8 +697,8 @@
               "source_refs": [
                 {
                   "book": "בראשית",
-                  "chapter": "ד,",
-                  "verse": null
+                  "chapter": "ד",
+                  "verse": "ז"
                 }
               ],
               "is_primary": true
@@ -738,8 +738,8 @@
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "ט,",
-              "verse": null,
+              "chapter": "ט",
+              "verse": "יח",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -753,8 +753,8 @@
               "source_refs": [
                 {
                   "book": "יהושע",
-                  "chapter": "ט,",
-                  "verse": null
+                  "chapter": "ט",
+                  "verse": "יח"
                 }
               ],
               "is_primary": true
@@ -767,7 +767,7 @@
         {
           "unit_id": "q14",
           "display_number": "14",
-          "narrative_context": "וַיֹּאמֶר אַל יִוָּדַע כִּי בָאָה הָאִשָּׁה הַגֹּרֶן",
+          "narrative_context": "ויַאֹּּ מֶר אַל יוִָּּ דַע כּיִ בָּאָּה הָּאִשָּּה הגַֹּּ רֶן",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -794,8 +794,8 @@
           "primary_sources": [
             {
               "book": "רות",
-              "chapter": "ג,",
-              "verse": null,
+              "chapter": "ג",
+              "verse": "יד",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -809,8 +809,8 @@
               "source_refs": [
                 {
                   "book": "רות",
-                  "chapter": "ג,",
-                  "verse": null
+                  "chapter": "ג",
+                  "verse": "יד"
                 }
               ],
               "is_primary": true
@@ -823,7 +823,7 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "וַיֵּצֵא … לָשׂוּחַ בַּשָּׂדֶה לִפְנוֹת עָרֶב וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה גְמַלִּים בָּאִים",
+          "narrative_context": "ויַצֵּאֵ ... לָּשׂוּ חַבַּשָּּׂדֶה לִפְנ וֹּת עָּרֶב ויִַּ שָּּׂא עיֵניָּו ויַַּ רְא והְנִהֵּ גְמַליִּם בָּּאִים",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -850,8 +850,8 @@
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "כד,",
-              "verse": null,
+              "chapter": "כד",
+              "verse": "סג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -865,8 +865,8 @@
               "source_refs": [
                 {
                   "book": "בראשית",
-                  "chapter": "כד,",
-                  "verse": null
+                  "chapter": "כד",
+                  "verse": "סג"
                 }
               ],
               "is_primary": true
@@ -880,7 +880,7 @@
           "unit_id": "q16",
           "display_number": "16",
           "narrative_context": "הָּאָּרֶץ אֲשֶר דָּּרְכהָּ רַגלְךְ מִלאֵּ תָּאַחֲרֵי ה'",
-          "prompt": "למי הובטח: ? 4?",
+          "prompt": "למי הובטח?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -906,8 +906,8 @@
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "יד,",
-              "verse": null,
+              "chapter": "יד",
+              "verse": "ט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -921,8 +921,8 @@
               "source_refs": [
                 {
                   "book": "יהושע",
-                  "chapter": "יד,",
-                  "verse": null
+                  "chapter": "יד",
+                  "verse": "ט"
                 }
               ],
               "is_primary": true
@@ -962,8 +962,8 @@
           "primary_sources": [
             {
               "book": "יונה",
-              "chapter": "ב,",
-              "verse": null,
+              "chapter": "ב",
+              "verse": "א",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -977,8 +977,8 @@
               "source_refs": [
                 {
                   "book": "יונה",
-                  "chapter": "ב,",
-                  "verse": null
+                  "chapter": "ב",
+                  "verse": "א"
                 }
               ],
               "is_primary": true
@@ -991,7 +991,7 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "וְעַתָּה שָׂא נָא כֵלֶיךָ תֶּלְיְךָ וְקַשְׁתֶּךָ וְצֵא הַשָּׂדֶה וְצוּדָה לִּי (צידה)",
+          "narrative_context": "ועְַ תָּּה שָּׂא נאָּ כלֵיֶך תֶָּּליְךְ וְָּקַשְתֶּך וָּצְאֵ הַשָּּׂדֶה וצְוּ דָּה ליִּ ציָּדִ",
           "prompt": "למי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1018,8 +1018,8 @@
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "כז,",
-              "verse": null,
+              "chapter": "כז",
+              "verse": "ג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1033,8 +1033,8 @@
               "source_refs": [
                 {
                   "book": "בראשית",
-                  "chapter": "כז,",
-                  "verse": null
+                  "chapter": "כז",
+                  "verse": "ג"
                 }
               ],
               "is_primary": true
@@ -1074,8 +1074,8 @@
           "primary_sources": [
             {
               "book": "שופטים",
-              "chapter": "ו,",
-              "verse": null,
+              "chapter": "ו",
+              "verse": "יב",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1089,8 +1089,8 @@
               "source_refs": [
                 {
                   "book": "שופטים",
-                  "chapter": "ו,",
-                  "verse": null
+                  "chapter": "ו",
+                  "verse": "יב"
                 }
               ],
               "is_primary": true
@@ -1130,8 +1130,8 @@
           "primary_sources": [
             {
               "book": "דברים",
-              "chapter": "לד,",
-              "verse": null,
+              "chapter": "לד",
+              "verse": "ז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1145,8 +1145,8 @@
               "source_refs": [
                 {
                   "book": "דברים",
-                  "chapter": "לד,",
-                  "verse": null
+                  "chapter": "לד",
+                  "verse": "ז"
                 }
               ],
               "is_primary": true
@@ -1159,7 +1159,7 @@
         {
           "unit_id": "q21",
           "display_number": "21",
-          "narrative_context": "וְאִם רַע בְּעֵינֵיכֶם לַעֲבֹד אֶת ה' בַּחֲרוּ לָכֶם הַיּוֹם אֶת מִי תַעֲבֹדוּן אִם אֶת אֱלֹהִים אֲשֶׁר עָבְדוּ אֲבוֹתֵיכֶם אֲשֶׁר (בעבר) [מֵעֵבֶר] הַנָּהָר וְאִם אֶת אֱלֹהֵי הָאֱמֹרִי אֲשֶׁר אַתֶּם יֹשְׁבִים בְּאַרְצָם וְאָנֹכִי וּבֵיתִי נַעֲבֹד אֶת ה'",
+          "narrative_context": "וְאִם רַע בּעְיֵניֵכםֶ לעַבֲדֹּ אֶת ה' בַּחֲרוּ לכָּםֶ היַ וֹּּם אֶת מִי תַעבֲדֹּוןּ אִם אֶת אֱלהֹּיִם אֲשֶר עבָּדְוּ אֲב וֹּתֵיכםֶ אֲשֶר מֵעבֵרֶ הנַהָּּרָּ וְאִם אֶת אֱלהֹּיֵ הָּאֱמֹּ רִי אֲשֶר אַתֶּם יֹּשְביִם בְּאַרְצםָּ וְאָּנכֹּיִ ובּיֵ תִי נעַבֲדֹּ אֶת ה'",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1170,7 +1170,7 @@
             },
             {
               "key": "ב",
-              "text": "משה 5"
+              "text": "משה"
             },
             {
               "key": "ג",
@@ -1186,8 +1186,8 @@
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "כד,",
-              "verse": null,
+              "chapter": "כד",
+              "verse": "טו",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1201,8 +1201,8 @@
               "source_refs": [
                 {
                   "book": "יהושע",
-                  "chapter": "כד,",
-                  "verse": null
+                  "chapter": "כד",
+                  "verse": "טו"
                 }
               ],
               "is_primary": true
@@ -1242,8 +1242,8 @@
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "לז,",
-              "verse": null,
+              "chapter": "לז",
+              "verse": "ט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1257,8 +1257,8 @@
               "source_refs": [
                 {
                   "book": "בראשית",
-                  "chapter": "לז,",
-                  "verse": null
+                  "chapter": "לז",
+                  "verse": "ט"
                 }
               ],
               "is_primary": true
@@ -1271,7 +1271,7 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "וְהָיָה כַּאֲשֶׁר יָרִים מֹשֶׁה יָדוֹ וְגָבַר יִשְׂרָאֵל וְכַאֲשֶׁר יָנִיחַ יָדוֹ וְגָבַר",
+          "narrative_context": "והְיָּהָּ כַּאֲשֶר יָּרִים מֹּשֶה ידָּ וֹּוגְבָּרַ יִשְׂרָּאֵל וכְַ אֲשֶר ינָּיִ חַידָּ וֹּוגְבָּרַ ...",
           "prompt": "השלם?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1298,8 +1298,8 @@
           "primary_sources": [
             {
               "book": "שמות",
-              "chapter": "יז,",
-              "verse": null,
+              "chapter": "יז",
+              "verse": "יא",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1313,8 +1313,8 @@
               "source_refs": [
                 {
                   "book": "שמות",
-                  "chapter": "יז,",
-                  "verse": null
+                  "chapter": "יז",
+                  "verse": "יא"
                 }
               ],
               "is_primary": true
@@ -1354,8 +1354,8 @@
           "primary_sources": [
             {
               "book": "במדבר",
-              "chapter": "לב,",
-              "verse": null,
+              "chapter": "לב",
+              "verse": "כט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1369,8 +1369,8 @@
               "source_refs": [
                 {
                   "book": "במדבר",
-                  "chapter": "לב,",
-                  "verse": null
+                  "chapter": "לב",
+                  "verse": "כט"
                 }
               ],
               "is_primary": true
@@ -1458,7 +1458,7 @@
             },
             {
               "key": "ד",
-              "text": "להביא את אסתר אל שושן הבירה 6"
+              "text": "להביא את אסתר אל שושן הבירה"
             }
           ],
           "correct_option": "ג",
@@ -1466,8 +1466,8 @@
           "primary_sources": [
             {
               "book": "אסתר",
-              "chapter": "ג,",
-              "verse": null,
+              "chapter": "ג",
+              "verse": "ב",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1481,8 +1481,8 @@
               "source_refs": [
                 {
                   "book": "אסתר",
-                  "chapter": "ג,",
-                  "verse": null
+                  "chapter": "ג",
+                  "verse": "ב"
                 }
               ],
               "is_primary": true
@@ -1495,7 +1495,7 @@
         {
           "unit_id": "q27",
           "display_number": "27",
-          "narrative_context": "אִם מִחוּט וְעַד שְׂרוֹךְ נַעַל וְאִם אֶקַּח מִכׇּל אֲשֶׁר לָךְ וְלֹא תֹאמַר אֲנִי הֶעֱשַׁרְתִּי אֶת אַבְרָם",
+          "narrative_context": "אִם מִחוטּ ועְדַ שְׂר וֹּך נְעַלַ וְאִם אֶקַּח מִכּלָּ אֲשֶר לךָּ וְלְאֹּ תאֹּ מַר אֲניִ העֱֶ שַרְתִּי אֶת אַבְ רָּם",
           "prompt": "למי אמר אברם?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1522,8 +1522,8 @@
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "יד,",
-              "verse": null,
+              "chapter": "יד",
+              "verse": "כג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1537,8 +1537,8 @@
               "source_refs": [
                 {
                   "book": "בראשית",
-                  "chapter": "יד,",
-                  "verse": null
+                  "chapter": "יד",
+                  "verse": "כג"
                 }
               ],
               "is_primary": true
@@ -1578,8 +1578,8 @@
           "primary_sources": [
             {
               "book": "שמואל א",
-              "chapter": "טו,",
-              "verse": null,
+              "chapter": "טו",
+              "verse": "לג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1593,8 +1593,8 @@
               "source_refs": [
                 {
                   "book": "שמואל א",
-                  "chapter": "טו,",
-                  "verse": null
+                  "chapter": "טו",
+                  "verse": "לג"
                 }
               ],
               "is_primary": true
@@ -1657,7 +1657,7 @@
         {
           "unit_id": "q30",
           "display_number": "30",
-          "narrative_context": "אֶת שְׁנֵי בָנַי תָּמִית אִם לֹא אֲבִיאֶנּוּ אֵלֶיךָ תְּנָה אֹתוֹ עַל יָדִי וַאֲנִי אֲשִׁיבֶנּוּ אֵלֶיךָ",
+          "narrative_context": "אֶת שְניֵ בנָּיַ תָּּמִית אִם לאֹּ אֲביִ אֶנוּּ אֵליֶך תְָּּנהָּ אתֹּ וֹּעָּלַ יָּדִי וַאֲניִ אֲשִיבנֶוּּ אֵליֶך",
           "prompt": "מי מבניו של יעקב אמר לאביו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1684,8 +1684,8 @@
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "מב,",
-              "verse": null,
+              "chapter": "מב",
+              "verse": "לז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1699,8 +1699,8 @@
               "source_refs": [
                 {
                   "book": "בראשית",
-                  "chapter": "מב,",
-                  "verse": null
+                  "chapter": "מב",
+                  "verse": "לז"
                 }
               ],
               "is_primary": true
@@ -1713,7 +1713,7 @@
         {
           "unit_id": "q31",
           "display_number": "31",
-          "narrative_context": "עַתָּה יְלַחֲכוּ הַקָּהָל אֶת כׇּל סְבִיבֹתֵינוּ כִּלְחֹךְ הַשּׁוֹר אֵת יֶרֶק הַשָּׂדֶה",
+          "narrative_context": "עַתָּּה ילְַ חֲכוּ הַקָּּהלָּ אֶת כּלָּ סְביִבֹּ תֵינוּ כּלִ חְךֹּ יֶרֶק הַשָּּׂדֶה",
           "prompt": "מי חשש מפני עם ישראל?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1732,7 +1732,7 @@
             },
             {
               "key": "ד",
-              "text": "מלך העי 7"
+              "text": "מלך העי"
             }
           ],
           "correct_option": "ב",
@@ -1740,8 +1740,8 @@
           "primary_sources": [
             {
               "book": "במדבר",
-              "chapter": "כב,",
-              "verse": null,
+              "chapter": "כב",
+              "verse": "ד",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1755,8 +1755,8 @@
               "source_refs": [
                 {
                   "book": "במדבר",
-                  "chapter": "כב,",
-                  "verse": null
+                  "chapter": "כב",
+                  "verse": "ד"
                 }
               ],
               "is_primary": true
@@ -1796,8 +1796,8 @@
           "primary_sources": [
             {
               "book": "שופטים",
-              "chapter": "יד,",
-              "verse": null,
+              "chapter": "יד",
+              "verse": "יז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1811,8 +1811,8 @@
               "source_refs": [
                 {
                   "book": "שופטים",
-                  "chapter": "יד,",
-                  "verse": null
+                  "chapter": "יד",
+                  "verse": "יז"
                 }
               ],
               "is_primary": true
@@ -1852,8 +1852,8 @@
           "primary_sources": [
             {
               "book": "שמות",
-              "chapter": "א,",
-              "verse": null,
+              "chapter": "א",
+              "verse": "טו",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1867,8 +1867,8 @@
               "source_refs": [
                 {
                   "book": "שמות",
-                  "chapter": "א,",
-                  "verse": null
+                  "chapter": "א",
+                  "verse": "טו"
                 }
               ],
               "is_primary": true
@@ -1908,8 +1908,8 @@
           "primary_sources": [
             {
               "book": "שמואל א",
-              "chapter": "ט,",
-              "verse": null,
+              "chapter": "ט",
+              "verse": "א-ב",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1923,8 +1923,8 @@
               "source_refs": [
                 {
                   "book": "שמואל א",
-                  "chapter": "ט,",
-                  "verse": null
+                  "chapter": "ט",
+                  "verse": "א-ב"
                 }
               ],
               "is_primary": true
@@ -1937,7 +1937,7 @@
         {
           "unit_id": "q35",
           "display_number": "35",
-          "narrative_context": "וְעַתָּה ה' קַח נָא אֶת נַפְשִׁי מִמֶּנִּי כִּי טוֹב מוֹתִי מֵחַיָּי",
+          "narrative_context": "ועְַ תָּּה ה' קַח נאָּ אֶת נַפְשִי מִמֶּניִּ כּיִ ט וֹּב מ וֹּתִי מֵחַייָּּ",
           "prompt": "מי אמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1956,7 +1956,7 @@
             },
             {
               "key": "ד",
-              "text": "יונה בהצלחה! 8"
+              "text": "יונה בהצלחה!"
             }
           ],
           "correct_option": "ד",
@@ -1964,8 +1964,8 @@
           "primary_sources": [
             {
               "book": "יונה",
-              "chapter": "ד,",
-              "verse": null,
+              "chapter": "ד",
+              "verse": "ג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1975,12 +1975,12 @@
           },
           "acceptable_answers": [
             {
-              "answer_text": "יונה בהצלחה! 8",
+              "answer_text": "יונה בהצלחה!",
               "source_refs": [
                 {
                   "book": "יונה",
-                  "chapter": "ד,",
-                  "verse": null
+                  "chapter": "ד",
+                  "verse": "ג"
                 }
               ],
               "is_primary": true
@@ -1997,7 +1997,7 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/beitsifri_mm2025.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "clean"
   }
 }

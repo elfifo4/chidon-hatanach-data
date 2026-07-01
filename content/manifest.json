@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-30",
+  "generated_at": "2026-07-01",
   "quizzes": [
     {
       "id": "2008m",
@@ -307,7 +307,7 @@
       "year_hebrew": "תשע\"א",
       "question_count": 9,
       "json_path": "quizzes/2011m1.json",
-      "extraction_quality": "partial",
+      "extraction_quality": "clean",
       "has_answer_key": true
     },
     {
@@ -341,7 +341,7 @@
       "question_count": 1,
       "json_path": "quizzes/2011m4.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "2011md",
@@ -362,7 +362,7 @@
       "year_hebrew": "תשע\"א",
       "question_count": 2,
       "json_path": "quizzes/2011md1.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "clean",
       "has_answer_key": true
     },
     {
@@ -384,8 +384,8 @@
       "year_hebrew": "תשע\"ב",
       "question_count": 2,
       "json_path": "quizzes/2012m1.json",
-      "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "extraction_quality": "clean",
+      "has_answer_key": true
     },
     {
       "id": "2012m2",
@@ -412,10 +412,10 @@
     {
       "id": "2012m4",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2012,
       "year_hebrew": "תשע\"ב",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/2012m4.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -439,8 +439,8 @@
       "year_hebrew": "תשע\"ב",
       "question_count": 2,
       "json_path": "quizzes/2012md1.json",
-      "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "extraction_quality": "clean",
+      "has_answer_key": true
     },
     {
       "id": "2012md2",
@@ -467,10 +467,10 @@
     {
       "id": "2012md4",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2012,
       "year_hebrew": "תשע\"ב",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/2012md4.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -489,13 +489,13 @@
     {
       "id": "2013m1",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2013,
       "year_hebrew": "תשע\"ג",
-      "question_count": 9,
+      "question_count": 0,
       "json_path": "quizzes/2013m1.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": true
+      "has_answer_key": false
     },
     {
       "id": "2013m2",
@@ -533,12 +533,12 @@
     {
       "id": "2013md1",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2013,
       "year_hebrew": "תשע\"ג",
       "question_count": 0,
       "json_path": "quizzes/2013md1.json",
-      "extraction_quality": "unreadable",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -582,7 +582,7 @@
       "year_hebrew": "תשע\"ד",
       "question_count": 1,
       "json_path": "quizzes/2014m1.json",
-      "extraction_quality": "clean",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": true
     },
     {
@@ -599,10 +599,10 @@
     {
       "id": "2014m3",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2014,
       "year_hebrew": "תשע\"ד",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/2014m3.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -626,7 +626,7 @@
       "year_hebrew": "תשע\"ד",
       "question_count": 4,
       "json_path": "quizzes/2014md1.json",
-      "extraction_quality": "clean",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": true
     },
     {
@@ -643,10 +643,10 @@
     {
       "id": "2014md3",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2014,
       "year_hebrew": "תשע\"ד",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/2014md3.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -687,10 +687,10 @@
     {
       "id": "2015m3",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2015,
       "year_hebrew": "תשע\"ה",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/2015m3.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -709,12 +709,12 @@
     {
       "id": "2015md1",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2015,
       "year_hebrew": "תשע\"ה",
       "question_count": 0,
       "json_path": "quizzes/2015md1.json",
-      "extraction_quality": "unreadable",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -731,10 +731,10 @@
     {
       "id": "2015md3",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2015,
       "year_hebrew": "תשע\"ה",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/2015md3.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -753,12 +753,12 @@
     {
       "id": "2016m1",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2016,
       "year_hebrew": "תשע\"ו",
       "question_count": 0,
       "json_path": "quizzes/2016m1.json",
-      "extraction_quality": "unreadable",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -775,10 +775,10 @@
     {
       "id": "2016m3",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2016,
       "year_hebrew": "תשע\"ו",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/2016m3.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -797,12 +797,12 @@
     {
       "id": "2016md1",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2016,
       "year_hebrew": "תשע\"ו",
       "question_count": 0,
       "json_path": "quizzes/2016md1.json",
-      "extraction_quality": "unreadable",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -819,10 +819,10 @@
     {
       "id": "2016md3",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2016,
       "year_hebrew": "תשע\"ו",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/2016md3.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -841,12 +841,12 @@
     {
       "id": "2017m1",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2017,
       "year_hebrew": "תשע\"ז",
       "question_count": 0,
       "json_path": "quizzes/2017m1.json",
-      "extraction_quality": "unreadable",
+      "extraction_quality": "manual_review_needed",
       "has_answer_key": false
     },
     {
@@ -906,14 +906,14 @@
     },
     {
       "id": "2017md3",
-      "track": null,
-      "stage": null,
+      "track": "mamlachti",
+      "stage": "national",
       "year_civil": 2017,
       "year_hebrew": "תשע\"ז",
-      "question_count": 2,
+      "question_count": 40,
       "json_path": "quizzes/2017md3.json",
-      "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "extraction_quality": "clean",
+      "has_answer_key": true
     },
     {
       "id": "2018_school_quiz",
@@ -943,10 +943,10 @@
       "stage": "district",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
-      "question_count": 0,
+      "question_count": 50,
       "json_path": "quizzes/2018_spring_district.json",
-      "extraction_quality": "unreadable",
-      "has_answer_key": false
+      "extraction_quality": "partial",
+      "has_answer_key": true
     },
     {
       "id": "2018_spring_district_mamad",
@@ -954,10 +954,10 @@
       "stage": "district",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
-      "question_count": 0,
+      "question_count": 31,
       "json_path": "quizzes/2018_spring_district_mamad.json",
-      "extraction_quality": "unreadable",
-      "has_answer_key": false
+      "extraction_quality": "partial",
+      "has_answer_key": true
     },
     {
       "id": "2018m",
@@ -978,8 +978,8 @@
       "year_hebrew": "תשע\"ח",
       "question_count": 0,
       "json_path": "quizzes/2018m_a.json",
-      "extraction_quality": "unreadable",
-      "has_answer_key": false
+      "extraction_quality": "manual_review_needed",
+      "has_answer_key": true
     },
     {
       "id": "2018md",
@@ -1000,8 +1000,8 @@
       "year_hebrew": "תשע\"ח",
       "question_count": 0,
       "json_path": "quizzes/2018md_a.json",
-      "extraction_quality": "unreadable",
-      "has_answer_key": false
+      "extraction_quality": "manual_review_needed",
+      "has_answer_key": true
     },
     {
       "id": "APreMam23",
@@ -1077,8 +1077,8 @@
       "year_hebrew": null,
       "question_count": 0,
       "json_path": "quizzes/ARTZI_MMD_A.json",
-      "extraction_quality": "unreadable",
-      "has_answer_key": false
+      "extraction_quality": "manual_review_needed",
+      "has_answer_key": true
     },
     {
       "id": "ARTZI_MMD_Q",
@@ -1099,8 +1099,8 @@
       "year_hebrew": null,
       "question_count": 0,
       "json_path": "quizzes/ARTZI_MM_A.json",
-      "extraction_quality": "unreadable",
-      "has_answer_key": false
+      "extraction_quality": "manual_review_needed",
+      "has_answer_key": true
     },
     {
       "id": "ARTZI_MM_Q",
@@ -1199,7 +1199,7 @@
       "question_count": 0,
       "json_path": "quizzes/A_mamad_tashpad.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "A_mamlachti_tashpad",
@@ -1210,7 +1210,7 @@
       "question_count": 0,
       "json_path": "quizzes/A_mamlachti_tashpad.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "MEHOZIMMD",
@@ -1254,7 +1254,7 @@
       "question_count": 0,
       "json_path": "quizzes/MMADAANS.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "MMADATEST",
@@ -1276,7 +1276,7 @@
       "question_count": 0,
       "json_path": "quizzes/MMADBANS.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "MMADBTEST",
@@ -1298,7 +1298,7 @@
       "question_count": 0,
       "json_path": "quizzes/MMANS.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "MMD-MEHUZI-PUBLIC-BOOKLET",
@@ -1361,10 +1361,10 @@
       "stage": null,
       "year_civil": null,
       "year_hebrew": null,
-      "question_count": 0,
+      "question_count": 28,
       "json_path": "quizzes/PreMamad25.json",
-      "extraction_quality": "unreadable",
-      "has_answer_key": false
+      "extraction_quality": "partial",
+      "has_answer_key": true
     },
     {
       "id": "PreMm25",
@@ -1383,10 +1383,10 @@
       "stage": "district",
       "year_civil": null,
       "year_hebrew": null,
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/QMehozi23.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": true
+      "has_answer_key": false
     },
     {
       "id": "QMehoziMamad23",
@@ -1452,7 +1452,7 @@
       "question_count": 2,
       "json_path": "quizzes/Qpublic23.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "Summarizing2026",
@@ -1885,7 +1885,7 @@
     },
     {
       "id": "fullmd2026",
-      "track": "mamlachti_dati",
+      "track": null,
       "stage": null,
       "year_civil": 2026,
       "year_hebrew": "תשפ\"ו",
@@ -1896,7 +1896,7 @@
     },
     {
       "id": "fullmm2024",
-      "track": "mamlachti",
+      "track": null,
       "stage": null,
       "year_civil": 2024,
       "year_hebrew": "תשפ\"ד",
@@ -1907,7 +1907,7 @@
     },
     {
       "id": "fullmm2026",
-      "track": "mamlachti",
+      "track": null,
       "stage": null,
       "year_civil": 2026,
       "year_hebrew": "תשפ\"ו",
@@ -1918,7 +1918,7 @@
     },
     {
       "id": "fullmmd2024",
-      "track": "mamlachti_dati",
+      "track": null,
       "stage": null,
       "year_civil": 2024,
       "year_hebrew": "תשפ\"ד",
@@ -1929,7 +1929,7 @@
     },
     {
       "id": "fullmmd2025",
-      "track": "mamlachti_dati",
+      "track": null,
       "stage": null,
       "year_civil": 2025,
       "year_hebrew": "תשפ\"ה",
@@ -1940,7 +1940,7 @@
     },
     {
       "id": "fullmmd2026",
-      "track": "mamlachti_dati",
+      "track": null,
       "stage": null,
       "year_civil": 2026,
       "year_hebrew": "תשפ\"ו",
@@ -1980,7 +1980,7 @@
       "question_count": 0,
       "json_path": "quizzes/internationaladults2020.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "mamad_1_2021",
@@ -1990,8 +1990,8 @@
       "year_hebrew": "תשפ\"א",
       "question_count": 50,
       "json_path": "quizzes/mamad_1_2021.json",
-      "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "extraction_quality": "partial",
+      "has_answer_key": true
     },
     {
       "id": "mamlachti_1_2021",
@@ -2001,19 +2001,19 @@
       "year_hebrew": "תשפ\"א",
       "question_count": 50,
       "json_path": "quizzes/mamlachti_1_2021.json",
-      "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "extraction_quality": "partial",
+      "has_answer_key": true
     },
     {
       "id": "mdi2022",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2022,
       "year_hebrew": "תשפ\"ב",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/mdi2022.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": true
+      "has_answer_key": false
     },
     {
       "id": "mechozi_mamad_2021",
@@ -2023,7 +2023,7 @@
       "year_hebrew": "תשפ\"א",
       "question_count": 41,
       "json_path": "quizzes/mechozi_mamad_2021.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -2035,7 +2035,7 @@
       "question_count": 2,
       "json_path": "quizzes/mechozi_mamad_pumbi_2021.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "mechozi_mamlachti_2021",
@@ -2045,7 +2045,7 @@
       "year_hebrew": "תשפ\"א",
       "question_count": 41,
       "json_path": "quizzes/mechozi_mamlachti_2021.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -2057,7 +2057,7 @@
       "question_count": 2,
       "json_path": "quizzes/mechozi_mamlachti_pumbi_2021.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "mehozi-mm2026",
@@ -2156,7 +2156,7 @@
       "question_count": 1,
       "json_path": "quizzes/national-public2020.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "national-writing-mamad",
@@ -2189,7 +2189,7 @@
       "question_count": 3,
       "json_path": "quizzes/national_quiz_2021.json",
       "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "has_answer_key": true
     },
     {
       "id": "national_written_test_mamad_2021",
@@ -2199,7 +2199,7 @@
       "year_hebrew": "תשפ\"א",
       "question_count": 31,
       "json_path": "quizzes/national_written_test_mamad_2021.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -2210,7 +2210,7 @@
       "year_hebrew": "תשפ\"א",
       "question_count": 31,
       "json_path": "quizzes/national_written_test_mamlachti_2021.json",
-      "extraction_quality": "manual_review_needed",
+      "extraction_quality": "partial",
       "has_answer_key": true
     },
     {
@@ -2249,10 +2249,10 @@
     {
       "id": "public_country_2018_spring",
       "track": null,
-      "stage": null,
+      "stage": "national",
       "year_civil": 2018,
       "year_hebrew": "תשע\"ח",
-      "question_count": 2,
+      "question_count": 0,
       "json_path": "quizzes/public_country_2018_spring.json",
       "extraction_quality": "manual_review_needed",
       "has_answer_key": false
@@ -2309,8 +2309,8 @@
       "year_hebrew": null,
       "question_count": 36,
       "json_path": "quizzes/regional_written_mamad.json",
-      "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "extraction_quality": "partial",
+      "has_answer_key": true
     },
     {
       "id": "regional_written_mamlachti",
@@ -2320,8 +2320,8 @@
       "year_hebrew": null,
       "question_count": 50,
       "json_path": "quizzes/regional_written_mamlachti.json",
-      "extraction_quality": "manual_review_needed",
-      "has_answer_key": false
+      "extraction_quality": "clean",
+      "has_answer_key": true
     },
     {
       "id": "schoola",
@@ -2380,7 +2380,7 @@
     },
     {
       "id": "testmehuzimm2024",
-      "track": "mamlachti",
+      "track": null,
       "stage": null,
       "year_civil": 2024,
       "year_hebrew": "תשפ\"ד",
@@ -2391,7 +2391,7 @@
     },
     {
       "id": "testmehuzimmd2024",
-      "track": "mamlachti_dati",
+      "track": null,
       "stage": null,
       "year_civil": 2024,
       "year_hebrew": "תשפ\"ד",

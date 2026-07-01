@@ -403,8 +403,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2017md2.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option"
+    "extraction_notes": "no answer key found (questions only)"
   }
 }

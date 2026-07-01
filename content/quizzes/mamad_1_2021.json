@@ -59,13 +59,33 @@
               "text": "אֲחִי מָן"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "י\"ד",
+              "verse": "טו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אַרְבּעַ",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "י\"ד",
+                  "verse": "טו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -95,13 +115,33 @@
               "text": "פנח ס"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "ז",
+              "verse": "כה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אלעזר",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "ז",
+                  "verse": "כה"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -131,13 +171,33 @@
               "text": "דן"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "דברים",
+              "chapter": "ל\"ג",
+              "verse": "כא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "גד",
+              "source_refs": [
+                {
+                  "book": "דברים",
+                  "chapter": "ל\"ג",
+                  "verse": "כא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -164,16 +224,44 @@
             },
             {
               "key": "ד",
-              "text": "רעב 2"
+              "text": "רעב"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "א",
+              "verse": "כט",
+              "quoted_text": null,
+              "scope": "answer_option:ב"
+            },
+            {
+              "book": "בראשית",
+              "chapter": "ח",
+              "verse": "ח",
+              "quoted_text": null,
+              "scope": "answer_option:ג"
+            },
+            {
+              "book": "בראשית",
+              "chapter": "מ\"א",
+              "verse": "נו",
+              "quoted_text": null,
+              "scope": "answer_option:ד"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מן",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -203,13 +291,33 @@
               "text": "נסיעת המחנות החונים בדרום"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "י",
+              "verse": "ה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "נסיעת המחנות החונים במזרח",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "י",
+                  "verse": "ה"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -239,13 +347,33 @@
               "text": "אלון"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "ל\"ה",
+              "verse": "ח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אלון",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "ל\"ה",
+                  "verse": "ח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -275,13 +403,33 @@
               "text": "חושך וּמִטַּל הַשָּמַיםִ מֵׁעלָ\"? ָ"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "ט",
+              "verse": "יב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שחין",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "ט",
+                  "verse": "יב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -308,16 +456,36 @@
             },
             {
               "key": "ד",
-              "text": "עשו 3"
+              "text": "עשו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "כ\"ז",
+              "verse": "לט",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "עשו",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "כ\"ז",
+                  "verse": "לט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -347,13 +515,33 @@
               "text": "בוטנים ושקדים"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "כ\"א",
+              "verse": "יד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "לחם ומים",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "כ\"א",
+                  "verse": "יד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -383,13 +571,33 @@
               "text": "כי חשש שמא יצער אותו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "ל\"א",
+              "verse": "לא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "כי חשש שייקח ממנו את בנותיו",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "ל\"א",
+                  "verse": "לא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -419,13 +627,33 @@
               "text": "א וֹמָר"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "ל\"ו",
+              "verse": "ד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "רְעוּ אֵׁל",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "ל\"ו",
+                  "verse": "ד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -455,13 +683,57 @@
               "text": "חֶברְ וֹן"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "א",
+              "verse": "י",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שופטים",
+              "chapter": "א",
+              "verse": "יז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שופטים",
+              "chapter": "א",
+              "verse": "כט",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אַילָּ וֹן",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "א",
+                  "verse": "י"
+                },
+                {
+                  "book": "שופטים",
+                  "chapter": "א",
+                  "verse": "יז"
+                },
+                {
+                  "book": "שופטים",
+                  "chapter": "א",
+                  "verse": "כט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -488,16 +760,36 @@
             },
             {
               "key": "ד",
-              "text": "לא ניתן לעשות דבר כדי לשנות את הגזרה 4"
+              "text": "לא ניתן לעשות דבר כדי לשנות את הגזרה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "מ\"א",
+              "verse": "לב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "ה' ימהר לממש את פתרונ ו",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "מ\"א",
+                  "verse": "לב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -527,13 +819,33 @@
               "text": "נסכים ומנחות"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "ט\"ו",
+              "verse": "טו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "נסכים ומנחות",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "ט\"ו",
+                  "verse": "טו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -563,13 +875,33 @@
               "text": "חג האסי ף"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "ל\"ד",
+              "verse": "כב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "חג האסי ף",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "ל\"ד",
+                  "verse": "כב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -599,13 +931,33 @@
               "text": "פילגש בגבע ה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "כ\"ב",
+              "verse": "יב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "בניית המזבח בגלילות הירדן",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "כ\"ב",
+                  "verse": "יב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -632,16 +984,36 @@
             },
             {
               "key": "ד",
-              "text": "חטא העם ועונשו בתבערה 5"
+              "text": "חטא העם ועונשו בתבערה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "דברים",
+              "chapter": "י\"ח",
+              "verse": "טז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מעמד הר סיני",
+              "source_refs": [
+                {
+                  "book": "דברים",
+                  "chapter": "י\"ח",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -671,13 +1043,33 @@
               "text": "150 יום"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "ז",
+              "verse": "יב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "40 יום",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "ז",
+                  "verse": "יב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -707,13 +1099,57 @@
               "text": "אַדְמָתָא"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "אסתר",
+              "chapter": "א",
+              "verse": "י",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "אסתר",
+              "chapter": "ב",
+              "verse": "ג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "אסתר",
+              "chapter": "ב",
+              "verse": "יד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אַדְמָתָא",
+              "source_refs": [
+                {
+                  "book": "אסתר",
+                  "chapter": "א",
+                  "verse": "י"
+                },
+                {
+                  "book": "אסתר",
+                  "chapter": "ב",
+                  "verse": "ג"
+                },
+                {
+                  "book": "אסתר",
+                  "chapter": "ב",
+                  "verse": "יד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -743,13 +1179,33 @@
               "text": "האטד"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "ט",
+              "verse": "יא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "התאנה",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "ט",
+                  "verse": "יא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -776,16 +1232,36 @@
             },
             {
               "key": "ד",
-              "text": "שמיני עצרת 6"
+              "text": "שמיני עצרת"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "ויקרא",
+              "chapter": "כ\"ג",
+              "verse": "כא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שבועות",
+              "source_refs": [
+                {
+                  "book": "ויקרא",
+                  "chapter": "כ\"ג",
+                  "verse": "כא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -815,13 +1291,33 @@
               "text": "לוט"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "ל\"א",
+              "verse": "מד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יעקב",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "ל\"א",
+                  "verse": "מד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -851,13 +1347,33 @@
               "text": "85"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "י\"ד",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "40",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "י\"ד",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -887,13 +1403,33 @@
               "text": "קֶדֶש"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "כ",
+              "verse": "ח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "בּצֶֶ ר",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "כ",
+                  "verse": "ח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -920,16 +1456,36 @@
             },
             {
               "key": "ד",
-              "text": "שמשון 7"
+              "text": "שמשון"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "י\"א.",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יפתח",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "י\"א.",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -959,13 +1515,33 @@
               "text": "רות"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "י\"ז",
+              "verse": "טז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שרה",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "י\"ז",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -995,13 +1571,33 @@
               "text": "יפתח"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "י\"א",
+              "verse": "כג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יפתח",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "י\"א",
+                  "verse": "כג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1031,13 +1627,33 @@
               "text": "לוט"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "כ\"ד",
+              "verse": "לה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אברה ם",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "כ\"ד",
+                  "verse": "לה"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1064,16 +1680,36 @@
             },
             {
               "key": "ד",
-              "text": "000,75 8"
+              "text": "000,75"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "אסתר",
+              "chapter": "ט",
+              "verse": "טו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "300",
+              "source_refs": [
+                {
+                  "book": "אסתר",
+                  "chapter": "ט",
+                  "verse": "טו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1103,13 +1739,33 @@
               "text": "120"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "ז",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "83",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "ז",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1139,13 +1795,33 @@
               "text": "הוא חושש שנחלתו תינזק"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "רות",
+              "chapter": "ד",
+              "verse": "ו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "הוא חושש שנחלתו תינזק",
+              "source_refs": [
+                {
+                  "book": "רות",
+                  "chapter": "ד",
+                  "verse": "ו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1175,13 +1851,33 @@
               "text": "קדו והשתחוו לנִטְ וֹת יָמִין וּשְמאֹול\" ? ְ"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "ד",
+              "verse": "ל-לא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "קדו והשתחוו לנִטְ וֹת יָמִין וּשְמאֹול\" ? ְ",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "ד",
+                  "verse": "ל-לא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1211,13 +1907,33 @@
               "text": "בגבול ארנון"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "כ\"ב",
+              "verse": "כו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "במקום צר",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "כ\"ב",
+                  "verse": "כו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1244,16 +1960,30 @@
             },
             {
               "key": "ד",
-              "text": "צנצנת המן 9"
+              "text": "צנצנת המן"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "ט\"ז",
+              "verse": "כח-לג",
+              "quoted_text": null,
+              "scope": "answer_option:א"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "בליעת קורח, דתן ואבירם באדמה",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1283,13 +2013,33 @@
               "text": "אדום"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "ח",
+              "verse": "כח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מדין",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "ח",
+                  "verse": "כח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1319,13 +2069,33 @@
               "text": "כנענים אְֲשֶר נִשְבּעְַ תָּלהָםֶ בּךָ ָ"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "י",
+              "verse": "ח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "פלישתים ועמונים",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "י",
+                  "verse": "ח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1355,13 +2125,33 @@
               "text": "דברי יפתח במצפ ה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "לב",
+              "verse": "יג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "חטא העג ל",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "לב",
+                  "verse": "יג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1391,13 +2181,33 @@
               "text": "אחי יוסף"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "יב",
+              "verse": "יא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אהרון",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "יב",
+                  "verse": "יא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1424,16 +2234,36 @@
             },
             {
               "key": "ד",
-              "text": "יהושע 10"
+              "text": "יהושע"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "ו",
+              "verse": "כז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יהושע",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "ו",
+                  "verse": "כז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1463,13 +2293,33 @@
               "text": "לאחר שנפל הפור להשמדת היהודים"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "אסתר",
+              "chapter": "ב",
+              "verse": "יח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "לאחר שנשא את אסתר לאישה",
+              "source_refs": [
+                {
+                  "book": "אסתר",
+                  "chapter": "ב",
+                  "verse": "יח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": "verse shown as extracted from the exam; Sefaria alignment unavailable"
@@ -1499,13 +2349,33 @@
               "text": "רפידים"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "טו",
+              "verse": "כב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מדבר שור",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "טו",
+                  "verse": "כב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1535,13 +2405,33 @@
               "text": "יפתח הַשְּכונּיֵׁ ְ"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "לז",
+              "verse": "ח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יוסף",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "לז",
+                  "verse": "ח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1571,13 +2461,33 @@
               "text": "מִנגֶּבֶ ללִבְ וֹנהָ \"? ְ"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "ח",
+              "verse": "יא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מִקֶּדֶם לנְבֹחַ ויְגְָ בּהֳָ ה",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "ח",
+                  "verse": "יא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1604,16 +2514,36 @@
             },
             {
               "key": "ד",
-              "text": "אם מיכיה ו 11"
+              "text": "אם מיכיה ו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "ב",
+              "verse": "ט",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אם משה",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "ב",
+                  "verse": "ט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1643,13 +2573,33 @@
               "text": "האמורי"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "יד",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "האמורי",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "יד",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1679,13 +2629,33 @@
               "text": "שריפת עיר הנידחת"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "אסתר",
+              "chapter": "ד",
+              "verse": "טז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "צום אסתר ומרדכי",
+              "source_refs": [
+                {
+                  "book": "אסתר",
+                  "chapter": "ד",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1715,13 +2685,33 @@
               "text": "להתגייר"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "כז",
+              "verse": "ג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "נחלה",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "כז",
+                  "verse": "ג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1751,13 +2741,33 @@
               "text": "גדעון"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "כג",
+              "verse": "א",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יהושע",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "כג",
+                  "verse": "א"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1784,16 +2794,36 @@
             },
             {
               "key": "ד",
-              "text": "דבורה 12"
+              "text": "דבורה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "כג",
+              "verse": "כד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "בלע ם",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "כג",
+                  "verse": "כד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1820,16 +2850,36 @@
             },
             {
               "key": "ד",
-              "text": "חֶשְבּוֹן בהצלחה ! 13 מדינת ישרא ל משרד החינוך מינהל חברה ונוער תשובון לחידון התנ\"ך לבתי הספר הממלכתיים-דתיים – מועד א ' התשוב ה השאל ה המקו ר באו ת במילי ם 1 ב אַרְבעַ יהושע י\"ד, 15 2 ג אלעזר שמות ז, 25 3 א גד דברים ל\"ג, 21 בראשית א, 29 4 א מן בראשית ח, 8 בראשית מ\"א, 56 5 ג נסיעת המחנות החונים במזרח במדבר י, 5 6 ד אלון בראשית ל\"ה, 8 7 א שחין שמות ט, 12 8 ד עשו בראשית כ\"ז, 39 9 ב לחם ומי ם בראשית כ\"א, 14 10 א כי חשש שייקח ממנו את בנותיו בראשית ל\"א, 31 11 א רְעו אֵל בראשית ל\"ו, 4 שופטים א, 10 12 ב אַי לָּוןֹ שופטים א, 17 שופטים א, 29 13 א ה' ימהר לממש את פתרונו בראשית מ\"א, 32 14 ד נסכים ומנחות במדבר ט\"ו, 15 15 ד חג האסיף שמות ל\"ד, 22 16 ב בניית המזבח בגלילות הירדן יהושע כ\"ב, 12 17 ג מעמד הר סיני דברים י\"ח, 16 18 ג 40 יו ם בראשית ז, 12 אסתר א, 10 19 ד אַדְמָּתָּא אסתר ב, 3 אסתר ב, 14 20 ב התאנה שופטים ט, 11 21 ב שבועות ויקרא כ\"ג, 21 22 ג יעקב בראשית ל\"א, 44 23 א 40 יהושע י\"ד, 7 24 ג בצֶּרֶּ יהושע כ, 8 25 ג יפתח שופטים י\"א. 9 26 א שרה בראשית י\"ז, 16 27 ד יפתח שופטים י\"א, 23 28 א אברהם בראשית כ\"ד, 35 29 ב 300 אסתר ט, 15 30 ב 83 שמות ז, 7 31 ד הוא חושש שנחלתו תינזק רות ד, 6 32 ד קדו והשתחוו שמות ד, 30-31 33 ג במקום צר במדבר כ\"ב, 26 34 ג בליעת קורח, דתן ואבירם באדמה במדבר ט\"ז, 28-33 35 ג מדין שופטים ח, 28 36 ב פלישתים ועמונים שופטים י, 8 37 א חטא העגל שמות לב, 13 38 א אהרון במדבר יב, 11 39 ד יהושע יהושע ו, 27 40 א לאחר שנשא את אסתר לאישה אסתר ב, 18 41 ב מדבר שור שמות טו, 22 42 ב יוסף בראשית לז, 8 43 א מִקֶּדֶּם לנְבֹחַ ויְגְָּ בֳּהָּה שופטים ח, 11 44 ב אם משה שמות ב, 9 45 ד האמורי בראשית יד, 7 46 ב צום אסתר ומרדכי אסתר ד, 16 47 א נחלה במדבר כז, 3 48 ב יהושע יהושע כג, 1 49 א בלעם במדבר כג, 24 50 ב עיִ יֵהָּעבֲָּ רִים במדבר כא, 11"
+              "text": "חֶשְבּוֹן בהצלחה ! מדינת ישרא ל משרד החינוך מינהל חברה ונוער תשובון לחידון התנ\"ך לבתי הספר הממלכתיים-דתיים – מועד א ' התשוב ה השאל ה המקו ר באו ת במילי ם 1 ב אַרְבעַ יהושע י\"ד, 15 2 ג אלעזר שמות ז, 25 3 א גד דברים ל\"ג, 21 בראשית א, 29 4 א מן בראשית ח, 8 בראשית מ\"א, 56 5 ג נסיעת המחנות החונים במזרח במדבר י, 5 6 ד אלון בראשית ל\"ה, 8 7 א שחין שמות ט, 12 8 ד עשו בראשית כ\"ז, 39 9 ב לחם ומי ם בראשית כ\"א, 14 10 א כי חשש שייקח ממנו את בנותיו בראשית ל\"א, 31 11 א רְעו אֵל בראשית ל\"ו, 4 שופטים א, 10 12 ב אַי לָּוןֹ שופטים א, 17 שופטים א, 29 13 א ה' ימהר לממש את פתרונו בראשית מ\"א, 32 14 ד נסכים ומנחות במדבר ט\"ו, 15 15 ד חג האסיף שמות ל\"ד, 22 16 ב בניית המזבח בגלילות הירדן יהושע כ\"ב, 12 17 ג מעמד הר סיני דברים י\"ח, 16 18 ג 40 יו ם בראשית ז, 12 אסתר א, 10 19 ד אַדְמָּתָּא אסתר ב, 3 אסתר ב, 14 20 ב התאנה שופטים ט, 11 21 ב שבועות ויקרא כ\"ג, 21 22 ג יעקב בראשית ל\"א, 44 23 א 40 יהושע י\"ד, 7 24 ג בצֶּרֶּ יהושע כ, 8 25 ג יפתח שופטים י\"א. 9 26 א שרה בראשית י\"ז, 16 27 ד יפתח שופטים י\"א, 23 28 א אברהם בראשית כ\"ד, 35 29 ב 300 אסתר ט, 15 30 ב 83 שמות ז, 7 31 ד הוא חושש שנחלתו תינזק רות ד, 6 32 ד קדו והשתחוו שמות ד, 30-31 33 ג במקום צר במדבר כ\"ב, 26 34 ג בליעת קורח, דתן ואבירם באדמה במדבר ט\"ז, 28-33 35 ג מדין שופטים ח, 28 36 ב פלישתים ועמונים שופטים י, 8 37 א חטא העגל שמות לב, 13 38 א אהרון במדבר יב, 11 39 ד יהושע יהושע ו, 27 40 א לאחר שנשא את אסתר לאישה אסתר ב, 18 41 ב מדבר שור שמות טו, 22 42 ב יוסף בראשית לז, 8 43 א מִקֶּדֶּם לנְבֹחַ ויְגְָּ בֳּהָּה שופטים ח, 11 44 ב אם משה שמות ב, 9 45 ד האמורי בראשית יד, 7 46 ב צום אסתר ומרדכי אסתר ד, 16 47 א נחלה במדבר כז, 3 48 ב יהושע יהושע כג, 1 49 א בלעם במדבר כג, 24 50 ב עיִ יֵהָּעבֲָּ רִים במדבר כא, 11"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "כא",
+              "verse": "יא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "עיִיֵּׁ העָבֲָ רִי ם",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "כא",
+                  "verse": "יא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1837,12 +2887,12 @@
       ]
     }
   ],
-  "answer_key_present": false,
-  "answer_key_location": "none",
+  "answer_key_present": true,
+  "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/noar/mamad_1_2021.pdf",
-    "fetch_date": "2026-06-25",
-    "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q02 no correct_option; q03 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q28 no correct_option; q29 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q35 no correct_option; q37 no correct_option; q40 no correct_option; q41 no correct_option; q43 no correct_option; q44 no correct_option; q45 no correct_option; q46 no correct_option; q47 no correct_option; q50 no correct_option"
+    "fetch_date": "2026-07-01",
+    "extraction_quality": "partial",
+    "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
   }
 }

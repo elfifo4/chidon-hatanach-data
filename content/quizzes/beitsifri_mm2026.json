@@ -327,7 +327,7 @@
         {
           "unit_id": "q06",
           "display_number": "6",
-          "narrative_context": "וַיֵּשְׁתְּ מִן הַיַּיִן וַיִּשְׁכָּר וַיִּתְגַּל בְּתוֹךְ אׇהֳלֹה",
+          "narrative_context": "וַיֵּ שְׁתְּמִן הַיַּיִן וַיִּ שְׁכָּר וַיִּ תְגַּל בְּתוֹ� אָהֳ�ה",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -378,12 +378,12 @@
           ],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": null
+          "format_confidence_note": "verse shown as extracted from the exam; Sefaria alignment unavailable"
         },
         {
           "unit_id": "q07",
           "display_number": "7",
-          "narrative_context": "וַיִּשָּׁאֲרוּ שְׁנֵי אֲנָשִׁים בַּמַּחֲנֶה שֵׁם הָאֶחָד … וְשֵׁם הַשֵּׁנִי … וַתָּנַח עֲלֵהֶם הָרוּחַ וְהֵמָּה בַּכְּתֻבִים וְלֹא יָצְאוּ הָאֹהֱלָה וַיִּתְנַבְּאוּ בַּמַּחֲנֶה",
+          "narrative_context": "וַיִּ שָּׁאֲרוּ שְׁנֵי אֲנָשִׁים בַּמַּחֲנֶה שֵׁם הָאֶחָד... וְשֵׁם הַשֵּׁנִי... וַתָּנַח עֲלֵהֶם הָרוּ חַוְהֵמָּה בַּכְּתֻבִים וְלאֹ יָצְאוּ הָאֹהֱלָה וַיִּ תְנַבְּאוּ בַּמַּחֲנֶה",
           "prompt": "- מה שמות האנשים שהתנבאו במחנה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -439,7 +439,7 @@
         {
           "unit_id": "q08",
           "display_number": "8",
-          "narrative_context": "כֹּה אָמַר ה' אֱלֹהֵי יִשְׂרָאֵל שִׂימוּ אִישׁ חַרְבּוֹ עַל יְרֵכוֹ עִבְרוּ וָשׁוּבוּ מִשַּׁעַר לָשַׁעַר בַּמַּחֲנֶה וְהִרְגוּ אִישׁ אֶת אָחִיו וְאִישׁ אֶת רֵעֵהוּ וְאִישׁ אֶת קְרֹבוֹ",
+          "narrative_context": "כֹּה אָמַר ה' אֱ�הֵי יִשְׂרָאֵל שִׂימוּ אִישׁ חַרְבּוֹ עַל יְרֵכוֹ עִבְרוּ וָשׁוּבוּ מִשַּׁעַר לָשַׁעַר בַּמַּחֲנֶה וְהִרְגוּ אִישׁ אֶת אָחִיו וְאִישׁ אֶת רֵעֵהוּ וְאִישׁ אֶת קְרֹבוֹ",
           "prompt": "מתי אמר משה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -490,12 +490,12 @@
           ],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": null
+          "format_confidence_note": "verse shown as extracted from the exam; Sefaria alignment unavailable"
         },
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "וַתֵּצֶאןָ כׇל הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹת",
+          "narrative_context": "וַתֵּצֶאןָ כָל הַנָּשִׁים אַחֲרֶי הָבְּתֻפִּים וּבִמְחֹ�ת",
           "prompt": "על מי נאמר?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -546,7 +546,7 @@
           ],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": null
+          "format_confidence_note": "verse shown as extracted from the exam; Sefaria alignment unavailable"
         },
         {
           "unit_id": "q10",
@@ -663,7 +663,7 @@
         {
           "unit_id": "q12",
           "display_number": "12",
-          "narrative_context": "וְדִבַּרְתָּ אֵלָיו וְשַׂמְתָּ אֶת הַדְּבָרִים בְּפִיו וְאָנֹכִי אֶהְיֶה עִם פִּיךָ וְעִם פִּיהוּ וְהוֹרֵיתִי אֶתְכֶם אֵת אֲשֶׁר תַּעֲשׂוּן",
+          "narrative_context": "וְדִ בַּרְ תָּאֵלָיו וְשַׂמְתָּאֶת הַדְּ בָרִים בְּפִיו וְאָנֹכִי אֶהְיֶה עִם פִּי� וְעִם פִּיהוּ וְהוֹ רֵי תִי אֶתְכֶם אֵת אֲשֶׁר תַּעֲשׂוּן",
           "prompt": "על מי אמר ה' למשה?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -714,7 +714,7 @@
           ],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": null
+          "format_confidence_note": "verse shown as extracted from the exam; Sefaria alignment unavailable"
         },
         {
           "unit_id": "q13",
@@ -831,7 +831,7 @@
         {
           "unit_id": "q15",
           "display_number": "15",
-          "narrative_context": "הַיָּרֵא אֶת דְּבַר ה' מֵעַבְדֵי פַּרְעֹה הֵנִיס אֶת עֲבָדָיו וְאֶת מִקְנֵהוּ אֶל הַבָּתִּים",
+          "narrative_context": "הַיָּ רֵא אֶת דְּבַר ה' מֵעַבְדֵי פַּרְ עֹה הֵנִיס אֶת עֲבָדָיו וְאֶת מִקְנֵהוּ אֶל הַבָּתִּים",
           "prompt": "לפני איזו ממכות מצרים מסופר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1223,7 +1223,7 @@
         {
           "unit_id": "q22",
           "display_number": "22",
-          "narrative_context": "אֵשֶׁת חֶבֶר הַקֵּינִי",
+          "narrative_context": "אֵשֶׁת חֶבֶר הַקֵּי נִי",
           "prompt": "באיזה ספר מסופר על?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1279,7 +1279,7 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "שַׁעַטְנֵז",
+          "narrative_context": "שַׁעַטְנֵז?",
           "prompt": "מה אוסרת התורה באיסור?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1335,7 +1335,7 @@
         {
           "unit_id": "q24",
           "display_number": "24",
-          "narrative_context": "שֶׁבִּן לַיְלָה הָיָה וּבִן לַיְלָה אָבָד",
+          "narrative_context": "שֶׁבִּן לַיְ לָה הָיָה וּבִן לַיְ לָה אָבָד",
           "prompt": "על מה נאמר בספר יונה?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -1451,7 +1451,7 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/beitsifri_mm2026.pdf",
-    "fetch_date": "2026-06-30",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "partial",
     "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
   }

@@ -21,18 +21,1936 @@
     "instructions_text": null,
     "source_text_edition": null,
     "scoring_summary": {
-      "points_per_question": null,
-      "max_points": null,
+      "points_per_question": 1,
+      "max_points": 31,
       "scoring_is_tiered": false
     }
   },
-  "sections": [],
-  "answer_key_present": false,
-  "answer_key_location": "none",
+  "sections": [
+    {
+      "section_id": "main",
+      "section_title": null,
+      "section_epigraph": null,
+      "stage_subtype": "written",
+      "live_stage_rules": null,
+      "question_units": [
+        {
+          "unit_id": "q01",
+          "display_number": "1",
+          "narrative_context": null,
+          "prompt": "מבחן מקדים שיתקיים ב-2018.1.23, ז' בשבט התשע\"ח, כשבועיים לפני החידון הפומבי. 2. במבחן 50 שאלות. כל תשובה נכונה תזכה את המתמודד/ת בנקודה אחת. בשלב זה ניתן לצבור עד 50 נקודות. הנקודות שיצטברו בשלב הזה ייזָקפו לזכותם של המתמודדים בחידון הפומבי. 3. לאחר המבחן המקדים, יענו המתמודדים על 10 שאלות נוספות, שאלות המילואים להכרעה. תוצאות שאלות המילואים יועברו לשופטים לשימוש במקרה הצורך. אין תוצאות אלה נכללות בשקלול הנקודות של כל נבחן, וייעשה בהן שימוש רק במקרים שבהם יש להכריע בין מתמודדים. חבר השופטים רשאי להשתמש בשאלות המילואים בכל אחד משלבי החידון. 4. הזמן המוקצב למענה על שני המבחנים – המבחן המקדים ושאלות המילואים, הינו 75 דקות.",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "ב",
+              "text": "החידון הפומבי 1. בחידון הפומבי משתתפים עד 16 מתמודדים ומתמודדות, אלה שצברו את מספר הנקודות הגבוה ביותר במבחן המיון המקדים בכתב. 2. בחידון הפומבי אפשר לצבור עד 50 נקודות. כאמור, הנקודות שצברו הנבחנים במבחן המיון ייזקפו לזכותם בשלב זה. לכן אפשר לצבור בחידון המחוזי, בסך הכול, עד 100 נקודות. 3. החידון הפומבי בשנת תשע\"ח יעמוד בסימן: 70 שנה למדינת ישראל. 4. בחידון הפומבי 3 שלבים: שלב א – רמזים ושאלות – ערכי מגילת העצמאות לאור התנ\"ך"
+            },
+            {
+              "key": "א",
+              "text": "בשלב הזה יוצגו רמזים ושאלות בנושא: ערכי מגילת העצמאות לאור התנ\"ך."
+            },
+            {
+              "key": "ב",
+              "text": "לכל מתמודד ומתמודדת תוצג שאלה בת שני חלקים: בחלק הראשון יתבקשו המתמודדים לזהות דמות מקראית או מקום מקראי לפי רמזים בזמן מוקצב של 60 שניות, ובחלק השני תוצג לכל מתמודד ומתמודדת שאלת המשך הקשורה לדמות המקראית או למקום המקראי שהופיעו ברמזים."
+            },
+            {
+              "key": "ג",
+              "text": "בחלק הראשון: לכל מתמודד ומתמודדת יוצג רמז ראשון. אם זיהה המתמודד את הדמות או את המקום לפי הרמז הראשון בלבד, יזכה ב-6 נקודות. באפשרותו של המתמודד לבקש רמז שני. אם זיהה לפי שני רמזים, יזכה ב-4 נקודות. באפשרותו של המתמודד לבקש רמז שלישי. אם זיהה לפי שלושה רמזים, יזכה ב-2 נקודות."
+            },
+            {
+              "key": "ד",
+              "text": "תשובה נכונה על שאלת ההמשך תְּזכה את המתמודד/ת ב-6 נקודות."
+            },
+            {
+              "key": "ה",
+              "text": "בסך הכול ניתן לצבור בשלב הראשון עד 12 נקודות. ו. עם סיום מחזור השאלות הזה יֵּרדו כל המתמודדים מן הבמה. לשלב הבא יעלו עד 8 מתמודדים – אלה שצברו את מספר הנקודות הגבוה ביותר. שלב ב – משחק מחשב"
+            },
+            {
+              "key": "א",
+              "text": "בשלב הזה ישתתפו עד 8 מתמודדים – אלה שצברו את מספר הנקודות הגבוה ביותר."
+            },
+            {
+              "key": "ב",
+              "text": "יוצג לפניהם משחק מחשב ובו 10 משבצות לבחירה. כל משבצת מסמלת נושא מסוים, שייחשף רק לאחר שנבחרה המשבצת."
+            },
+            {
+              "key": "ג",
+              "text": "כל מתמודד ומתמודדת, בתורם, יבחרו באקראי משבצת וישיבו על 4 שאלות בזמן מוקצב של 60 שניות."
+            },
+            {
+              "key": "ד",
+              "text": "כל תשובה נכונה תזכה את המתמודד/ת ב-5 נקודות."
+            },
+            {
+              "key": "ה",
+              "text": "תשובות נכונות על כל 4 השאלות יזכו את המתמודד/ת ב-20 נקודות. ו. בתום השלב הזה יֵּרדו המתמודדים מן הבמה. לשלב הבא יעלו עד 4 מתמודדים – אלה שצברו את מספר הנקודות הגבוה ביותר. שלב ג – שלב השאלה הזהה"
+            },
+            {
+              "key": "א",
+              "text": "בשלב הזה ישתתפו עד 4 מתמודדים ויי שָאלו 6 שאלות זהות."
+            },
+            {
+              "key": "ב",
+              "text": "לכל מתמודד ומתמודדת יי נָתנו לפני המשחק לוח מחיק וכלי כתיבה."
+            },
+            {
+              "key": "ג",
+              "text": "לאחר שהמנחה יציג או תציג את השאלה, יינתנו למתמודדים כ-30 שניות לכתוב את תשובתם על הלוח. כשהמנחה ייתן את האות, ירימו כל מתמודד ומתמודדת את הלוח שלהם. השופטים יסמנו מי ענה נכונה."
+            },
+            {
+              "key": "ד",
+              "text": "תשובה נכונה תזכה את המתמודד/ת ב-3 נקודות."
+            },
+            {
+              "key": "ה",
+              "text": "בסך הכול ניתן לצבור בשלב הזה עד 18 נקודות. בתום השלב השלישי בחידון הפומבי יוכרע מי הזוכה בחידון. אם אין הכרעה – יי שָאלו המתמודדים שאלות נוספות עד להכרעה. המתמודד או המתמודדת שיזכה או תזכה בניקוד הגבוה ביותר, יוכתר או תוכתר כחתן או ככלת החידון המחוזי, ויעלה או תעלה לשלב הארצי. יודגש כי מתמודד או מתמודדת אחד או אחת בלבד יעלה או תעלה לחידון הארצי כנציג/ה היחיד/ה של המחוז מכל זרם חינוכי – הזרם הממלכתי והזרם הממלכתי-דתי. סדר הצגת השאלות למתמודדים בחידון הפומבי 1. המתמודדים יֵּשבו על הבמה לפי סדר ה-א\"ב של שמות משפחתם. על השולחן, ליד כל מתמודד ומתמודדת, יוצב שלט ועליו שמותיהם (השם הפרטי ואחריו שם המשפחה) ושמות בתי הספר שלהם."
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q02",
+          "display_number": "2",
+          "narrative_context": "ך הארצי יעלו החתן או הכלה של החידון לבתי הספר הממלכתיים במחוז, והחתן או הכלה של החידון לבתי הספר הממלכתיים-דתיים במחוז. במקרה של ניקוד זהה במקום הראשון, יִי שָאֲלוּ שני הנבחנים שאלות נוספות עד להכרעה ביניהם. 4. בסופו של החידון המחוזי יוכרז או תוכרז זוכה אחד/ת בלבד במחוז מהחידון לבתי הספר הממלכתיים, וזוכה אחד/ת בלבד במחוז מהחידון לבתי הספר הממלכתיים-דתיים, והם יְּיַצגו את המחוז בחידון הארצי. חידון התנ",
+          "prompt": "סדר הצגת השאלות למתמודדים יהיה לפי סדר ישיבתם. 3. ענה או ענתה המתמודד/ת תשובה מלאה על השאלה, יכריז או תכריז יושב/ת ראש חבר השופטים את מספר הנקודות שצבר/ה המתמודד/ת, ואלה יירשמו בטופס השיפוט, ליד שמו/ה. 4. ענה או ענתה המתמודד/ת תשובה חלקית, ייוָועץ/תיוועץ היושב/ת ראש בחבריו/ה השופטים ויכריז או תכריז על מספר הנקודות שצבר/ה המתמודד/ת, ואלה יירשמו בטופס השיפוט, ליד שמו/ה. 5. לא ענה/ענתה המתמודד/ת על השאלה, יכריז/תכריז היושב/ת ראש שאין מענה, ובטופס השיפוט יירשם 0 ליד שם המתמודד/ת. 6. ענה/ענתה המתמודד/ת על השאלה באופן לא נכון, יכריז/תכריז היושב/ת ראש \"תשובה לא נכונה\", ובטופס השיפוט יירשם 0 ליד שם המתמודד/ת. 7. בשלב השלישי יֵּשבו המתמודדים ברווחים ביניהם. מתמודדים בעלי לקויות למידה וצרכים מיוחדים 1. על המתמודדים בעלי לקויות למידה להגיש לרכז/ת החידון אישור לכך מבית הספר, לפני תחילת החידון בכתב. על רכז/ת החידון ליידע את השופטים ואת מנחה/ת החידון לגבי המתמודדים בעלי לקויות הלמידה ובעלי הצרכים המיוחדים. 2. בחידון בכתב – מתמודדים שאינם מסוגלים לקרוא או לכתוב בשל לקויות למידה או בשל לקויות חושיות ופיזיות, יקבלו הקראה ו/או הכתבה בהתאם ותוספת זמן של 20 דקות. 3. בחידון הפומבי – כל המתמודדים זכאים להקראת השאלות על ידי מנחה החידון. 4. בחידון הפומבי, בשלב הראשון, בחלק שהמתמודדים מתבקשים לזהות בו דמות או מקום לפי רמזים – תינתן הארכת זמן של 15 שניות רק למתמודדים בעלי לקויות חושיות ופיזיות. בחלק של שאלת ההמשך – יהיו שופטי החידון ומנחה/ת החידון רשאים לתת עוד זמן קצר לגיבוש התשובה למתמודדים בעלי לקויות שיבקשו זאת. 5. בחידון הפומבי, בשלב השני – תינתן הארכת זמן של 15 שניות רק למתמודדים בעלי לקויות חושיות ופיזיות. 6. בחידון הפומבי, בשלב השלישי – לכל מתמודד ומתמודדת יינתנו כ-30 שניות לכתוב את תשובותיהם. שופטי החידון ומנחה/ת החידון יהיו רשאים לתת עוד זמן קצר לגיבוש התשובה למתמודדים בעלי לקויות שיבקשו זאת. 7. בחידון הפומבי, בשלב השלישי – מתמודדים שאינם מסוגלים לכתוב בשל לקויות למידה או בשל לקויות חושיות ופיזיות, יקבלו הכתבה בהתאם על ידי בוחן ניטרלי מטעם מטה החידון. חבר השופטים והשופטות 1. חבר השופטים מורכב מהיושב/ת ראש, ולצידו או לצידה שני שופטים או ארבעה שופטים. 2. היושב/ת ראש אחראי/ת לשיפוט, והוא או היא מכריז/ה את מספר הנקודות שכל נבחן/ת זכה/זכתה בהן. היושב/ת ראש מפקח/ת על רישום הניקוד ועל סיכומו. 3. היושב/ת ראש מורה למנחה להכריז את שמות העולים משלב לשלב. 4. בעת הצורך, אם לא השיב/ה המתמודד/ת תשובה מלאה, יקרא או תקרא היושב/ת ראש את התשובה המלאה. הוא או היא רשאי/ת לכבד את חבריהם השופטים בקריאת חלק מהתשובות. 5. בסוף החידון יורה או תורה היושב/ת ראש למנחה להכריז את שם חתן או כלת החידון המחוזי. 6. חבר השופטים ידון בערעורים, אם יהיו כאלה, במהלך החידון בלבד, בין שלב לשלב. לאחר החידון לא יקבלו השופטים כל ערעורים. 7. ועדת ההיגוי הארצית לחידון התנ\"ך במינהל חברה ונוער תשמש סמכות עליונה לפסיקות סופיות לגבי ערעורים על החלטות השופטים, אם יהיו כאלה. תפקיד המנחה 1. מנהל/ת את החידון על פי הסדרים שנקבעו מראש. 2. מזמין/נה את המתמודדים והמתמודדות ואת חבר השופטים והשופטות לבמה. 3. מזמין/נה את המברכים ודואג/ת לסדר ההופעות האומנותיות. 4. קורא/ת את כל השאלות בחידון בקול. 5. מכריז/ה את שמותיהם של כל מתמודד ומתמודדת לפני שמוצגת להם השאלה. 6. מכריז/ה את שמות העולים והעולות משלב לשלב, על פי הוראות יושב/ת ראש חבר השופטים. 7. מכריז/ה את שמות החתן או הכלה על פי הוראות יושב/ת ראש חבר השופטים. התמודדות בחידון בשנת תשע\"ט הזוכים במקום הראשון בחידון המחוזי תשע\"ח לא יוכלו להתמודד שוב בחידון בשנת תשע\"ט. הזוכים במקום הראשון בחידון המחוזי תשע\"ח יוכלו להתמודד שוב בחידון המחוזי רק כעבור שנתיים, בשנת תש\"פ. זוכים, תעודות ופרסים 1. בתום החידון יוזמנו כל המתמודדים לשבת במקומותיהם על הבמה, ויוענקו להם תעודות השתתפות בחידון וספר תנ\"ך. 2. בעל/ת הניקוד הגבוה ביותר יוכתר או תוכתר כחתן או ככלת התנ\"ך המחוזי/ת. 3. לחידון התנ ך הארצי יתקיים ב-2018.3.14, כז' באדר התשע\"ח, בעיר מעלות- תרשיחא. 5. לכל זו כֶה וזו כָה בחידון המחוזי יוענקו תעודה מתאימה ופרסים. חידון מחוזי בכתב לבתי הספר הממלכתיים-דתיים, התשע\"ח שם התלמיד/ה: _____________________________ שם בית הספר: _____________________________ הכיתה: _________________ זמן הבחינה: 75 דקות (שעה ורבע) הניקוד (לשימוש הבודקים): ________ בחידון 50 שאלות. כל תשובה נכונה ת זַכה את המתמודד/ת בנקודה אחת. בשלב זה ניתן לצבור עד 50 נקודות. חומר הלימוד לחידון: בראשית: כל הספר שמות: פרקים א-ה, יא-כ, לא-לד ויקרא: פרקים יט, כד-כה במדבר: פרקים י-יז, כ-כה, כז, לב דברים: פרקים כו-לד יהושע: פרקים א-יא, יד, כב-כד שופטים: כל הספר שמואל א: כל הספר שמואל ב: כל הספר מלכים א: כל הספר מלכים ב: כל הספר ישעיה: פרקים א-ב, יא-יב, מ-מה, מט-נח ירמיה: פרקים א-ב, כו-מה יונה: כל הספר רות: כל הספר חלק א - שאלות רב-ברירה סמנו את התשובה הנכונה ביותר ב-X בדף התשובות. 1. על מי מעיד המקרא שאהב את יעקב?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "רחל"
+            },
+            {
+              "key": "ב",
+              "text": "לאה"
+            },
+            {
+              "key": "ג",
+              "text": "רבקה"
+            },
+            {
+              "key": "ד",
+              "text": "יוסף 2. בימי מי מתואר גבול ישראל \" מִלְּבוֹא חֲמָת עַד יָם הָעֲרָ בָה\"?"
+            },
+            {
+              "key": "א",
+              "text": "בימי יהוא"
+            },
+            {
+              "key": "ב",
+              "text": "בימי אחאב"
+            },
+            {
+              "key": "ג",
+              "text": "בימי שלמה"
+            },
+            {
+              "key": "ד",
+              "text": "בימי ירבעם בן יואש"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q03",
+          "display_number": "3",
+          "narrative_context": "אֱלִי שָמָע'?",
+          "prompt": "שמו של מי מהבאים לא היה '?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "נשיא שבט אפרים במדבר"
+            },
+            {
+              "key": "ב",
+              "text": "ניצב שלמה בָאֲרֻבוֹת"
+            },
+            {
+              "key": "ג",
+              "text": "סופר בממשלת יהויקים"
+            },
+            {
+              "key": "ד",
+              "text": "סבו של ישמעאל בן נתניה"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q04",
+          "display_number": "4",
+          "narrative_context": null,
+          "prompt": "הפלישתים הציקו לישראל זמן רב, ורבים עמדו להתמודד מולם. על מי מהבאים לא נאמר שהוא יועד על ידי ה' להושיע את ישראל מיד הפלישתים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שמשון"
+            },
+            {
+              "key": "ב",
+              "text": "שמואל"
+            },
+            {
+              "key": "ג",
+              "text": "שאול"
+            },
+            {
+              "key": "ד",
+              "text": "דוד"
+            }
+          ],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q05",
+          "display_number": "5",
+          "narrative_context": null,
+          "prompt": "מי מהאנשים הבאים היה ' חִוִי'?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "עֶפְּרוֹן"
+            },
+            {
+              "key": "ב",
+              "text": "אֵילוֹן"
+            },
+            {
+              "key": "ג",
+              "text": "חִירָה"
+            },
+            {
+              "key": "ד",
+              "text": "צִבְּעוֹן"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "לו",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "בראשית",
+              "chapter": "ב",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "צִבְּעוֹן",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "לו",
+                  "verse": null
+                },
+                {
+                  "book": "בראשית",
+                  "chapter": "ב",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q06",
+          "display_number": "6",
+          "narrative_context": "בַחֲמִשָה עָשָר יוֹם לַחֹדֶש הַשֵנִי?",
+          "prompt": "מה קרה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יבשה הארץ במבול"
+            },
+            {
+              "key": "ב",
+              "text": "בני ישראל חנו במדבר סין"
+            },
+            {
+              "key": "ג",
+              "text": "תחילת בניית מקדש שלמה"
+            },
+            {
+              "key": "ד",
+              "text": "איש האלוהים מיהודה בא לירבעם"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "טז",
+              "verse": "א",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "בני ישראל חנו במדבר סין",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "טז",
+                  "verse": "א"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q07",
+          "display_number": "7",
+          "narrative_context": "חֶרֶב מְּצֻמֶדֶת'?",
+          "prompt": "למי היתה '?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "לאהוד בן גרא"
+            },
+            {
+              "key": "ב",
+              "text": "לישבי בן הרפה"
+            },
+            {
+              "key": "ג",
+              "text": "לשר צבא ה'"
+            },
+            {
+              "key": "ד",
+              "text": "ליואב בן צרויה"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "כ",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל ב",
+              "chapter": "ח",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ליואב בן צרויה",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "כ",
+                  "verse": null
+                },
+                {
+                  "book": "שמואל ב",
+                  "chapter": "ח",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q08",
+          "display_number": "8",
+          "narrative_context": null,
+          "prompt": "מדוע, לדברי אברהם, אין הוא לוקח מרכוש ערי סדום?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כי הוא רוצה את הנפש"
+            },
+            {
+              "key": "ב",
+              "text": "כי הוא החרים את הרכוש והקדיש אותו לה'"
+            },
+            {
+              "key": "ג",
+              "text": "כדי שלא יאמרו שעושרו הגיע מסדום"
+            },
+            {
+              "key": "ד",
+              "text": "כי כל הרכוש מגיע ללוט בן אחיו שאותו הציל"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "יד",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "בראשית",
+              "chapter": "כב-כג",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "כדי שלא יאמרו שעושרו הגיע מסדום",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "יד",
+                  "verse": null
+                },
+                {
+                  "book": "בראשית",
+                  "chapter": "כב-כג",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q09",
+          "display_number": "9",
+          "narrative_context": null,
+          "prompt": "איזו מהערים הבאות בנה אסא מאבני הרמה?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "מצפה"
+            },
+            {
+              "key": "ב",
+              "text": "לכיש"
+            },
+            {
+              "key": "ג",
+              "text": "תרצה"
+            },
+            {
+              "key": "ד",
+              "text": "שוֹ כֹה"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "טו",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "מלכים א",
+              "chapter": "כב",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "מצפה",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "טו",
+                  "verse": null
+                },
+                {
+                  "book": "מלכים א",
+                  "chapter": "כב",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q10",
+          "display_number": "10",
+          "narrative_context": "מֵי נֹחַ",
+          "prompt": "באיזה הקשר מזכיר הנביא את?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שבועת ה' לישראל"
+            },
+            {
+              "key": "ב",
+              "text": "השארת פְּלֵטָה לאחר החורבן"
+            },
+            {
+              "key": "ג",
+              "text": "גודל החורבן ה קָרֵב"
+            },
+            {
+              "key": "ד",
+              "text": "התגלות ה' ב קֶרֶב הארץ"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "שבועת ה' לישראל",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q11",
+          "display_number": "11",
+          "narrative_context": "דָם נָקִיא",
+          "prompt": "מי התפלל שלא יֵחָשֵב לו במעשה שהוא עתיד לעשות?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "דוד"
+            },
+            {
+              "key": "ב",
+              "text": "שלמה"
+            },
+            {
+              "key": "ג",
+              "text": "המלחים"
+            },
+            {
+              "key": "ד",
+              "text": "ישראל במלחמתם בגבעה"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "יונה",
+              "chapter": "א",
+              "verse": "יד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "המלחים",
+              "source_refs": [
+                {
+                  "book": "יונה",
+                  "chapter": "א",
+                  "verse": "יד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q12",
+          "display_number": "12",
+          "narrative_context": "הַפַחַת הַגָדוֹל'?",
+          "prompt": "היכן היה '?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ביער אפרים"
+            },
+            {
+              "key": "ב",
+              "text": "בַשֶכו"
+            },
+            {
+              "key": "ג",
+              "text": "בחברון"
+            },
+            {
+              "key": "ד",
+              "text": "בחצר המטרה"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "יח",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל ב",
+              "chapter": "ו",
+              "verse": "יז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "ביער אפרים",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "יח",
+                  "verse": null
+                },
+                {
+                  "book": "שמואל ב",
+                  "chapter": "ו",
+                  "verse": "יז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q13",
+          "display_number": "13",
+          "narrative_context": null,
+          "prompt": "מי מָלַך 9 שנים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יהואחז בן יהוא"
+            },
+            {
+              "key": "ב",
+              "text": "זכריה בן ירבעם"
+            },
+            {
+              "key": "ג",
+              "text": "מנחם בן גדי"
+            },
+            {
+              "key": "ד",
+              "text": "הושע בן אלה"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "יז",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "מלכים ב",
+              "chapter": "א",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "הושע בן אלה",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "יז",
+                  "verse": null
+                },
+                {
+                  "book": "מלכים ב",
+                  "chapter": "א",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q14",
+          "display_number": "14",
+          "narrative_context": null,
+          "prompt": "צדקיהו אומר לירמיהו שהוא פוחד להסגיר את עצמו לשרי מלך בבל. מה החשש שהוא מתאר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "ששרי יהודה יתפשו אותו ויפגעו בו אם ינסה"
+            },
+            {
+              "key": "ב",
+              "text": "שאנשי יהודה שכבר נכנעו לבבלים יתעללו בו בשבי"
+            },
+            {
+              "key": "ג",
+              "text": "שמלך בבל יטיל עליו עונש נורא וייסורים"
+            },
+            {
+              "key": "ד",
+              "text": "שהבבלים ינצלו את כניעתו ויחריבו את העיר ללא קרב"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "שאנשי יהודה שכבר נכנעו לבבלים יתעללו בו בשבי",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q15",
+          "display_number": "15",
+          "narrative_context": null,
+          "prompt": "איזו מהטענות הבאות לא טען יהודה בפני יעקב אביו כדי לשכנעו לתת להם את בנימין?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שאם יעקב לא ישלח את בנימין, כולם ימותו ברעב"
+            },
+            {
+              "key": "ב",
+              "text": "שבזמן שהתעכבו כבר היו יכולים לחזור פעמיים"
+            },
+            {
+              "key": "ג",
+              "text": "שיהודה יהיה אחראי לחזרתו של בנימין בשלום"
+            },
+            {
+              "key": "ד",
+              "text": "שבזמן שהם מתעכבים, שמעון סובל בכלא במצרים"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "מג",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "בראשית",
+              "chapter": "ח-י",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "שבזמן שהם מתעכבים, שמעון סובל בכלא במצרים",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "מג",
+                  "verse": null
+                },
+                {
+                  "book": "בראשית",
+                  "chapter": "ח-י",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q16",
+          "display_number": "16",
+          "narrative_context": null,
+          "prompt": "איזה מהמקומות הבאים מוזכר בפירוט הנוף שראה משה מהר נבו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "חֶבְּרוֹן"
+            },
+            {
+              "key": "ב",
+              "text": "צֹעַר"
+            },
+            {
+              "key": "ג",
+              "text": "עַזָה"
+            },
+            {
+              "key": "ד",
+              "text": "גִבְּעוֹן"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "דברים",
+              "chapter": "לד",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "דברים",
+              "chapter": "א-ג",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "צֹעַר",
+              "source_refs": [
+                {
+                  "book": "דברים",
+                  "chapter": "לד",
+                  "verse": null
+                },
+                {
+                  "book": "דברים",
+                  "chapter": "א-ג",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q17",
+          "display_number": "17",
+          "narrative_context": "צִנְּ צֶנֶת?",
+          "prompt": "מה היה בתוך?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "דבש, למנחה לנביא"
+            },
+            {
+              "key": "ב",
+              "text": "מן, למשמרת זיכרון לדורות"
+            },
+            {
+              "key": "ג",
+              "text": "פַקֻעֹת שדה, לשים בנזיד לבני הנביאים"
+            },
+            {
+              "key": "ד",
+              "text": "מלח, לרפא מים רעים"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמות",
+              "chapter": "טז",
+              "verse": "לג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "מן, למשמרת זיכרון לדורות",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "טז",
+                  "verse": "לג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q18",
+          "display_number": "18",
+          "narrative_context": null,
+          "prompt": "באיזה הקשר מוזכר חטאו של עכן בסיפור אחר?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "כדוגמה לחטא שלא רק החוטא נענש עליו"
+            },
+            {
+              "key": "ב",
+              "text": "כדוגמה לעונשו של המועל ברכוש ה'"
+            },
+            {
+              "key": "ג",
+              "text": "כדוגמה לחטא שקשה לְּהִטָהֵר ממנו"
+            },
+            {
+              "key": "ד",
+              "text": "כדוגמה לחוטא שהודה בחטאו"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "כב",
+              "verse": "כ",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "כדוגמה לחטא שלא רק החוטא נענש עליו",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "כב",
+                  "verse": "כ"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q19",
+          "display_number": "19",
+          "narrative_context": "נְּחֹשֶת מְּמֹרָט?",
+          "prompt": "מה מהדברים הבאים היה עשוי?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הַיָם"
+            },
+            {
+              "key": "ב",
+              "text": "כְּלֵי בֵית יַעַר הַלְּ בָנוֹן"
+            },
+            {
+              "key": "ג",
+              "text": "כְּלֵי מַשְּקֵה הַמֶלֶךְ שְּלֹ מֹה"
+            },
+            {
+              "key": "ד",
+              "text": "הַפֹתוֹת לְּדַלְּתוֹת הַבַיִת הַפְּנִי מִי"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "ז",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "מלכים א",
+              "chapter": "מד-מה",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "הַיָם",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "ז",
+                  "verse": null
+                },
+                {
+                  "book": "מלכים א",
+                  "chapter": "מד-מה",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q20",
+          "display_number": "20",
+          "narrative_context": null,
+          "prompt": "מי מהמלכים הבאים קיבל שוחד כדי שלא יילחם בירושלים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "חזאל"
+            },
+            {
+              "key": "ב",
+              "text": "שישק"
+            },
+            {
+              "key": "ג",
+              "text": "תגלת פלאסר"
+            },
+            {
+              "key": "ד",
+              "text": "בן הדד בן טברימן בן חזיון"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "יב",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "מלכים ב",
+              "chapter": "יט",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "חזאל",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "יב",
+                  "verse": null
+                },
+                {
+                  "book": "מלכים ב",
+                  "chapter": "יט",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q21",
+          "display_number": "21",
+          "narrative_context": "כַל לְּהֵרָ פֵא'?",
+          "prompt": "על איזו מחלה מעידים לחולה בה: 'לאֹ תו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "שחין"
+            },
+            {
+              "key": "ב",
+              "text": "שחפת"
+            },
+            {
+              "key": "ג",
+              "text": "דבר"
+            },
+            {
+              "key": "ד",
+              "text": "שיגעון"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "דברים",
+              "chapter": "כח",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "דברים",
+              "chapter": "לה",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "שחין",
+              "source_refs": [
+                {
+                  "book": "דברים",
+                  "chapter": "כח",
+                  "verse": null
+                },
+                {
+                  "book": "דברים",
+                  "chapter": "לה",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q22",
+          "display_number": "22",
+          "narrative_context": "פְּקִדִים עַל הָאָרֶץ",
+          "prompt": "מי המלך שקיבל המלצה להפקיד?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "צדקיהו"
+            },
+            {
+              "key": "ב",
+              "text": "פרעה"
+            },
+            {
+              "key": "ג",
+              "text": "בן הדד"
+            },
+            {
+              "key": "ד",
+              "text": "דוד"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "מא",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "בראשית",
+              "chapter": "לד",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "פרעה",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "מא",
+                  "verse": null
+                },
+                {
+                  "book": "בראשית",
+                  "chapter": "לד",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q23",
+          "display_number": "23",
+          "narrative_context": null,
+          "prompt": "מה מהדברים הבאים חולק לשנים עשר חלקים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "הפר של אליהו בהר כרמל"
+            },
+            {
+              "key": "ב",
+              "text": "המגילה שהקריא יהודי בפני יהויקים"
+            },
+            {
+              "key": "ג",
+              "text": "השמלה של אחיה בהקדשת ירבעם"
+            },
+            {
+              "key": "ד",
+              "text": "הבהמות בברית בין הבתרים"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "יא",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "מלכים א",
+              "chapter": "ל",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "השמלה של אחיה בהקדשת ירבעם",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "יא",
+                  "verse": null
+                },
+                {
+                  "book": "מלכים א",
+                  "chapter": "ל",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q24",
+          "display_number": "24",
+          "narrative_context": null,
+          "prompt": "באיזה מהסיפורים הבאים לא מופיעים שָקֵד / שְּקֵדִים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "התנהלות יוסף עם אחיו כשליט מצרים"
+            },
+            {
+              "key": "ב",
+              "text": "ערעורי העם על מנהיגות משה ואהרון"
+            },
+            {
+              "key": "ג",
+              "text": "מרד אבשלום בדוד"
+            },
+            {
+              "key": "ד",
+              "text": "נבואת ירמיהו על חורבן ירושלים"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "בראשית",
+              "chapter": "מג",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "בראשית",
+              "chapter": "יא",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "במדבר",
+              "chapter": "יז",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "במדבר",
+              "chapter": "כג",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "במדבר",
+              "chapter": "ירמיה",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "מרד אבשלום בדוד",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "מג",
+                  "verse": null
+                },
+                {
+                  "book": "בראשית",
+                  "chapter": "יא",
+                  "verse": null
+                },
+                {
+                  "book": "במדבר",
+                  "chapter": "יז",
+                  "verse": null
+                },
+                {
+                  "book": "במדבר",
+                  "chapter": "כג",
+                  "verse": null
+                },
+                {
+                  "book": "במדבר",
+                  "chapter": "ירמיה",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q25",
+          "display_number": "25",
+          "narrative_context": null,
+          "prompt": "ישעיהו מתאר את אפרים ויהודה מתאחדים ונלחמים בעמי הסביבה יחד. איזה מהעמים הבאים לא מופיע כאחת ממטרותיהם?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בני עמון"
+            },
+            {
+              "key": "ב",
+              "text": "אדום"
+            },
+            {
+              "key": "ג",
+              "text": "צידון"
+            },
+            {
+              "key": "ד",
+              "text": "בני קדם"
+            }
+          ],
+          "correct_option": "ג",
+          "subquestions": null,
+          "primary_sources": [],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "צידון",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q26",
+          "display_number": "26",
+          "narrative_context": null,
+          "prompt": "פעמים רבות במקרא מוזכר אדם שמענה את נפשו וצם בתפילה לה', ובכמה מקרים מוזכר אף צום של ציבור. באיזה מהסיפורים הבאים לא צמו הרבים?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "תוכחת מלאך ה' בבוכים"
+            },
+            {
+              "key": "ב",
+              "text": "מלחמת ישראל בבנימין"
+            },
+            {
+              "key": "ג",
+              "text": "תשובת ישראל בימי שמואל במצפה"
+            },
+            {
+              "key": "ד",
+              "text": "קריאת ספר דברי ה' מפי ירמיהו במקדש"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "כ",
+              "verse": "כו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל א",
+              "chapter": "ז",
+              "verse": "ו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל א",
+              "chapter": "ירמיה",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "תוכחת מלאך ה' בבוכים",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "כ",
+                  "verse": "כו"
+                },
+                {
+                  "book": "שמואל א",
+                  "chapter": "ז",
+                  "verse": "ו"
+                },
+                {
+                  "book": "שמואל א",
+                  "chapter": "ירמיה",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q27",
+          "display_number": "27",
+          "narrative_context": null,
+          "prompt": "תפקיד הצופה היה לזהות איומים או אנשים המתקרבים לעיר ולהכין לכך את העם. מי מהבאים זוהה מרחוק על ידי צופה בשל צורת תנועתו הייחודית?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "יונתן בן אביתר"
+            },
+            {
+              "key": "ב",
+              "text": "הכושי"
+            },
+            {
+              "key": "ג",
+              "text": "חושי הארכי"
+            },
+            {
+              "key": "ד",
+              "text": "אחימעץ בן צדוק"
+            }
+          ],
+          "correct_option": "ד",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "יח",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל ב",
+              "chapter": "כז",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "אחימעץ בן צדוק",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "יח",
+                  "verse": null
+                },
+                {
+                  "book": "שמואל ב",
+                  "chapter": "כז",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q28",
+          "display_number": "28",
+          "narrative_context": null,
+          "prompt": "רחב מסתירה את מרגלי יהושע בביתה ומשקרת לשליחי המלך. מי עוד דאג שלא יִוָ דַע בואו של מבקר אליו?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "בועז"
+            },
+            {
+              "key": "ב",
+              "text": "האיש הזקן מהגבעה"
+            },
+            {
+              "key": "ג",
+              "text": "לוט"
+            },
+            {
+              "key": "ד",
+              "text": "בלעם"
+            }
+          ],
+          "correct_option": "א",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "רות",
+              "chapter": "ג",
+              "verse": "יד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "בועז",
+              "source_refs": [
+                {
+                  "book": "רות",
+                  "chapter": "ג",
+                  "verse": "יד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q29",
+          "display_number": "29",
+          "narrative_context": null,
+          "prompt": "בכמה מקומות ניתן לראות שהתגלות נבואית ראשונה לא תמיד זוהתה כך מיד. מי מהבאים מבקש אות כדי לדעת שהמדבר עמו הוא ה'?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "משה"
+            },
+            {
+              "key": "ב",
+              "text": "גדעון"
+            },
+            {
+              "key": "ג",
+              "text": "מנוח"
+            },
+            {
+              "key": "ד",
+              "text": "ירמיהו"
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "ו",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שופטים",
+              "chapter": "טז-יז",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "גדעון",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "ו",
+                  "verse": null
+                },
+                {
+                  "book": "שופטים",
+                  "chapter": "טז-יז",
+                  "verse": null
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q30",
+          "display_number": "30",
+          "narrative_context": "אִיש אֶחָד מִכֶם יִרְּ דָף אָלֶף",
+          "prompt": "מי מהבאים אמר לישראל?",
+          "question_type": "multiple_choice",
+          "answer_style": "single_correct",
+          "options": [
+            {
+              "key": "א",
+              "text": "משה"
+            },
+            {
+              "key": "ב",
+              "text": "יהושע"
+            },
+            {
+              "key": "ג",
+              "text": "שמואל"
+            },
+            {
+              "key": "ד",
+              "text": "דוד חלק ב - מקומות בכל אחת מהשאלות הבאות, כתבו בדף התשובות את שם המקום המתאים ביותר להגדרה."
+            }
+          ],
+          "correct_option": "ב",
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "יהושע",
+              "chapter": "כג",
+              "verse": "י",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [
+            {
+              "answer_text": "יהושע",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "כג",
+                  "verse": "י"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        },
+        {
+          "unit_id": "q31",
+          "display_number": "31",
+          "narrative_context": "[...] וְּקַרְּ נֵי רְּאֵם קַרְּ נָיו בָהֶם עַמִים יְּנַגַח יַחְּדָו אַפְּסֵי אָרֶץ",
+          "prompt": "שם ישב יותם לאחר שנשא את דבריו על הר גריזים. 32. משם היה מלכה הראשון של אדום. 33. עיר כנענית שמלכה הוכה בבואו לעזרת עיר אחרת. 34. משם נשלחו מלאכים למלך אדום. 35. לעיר זו הגיע נביא בדרכו ' לִבְּרֹחַ[...] מִלִ פְּנֵי ה''. 36. שם גר אדם ש' כִשְּמוֹ כֶן הוא'. 37. שם נאספו חיילי מנהיג לקרב, ושם נהרגו אחים של מנהיג אחר. 38. מקום זה היה ' בִקְּ צֵה הַמִדְּ בָר'. חלק ג - שאלות בנושא 'ארץ' השאלות הבאות קשורות למילה 'ארץ'. ענו עליהן בדף התשובות. 39-40. שניים שקראו לשמים ולארץ להקשיב לדבריהם. 41-42. שניים שהשתמשו בביטוי \" דֶרֶךְ כָל הָאָרֶץ\" לתאר את מותם הקרב. 43. חבל הארץ שבו היו הערים שכונו \" אֶרֶץ כָבול\". 44. על מי נאמר שבאו \" אֶל אֶרֶץ תַחְּתִים חָדְּ שִי\"? 45-47. שלוש מהארצות שעברו בהן שאול ונערו בחיפוש אחר האתונות. 48-49. מי אמר: \"ה' יֵחַתו מְּרִי בָו עָלָו בַשָמַיִם יַרְּ עֵם ה' יָדִין אַפְּסֵי אָרֶץ\"? ומי אמר: ? 50. על מה נאמר לעניין מקח וממכר ש' עַל שְּדֵה הָאָרֶץ יֵחָשֵב'? בהצלחה!?",
+          "question_type": "speaker_id",
+          "answer_style": "single_correct",
+          "options": [],
+          "correct_option": null,
+          "subquestions": null,
+          "primary_sources": [
+            {
+              "book": "שופטים",
+              "chapter": "ט",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שופטים",
+              "chapter": "כא",
+              "verse": null,
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
+          "scoring": {
+            "points": 1
+          },
+          "acceptable_answers": [],
+          "media_attachments": null,
+          "localizations": null,
+          "format_confidence_note": null
+        }
+      ]
+    }
+  ],
+  "answer_key_present": true,
+  "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2018_spring_district_mamad.pdf",
-    "fetch_date": "2026-06-25",
-    "extraction_quality": "unreadable",
-    "extraction_notes": "extraction error: list index out of range"
+    "fetch_date": "2026-07-01",
+    "extraction_quality": "partial",
+    "extraction_notes": "missing answers for: 1, 2, 3, 4, 31"
   }
 }

@@ -1,18 +1,1831 @@
 {
-  "run_at": "2026-06-30T14:25:30",
-  "total_files": 1,
-  "processed": 1,
+  "run_at": "2026-07-01T11:21:06",
+  "total_files": 227,
+  "processed": 226,
   "skipped_existing": 0,
-  "failed": 0,
-  "suspicious_hebrew_total": 0,
+  "failed": 1,
+  "suspicious_hebrew_total": 222,
   "results": [
+    {
+      "id": "olami-written",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.56,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "OLAMI-PUBLIC-BOOKLET",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.17,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "beitsifri_mm2026",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 25,
+      "duration_seconds": 0.21,
+      "suspicious_hebrew": 5,
+      "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "mehozi-mm2026",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 41,
+      "duration_seconds": 0.48,
+      "extraction_notes": "missing answers for: 37, 38, 39, 40, 41"
+    },
+    {
+      "id": "fullmm2026",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.39,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "ARZI-MMLCHTI-1-WRITTEN",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.4,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "ARTZI-MM-2-WRITTEN",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.19,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "artzi-mm-booklet",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 1.16,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "beitsifri_mmd2026",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 35,
+      "duration_seconds": 0.3,
+      "suspicious_hebrew": 6,
+      "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "mehozi-mmd2026",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 51,
+      "duration_seconds": 0.64,
+      "extraction_notes": "missing answers for: 51"
+    },
+    {
+      "id": "MMD-MEHUZI-PUBLIC-BOOKLET",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.17,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "fullmmd2026",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 538.54
+    },
+    {
+      "id": "fullmd2026",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.18,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "ARTZI-MMD-1-WRITTEN",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.46,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "ARTZI-MMD-2-WRITTEN",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.14,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "artzi-mmd-booklet",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 1.82,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "OLAMI_PUB_MMD",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "beitsifri_mm2025",
+      "status": "success",
+      "extraction_quality": "clean",
+      "question_count": 35,
+      "duration_seconds": 0.37,
+      "suspicious_hebrew": 5
+    },
+    {
+      "id": "PreMm25",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 41,
+      "duration_seconds": 0.74,
+      "suspicious_hebrew": 14,
+      "extraction_notes": "missing answers for: 41"
+    },
+    {
+      "id": "MEHUZI_PUB_MM",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.6,
+      "suspicious_hebrew": 1,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "ARTZI_WRITTEN_MM1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.56,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "ARTZI_WRITTEN_MM2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.17,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "ARTZI_PUB_MM",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "beitsifri_mmd2025",
+      "status": "success",
+      "extraction_quality": "clean",
+      "question_count": 35,
+      "duration_seconds": 0.38,
+      "suspicious_hebrew": 7
+    },
+    {
+      "id": "PreMamad25",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 28,
+      "duration_seconds": 0.71,
+      "suspicious_hebrew": 14,
+      "extraction_notes": "missing answers for: 28"
+    },
+    {
+      "id": "fullmmd2025",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 3,
+      "duration_seconds": 1.73,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "ARTZI_WRITTEN_MMD1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.5,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "ARTZI_WRITTEN_MMD2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.19,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "ARTZI_PUB_MMD",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 1.55,
+      "suspicious_hebrew": 1,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "olamipub2024",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 4,
+      "duration_seconds": 2.4,
+      "suspicious_hebrew": 1,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "OLAMIWRITTEN_2024",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 41,
+      "duration_seconds": 0.56,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "Q_mamlachti_tashpad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 30,
+      "duration_seconds": 0.23,
+      "suspicious_hebrew": 4,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "A_mamlachti_tashpad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.1,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "testmehuzimm2024",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 41,
+      "duration_seconds": 0.55,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "fullmm2024",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 2.66,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "ARTZI_MM_Q",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.52,
+      "suspicious_hebrew": 6,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "ARTZI_MM_A",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.16,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "Q_mamad_tashpad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 30,
+      "duration_seconds": 0.21,
+      "suspicious_hebrew": 6,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "A_mamad_tashpad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.14,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "testmehuzimmd2024",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 39,
+      "duration_seconds": 0.46,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "fullmmd2024",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.72,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "ARTZI_MMD_Q",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.55,
+      "suspicious_hebrew": 7,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "ARTZI_MMD_A",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.17,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "ARTZI2024_FULL",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.87,
+      "suspicious_hebrew": 28,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "Qpublic23",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.78,
+      "suspicious_hebrew": 1,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "MMTEST",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 35,
+      "duration_seconds": 0.29,
+      "suspicious_hebrew": 3,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "MMANS",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.12,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "MEHOZIMMLACHTI",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 40,
+      "duration_seconds": 0.59,
+      "suspicious_hebrew": 1,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "TSHMEOHOMMLAC",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.19,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "QMehozi23",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.95,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 1 stages"
+    },
+    {
+      "id": "QPreMam23",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.5,
+      "suspicious_hebrew": 3,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "APreMam23",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.15,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "MMADATEST",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 35,
+      "duration_seconds": 0.29,
+      "suspicious_hebrew": 5,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "MMADAANS",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.15,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "MMADBTEST",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 35,
+      "duration_seconds": 0.28,
+      "suspicious_hebrew": 5,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "MMADBANS",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.12,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "MEHOZIMMD",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 38,
+      "duration_seconds": 0.48,
+      "suspicious_hebrew": 7,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "TSHMEHOMMD",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.21,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "QMehoziMamad23",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 0.98,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "QPreMamad23",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.45,
+      "suspicious_hebrew": 6,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "APreMamad23",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.22,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "napu2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.92,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "msc2022a",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.38,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "msc2022b",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.35,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "writtendistrictmmlacti2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.61,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "mdi2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 1.73,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 0 stages"
+    },
+    {
+      "id": "fnam2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.39,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "dsc2022a",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.38,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "dsc2022b",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.39,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "writtendistrictdati2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.73,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "fnad2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 26,
+      "duration_seconds": 0.36,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "writtenINT2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.53,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "inter2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 3,
+      "duration_seconds": 3.68,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "mamlachti_1_2021",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 50,
+      "duration_seconds": 0.68,
+      "suspicious_hebrew": 9,
+      "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "mechozi_mamlachti_2021",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 41,
+      "duration_seconds": 0.72,
+      "suspicious_hebrew": 3,
+      "extraction_notes": "missing answers for: 41; some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "mechozi_mamlachti_pumbi_2021",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 2.18,
+      "suspicious_hebrew": 7,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "national_written_test_mamlachti_2021",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 31,
+      "duration_seconds": 0.8,
+      "suspicious_hebrew": 1,
+      "extraction_notes": "missing answers for: 31"
+    },
+    {
+      "id": "national_quiz_2021",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 3,
+      "duration_seconds": 2.64,
+      "suspicious_hebrew": 4,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "mamad_1_2021",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 50,
+      "duration_seconds": 0.56,
+      "suspicious_hebrew": 9,
+      "extraction_notes": "some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "mechozi_mamad_2021",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 41,
+      "duration_seconds": 0.78,
+      "suspicious_hebrew": 4,
+      "extraction_notes": "missing answers for: 41; some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "mechozi_mamad_pumbi_2021",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 2.06,
+      "suspicious_hebrew": 9,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "national_written_test_mamad_2021",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 31,
+      "duration_seconds": 0.65,
+      "suspicious_hebrew": 2,
+      "extraction_notes": "missing answers for: 16, 17, 31"
+    },
+    {
+      "id": "schoola",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 35,
+      "duration_seconds": 0.29,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "schoolb",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 35,
+      "duration_seconds": 0.37,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "district-public-mamlachti",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.15,
+      "suspicious_hebrew": 5,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "district-writing-mamlachti",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 41,
+      "duration_seconds": 0.37,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "national-writing-mamlachti",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 12,
+      "duration_seconds": 0.53,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "national-public2020",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 2.11,
+      "suspicious_hebrew": 1,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "worldwidebible",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.57,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "schoolchemeda",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 35,
+      "duration_seconds": 0.31,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "schoolchemedb",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 35,
+      "duration_seconds": 0.33,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "district-writing-public-mamad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.18,
+      "suspicious_hebrew": 3,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "district-writing-mamad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 41,
+      "duration_seconds": 0.59,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "national-writing-mamad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.44,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "regional_booklet_mamlachti",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 2.37,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "regional_written_mamlachti",
+      "status": "success",
+      "extraction_quality": "clean",
+      "question_count": 50,
+      "duration_seconds": 0.76,
+      "suspicious_hebrew": 1
+    },
+    {
+      "id": "fnam2019",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 26,
+      "duration_seconds": 0.48,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "public_country_2019",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 0.88,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "writtenINT2019",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.48,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "regional_booklet_mamad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 2.29,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "regional_written_mamad",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 36,
+      "duration_seconds": 0.52,
+      "extraction_notes": "missing answers for: 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36"
+    },
+    {
+      "id": "fnad2019",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.45,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2018m",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.24,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2018m_a",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.35,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2018_school_quiz",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.25,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2018_spring_district",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 50,
+      "duration_seconds": 4.56,
+      "extraction_notes": "missing answers for: 1, 2, 3, 4"
+    },
+    {
+      "id": "district_2018",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 50,
+      "duration_seconds": 0.39,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "country_spring_2018",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.54,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "public_country_2018_spring",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.64,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2018md",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.23,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2018md_a",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.34,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2018_school_quiz_mamad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.16,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "district_2018._mamad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.28,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2018_spring_district_mamad",
+      "status": "success",
+      "extraction_quality": "partial",
+      "question_count": 31,
+      "duration_seconds": 3.8,
+      "extraction_notes": "missing answers for: 1, 2, 3, 4, 31"
+    },
+    {
+      "id": "country_spring_2018_mamad",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 20,
+      "duration_seconds": 0.27,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2017m",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.41,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2017m1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.61,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 1 stages"
+    },
+    {
+      "id": "2017m2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 21,
+      "duration_seconds": 0.28,
+      "extraction_notes": "no answer key found (questions only)"
+    },
     {
       "id": "2017m3",
       "status": "success",
       "extraction_quality": "clean",
       "question_count": 40,
-      "duration_seconds": 3.17,
+      "duration_seconds": 2.91,
       "extraction_notes": "public/oral format: 6 sections, 40 units, 3 stages"
+    },
+    {
+      "id": "2017md",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.23,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2017md1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 21,
+      "duration_seconds": 0.17,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2017md2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 10,
+      "duration_seconds": 0.18,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2017md3",
+      "status": "success",
+      "extraction_quality": "clean",
+      "question_count": 40,
+      "duration_seconds": 1.89,
+      "extraction_notes": "public/oral format: 6 sections, 40 units, 3 stages"
+    },
+    {
+      "id": "2016m",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.21,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2016m1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.28,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 1 stages"
+    },
+    {
+      "id": "2016m2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 21,
+      "duration_seconds": 0.3,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2016m3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.09,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2016md",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 25,
+      "duration_seconds": 0.3,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2016md1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.3,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 1 stages"
+    },
+    {
+      "id": "2016md2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.22,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2016md3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.18,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2015m",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 4,
+      "duration_seconds": 0.32,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2015m1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 4,
+      "duration_seconds": 2.51,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2015m2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.3,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2015m3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.39,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2015md",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 4,
+      "duration_seconds": 0.3,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2015md1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 3.63,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 0 stages"
+    },
+    {
+      "id": "2015md2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.19,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2015md3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.55,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2014m",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 4,
+      "duration_seconds": 0.33,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2014m1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 2.45,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2014m2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.82,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2014m3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.04,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2014md",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.22,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2014md1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 4,
+      "duration_seconds": 2.28,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2014md2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.73,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2014md3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.0,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2013m",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 9,
+      "duration_seconds": 0.26,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2013m1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 1.88,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 0 stages"
+    },
+    {
+      "id": "2013m2",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.03
+    },
+    {
+      "id": "2013m3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 6,
+      "duration_seconds": 1.97,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2013md",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 9,
+      "duration_seconds": 0.18,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2013md1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 2.03,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 0 stages"
+    },
+    {
+      "id": "2013md2",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2013md3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 6,
+      "duration_seconds": 1.99,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2012m",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.2,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2012m1",
+      "status": "success",
+      "extraction_quality": "clean",
+      "question_count": 2,
+      "duration_seconds": 1.58
+    },
+    {
+      "id": "2012m2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 21,
+      "duration_seconds": 0.31,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2012m3",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2012m4",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 1.85,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2012md",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.27,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2012md1",
+      "status": "success",
+      "extraction_quality": "clean",
+      "question_count": 2,
+      "duration_seconds": 1.72
+    },
+    {
+      "id": "2012md2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.2,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2012md3",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2012md4",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 1.85,
+      "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 3 stages"
+    },
+    {
+      "id": "2011m",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.31,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2011m1",
+      "status": "success",
+      "extraction_quality": "clean",
+      "question_count": 9,
+      "duration_seconds": 1.71
+    },
+    {
+      "id": "2011m2",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 3,
+      "duration_seconds": 0.21,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2011m3",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.15,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2011m4",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 1.24,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "2011md",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.25,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "2011md1",
+      "status": "success",
+      "extraction_quality": "clean",
+      "question_count": 2,
+      "duration_seconds": 2.31,
+      "suspicious_hebrew": 1
+    },
+    {
+      "id": "2010m",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010m1",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010m2",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010m3",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010m4",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010md",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010md1",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010md2",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010md3",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2010md4",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2009m",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2009m1",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2009m2",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2009m3",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2009md",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2009md1",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2009md2",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2009md3",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2008m",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2008m1",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2008m2",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2008m3",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2008md",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2008md1",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2008md2",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "2008md3",
+      "status": "success",
+      "extraction_quality": "unreadable",
+      "question_count": 0,
+      "duration_seconds": 0.0
+    },
+    {
+      "id": "Summarizing2026",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 48,
+      "duration_seconds": 0.43,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "early1-2026",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 8,
+      "duration_seconds": 0.37,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "shelon_chidon_2021",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.4,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "mehozipumbi2018",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 1.9,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "earlychidon2018",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.35,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "adults_quiz_2017",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.38,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "mehozipumbi2016",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 1.79,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "writing_adults_district_quiz2016",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 0.48,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "mehozi2015",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.76,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "adults_district_quiz33",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 1.6,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "pre_adults_district_quiz",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 10,
+      "duration_seconds": 0.35,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "adults_district_quiz22",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.79,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "adults_district_quiz1",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.72,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "writing_adults_quiz",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.44,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "early2-2026",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 13,
+      "duration_seconds": 0.31,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "early_written_test_adults23",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 17,
+      "duration_seconds": 0.43,
+      "suspicious_hebrew": 4,
+      "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
+    },
+    {
+      "id": "adults_2023",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 2,
+      "duration_seconds": 1.13,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "adults_2020",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 1.51,
+      "suspicious_hebrew": 1,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "written_test_2020",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 31,
+      "duration_seconds": 0.54,
+      "suspicious_hebrew": 10,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "early_written_test_adults2017",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.38,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "artziktav2016",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 0.31,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "adults_quiz_2025",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 3,
+      "duration_seconds": 1.16,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "adults_quiz_2022",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 25.82,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "internationaladults2020",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 0.99,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "internataionaladultswritten2020",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 1.54,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "champ_champ_2019",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 0,
+      "duration_seconds": 3.14,
+      "extraction_notes": "no question units parsed"
+    },
+    {
+      "id": "questions_2016",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 3,
+      "duration_seconds": 4.16,
+      "extraction_notes": "no answer key found (questions only)"
+    },
+    {
+      "id": "internationaladults2015",
+      "status": "fetch_failed",
+      "extraction_quality": null,
+      "question_count": 0,
+      "duration_seconds": 9.34,
+      "extraction_notes": "404 Client Error: Not Found for url: https://meyda.education.gov.il/files/internationaladults2015.pdf"
+    },
+    {
+      "id": "adults_international_bible_quiz",
+      "status": "success",
+      "extraction_quality": "manual_review_needed",
+      "question_count": 1,
+      "duration_seconds": 0.58,
+      "extraction_notes": "no answer key found (questions only)"
     }
   ]
 }

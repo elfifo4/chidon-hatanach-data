@@ -36,11 +36,11 @@
       "question_units": []
     }
   ],
-  "answer_key_present": false,
-  "answer_key_location": "none",
+  "answer_key_present": true,
+  "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/internationaladults2020.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "no question units parsed; validation: no question units"
   }

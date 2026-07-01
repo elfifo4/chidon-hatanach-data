@@ -59,13 +59,13 @@
               "text": "אנשי קרח ועדתו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "במדבר",
-              "chapter": "טז,",
-              "verse": null,
+              "chapter": "טז",
+              "verse": "ב",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -73,7 +73,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אנשי קרח ועדתו",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "טז",
+                  "verse": "ב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -103,13 +115,45 @@
               "text": "יהוד ה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "יד",
+              "verse": "כב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "מלכים ב",
+              "chapter": "טז",
+              "verse": "ו",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "ישרא ל",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "יד",
+                  "verse": "כב"
+                },
+                {
+                  "book": "מלכים ב",
+                  "chapter": "טז",
+                  "verse": "ו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -139,13 +183,13 @@
               "text": "שמשון"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "י,",
-              "verse": null,
+              "chapter": "י",
+              "verse": "ו-ז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -153,7 +197,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יהוש ע",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "י",
+                  "verse": "ו-ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -183,13 +239,33 @@
               "text": "הלֲנָצֶחַ תּאֹׂכלַ חֶרֶב מלחמת סיני (שאלות 5-8 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "יט",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "לְאַהבֲהָ אֶת שנְֹׂ אֶי ךָ",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "יט",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -197,7 +273,7 @@
         {
           "unit_id": "q05",
           "display_number": "5",
-          "narrative_context": "תְּעָלַת הַבְּרֵכָה הָעֶלְיוֹנָה",
+          "narrative_context": "תְּעלָתַ הַבְּרֵכהָ העָלֶיְונֹׂהָ",
           "prompt": "מטרת המלחמה בפתיחתה הייתה כיבוש תעלת סואץ לאחר שנחסם מעבר כלי שיט ישראליים על ידי המצרים. מי מהבאים לא נכח ב?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -219,13 +295,20 @@
               "text": "בּלְַ אֲדָן"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [
             {
+              "book": "מלכים ב",
+              "chapter": "יח",
+              "verse": "יז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
               "book": "ישעיהו",
-              "chapter": "ז,",
-              "verse": null,
+              "chapter": "ז",
+              "verse": "ג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -233,7 +316,24 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "בּלְַ אֲדָן",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "יח",
+                  "verse": "יז"
+                },
+                {
+                  "book": "ישעיהו",
+                  "chapter": "ז",
+                  "verse": "ג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -263,13 +363,33 @@
               "text": "נבואת החורבן של ירמיה ו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "כ",
+              "verse": "י",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מלחמת אחאב ובן הד ד",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "כ",
+                  "verse": "י"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -299,13 +419,33 @@
               "text": "חשוב שתהיה שונה מאבי ך"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "יב",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אם עכשיו תהיה טוב לעם הם ימשיכו להיות לך לעבדי ם",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "יב",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -335,13 +475,13 @@
               "text": "שירת דו ד מלחמת ששת הימים (שאלות 9-12 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "שופטים",
-              "chapter": "ה,",
-              "verse": null,
+              "chapter": "ה",
+              "verse": "כח",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -349,7 +489,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שירת דבור ה",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "ה",
+                  "verse": "כח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -357,7 +509,7 @@
         {
           "unit_id": "q09",
           "display_number": "9",
-          "narrative_context": "כֹּה תַעֲשֶׂה",
+          "narrative_context": "כּהֹׂ תַעֲ ֶ",
           "prompt": "מלחמת ששת הימים נערכה בין התאריכים כ\"ו באייר ועד ב' בסיוון. למי נאמר: \" שה שֵשֶת יָמִים?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
@@ -379,13 +531,13 @@
               "text": "יהוש ע"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "ו,",
-              "verse": null,
+              "chapter": "ו",
+              "verse": "ג",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -393,10 +545,22 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יהוש ע",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "ו",
+                  "verse": "ג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
-          "format_confidence_note": null
+          "format_confidence_note": "verse shown as extracted from the exam; Sefaria alignment unavailable"
         },
         {
           "unit_id": "q10",
@@ -423,13 +587,19 @@
               "text": "כדי שיוכלו להביס את הגויים הנמצאים בארץ ישרא ל"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "כדי שיבואו לראות את כבוד ה'",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -459,13 +629,57 @@
               "text": "אדם ששיתף פעולה עם עמים הנקראים איש טוב ומעכה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמואל א",
+              "chapter": "יא",
+              "verse": "ב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל ב",
+              "chapter": "יז",
+              "verse": "כה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            },
+            {
+              "book": "שמואל ב",
+              "chapter": "יז",
+              "verse": "כט",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אדם ששיתף פעולה עם עמים הנקראים איש טוב ומעכה",
+              "source_refs": [
+                {
+                  "book": "שמואל א",
+                  "chapter": "יא",
+                  "verse": "ב"
+                },
+                {
+                  "book": "שמואל ב",
+                  "chapter": "יז",
+                  "verse": "כה"
+                },
+                {
+                  "book": "שמואל ב",
+                  "chapter": "יז",
+                  "verse": "כט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -495,13 +709,33 @@
               "text": "שמואל מלחמת ההתשה (שאלות 13-16 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "ב",
+              "verse": "ל",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אבנר בן נר",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "ב",
+                  "verse": "ל"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -531,13 +765,33 @@
               "text": "הענן עלה מעל למשכן העדות"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "ו",
+              "verse": "לח",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "בניית בית המקדש בימי שלמה הגיעה לסיומ ה",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "ו",
+                  "verse": "לח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -567,13 +821,19 @@
               "text": "ישעיה ו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "ישעיה ו",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -603,13 +863,33 @@
               "text": "שלוש שני ם"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "יא",
+              "verse": "ג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שש שני ם",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "יא",
+                  "verse": "ג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -617,7 +897,7 @@
         {
           "unit_id": "q16",
           "display_number": "16",
-          "narrative_context": "חֶרְפַּת מִצְרַיִם",
+          "narrative_context": "חֶרְפַּת מִצְ רַיםִ",
           "prompt": "במלחמה זו נלחמו נגד ישראל מצרים וירדן. באמצעות איזה מעשה הוסרה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -639,13 +919,13 @@
               "text": "תפיל ה מלחמת יום הכיפורים (שאלות 17-20 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "ה,",
-              "verse": null,
+              "chapter": "ה",
+              "verse": "ז-ט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -653,7 +933,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "ברית מילה",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "ה",
+                  "verse": "ז-ט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -661,7 +953,7 @@
         {
           "unit_id": "q17",
           "display_number": "17",
-          "narrative_context": "וַיָּבֹא אֲלֵיהֶם יְהוֹשֻׁעַ פִּתְאֹם",
+          "narrative_context": "ויַבָּאֹׂ אֲליֵהםֶ יהְוֹׂ שֻׁעַפִּתְאםֹׂ",
           "prompt": "מלחמה זו בניגוד לקודמותיה נפתחה בהפתעה נגד ישראל. באיזו מלחמה נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -683,13 +975,13 @@
               "text": "מלחמת יריח ו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "י,",
-              "verse": null,
+              "chapter": "י",
+              "verse": "ט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -697,7 +989,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מלחמת מלכי הדרום",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "י",
+                  "verse": "ט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -705,7 +1009,7 @@
         {
           "unit_id": "q18",
           "display_number": "18",
-          "narrative_context": "קֹלֵעַ בָּאֶבֶן אֶל הַשַּׂעֲרָה וְלֹא יַחֲטִא",
+          "narrative_context": "קלֹׂעֵַ בָּאֶבןֶ אֶל הַשַּעֲ רָה ולְאֹׂ יַחֲטִא",
           "prompt": "בנאום פתיחת המלחמה של ראש הממשלה גולדה מאיר נאמר כך: \"עת כה ר בים שרויים בתענית ומתפללים בבתי כנסת. תוקפנו חשבו שביום הכיפורים לא נהיה ערוכים להשיב מלחמה שערה\". כמה אנשים תוארו במילים?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -727,13 +1031,13 @@
               "text": "000,22"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "שופטים",
-              "chapter": "כ,",
-              "verse": null,
+              "chapter": "כ",
+              "verse": "טז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -741,7 +1045,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "700",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "כ",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -749,7 +1065,7 @@
         {
           "unit_id": "q19",
           "display_number": "19",
-          "narrative_context": "וּבְעַמֻּד עָנָן אַתָּה הֹלֵךְ לִפְנֵיהֶם יוֹמָם וּבְעַמּוּד אֵשׁ לָיְלָה",
+          "narrative_context": "בעְַ מֻּׁד ענָןָ אַתָּה הלֹׂךְֵ לִפְניֵהםֶ יוֹׂ מָם ובּעְַ מּודּ אֵש ליָלְהָ",
           "prompt": "כדי ליידע את תושבי ישראל בנעשה במלחמה דיווחו כלי התקשורת ללא הפסקה: \"מאות עמודי אש של טנקים ורכב סורי בוער- נראו הלילה בגולן\" (מתוך ידיעות אחרונות). באיזה הקשר נאמר?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -771,13 +1087,13 @@
               "text": "חציית הירדן"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "במדבר",
-              "chapter": "יד,",
-              "verse": null,
+              "chapter": "יד",
+              "verse": "יד",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -785,7 +1101,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "פיוס ה' על ידי משה לאחר חטא המרגלי ם",
+              "source_refs": [
+                {
+                  "book": "במדבר",
+                  "chapter": "יד",
+                  "verse": "יד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -793,7 +1121,7 @@
         {
           "unit_id": "q20",
           "display_number": "20",
-          "narrative_context": "חֲצַרְמָוֶת",
+          "narrative_context": "חֲצַ רְמָותֶ",
           "prompt": "באזור הגדה המזרחית של תעלת סואץ היה משטח מוקף סוללת עפר שכונה \"חצר המוות\". המשטח נקרא כך עקב מתקפה אדירה שנפתחה נגד ישראל באזור זעיר זה. מי היה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -815,13 +1143,13 @@
               "text": "מצאצאי נו ח מלחמת לבנון הראשונה (שאלות 21-24 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "י,",
-              "verse": null,
+              "chapter": "י",
+              "verse": "כו",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -829,7 +1157,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מצאצאי נו ח מלחמת לבנון הראשונה (שאלות 21-24 )",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "י",
+                  "verse": "כו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -859,13 +1199,13 @@
               "text": "שְכםֶ"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "כ,",
-              "verse": null,
+              "chapter": "כ",
+              "verse": "ז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -873,7 +1213,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "קֶדֶש",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "כ",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -881,7 +1233,7 @@
         {
           "unit_id": "q22",
           "display_number": "22",
-          "narrative_context": "בְּבִקְעַת הַלְּבָנוֹן",
+          "narrative_context": "בִקְעתַ הלַבְּנָוןֹׂ",
           "prompt": "המלחמה התנהלה בארבעה צירים מרכזיים: חוף הים, אזור ההר המרכזי, הגזרה המזרחית ובקעת הלבנון. בהקשר של איזה מנהיג מוזכר אזור?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -903,13 +1255,13 @@
               "text": "שמואל"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "יא,",
-              "verse": null,
+              "chapter": "יא",
+              "verse": "יז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -917,7 +1269,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יהוש ע",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "יא",
+                  "verse": "יז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -925,7 +1289,7 @@
         {
           "unit_id": "q23",
           "display_number": "23",
-          "narrative_context": "צִידוֹן רַבָּה",
+          "narrative_context": "ציִדוןֹׂ רַבּהָ",
           "prompt": "במלחמה זו נערכו קרבות קשים במחנות פליטים שהיו בצור ובצידון. הייתה גבול רדיפה באחת ממלחמות ישראל, איזו עיר נוספת מוזכרת כגבול רדיפה באותה המלחמה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -947,13 +1311,13 @@
               "text": "עזֲֵ קָה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יהושע",
-              "chapter": "יא,",
-              "verse": null,
+              "chapter": "יא",
+              "verse": "ח",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -961,7 +1325,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מִשְרְפותֹׂ מַיִ ם",
+              "source_refs": [
+                {
+                  "book": "יהושע",
+                  "chapter": "יא",
+                  "verse": "ח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -991,20 +1367,20 @@
               "text": "בנימין מלחמת לבנון השנייה (שאלות 25-28 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "בראשית",
-              "chapter": "מט,",
-              "verse": null,
+              "chapter": "מט",
+              "verse": "ט",
               "quoted_text": null,
               "scope": "whole_unit"
             },
             {
               "book": "דברים",
-              "chapter": "לג,",
-              "verse": null,
+              "chapter": "לג",
+              "verse": "כ",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1012,7 +1388,24 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אשר",
+              "source_refs": [
+                {
+                  "book": "בראשית",
+                  "chapter": "מט",
+                  "verse": "ט"
+                },
+                {
+                  "book": "דברים",
+                  "chapter": "לג",
+                  "verse": "כ"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1042,13 +1435,19 @@
               "text": "חנה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "ישעיה ו",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1078,13 +1477,33 @@
               "text": "פרידת אליהו מאלישע בנהר הירד ן"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "מלכים ב",
+              "chapter": "ב",
+              "verse": "יא",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "פרידת אליהו מאלישע בנהר הירד ן",
+              "source_refs": [
+                {
+                  "book": "מלכים ב",
+                  "chapter": "ב",
+                  "verse": "יא"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1114,13 +1533,33 @@
               "text": "ארם"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמואל א",
+              "chapter": "טו",
+              "verse": "ה",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "עמלק",
+              "source_refs": [
+                {
+                  "book": "שמואל א",
+                  "chapter": "טו",
+                  "verse": "ה"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1150,13 +1589,13 @@
               "text": "השופט שנאמר עליו: \"ויַֹּׂ שַע גםַּ הואּ אֶת יִשְרָאֵל \" מבצע עופרת יצוקה (שאלות 29-32 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "שופטים",
-              "chapter": "יא,",
-              "verse": null,
+              "chapter": "יא",
+              "verse": "ו",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1164,7 +1603,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "השופט שהזכיר בדבריו את העיר \" חֶשְבּוןֹׂ \"",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "יא",
+                  "verse": "ו"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1172,7 +1623,7 @@
         {
           "unit_id": "q29",
           "display_number": "29",
-          "narrative_context": "כַּעוֹפֶרֶת",
+          "narrative_context": "עוֹׂ פֶרֶת",
           "prompt": "שם המבצע, שהחל בזמן חג החנוכה, לקוח מהשיר \"לכבוד החנוכה\" שכתב חיים נחמן ביאליק. מי הזכיר את ה בדבריו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1194,13 +1645,13 @@
               "text": "ישעיה ו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "שמות",
-              "chapter": "טו,",
-              "verse": null,
+              "chapter": "טו",
+              "verse": "י",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1208,7 +1659,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "משה",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "טו",
+                  "verse": "י"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1238,13 +1701,13 @@
               "text": "פחד מפני מלחמה בפלישתים"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "שופטים",
-              "chapter": "ו,",
-              "verse": null,
+              "chapter": "ו",
+              "verse": "ב",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1252,7 +1715,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "הסתתרות מפני מדי ן",
+              "source_refs": [
+                {
+                  "book": "שופטים",
+                  "chapter": "ו",
+                  "verse": "ב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1282,13 +1757,33 @@
               "text": "אחשוורו ש"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "יא",
+              "verse": "ב",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "דוד",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "יא",
+                  "verse": "ב"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1318,13 +1813,19 @@
               "text": "עדֹׂ תַּעבֲֹׂ רְנהָ הצַאֹּׂן עלַ יְדֵי מונֹׂהֶ מבצע עמוד ענן (שאלות 33-36 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "לאֹׂ ינִָּ תֵש ולְאֹׂ יהֵָ רֵס עודֹׂ לעְולֹׂםָ",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1332,7 +1833,7 @@
         {
           "unit_id": "q33",
           "display_number": "33",
-          "narrative_context": "הֶעָנָן וְהַחֹשֶׁךְ",
+          "narrative_context": "העֶנָןָ והְחַ שֶך",
           "prompt": "באיזה אירוע נכחו ְ?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1354,13 +1855,13 @@
               "text": "השמדת המזבחות בימי יאשיהו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "שמות",
-              "chapter": "יד,",
-              "verse": null,
+              "chapter": "יד",
+              "verse": "כ",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1368,7 +1869,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "חציית ים סו ף",
+              "source_refs": [
+                {
+                  "book": "שמות",
+                  "chapter": "יד",
+                  "verse": "כ"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1376,7 +1889,7 @@
         {
           "unit_id": "q34",
           "display_number": "34",
-          "narrative_context": "חֲמִשָּׁה וְשִׁבְעִים אָלֶף",
+          "narrative_context": "חֲמִשָּה וְשִבעְיִם אָלףֶ",
           "prompt": "ביום השלישי למלחמה א ישרה הממשלה גיוס של 000,75 חיילי מילואים. מיהו המלך שבתקופתו נהרגו איש?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1398,13 +1911,13 @@
               "text": "חזא ל"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "אסתר",
-              "chapter": "ט,",
-              "verse": null,
+              "chapter": "ט",
+              "verse": "טז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1412,7 +1925,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אחשוורו ש",
+              "source_refs": [
+                {
+                  "book": "אסתר",
+                  "chapter": "ט",
+                  "verse": "טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1420,7 +1945,7 @@
         {
           "unit_id": "q35",
           "display_number": "35",
-          "narrative_context": "אֶת הַיָּם וְאֶת הַיַּבָּשָׁה",
+          "narrative_context": "אֶת היַםָּ וְאֶת היַַּ בָּשָה",
           "prompt": "במבצע זה לא הייתה לחימה רגלית אלא רק חיל האוויר וחיל הים פעלו. מי הזכיר בדבריו?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1442,13 +1967,13 @@
               "text": "יונה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יונה",
-              "chapter": "א,",
-              "verse": null,
+              "chapter": "א",
+              "verse": "ט",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1456,7 +1981,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יונה",
+              "source_refs": [
+                {
+                  "book": "יונה",
+                  "chapter": "א",
+                  "verse": "ט"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1486,13 +2023,33 @@
               "text": "אליהו ונערו מבצע צוק איתן (שאלות 37-39 )"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "שמואל ב",
+              "chapter": "כד",
+              "verse": "ז",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יואב וצבאו",
+              "source_refs": [
+                {
+                  "book": "שמואל ב",
+                  "chapter": "כד",
+                  "verse": "ז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1522,13 +2079,33 @@
               "text": "גדעון"
             }
           ],
-          "correct_option": null,
+          "correct_option": "א",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "יב",
+              "verse": "כד",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שמעיה איש האלהי ם",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "יב",
+                  "verse": "כד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1536,7 +2113,7 @@
         {
           "unit_id": "q38",
           "display_number": "38",
-          "narrative_context": "חֲמִשִּׁים יוֹם",
+          "narrative_context": "חֲמִשִּים יוםֹׂ",
           "prompt": "המבצע נערך 50 יום. על פי הכתוב, מתי מצווים בני ישראל להתחיל לספור?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1558,13 +2135,13 @@
               "text": "בארבעה עשר בניסן"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "ויקרא",
-              "chapter": "כג,",
-              "verse": null,
+              "chapter": "כג",
+              "verse": "טו-טז",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1572,7 +2149,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "מיום הבאת עומר התנופה",
+              "source_refs": [
+                {
+                  "book": "ויקרא",
+                  "chapter": "כג",
+                  "verse": "טו-טז"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1580,7 +2169,7 @@
         {
           "unit_id": "q39",
           "display_number": "39",
-          "narrative_context": "רוּחַ גְּדוֹלָה",
+          "narrative_context": "רוּ חַגדְּולֹׂהָ",
           "prompt": "חיל השריון זכה לשדרוג משמעותי בעשור השני של המאה ה-21 שבא לידי ביטוי במבצע. בין השידרוגים היה \"מעיל רוח\" – מערכת הגנה אקטיבית שהגנה על הטנקים מפני נשק נ\"ט (נגד טנקים). למְה גרמה?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
@@ -1602,13 +2191,13 @@
               "text": "סערה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "יונה",
-              "chapter": "א,",
-              "verse": null,
+              "chapter": "א",
+              "verse": "ד",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1616,7 +2205,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "סערה",
+              "source_refs": [
+                {
+                  "book": "יונה",
+                  "chapter": "א",
+                  "verse": "ד"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1646,13 +2247,13 @@
               "text": "עתֵ לִשְמורֹׂ המשך בעמוד הב א חלק ב': שאלות בנושא יצחק נבון נשיא, מחנך ורודף שלום לפניך 10 שאלות בנושא יצחק נבון. ענה על השאלות בקצרה, והעתק את התשובות למקום המתאים בגיליון התשובות המצורף."
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
           "primary_sources": [
             {
               "book": "קהלת",
-              "chapter": "ג,",
-              "verse": null,
+              "chapter": "ג",
+              "verse": "ב-ח",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1660,7 +2261,19 @@
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "עתֵ לִפְרוץֹׂ",
+              "source_refs": [
+                {
+                  "book": "קהלת",
+                  "chapter": "ג",
+                  "verse": "ב-ח"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1668,8 +2281,8 @@
         {
           "unit_id": "q41",
           "display_number": "41",
-          "narrative_context": "ב יא, 3 16 א ברית מיל ה יהושע ה, 7-9 17 ג מלחמת מלכי הדרום יהושע י, 9 18 א 700 שופטים כ, 16 19 ג פיוס ה' על ידי משה לאחר חטא המרגלים במדבר יד, 14 20 ד מצאצאי נו ח בראשית י, 26 21 ב קֶדֶשׁיהושע כ, 7 22 א יהוש ע יהושע יא, 17 23 ב מִשְרְפותֹׂ מַיםִ יהושע יא, 8 ב אשר בראשית מט, 9, 27 24 דברים לג, 20 25 א ישעיה ו ישעיה סא, 1 26 ד פרידת אליהו מאלישע בנהר הירד ן מל",
-          "prompt": "תאריך לידתו של נבון הוא א' בניסן. מותו/ה של מי מוזכר בכתוב בעת בה נאמר: \"ויַבָּאֹׂוּ בנְיֵ יִשְרָאֵל כּלָ העֵָ דָה מִדְבּרַ צןִ בּחַֹׂ דֶש הָרִאש וןֹׂ\"? ______________________________________ _ 42. בנאום ההשבעה של נבון לנשיא הוא אמר: \"קטע הדרך שנותר למצותו קצר יותר מן הדרך אשר כבר עברנו בה\". מי האדם שאמר: \"לְמַעןַ אֲשֶר תֵּדְעוּ אֶת הַדֶּרֶךְ אֲשֶר תֵּלכְוּ בָהּכּיִ לאֹׂ עבֲַ רְתֶּם בַּדֶּרֶךְ מִתְּמולֹׂ שִלשְ וםֹׂ\"? _____________________________________ _ 43. נבון היה נשיא הּהחמישי של מדינת ישראל. מי אמר: \" כּיִ נָשִיא אֲשִתֶנוּּ כּלֹׂ יְמֵי חַייָּו\"? 44. ספרו \"באמונתו יחיה\" הוא לקט ציטוטים שאמר ראש הממשלה דוד בן גוריון. בדברי מי נאמר: \" אֵל אֱמונּהָ וְאֵין עוָלֶ צַדִיּק ויְָ שָר הואּ\"? ____________________________________________ _ 45. בשנת 2003 זכה נבון בפרס הצלב הגדול של מסדר המופת האזרחי. באיזה ספ ר מוזכר הביטוי \"אותֹׂ אוֹׂ מוֹׂ פֵת\"? _____________________________________________ _ 46. בת זוגו של נבון הייתה אופירה נבון. על פי הכתוב, מי הלך \"אוֹׂ פִי רָה לזַּהָבָ\"? ____________________________________ _ 47. בשנת 1952 התבקש נבון לנהל את לשכתו של ראש הממשלה דוד בן גוריון והיה ל יד ימינו במשך 11 שנה. בדברי מי מוזכרים: \" אַחַד עָשָר כּוכֹׂבָיִם\"? ___________________________________ _ 48. בצעירותו למד נבון בבית הספר \"תחכמוני\" בירושלים. מהו שמו הנוסף של ה\"יֹׂ שֵב בַּשֶּבתֶ תַּחְכּמְנֹׂיִ\"? ______________________________ _ 50-49. בשנת 1967 ביקר נבון ביוון ובמזרח הרחוק במטרה לחזק את קשרי החוץ. ציין את שני הספרים בהם מוזכר השם \"יוָןָ\" . ____________________________ , ____________________________ מדינת ישרא ל משרד החינוך מינהל חברה ונוער תשובון למבחן המקדים לחידון התנ\"ך המחוזי התשפ\"א – ממ\"ד שאלות רבות-בריר ה התשובה השאלה המקור באות במילים 1 ד אנשי קרח ועדת ו במדבר טז, 2 א ישראל מל\"ב יד, 22 2 מל\"ב טז, 6 3 ג יהוש ע יהושע י, 6-7 ָ 4 ב לְאַהבֲהָ אֶת שנְֹׂ אֶי ך שמ\"ב יט, 7 ד בלְַ אֲדָן מל\"ב יח, 17 5 ישעיהו ז, 3 6 ג מלחמת אחאב ובן הדד מל\"א כ, 10 ב אם עכשיו תהיה טוב לעם הם ימשיכו להיות לך מל\"א יב, 7 7 לעבדי ם 8 ג שירת דבור ה שופטים ה, 28 9 ד יהוש ע יהושע ו, 3 10 א כדי שיבואו לראות את כבוד ה ' ישעיה סו, 18 ד אדם ששיתף פעולה עם עמים הנקראים איש שמ\"א יא, 2 11 טוב ומעכ ה שמ\"ב יז, 25 שמ\"ב יז, 29 12 א אבנר בן נ ר שמ\"ב ב, 30 13 ב בניית בית המקדש בימי שלמה הגיעה לסיומה מל\"א ו, 38 14 ד ישעיה ו ישעיה יא, 6 15 ב שש שני ם מל ב ב, 11 27 ג עמל ק שמ\"א טו, 5 28 ב השופט שהזכיר בדבריו את העיר \" חֶשְׁבוןֹׂ \" שופטים יא, 6, 19 29 ג מש ה שמות טו, 10 30 א הסתתרות מפני מדי ן שופטים ו, 2 31 ב דו ד שמ\"ב יא, 2 32 ג לאֹׂ ינִ תֵָשׁולְאֹׂ יהֵָ רֵס עודֹׂ לעְולָֹׂ ם ירמיה לא, 39 33 ג חציית ים סו ף שמות יד, 20 34 ג אחשוורו ש אסתר ט, 16 35 ד יונ ה יונה א, 9 36 ג יואב וצבא ו שמ\"ב כד, 7 37 א שמעיה איש האלהי ם מל\"א יב, 24 38 ב מיום הבאת עומר התנופ ה ויקרא כג, 15-16 39 ד סער ה יונה א, 4 40 ג עתֵ לִפְרוֹׂ ץ קהלת ג, 2-8 שאלות פתוחות השאלה התשובה המקור 41 מרים במדבר כ, 1 42 יהוש ע יהושע ג, 4 43 אחיה השילוני מל\"א יא, 34 44 משה בשירת האזינ ו דברים לב, 4 45 דברים דברים יג, 2 46 יהושפ ט מל\"א כב, 49 47 יוס ף בראשית לז, 9 48 עֲדִינוֹׂ העָצֶנְִ י שמ\"ב כג, 8 בראשית , ישעיה ו בראשית י, 2 49-50 ישעיה סו, 19?",
+          "narrative_context": "ב יא, 3 16 א ברית מיל ה יהושע ה, 7-9 17 ג מלחמת מלכי הדרום יהושע י, 9 18 א 700 שופטים כ, 16 19 ג פיוס ה' על ידי משה לאחר חטא המרגלים במדבר יד, 14 20 ד מצאצאי נו ח בראשית י, 26 21 ב קֶדֶשׁיהושע כ, 7 22 א יהוש ע יהושע יא, 17 23 ב מִשְרְפותֹׂ מַיםִ יהושע יא, 8 ב אשר בראשית מט, 9, 27 דברים לג, 20 25 א ישעיה ו ישעיה סא, 1 26 ד פרידת אליהו מאלישע בנהר הירד ן מל",
+          "prompt": "תאריך לידתו של נבון הוא א' בניסן. מותו/ה של מי מוזכר בכתוב בעת בה נאמר: \"ויַבָּאֹׂוּ בנְיֵ יִשְרָאֵל כּלָ העֵָ דָה מִדְבּרַ צןִ בּחַֹׂ דֶש הָרִאש וןֹׂ\"? ______________________________________ _ 42. בנאום ההשבעה של נבון לנשיא הוא אמר: \"קטע הדרך שנותר למצותו קצר יותר מן הדרך אשר כבר עברנו בה\". מי האדם שאמר: \"לְמַעןַ אֲשֶר תֵּדְעוּ אֶת הַדֶּרֶךְ אֲשֶר תֵּלכְוּ בָהּכּיִ לאֹׂ עבֲַ רְתֶּם בַּדֶּרֶךְ מִתְּמולֹׂ שִלשְ וםֹׂ\"? _____________________________________ _ 43. נבון היה נשיא הּהחמישי של מדינת ישראל. מי אמר: \" כּיִ נָשִיא אֲשִתֶנוּּ כּלֹׂ יְמֵי חַייָּו\"? 44. ספרו \"באמונתו יחיה\" הוא לקט ציטוטים שאמר ראש הממשלה דוד בן גוריון. בדברי מי נאמר: \" אֵל אֱמונּהָ וְאֵין עוָלֶ צַדִיּק ויְָ שָר הואּ\"? ____________________________________________ _ 45. בשנת 2003 זכה נבון בפרס הצלב הגדול של מסדר המופת האזרחי. באיזה ספ ר מוזכר הביטוי \"אותֹׂ אוֹׂ מוֹׂ פֵת\"? _____________________________________________ _ 46. בת זוגו של נבון הייתה אופירה נבון. על פי הכתוב, מי הלך \"אוֹׂ פִי רָה לזַּהָבָ\"? ____________________________________ _ 47. בשנת 1952 התבקש נבון לנהל את לשכתו של ראש הממשלה דוד בן גוריון והיה ל יד ימינו במשך 11 שנה. בדברי מי מוזכרים: \" אַחַד עָשָר כּוכֹׂבָיִם\"? ___________________________________ _ 48. בצעירותו למד נבון בבית הספר \"תחכמוני\" בירושלים. מהו שמו הנוסף של ה\"יֹׂ שֵב בַּשֶּבתֶ תַּחְכּמְנֹׂיִ\"? ______________________________ _ 50-49. בשנת 1967 ביקר נבון ביוון ובמזרח הרחוק במטרה לחזק את קשרי החוץ. ציין את שני הספרים בהם מוזכר השם \"יוָןָ\" . ____________________________ , ____________________________ מדינת ישרא ל משרד החינוך מינהל חברה ונוער תשובון למבחן המקדים לחידון התנ\"ך המחוזי התשפ\"א – ממ\"ד שאלות רבות-בריר ה התשובה השאלה המקור באות במילים 1 ד אנשי קרח ועדת ו במדבר טז, 2 א ישראל מל\"ב יד, 22 מל\"ב טז, 6 3 ג יהוש ע יהושע י, 6-7 ָ 4 ב לְאַהבֲהָ אֶת שנְֹׂ אֶי ך שמ\"ב יט, 7 ד בלְַ אֲדָן מל\"ב יח, 17 ישעיהו ז, 3 6 ג מלחמת אחאב ובן הדד מל\"א כ, 10 ב אם עכשיו תהיה טוב לעם הם ימשיכו להיות לך מל\"א יב, 7 לעבדי ם 8 ג שירת דבור ה שופטים ה, 28 9 ד יהוש ע יהושע ו, 3 10 א כדי שיבואו לראות את כבוד ה ' ישעיה סו, 18 ד אדם ששיתף פעולה עם עמים הנקראים איש שמ\"א יא, 2 טוב ומעכ ה שמ\"ב יז, 25 שמ\"ב יז, 29 12 א אבנר בן נ ר שמ\"ב ב, 30 13 ב בניית בית המקדש בימי שלמה הגיעה לסיומה מל\"א ו, 38 14 ד ישעיה ו ישעיה יא, 6 15 ב שש שני ם מל ב ב, 11 27 ג עמל ק שמ\"א טו, 5 28 ב השופט שהזכיר בדבריו את העיר \" חֶשְׁבוןֹׂ \" שופטים יא, 6, 19 29 ג מש ה שמות טו, 10 30 א הסתתרות מפני מדי ן שופטים ו, 2 31 ב דו ד שמ\"ב יא, 2 32 ג לאֹׂ ינִ תֵָשׁולְאֹׂ יהֵָ רֵס עודֹׂ לעְולָֹׂ ם ירמיה לא, 39 33 ג חציית ים סו ף שמות יד, 20 34 ג אחשוורו ש אסתר ט, 16 35 ד יונ ה יונה א, 9 36 ג יואב וצבא ו שמ\"ב כד, 7 37 א שמעיה איש האלהי ם מל\"א יב, 24 38 ב מיום הבאת עומר התנופ ה ויקרא כג, 15-16 39 ד סער ה יונה א, 4 40 ג עתֵ לִפְרוֹׂ ץ קהלת ג, 2-8 שאלות פתוחות השאלה התשובה המקור 41 מרים במדבר כ, 1 42 יהוש ע יהושע ג, 4 43 אחיה השילוני מל\"א יא, 34 44 משה בשירת האזינ ו דברים לב, 4 45 דברים דברים יג, 2 46 יהושפ ט מל\"א כב, 49 47 יוס ף בראשית לז, 9 48 עֲדִינוֹׂ העָצֶנְִ י שמ\"ב כג, 8 בראשית , ישעיה ו בראשית י, 2 49-50 ישעיה סו, 19?",
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [],
@@ -1678,8 +2291,8 @@
           "primary_sources": [
             {
               "book": "במדבר",
-              "chapter": "כ,",
-              "verse": null,
+              "chapter": "כ",
+              "verse": "א",
               "quoted_text": null,
               "scope": "whole_unit"
             }
@@ -1699,8 +2312,8 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/noar/mechozi_mamad_2021.pdf",
-    "fetch_date": "2026-06-25",
-    "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q37 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option"
+    "fetch_date": "2026-07-01",
+    "extraction_quality": "partial",
+    "extraction_notes": "missing answers for: 41; some narrative verse text could not be enriched from Sefaria; best-effort retained"
   }
 }

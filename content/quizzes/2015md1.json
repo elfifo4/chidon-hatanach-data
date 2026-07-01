@@ -5,7 +5,7 @@
     "contest_year_civil": 2015,
     "contest_year_hebrew": "תשע\"ה",
     "track": null,
-    "stage": null,
+    "stage": "national",
     "sitting": null,
     "age_group": "youth",
     "annual_theme": null,
@@ -28,11 +28,11 @@
   },
   "sections": [],
   "answer_key_present": false,
-  "answer_key_location": "none",
+  "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2015md1.pdf",
-    "fetch_date": "2026-06-25",
-    "extraction_quality": "unreadable",
-    "extraction_notes": "extraction error: list index out of range"
+    "fetch_date": "2026-07-01",
+    "extraction_quality": "manual_review_needed",
+    "extraction_notes": "no public question units parsed; public/oral format: 0 sections, 0 units, 0 stages; validation: no question units"
   }
 }

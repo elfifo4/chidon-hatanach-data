@@ -164,7 +164,7 @@
             },
             {
               "key": "ד",
-              "text": "שר צבא ה', יהושע 2 עלָיָ\". היכן רַָק כלָ מַחְׁס וֹרְׁך ְׁ"
+              "text": "שר צבא ה', יהושע עלָיָ\". היכן רַָק כלָ מַחְׁס וֹרְׁך ְׁ"
             }
           ],
           "correct_option": null,
@@ -308,7 +308,7 @@
             },
             {
               "key": "ד",
-              "text": "ארבה 3"
+              "text": "ארבה"
             }
           ],
           "correct_option": null,
@@ -488,7 +488,7 @@
             },
             {
               "key": "ד",
-              "text": "סיון 4"
+              "text": "סיון"
             }
           ],
           "correct_option": null,
@@ -632,7 +632,7 @@
             },
             {
               "key": "ד",
-              "text": "רק בהקפה השביעית ביום השביע י 5"
+              "text": "רק בהקפה השביעית ביום השביע י"
             }
           ],
           "correct_option": null,
@@ -812,7 +812,7 @@
             },
             {
               "key": "ד",
-              "text": "מדבר סין 6"
+              "text": "מדבר סין"
             }
           ],
           "correct_option": null,
@@ -956,7 +956,7 @@
             },
             {
               "key": "ד",
-              "text": "בנימין 7"
+              "text": "בנימין"
             }
           ],
           "correct_option": null,
@@ -1100,7 +1100,7 @@
             },
             {
               "key": "ד",
-              "text": "מיכה 8"
+              "text": "מיכה"
             }
           ],
           "correct_option": null,
@@ -1244,7 +1244,7 @@
             },
             {
               "key": "ד",
-              "text": "הצידוני 9"
+              "text": "הצידוני"
             }
           ],
           "correct_option": null,
@@ -1280,7 +1280,7 @@
             },
             {
               "key": "ד",
-              "text": "זקני בית לחם בהצלחה! 10"
+              "text": "זקני בית לחם בהצלחה!"
             }
           ],
           "correct_option": null,
@@ -1301,8 +1301,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/MMADATEST.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35; some narrative verse text could not be enriched from Sefaria; best-effort retained; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q22 no correct_option; q23 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q31 no correct_option; q34 no correct_option; q35 no correct_option"
+    "extraction_notes": "no answer key found (questions only); some narrative verse text could not be enriched from Sefaria; best-effort retained"
   }
 }

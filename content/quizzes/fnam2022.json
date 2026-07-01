@@ -900,8 +900,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/fnam2022.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31; validation: q01 option count 2; q01 no correct_option; q03 option count 2; q03 no correct_option; q04 option count 2; q04 no correct_option; q05 option count 2; q05 no correct_option; q06 option count 2; q06 no correct_option; q07 option count 2; q07 no correct_option; q08 option count 2; q08 no correct_option; q09 option count 2; q09 no correct_option; q10 option count 2; q10 no correct_option; q11 option count 2; q11 no correct_option; q12 option count 2; q12 no correct_option; q13 option count 2; q13 no correct_option; q15 option count 2; q15 no correct_option; q16 option count 2; q16 no correct_option; q17 option count 2; q17 no correct_option; q19 option count 2; q19 no correct_option; q20 option count 2; q20 no correct_option; q21 option count 2; q21 no correct_option; q22 option count 2; q22 no correct_option; q23 option count 2; q23 no correct_option; q24 option count 2; q24 no correct_option; q25 option count 2; q25 no correct_option; q26 option count 2; q26 no correct_option; q27 option count 2; q27 no correct_option; q28 option count 2; q28 no correct_option; q29 option count 2; q29 no correct_option; q30 option count 2; q30 no correct_option"
+    "extraction_notes": "no answer key found (questions only)"
   }
 }

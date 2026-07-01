@@ -40,7 +40,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/noar/earlychidon2018.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "manual_review_needed",
     "extraction_notes": "no question units parsed; validation: no question units"
   }

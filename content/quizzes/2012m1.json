@@ -735,13 +735,33 @@
               "text": "הם נשבעו שיצילו אותה ואת בני משפחתה בעת כיבוש יריחו \"וְעַתָּה הִשָּׁבְעוּ נָא לִי בַּה' כִּי עָשִׂי תִי עִמָּכֶם חָסֶד וַעֲ שִׂיתֶם גַּם אַתֶּם עִם בֵּית אָבִי חֶסֶד וּנְתַתֶּם לִי אוֹת אֱמֶת: וְהַחֲיִתֶם אֶת אָבִי וְאֶת אִמִּי וְאֶת אַחַי וְאֶת אחותי )אַחְיוֹתַי( וְאֵת כָּל אֲשֶׁר לָהֶם וְהִצַּלְתֶּם אֶת נַפְשׁתֵֹינוּ מִמָּוֶת:\" )יהושע ב, 12-13( חידון התנ\"ך המחוזי הפומבי לבתי הספר הממלכתיים השלב השני ממששחחקק ממחחששבב על נושאים שונים בתנ\"ך: מבתים ועד מאכלים... בכל קטגוריה 4 שאלות. יש לענות על כל השאלות בתוך 60 שניות. כל תשובה נכונה תזַכה את הנבחן ב-5 נקודות. תשובות נכונות על כל 4 השאלות יזַכו את הנבחן/ת ב -20 נקודות. 1. ברכות \"וַיָּרַח אֶת רֵיחַ בְּגָ דָיו יצחק בראשית כז, 27 וַיְבָרְכֵהוּ\" - מיהו המברך? איזה חסד עשו הם קברו שמואל ב ב, 5 אנשי יבש גלעד את שאול שבגינו זכו מדוד ובניו לברכה: \"בְּרֻכִים אַתֶּם לה'\"? הוא אמר: \"ה' בועז רות ב, 4 עִמָּכֶם\", והם ענו לו: \"ְ יבָ רֶכְךָ ה'\". מיהו המברך? \"כִּי תִמְצָא אִישׁ לאֹ אלישע מלכים ב ד, 29 תְבָרְכֶנּוּ וְכִי יְבָרֶכְךָ אִישׁ לאֹ תַעֲנֶנּוּ\". מי הורה לא לברך?"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ג",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "מלכים א",
+              "chapter": "א",
+              "verse": "ג",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "את אבישג",
+              "source_refs": [
+                {
+                  "book": "מלכים א",
+                  "chapter": "א",
+                  "verse": "ג"
+                }
+              ],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -754,9 +774,17 @@
           "question_type": "speaker_id",
           "answer_style": "single_correct",
           "options": [],
-          "correct_option": null,
+          "correct_option": "ב",
           "subquestions": null,
-          "primary_sources": [],
+          "primary_sources": [
+            {
+              "book": "במדבר",
+              "chapter": "יב",
+              "verse": "י",
+              "quoted_text": null,
+              "scope": "whole_unit"
+            }
+          ],
           "scoring": {
             "points": 1
           },
@@ -768,12 +796,11 @@
       ]
     }
   ],
-  "answer_key_present": false,
-  "answer_key_location": "none",
+  "answer_key_present": true,
+  "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2012m1.pdf",
-    "fetch_date": "2026-06-25",
-    "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2; validation: q01 option count 173; q01 no correct_option"
+    "fetch_date": "2026-07-01",
+    "extraction_quality": "clean"
   }
 }

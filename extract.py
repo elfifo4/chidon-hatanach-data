@@ -519,8 +519,20 @@ def _sefaria_ref(book_he: str, chapter_he: str, verse_he: str | None) -> str | N
     return ref
 
 
+# When set (CLI --no-sefaria), skip all Sefaria network calls and rely on the
+# vendored offline corpus / repaired text. Avoids slow per-verse network stalls
+# during a full --all run; verse quotes are still cleaned via the local corpus.
+SKIP_SEFARIA = False
+
+# When set (CLI --reuse-cache), reuse an already-downloaded source file in .tmp/
+# instead of re-fetching it. Makes a --force re-run fast and offline.
+REUSE_CACHED_DOWNLOADS = False
+
+
 def fetch_verse_text(refs: list[dict]) -> str | None:
     """Return clean vocalized text for the given references, or None on failure."""
+    if SKIP_SEFARIA:
+        return None
     parts = []
     for r in refs:
         sref = _sefaria_ref(r.get("book"), r.get("chapter"), r.get("verse"))
@@ -1385,16 +1397,21 @@ def process_file(entry: dict, force: bool) -> dict:
                       duration_seconds=round(time.time() - start, 2))
         return result
 
-    # Download.
+    # Download (reuse a cached copy in .tmp when present -- avoids re-fetching the
+    # whole archive on a --force re-run and keeps it working offline).
     TMP_DIR.mkdir(exist_ok=True)
     tmp = TMP_DIR / entry["filename"]
-    try:
-        data = http_get(url, binary=True)
-        tmp.write_bytes(data)
-    except Exception as e:  # noqa: BLE001
-        result.update(status="fetch_failed", extraction_notes=str(e),
-                      duration_seconds=round(time.time() - start, 2))
-        return result
+    if not (REUSE_CACHED_DOWNLOADS and tmp.exists() and tmp.stat().st_size > 0):
+        try:
+            data = http_get(url, binary=True)
+            tmp.write_bytes(data)
+        except Exception as e:  # noqa: BLE001
+            if tmp.exists() and tmp.stat().st_size > 0:
+                pass  # fall back to the cached copy
+            else:
+                result.update(status="fetch_failed", extraction_notes=str(e),
+                              duration_seconds=round(time.time() - start, 2))
+                return result
 
     ext = entry["filename"].lower().rsplit(".", 1)[-1]
     try:
@@ -1561,6 +1578,10 @@ def main() -> int:
     ap.add_argument("--reclassify", action="store_true",
                     help="backfill track/stage/year on existing quiz JSONs, then regenerate manifest")
     ap.add_argument("--dry-run", action="store_true", help="list what would be processed")
+    ap.add_argument("--no-sefaria", action="store_true",
+                    help="skip Sefaria network calls; clean verses via the offline corpus only")
+    ap.add_argument("--reuse-cache", action="store_true",
+                    help="reuse already-downloaded source files in .tmp/ instead of re-fetching")
     # Single-PDF pilot (no archive crawl) -- see pdf_vision.run_pilot
     ap.add_argument("--url", metavar="PDF_URL", help="pilot: download and process ONE pdf")
     ap.add_argument("--vision", action="store_true", help="pilot: enable vision-assisted enhancement")
@@ -1571,6 +1592,13 @@ def main() -> int:
     ap.add_argument("--batch", metavar="IDS",
                     help="pilot: process a curated comma-separated list of ids (no archive crawl)")
     args = ap.parse_args()
+
+    if args.no_sefaria:
+        global SKIP_SEFARIA
+        SKIP_SEFARIA = True
+    if args.reuse_cache:
+        global REUSE_CACHED_DOWNLOADS
+        REUSE_CACHED_DOWNLOADS = True
 
     if args.batch:
         import pdf_vision

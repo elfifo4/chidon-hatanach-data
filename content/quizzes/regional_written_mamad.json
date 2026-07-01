@@ -59,13 +59,19 @@
               "text": "שאול"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שאול",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -95,13 +101,19 @@
               "text": "אחרי שברך את ילדיו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אחרי שברך את ילדיו",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -131,13 +143,19 @@
               "text": "בתלונת העם על ים-סוף"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "בתלונת העם על ים-סוף",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -167,13 +185,19 @@
               "text": "אפרים"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אפרים",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -203,13 +227,19 @@
               "text": "דִשֹׁׁן בן עֲנָה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "דִשֹׁׁן בן עֲנָה",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -239,13 +269,19 @@
               "text": "שיתן לה להפרד מרעותיה"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שיתן לה להפרד מרעותיה",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -272,16 +308,22 @@
             },
             {
               "key": "ד",
-              "text": "בעז 2"
+              "text": "בעז"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "בעז",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -311,13 +353,19 @@
               "text": "קהלת"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "קהלת",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -347,13 +395,19 @@
               "text": "וְהֵׂן לאֹׁ י אֲמִינוּ לִי"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "וְהֵׂן לאֹׁ י אֲמִינוּ לִי",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -383,13 +437,19 @@
               "text": "גלית"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "גלית",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -419,13 +479,19 @@
               "text": "העם היהודי יושמד"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "העם היהודי יושמד",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -455,13 +521,19 @@
               "text": "כל אשר יעלה המזלג"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "כל אשר יעלה המזלג",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -491,13 +563,19 @@
               "text": "חצור"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "חצור",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -527,13 +605,19 @@
               "text": "שלום בן יבש"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שלום בן יבש",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -560,16 +644,22 @@
             },
             {
               "key": "ד",
-              "text": "שם פגש שאול שלושה אנשים 3"
+              "text": "שם פגש שאול שלושה אנשים"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שם פגש שאול שלושה אנשים",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -599,13 +689,19 @@
               "text": "יואש"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יואש",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -635,13 +731,19 @@
               "text": "שהוא רוצה להדיח את אליאב"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "שהוא רוצה להדיח את אליאב",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -671,13 +773,19 @@
               "text": "עֵׂת לִבְכּוֹת וְעֵׂת לִשְחוֹק"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "עֵׂת לִבְכּוֹת וְעֵׂת לִשְחוֹק",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -707,13 +815,19 @@
               "text": "ירמיהו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "ירמיהו",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -743,13 +857,19 @@
               "text": "יהויכין"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "יהויכין",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -779,13 +899,19 @@
               "text": "תְרָ פִים"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "תְרָ פִים",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -815,13 +941,19 @@
               "text": "סוף חייו"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "סוף חייו",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -848,16 +980,22 @@
             },
             {
               "key": "ד",
-              "text": "ראשים 4"
+              "text": "ראשים"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "ראשים",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -887,13 +1025,19 @@
               "text": "אסתר"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "אסתר",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -923,13 +1067,19 @@
               "text": "ערוב"
             }
           ],
-          "correct_option": null,
+          "correct_option": "ד",
           "subquestions": null,
           "primary_sources": [],
           "scoring": {
             "points": 1
           },
-          "acceptable_answers": [],
+          "acceptable_answers": [
+            {
+              "answer_text": "ערוב",
+              "source_refs": [],
+              "is_primary": true
+            }
+          ],
           "media_attachments": null,
           "localizations": null,
           "format_confidence_note": null
@@ -1136,7 +1286,7 @@
             },
             {
               "key": "ד",
-              "text": "הנחת הארון במי הירדן 5"
+              "text": "הנחת הארון במי הירדן"
             }
           ],
           "correct_option": null,
@@ -1298,7 +1448,7 @@
           "unit_id": "q36",
           "display_number": "36",
           "narrative_context": "קוֹל ה תְרוּ עָה ה גְדוֹ לָה",
-          "prompt": "היכן התרחש הקרב בו נתן ה' סימן לתקיפה בשמיעת \"קוֹל צְעָדָה\"?_________________ 37. באיזה אירוע נאמר: ' ו תִבָקע הָאָרֶּץ בְקוֹ לָם'? _________________ 38. היכן מוזכר 'קּוֹל מְח צְצִים'? _________________ 39. באיזו מכה ממכות מצרים מוזכר שהיו \" קֹׁלֹת אֱלֹ הִים\"? _________________ 40. מי שמעה את \"קוֹל הָרָ צִין\" _________________ 41. מי שמע \"קוֹל דְמָמָה ד קָּה\"? _________________ 42. מי זיהה 'קול רגלים' של אשה בפתח ביתו? _________________ 43. מה גרם להשמעת במחנה ישראל? _________________ 44. בדברי איזה נביא מוזכר \"קוֹל חֲרָ דָה\" _________________ 6 חלק ג' - שאלות פתוחות 47-45. שלוש פעמים מנבא ישעיהו על ירושלים שיקרא לה בעתיד שם אחר. מהם 3 השמות? _________________ _________________ _________________ .50-48 לעתים נעזרו בגורל לגלות אשמת אדם הגלויה לא-להים. מי השלושה שנמצאו אשמים בצורה כזו? _________________ _________________ _________________ שאלות מילואים- למקרה שאין הכרעה 1. מה נתן חזקיהו לאשור בנוסף לדלתות היכל ה'?",
+          "prompt": "היכן התרחש הקרב בו נתן ה' סימן לתקיפה בשמיעת \"קוֹל צְעָדָה\"?_________________ 37. באיזה אירוע נאמר: ' ו תִבָקע הָאָרֶּץ בְקוֹ לָם'? _________________ 38. היכן מוזכר 'קּוֹל מְח צְצִים'? _________________ 39. באיזו מכה ממכות מצרים מוזכר שהיו \" קֹׁלֹת אֱלֹ הִים\"? _________________ 40. מי שמעה את \"קוֹל הָרָ צִין\" _________________ 41. מי שמע \"קוֹל דְמָמָה ד קָּה\"? _________________ 42. מי זיהה 'קול רגלים' של אשה בפתח ביתו? _________________ 43. מה גרם להשמעת במחנה ישראל? _________________ 44. בדברי איזה נביא מוזכר \"קוֹל חֲרָ דָה\" _________________ חלק ג' - שאלות פתוחות 47-45. שלוש פעמים מנבא ישעיהו על ירושלים שיקרא לה בעתיד שם אחר. מהם 3 השמות? _________________ _________________ _________________ .50-48 לעתים נעזרו בגורל לגלות אשמת אדם הגלויה לא-להים. מי השלושה שנמצאו אשמים בצורה כזו? _________________ _________________ _________________ שאלות מילואים- למקרה שאין הכרעה 1. מה נתן חזקיהו לאשור בנוסף לדלתות היכל ה'?",
           "question_type": "multiple_choice",
           "answer_style": "single_correct",
           "options": [
@@ -1380,7 +1530,7 @@
             },
             {
               "key": "ד",
-              "text": "מצרים 7"
+              "text": "מצרים"
             }
           ],
           "correct_option": null,
@@ -1397,12 +1547,12 @@
       ]
     }
   ],
-  "answer_key_present": false,
-  "answer_key_location": "none",
+  "answer_key_present": true,
+  "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/regional_written_mamad.pdf",
-    "fetch_date": "2026-06-25",
-    "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36; validation: q02 no correct_option; q03 no correct_option; q04 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q22 no correct_option; q24 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 option count 20; q36 no correct_option"
+    "fetch_date": "2026-07-01",
+    "extraction_quality": "partial",
+    "extraction_notes": "missing answers for: 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36"
   }
 }

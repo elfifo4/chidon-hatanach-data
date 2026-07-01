@@ -60,8 +60,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/noar/adults_2020.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1"
+    "extraction_notes": "no answer key found (questions only)"
   }
 }

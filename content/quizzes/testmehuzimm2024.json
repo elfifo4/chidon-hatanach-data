@@ -4,7 +4,7 @@
   "metadata": {
     "contest_year_civil": 2024,
     "contest_year_hebrew": "תשפ\"ד",
-    "track": "mamlachti",
+    "track": null,
     "stage": null,
     "sitting": null,
     "age_group": "youth",
@@ -128,7 +128,7 @@
             },
             {
               "key": "ד",
-              "text": "שימרדו בהמלכת שאול 3"
+              "text": "שימרדו בהמלכת שאול"
             }
           ],
           "correct_option": null,
@@ -236,7 +236,7 @@
             },
             {
               "key": "ד",
-              "text": "מישאל 4"
+              "text": "מישאל"
             }
           ],
           "correct_option": null,
@@ -344,7 +344,7 @@
             },
             {
               "key": "ד",
-              "text": "אביגיל ואחינועם 5"
+              "text": "אביגיל ואחינועם"
             }
           ],
           "correct_option": null,
@@ -452,7 +452,7 @@
             },
             {
               "key": "ד",
-              "text": "מנחת יעקב לעשו בטרם נפגשו 6"
+              "text": "מנחת יעקב לעשו בטרם נפגשו"
             }
           ],
           "correct_option": null,
@@ -596,7 +596,7 @@
             },
             {
               "key": "ד",
-              "text": "בעל חצור 7"
+              "text": "בעל חצור"
             }
           ],
           "correct_option": null,
@@ -704,7 +704,7 @@
             },
             {
               "key": "ד",
-              "text": "שהאתונות כבר מתו 8"
+              "text": "שהאתונות כבר מתו"
             }
           ],
           "correct_option": null,
@@ -848,7 +848,7 @@
             },
             {
               "key": "ד",
-              "text": "סתימת הבארות שחפר 9"
+              "text": "סתימת הבארות שחפר"
             }
           ],
           "correct_option": null,
@@ -975,7 +975,7 @@
           "display_number": "27",
           "narrative_context": null,
           "prompt": "כמה ימי ניסיון ביקש דניאל מהמלצר להאכיל אותו ואת חבריו זרעונים?",
-          "question_type": "multiple_choice",
+          "question_type": "numeric",
           "answer_style": "single_correct",
           "options": [
             {
@@ -992,7 +992,7 @@
             },
             {
               "key": "ד",
-              "text": "10 10"
+              "text": "10"
             }
           ],
           "correct_option": null,
@@ -1136,7 +1136,7 @@
             },
             {
               "key": "ד",
-              "text": "הם שמעו את קול התרועה 11"
+              "text": "הם שמעו את קול התרועה"
             }
           ],
           "correct_option": null,
@@ -1280,7 +1280,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחד מהם 12"
+              "text": "אף אחד מהם"
             }
           ],
           "correct_option": null,
@@ -1424,7 +1424,7 @@
             },
             {
               "key": "ד",
-              "text": "באף אחד מהם 13"
+              "text": "באף אחד מהם"
             }
           ],
           "correct_option": null,
@@ -1460,7 +1460,7 @@
             },
             {
               "key": "ד",
-              "text": "אף אחד מהם המשך בעמוד הבא 14 חלק ב': שאלות פתוחות – זיהוי דמות"
+              "text": "אף אחד מהם המשך בעמוד הבא חלק ב': שאלות פתוחות – זיהוי דמות"
             }
           ],
           "correct_option": null,
@@ -1478,7 +1478,7 @@
           "unit_id": "q41",
           "display_number": "41",
           "narrative_context": "חֶׁרֶׁב מצְֻׁ מֶׁדֶׁת עלַּ מָּתְׁניָּו",
-          "prompt": "מי מבני שאול מלך אחריו ? 42. מי נצטווה לא לענות למי שיברך אותו ? 43. מי ביקשה שיקראו לה בשם אחר ? 44. מי העמיד פנים שהוא חולה ? 45. מי הרג את עמשא בן יתר ? 46. מי קנה את ההר שומרון ? 15 47. מי תמך יחד עם אהרן בידי משה במלחמה מול עמלק ? 48-50. ציין שלושה אנשים שהובאו אליהם ראש או ראשים _______________________ , _______________________ , המשך בעמוד הבא 16 שאלת מילואים (\"שובר שיוויון\") בנושא \"חרבות ברזל\" חרבות 51. בבטנו של מי נבלעה חרב במלואה ? 52. מי מל את העם ע\"י חרבות צורים ? 53. את החרב של מי נתן אחימלך הכהן לדוד ? 54. איזה שם נתן משה לבנו על הצלתו מחרב פרעה ? 55. מי המלך שביקש שיביאו לו חרב ? 56. למי הייתה ב תְַּׁעְׁ רָּה\" ? 17 ברזל 57. מי גרם לברזל לצוף ? 58. איזה עם העביר דוד במגזרות הברזל ? 59. מי הנביא שנמשל לעמוד ברזל ? 60. למי היו 900 רכבי ברזל ? 61. תובל קין, האדם הראשון שעשה מלאכה בברזל, היה בנה של: 62. השלם את המילה החסרה: \"אםִּ קֵההָּ הבַּ רְַּׁזלֶׁ והְׁו א לאֹ פנָּיִּם קִּלְׁ קַּל וַּ_____ יגְׁבַּ רֵויְִּׁ תְׁרוןֹ הכְַּׁ שֵיר חכָּמְׁהָּ\" בהצלחה! 18?",
+          "prompt": "מי מבני שאול מלך אחריו ? 42. מי נצטווה לא לענות למי שיברך אותו ? 43. מי ביקשה שיקראו לה בשם אחר ? 44. מי העמיד פנים שהוא חולה ? 45. מי הרג את עמשא בן יתר ? 46. מי קנה את ההר שומרון ? 47. מי תמך יחד עם אהרן בידי משה במלחמה מול עמלק ? 48-50. ציין שלושה אנשים שהובאו אליהם ראש או ראשים _______________________ , _______________________ , המשך בעמוד הבא שאלת מילואים (\"שובר שיוויון\") בנושא \"חרבות ברזל\" חרבות 51. בבטנו של מי נבלעה חרב במלואה ? 52. מי מל את העם ע\"י חרבות צורים ? 53. את החרב של מי נתן אחימלך הכהן לדוד ? 54. איזה שם נתן משה לבנו על הצלתו מחרב פרעה ? 55. מי המלך שביקש שיביאו לו חרב ? 56. למי הייתה ב תְַּׁעְׁ רָּה\" ? ברזל 57. מי גרם לברזל לצוף ? 58. איזה עם העביר דוד במגזרות הברזל ? 59. מי הנביא שנמשל לעמוד ברזל ? 60. למי היו 900 רכבי ברזל ? 61. תובל קין, האדם הראשון שעשה מלאכה בברזל, היה בנה של: 62. השלם את המילה החסרה: \"אםִּ קֵההָּ הבַּ רְַּׁזלֶׁ והְׁו א לאֹ פנָּיִּם קִּלְׁ קַּל וַּ_____ יגְׁבַּ רֵויְִּׁ תְׁרוןֹ הכְַּׁ שֵיר חכָּמְׁהָּ\" בהצלחה!?",
           "question_type": "negative_exclusion",
           "answer_style": "single_correct",
           "options": [],
@@ -1500,8 +1500,8 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/testmehuzimm2024.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "manual_review_needed",
-    "extraction_notes": "missing answers for: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41; validation: q01 no correct_option; q02 no correct_option; q03 no correct_option; q05 no correct_option; q06 no correct_option; q07 no correct_option; q08 no correct_option; q09 no correct_option; q10 no correct_option; q11 no correct_option; q12 no correct_option; q13 no correct_option; q14 no correct_option; q15 no correct_option; q16 no correct_option; q17 no correct_option; q18 no correct_option; q19 no correct_option; q20 no correct_option; q21 no correct_option; q22 no correct_option; q23 no correct_option; q25 no correct_option; q26 no correct_option; q27 no correct_option; q28 no correct_option; q29 no correct_option; q30 no correct_option; q31 no correct_option; q32 no correct_option; q33 no correct_option; q34 no correct_option; q35 no correct_option; q36 no correct_option; q37 no correct_option; q38 no correct_option; q39 no correct_option; q40 no correct_option"
+    "extraction_notes": "no answer key found (questions only)"
   }
 }

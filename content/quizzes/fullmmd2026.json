@@ -4,7 +4,7 @@
   "metadata": {
     "contest_year_civil": 2026,
     "contest_year_hebrew": "תשפ\"ו",
-    "track": "mamlachti_dati",
+    "track": null,
     "stage": null,
     "sitting": null,
     "age_group": "youth",
@@ -31,7 +31,7 @@
   "answer_key_location": "none",
   "import_provenance": {
     "fetched_from": "https://meyda.education.gov.il/files/bible-contest/fullmmd2026.pdf",
-    "fetch_date": "2026-06-25",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "unreadable",
     "extraction_notes": "extraction error: No /Root object! - Is this really a PDF?"
   }

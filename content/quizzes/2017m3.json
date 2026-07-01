@@ -3373,7 +3373,7 @@
   "answer_key_location": "same_document",
   "import_provenance": {
     "fetched_from": "http://meyda.education.gov.il/files/noar/2017m3.pdf",
-    "fetch_date": "2026-06-30",
+    "fetch_date": "2026-07-01",
     "extraction_quality": "clean",
     "extraction_notes": "public/oral format: 6 sections, 40 units, 3 stages"
   }
